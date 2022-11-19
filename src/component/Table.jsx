@@ -1,22 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Button, Table, Tabs } from "antd";
-import { tabList, translate, translate_extra } from "./constants";
-import { translate2 } from "./constantsSave";
+import { Button, Input, Table, Tabs } from "antd";
+import { tabList } from "./constants";
 
-// const list = {};
-// console.log(translate2);
-// Object.entries(translate).forEach(
-//   ([transKey, transValue]) =>
-//     (list[transKey] = Object.entries(transValue).map(([key, value], index) => {
-//       return {
-//         id: index,
-//         title: key,
-//         translateText: value,
-//         originalText: translate2[transKey][key],
-//       };
-//     }))
-// );
-// console.log(list);
+function capitalize(s) {
+  return s.toLowerCase().replace(/(?:^|\s|["'([{])+\S/g, function (a) {
+    return a.toUpperCase();
+  });
+}
 
 const DataTable = () => {
   const defaultPageSize = 50;
@@ -24,25 +14,33 @@ const DataTable = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [currentTab, setCurrentTab] = useState("translate_extra");
   const [totalItems, setTotalItems] = useState(0);
-  const getData = () => {
-    const records = Object.entries(translate[currentTab])
-      .map(([key, value], index) => {
-        return {
-          id: index,
-          title: key,
-          value: value,
-        };
+  const [selectedRowKeys, setSelectedRowKeys] = useState([]);
+  const [selectedRecord, setSelectedRecord] = useState([]);
+  const [loading, setLoading] = useState(false);
+
+  const updateTranslateData = (data, keyData) => {
+    for (const record of selectedRecord) {
+      if (data[record.title]) {
+        fetch(`http://localhost:3000/api/${currentTab}/${record.id}`, {
+          method: "PATCH",
+          body: JSON.stringify({ [keyData]: data[record.title] }),
+          headers: {
+            "Content-type": "application/json; charset=UTF-8",
+          },
+        });
+      }
+    }
+  };
+
+  const onTranslateData = (type = "vi") => {
+    const record = [...listData]
+      .filter((i) => {
+        return selectedRowKeys.includes(i.title);
       })
-      .filter((item) => {
-        return (
-          item.id < currentPage * defaultPageSize &&
-          item.id >= (currentPage - 1) * defaultPageSize
-        );
-      });
-    const record = records.map((item) => [item.title, item.value]);
+      .map((item) => [item.title, item.rawText]);
     let formData = new FormData();
     formData.append("t", JSON.stringify(record));
-    formData.append("tt", "vi");
+    formData.append("tt", type);
     fetch("https://dichtienghoa.com/transtext", {
       body: formData,
       method: "post",
@@ -50,10 +48,21 @@ const DataTable = () => {
       .then((response) => response.json())
       .then((res) => {
         const list = {};
-        JSON.parse(res.data.replaceAll(/\\\s"/g, '\\"')).forEach(
-          ([title, value]) => (list[title.trim()] = value)
-        );
-        setListData({ ...listData, ...list });
+        JSON.parse(
+          res.data.replaceAll(/\\\s"/g, '\\"').replaceAll(/ +(?= )/g, "")
+        ).forEach(([title, value]) => {
+          if (value.trim().split(" ").length < 7) {
+            list[title.trim()] = capitalize(value.trim());
+          } else {
+            list[title.trim()] = value.trim();
+          }
+        });
+        if (type === "vi") {
+          updateTranslateData(list, "viText");
+        }
+        if (type === "hv") {
+          updateTranslateData(list, "hvText");
+        }
       });
   };
 
@@ -68,11 +77,15 @@ const DataTable = () => {
       .then((res) => {
         setListData(res.data);
         setTotalItems(res.pagination._totalRows);
-        console.log(res.data);
       });
-  }, [currentPage, currentTab]);
+  }, [currentPage, currentTab, loading]);
 
   const columns = [
+    {
+      title: "id",
+      dataIndex: "id",
+      key: "id",
+    },
     {
       title: "title",
       dataIndex: "title",
@@ -80,20 +93,49 @@ const DataTable = () => {
       render: (text) => <a>{text}</a>,
     },
     {
-      title: "Value",
-      dataIndex: "originalText",
-      key: "originalText",
+      title: "Vi",
+      key: "viText",
+      dataIndex: "viText",
     },
     {
-      title: "Translate",
-      key: "rawText",
-      dataIndex: "rawText",
-      // render: (record) => {
-      //   console.log(record);
-      //   return listData[record.title] || "";
-      // },
+      title: "Hv",
+      key: "hvText",
+      dataIndex: "hvText",
+    },
+    {
+      title: "input",
+      key: "translate",
+      dataIndex: "translate",
+      render: (_, record) => {
+        return (
+          <Input.TextArea
+            defaultValue={record.viText}
+            autoSize={true}
+            style={{ width: 200 }}
+          ></Input.TextArea>
+        );
+      },
     },
   ];
+
+  const start = () => {
+    setLoading(true);
+    setTimeout(() => {
+      setSelectedRowKeys([]);
+      setLoading(false);
+    }, 1000);
+  };
+
+  const onSelectChange = (newSelectedRowKeys, record) => {
+    setSelectedRowKeys(newSelectedRowKeys);
+    setSelectedRecord(record);
+  };
+
+  const rowSelection = {
+    selectedRowKeys,
+    onChange: onSelectChange,
+  };
+  const hasSelected = selectedRowKeys.length > 0;
 
   const tabItems = tabList.map((item) => {
     return {
@@ -101,6 +143,8 @@ const DataTable = () => {
       key: item,
       children: listData ? (
         <Table
+          rowKey={"title"}
+          rowSelection={rowSelection}
           columns={columns}
           dataSource={listData}
           pagination={{
@@ -119,7 +163,20 @@ const DataTable = () => {
   return (
     <>
       <div>
-        <Button type="button">Translate</Button>
+        <Button
+          type="primary"
+          onClick={start}
+          disabled={!hasSelected}
+          loading={loading}
+        >
+          Reload
+        </Button>
+        <Button type="button" onClick={() => onTranslateData("vi")}>
+          Translate Vi
+        </Button>
+        <Button type="button" onClick={() => onTranslateData("hv")}>
+          Translate Hv
+        </Button>
       </div>
       <Tabs
         defaultActiveKey="translate_extra"

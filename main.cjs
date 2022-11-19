@@ -16,7 +16,6 @@ server.get("/echo", (req, res) => {
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
-  console.log(res);
   if (req.method === "POST") {
     req.body.createdAt = Date.now();
     req.body.updatedAt = Date.now();
