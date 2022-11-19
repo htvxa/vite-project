@@ -57,29 +57,34 @@ const DataTable = () => {
   };
 
   const updateAllTranslate = async () => {
-    console.log(listHv, listVi);
     setLoading(true);
     const listPromise = [];
     for (const record of selectedRecord) {
       if (listHv[record.title] && listVi[record.title]) {
+        const translate =
+          listVi[record.title].split(" ").length < 7
+            ? listHv[record.title]
+            : listVi[record.title];
         listPromise.push(
           fetch(`http://localhost:3000/api/${currentTab}/${record.id}`, {
             method: "PATCH",
             body: JSON.stringify({
               viText: listVi[record.title],
               hvText: listHv[record.title],
-              translateText: listVi[record.title],
+              translateText: translate,
             }),
             headers: {
               "Content-type": "application/json; charset=UTF-8",
             },
-          }).catch(() =>
-            notify("error", `Update ${record.id}: ${record.title} failed`)
-          )
+          }).catch((err) => {
+            console.log(err);
+            notify("error", `Update ${record.id}: ${record.title} failed`);
+          })
         );
-        await Promise.all(listPromise).catch((err) => console.log(err));
       }
+      await Promise.all(listPromise).catch((err) => console.log(err));
     }
+    console.log(loading);
     setLoading(false);
     notify("success", "Update success");
   };
@@ -108,6 +113,10 @@ const DataTable = () => {
   };
 
   const onTranslateData = (type = "vi") => {
+    if (selectedRowKeys.length === 0) {
+      notify("error", "No selected row");
+      return;
+    }
     const record = [...listData]
       .filter((i) => {
         return selectedRowKeys.includes(i.title);
@@ -143,6 +152,7 @@ const DataTable = () => {
       })
       .catch((error) => notify("error", "Fail Translate"));
   };
+  const getData = () => {};
 
   useEffect(() => {
     if (!loading) {
@@ -354,6 +364,7 @@ const DataTable = () => {
         items={tabItems}
         onChange={(key) => {}}
         onTabClick={(key) => {
+          setCurrentPage(1);
           setCurrentTab(key);
         }}
       ></Tabs>
