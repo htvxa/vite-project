@@ -1,31 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { Button, Table, Tabs } from "antd";
-import { translate, translate_extra } from "./constants";
+import { tabList, translate, translate_extra } from "./constants";
 import { translate2 } from "./constantsSave";
 
-const list = {};
-console.log(translate2);
-Object.entries(translate).forEach(
-  ([transKey, transValue]) =>
-    (list[transKey] = Object.entries(transValue).map(([key, value], index) => {
-      return {
-        id: index,
-        title: key,
-        translateText: value,
-        originalText: translate2[transKey][key],
-      };
-    }))
-);
-console.log(list);
+// const list = {};
+// console.log(translate2);
+// Object.entries(translate).forEach(
+//   ([transKey, transValue]) =>
+//     (list[transKey] = Object.entries(transValue).map(([key, value], index) => {
+//       return {
+//         id: index,
+//         title: key,
+//         translateText: value,
+//         originalText: translate2[transKey][key],
+//       };
+//     }))
+// );
+// console.log(list);
 
 const DataTable = () => {
   const defaultPageSize = 50;
-  const [listData, setListData] = useState({});
+  const [listData, setListData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [currentTab, setCurrentTab] = useState("translate_extra");
-
-  useEffect(() => {
-    // console.log(translate[currentTab]);
+  const [totalItems, setTotalItems] = useState(0);
+  const getData = () => {
     const records = Object.entries(translate[currentTab])
       .map(([key, value], index) => {
         return {
@@ -56,11 +55,22 @@ const DataTable = () => {
         );
         setListData({ ...listData, ...list });
       });
-  }, [currentPage, currentTab]);
+  };
 
   useEffect(() => {
-    setListData({});
-  }, [currentTab]);
+    fetch(
+      `http://localhost:3000/api/${currentTab}?_page=${currentPage}&_limit=${defaultPageSize}`,
+      {
+        method: "get",
+      }
+    )
+      .then((response) => response.json())
+      .then((res) => {
+        setListData(res.data);
+        setTotalItems(res.pagination._totalRows);
+        console.log(res.data);
+      });
+  }, [currentPage, currentTab]);
 
   const columns = [
     {
@@ -71,55 +81,46 @@ const DataTable = () => {
     },
     {
       title: "Value",
-      dataIndex: "value",
-      key: "value",
+      dataIndex: "originalText",
+      key: "originalText",
     },
     {
       title: "Translate",
-      key: "translate",
-      render: (record) => {
-        return listData[record.title] || "";
-      },
+      key: "rawText",
+      dataIndex: "rawText",
+      // render: (record) => {
+      //   console.log(record);
+      //   return listData[record.title] || "";
+      // },
     },
   ];
 
-  const tabItems = Object.entries(translate).map(([key, data]) => {
+  const tabItems = tabList.map((item) => {
     return {
-      label: key,
-      key: key,
-      children: (
+      label: item,
+      key: item,
+      children: listData ? (
         <Table
           columns={columns}
-          dataSource={Object.entries(data).map(([key, value], index) => {
-            return {
-              id: index,
-              title: key,
-              value: value,
-            };
-          })}
+          dataSource={listData}
           pagination={{
             defaultPageSize,
+            showSizeChanger: false,
+            total: totalItems,
             onChange: (page) => {
               setCurrentPage(page);
             },
           }}
         />
-      ),
+      ) : null,
     };
   });
 
   return (
     <>
-      {/* <Button
-        onClick={() => {
-          const log = Object.keys(translate).filter(
-            (item) => newTrans[item] === undefined
-          );
-          console.log(log);
-        }}
-      >
-        Check log
-      </Button> */}
+      <div>
+        <Button type="button">Translate</Button>
+      </div>
       <Tabs
         defaultActiveKey="translate_extra"
         tabPosition="left"

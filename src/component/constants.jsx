@@ -5,14 +5,14 @@ export const translate_extra = {
     "Tỏa định kỹ， khi  bạn 受到 hoặc 造成 sát thương 后， bạn 获得X个“军略”标记(X là  sát thương  điểm số )",
   nzry_cuike: "摧克",
   nzry_cuike_info:
-    "Bắt đầu giai đoạn hành động，若“军略”标记的数量 là 奇数， bạn 可以对一名角色造成一点 sát thương ；若“军略”标记的数量 là 偶数， bạn 可以横置一名角色并弃置其区域内的一张牌。然后，若“军略”标记的数量超过7个， bạn 可以移去全部“军略”标记并对所有其他角色造成一点 sát thương ",
+    "Bắt đầu giai đoạn ra bài，若“军略”标记的数量 là 奇数， bạn 可以对一名角色造成一点 sát thương ；若“军略”标记的数量 là 偶数， bạn 可以横置一名角色并弃置其区域内的一张牌。然后，若“军略”标记的数量超过7个， bạn 可以移去全部“军略”标记并对所有其他角色造成一点 sát thương ",
   nzry_dinghuo: "绽火",
   nzry_dinghuo_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以移去全部“军略”标记，令至多等量的已横置角色弃置所有装备区内的牌。然后， bạn 对其中一名角色造成1点火焰 sát thương 。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以移去全部“军略”标记，令至多等量的已横置角色弃置所有装备区内的牌。然后， bạn 对其中一名角色造成1点火焰 sát thương 。",
   shen_liubei: "神刘备",
   nzry_longnu: "龙怒",
   nzry_longnu_info:
-    "Chuyển hoán kỹ，Tỏa định kỹ，阴：Bắt đầu giai đoạn hành động， bạn 失去1 sinh lực 并摸一张牌，然后本阶段内 bạn 的红色手牌均视 là 火【杀】且无距离限制。阳：Bắt đầu giai đoạn hành động， bạn giảm 1 sinh lực 上限并摸一张牌，然后本阶段内 bạn 的锦囊牌均视 là 雷【杀】且无使用次数限制。",
+    "Chuyển hoán kỹ，Tỏa định kỹ，阴：Bắt đầu giai đoạn ra bài， bạn 失去1 sinh lực 并摸一张牌，然后本阶段内 bạn 的红色手牌均视 là 火【杀】且无距离限制。阳：Bắt đầu giai đoạn ra bài， bạn giảm 1 sinh lực 上限并摸一张牌，然后本阶段内 bạn 的锦囊牌均视 là 雷【杀】且无使用次数限制。",
   nzry_jieying: "结营",
   nzry_jieying_info:
     "Tỏa định kỹ，游戏开始时 hoặc  khi  bạn 的武将牌重置时， bạn 横置；所有已横置的角色手牌上限+2； Giai đoạn kết thúc ， bạn 横置一名其他角色。",
@@ -22,16 +22,16 @@ export const translate_extra = {
 
   drlt_poxi: "魄袭",
   drlt_poxi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，然后 bạn 可以弃置 bạn 与其手牌中的四张花色不同的牌。若如此做，根据此次弃置 bạn 的牌的数量执行以下效果：零张，扣减一 sinh lực 上限；一张， bạn 结束出牌阶段且本回合手牌上限-1；三张， bạn 回复一 sinh lực ；四张， bạn 摸四张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，然后 bạn 可以弃置 bạn 与其手牌中的四张花色不同的牌。若如此做，根据此次弃置 bạn 的牌的数量执行以下效果：零张，扣减一 sinh lực 上限；一张， bạn 结束  giai đoạn ra bài且本回合手牌上限-1；三张， bạn 回复一 sinh lực ；四张， bạn 摸四张牌",
   drlt_jieying: "劫营",
   drlt_jieying_info:
-    "回合开始时，若场上没有拥有“营”标记的角色， bạn 获得1个“营”标记； Giai đoạn kết thúc ， bạn 可以将 bạn 的一个“营”标记交给一名角色；有“营”标记的角色摸牌阶段多摸一张牌，出牌阶段使用【杀】的次数上限+1，手牌上限+1。有“营”的其他角色回合结束时，其移去“营”标记，然后 bạn 获得其所有手牌。",
+    "回合开始时，若场上没有拥有“营”标记的角色， bạn 获得1个“营”标记； Giai đoạn kết thúc ， bạn 可以将 bạn 的一个“营”标记交给一名角色；有“营”标记的角色摸牌阶段多摸一张牌，  giai đoạn ra bài使用【杀】的次数上限+1，手牌上限+1。有“营”的其他角色回合结束时，其移去“营”标记，然后 bạn 获得其所有手牌。",
   drlt_jieying_mark: "劫营",
   drlt_duorui1: "失效技能",
   drlt_duorui1_bg: "锐",
   drlt_duorui: "夺锐",
   drlt_duorui_info:
-    " khi  bạn 于出牌阶段内对一名其他角色造成 sát thương 后， bạn 可以废除 bạn 装备区内的一个装备栏（若已全部废除则可以跳过此步骤），然后获得该角色的一个技能直到其的下回合结束 hoặc 其死亡(觉醒技，Hạn định kỹ，Chủ công kỹ，隐匿技，使命技等特殊技能除外)。若如此做，该角色该技能失效且 bạn 不能再发动〖夺锐〗直到 bạn 失去以此法获得的技能。",
+    " khi  bạn 于  giai đoạn ra bài内对一名其他角色造成 sát thương 后， bạn 可以废除 bạn 装备区内的一个装备栏（若已全部废除则可以跳过此步骤），然后获得该角色的一个技能直到其的下回合结束 hoặc 其死亡(觉醒技，Hạn định kỹ，Chủ công kỹ，隐匿技，使命技等特殊技能除外)。若如此做，该角色该技能失效且 bạn 不能再发动〖夺锐〗直到 bạn 失去以此法获得的技能。",
   drlt_zhiti: "止啼",
   drlt_zhiti_info:
     "Tỏa định kỹ， bạn 攻击范围内已受伤的其他角色手牌上限-1； khi  bạn 拼点 hoặc 【决斗】胜利， hoặc 受到 sát thương 后， bạn 恢复一个装备栏",
@@ -88,7 +88,7 @@ export const translate_extra = {
     "觉醒技，准备阶段开始时，若 bạn 的“忍”标记数不小于4， bạn giảm 1 sinh lực 上限，然后获得〖极略〗",
   jilue: "极略",
   jilue_info:
-    " khi 一名角色的判定牌生效前， bạn 可以弃1枚“忍”标记并发动〖鬼才〗；每 khi  bạn 受到 sát thương 后， bạn 可以弃1枚“忍”标记并发动〖放逐〗； khi bạn sử dụng 锦囊牌时， bạn 可以弃1枚“忍”标记并发动〖集智〗；1 lần trong giai đoạn hành động， bạn 可以弃1枚“忍”标记并发动〖制衡〗；出牌阶段， bạn 可以弃1枚“忍”标记并获得〖完杀〗直到回合结束。",
+    " khi 一名角色的判定牌生效前， bạn 可以弃1枚“忍”标记并发动〖鬼才〗；每 khi  bạn 受到 sát thương 后， bạn 可以弃1枚“忍”标记并发动〖放逐〗； khi bạn sử dụng 锦囊牌时， bạn 可以弃1枚“忍”标记并发动〖集智〗；1 lần trong giai đoạn ra bài， bạn 可以弃1枚“忍”标记并发动〖制衡〗；  giai đoạn ra bài， bạn 可以弃1枚“忍”标记并获得〖完杀〗直到回合结束。",
   jilue_guicai: "鬼才",
   jilue_fangzhu: "放逐",
   jilue_wansha: "完杀",
@@ -103,7 +103,7 @@ export const translate_extra = {
   shelie_info:
     "摸牌阶段， bạn 可以改 là 从牌堆顶亮出五张牌，然后选择获得不同花色的牌各一张。",
   gongxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，并可以展示其中一张 ♥︎ 牌，然后将其弃置 hoặc 置于牌堆顶。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，并可以展示其中一张 ♥︎ 牌，然后将其弃置 hoặc 置于牌堆顶。",
   guixin_info:
     " khi  bạn 受到1点 sát thương 后， bạn 可以获得每名其他角色区域里的一张牌，然后 bạn 翻面",
   guixin_info_alter:
@@ -112,7 +112,7 @@ export const translate_extra = {
     "弃牌阶段结束时，若 bạn 于此阶段内弃置过两张 hoặc 更多的牌，则 bạn 可以选择一项：1. 令所有角色各回复1 sinh lực ；2. 令所有角色各失去1 sinh lực 。",
   // qinyin_info:'每 khi  bạn 于弃牌阶段内因 bạn 的弃置而失去第X张手牌时（X至少 là 2）， bạn 可以选择一项：1.令所有角色各回复1 sinh lực ；2.令所有角色各失去1 sinh lực 。每阶段限一次。',
   yeyan_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以对一至三名角色造成至多共3点火焰 sát thương （ bạn 可以任意分配每名目标角色受到的 sát thương  điểm số ），若 bạn 将对一名角色分配2点 hoặc 更多的火焰 sát thương ， bạn 须先弃置四张不同花色的手牌再失去3 sinh lực 。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以对一至三名角色造成至多共3点火焰 sát thương （ bạn 可以任意分配每名目标角色受到的 sát thương  điểm số ），若 bạn 将对一名角色分配2点 hoặc 更多的火焰 sát thương ， bạn 须先弃置四张不同花色的手牌再失去3 sinh lực 。",
   qixing: "七星",
   qixing_bg: "星",
   qixing2: "七星",
@@ -139,19 +139,19 @@ export const translate_extra = {
     "Tỏa định kỹ，游戏开始时， bạn 获得两枚“暴怒”标记；Tỏa định kỹ， khi  bạn 造成/受到1点 sát thương 后， bạn 获得1枚“暴怒”标记。",
   shenfen: "神愤",
   shenfen_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以弃置6枚暴怒标记，对场上所有其他角色造成一点 sát thương ，然后令其弃置4张牌",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以弃置6枚暴怒标记，对场上所有其他角色造成一点 sát thương ，然后令其弃置4张牌",
   wuqian: "无前",
   wuqian_info:
-    "出牌阶段， bạn 可以弃置两枚暴怒标记并获得技能【无双】直到回合结束",
+    "  giai đoạn ra bài， bạn 可以弃置两枚暴怒标记并获得技能【无双】直到回合结束",
   wumou: "无谋",
   wumou_info:
     "Tỏa định kỹ， khi bạn sử dụng 普通锦囊牌时， bạn 选择一项：1.弃置1枚“暴怒”标记；2.失去1 sinh lực 。",
   ol_wuqian: "无前",
   ol_wuqian_info:
-    "出牌阶段， bạn 可以弃置2枚“暴怒”标记并选择一名本回合内未选择过的其他角色， bạn 获得技能〖无双〗并令其防具无效直到回合结束。",
+    "  giai đoạn ra bài， bạn 可以弃置2枚“暴怒”标记并选择一名本回合内未选择过的其他角色， bạn 获得技能〖无双〗并令其防具无效直到回合结束。",
   ol_shenfen: "神愤",
   ol_shenfen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置6枚“暴怒”标记并选择所有其他角色，对这些角色各造成1点 sát thương 。然后这些角色先各弃置其装备区里的牌，再各弃置四张手牌。最后 bạn 将 bạn 的武将牌翻面。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置6枚“暴怒”标记并选择所有其他角色，对这些角色各造成1点 sát thương 。然后这些角色先各弃置其装备区里的牌，再各弃置四张手牌。最后 bạn 将 bạn 的武将牌翻面。",
   new_wuhun: "武魂",
   new_wuhun_info:
     "Tỏa định kỹ， khi  bạn 受到 sát thương 后， sát thương 来源获得X个“梦魇”标记（X là  sát thương  điểm số ）。Tỏa định kỹ， khi  bạn 死亡时， bạn 选择一名“梦魇”标记数量最多的其他角色。该角色进行判定：若判定结果不 là 【桃】 hoặc 【桃园结义】，则该角色死亡。",
@@ -162,7 +162,7 @@ export const translate_extra = {
   olduorui: "夺锐",
   olduorui2: "夺锐",
   olduorui_info:
-    " khi  bạn 于出牌阶段内对一名角色造成 sát thương 后， bạn 可以选择该角色武将牌上的一个技能。若如此做， bạn 结束出牌阶段，且 bạn 令此技能于其下个回合结束之前无效。",
+    " khi  bạn 于  giai đoạn ra bài内对一名角色造成 sát thương 后， bạn 可以选择该角色武将牌上的一个技能。若如此做， bạn 结束  giai đoạn ra bài，且 bạn 令此技能于其下个回合结束之前无效。",
   olzhiti: "止啼",
   olzhiti_info:
     "Tỏa định kỹ， bạn 攻击范围内已受伤角色的手牌上限-1。若场上已受伤的角色数：不小于1， bạn 的手牌上限+1；不小于3， bạn 于摸牌阶段开始时令额定摸牌数+1；不小于5，回合结束时， bạn 废除一名角色的一个随机装备栏。",
@@ -185,7 +185,7 @@ export const translate_extra = {
   qixian_info: "Tỏa định kỹ， bạn 的手牌上限视 là 7。",
   caopi_xingdong: "行动",
   caopi_xingdong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张【杀】 hoặc 普通锦囊牌交给一名其他角色，然后该角色选择一项：对除 bạn 以外的角色使用此牌并在此牌结算完成后和 bạn 各摸一张牌； hoặc 跳过下回合的判定阶段和摸牌阶段。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张【杀】 hoặc 普通锦囊牌交给一名其他角色，然后该角色选择一项：对除 bạn 以外的角色使用此牌并在此牌结算完成后和 bạn 各摸一张牌； hoặc 跳过下回合的判定阶段和摸牌阶段。",
   shen_diaochan: "神貂蝉",
   meihun: "魅魂",
   meihun_info:
@@ -193,11 +193,11 @@ export const translate_extra = {
   huoxin_control: "惑心",
   huoxin: "惑心",
   huoxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示两张花色相同的手牌并分别交给两名其他角色，然后令这两名角色拼点，没赢的角色获得1个“魅惑”标记。拥有2个 hoặc 更多“魅惑”的角色回合即将开始时，该角色移去其所有“魅惑”，此回合改 là 由 bạn 操控。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示两张花色相同的手牌并分别交给两名其他角色，然后令这两名角色拼点，没赢的角色获得1个“魅惑”标记。拥有2个 hoặc 更多“魅惑”的角色回合即将开始时，该角色移去其所有“魅惑”，此回合改 là 由 bạn 操控。",
   mini_zhugeliang: "SP神诸葛亮",
   minikuangfeng: "狂风",
   minikuangfeng_info:
-    "出牌阶段结束时， bạn 可选择任意名角色并将等量的“星”置入弃牌堆，然后对这些角色各造成1点 sát thương 。",
+    "  giai đoạn ra bài结束时， bạn 可选择任意名角色并将等量的“星”置入弃牌堆，然后对这些角色各造成1点 sát thương 。",
   minidawu: "大雾",
   minidawu2: "大雾",
   minidawu_info:
@@ -208,7 +208,7 @@ export const translate_extra = {
     "Tỏa định kỹ， khi  bạn 于回合内使用【杀】 hoặc 【决斗】指定目标后，若此牌是 bạn 本回合内使用的第一张【杀】 hoặc 【决斗】，则 bạn 令其每次响应此牌需要使用的【闪】 hoặc 打出的【杀】的数量+1，且令其防具无效直到此牌对其结束。",
   minishenfen: "神愤",
   minishenfen_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以失去3 sinh lực ，对所有其他角色各造成1点 sát thương 。这些角色弃置装备区内的所有牌，然后弃置四张手牌。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以失去3 sinh lực ，对所有其他角色各造成1点 sát thương 。这些角色弃置装备区内的所有牌，然后弃置四张手牌。",
   mini_lvmeng: "SP神吕蒙",
   minigongxin: "攻心",
   minigongxin_info:
@@ -225,17 +225,17 @@ export const translate_extra = {
   shen_guojia: "神郭嘉",
   shuishi: "慧识",
   shuishi_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的体力上限小于10，则 bạn 可选择一名角色。 bạn 令其摸一张牌，若其以此法获得的牌：与该角色的其他手牌花色均不相同，则 bạn 加1 sinh lực 上限，若 bạn 的体力上限小于10，则 bạn 可以重复此流程；否则 bạn giảm 1 sinh lực 上限，且其展示所有手牌。",
+    "1 lần trong giai đoạn ra bài，若 bạn 的体力上限小于10，则 bạn 可选择一名角色。 bạn 令其摸一张牌，若其以此法获得的牌：与该角色的其他手牌花色均不相同，则 bạn 加1 sinh lực 上限，若 bạn 的体力上限小于10，则 bạn 可以重复此流程；否则 bạn giảm 1 sinh lực 上限，且其展示所有手牌。",
   stianyi: "天翊",
   stianyi_info:
     "觉醒技，准备阶段，若场上的所有存活角色均于本局游戏内受到过 sát thương ，则 bạn 加2 sinh lực 上限并回复1 sinh lực ，然后令一名角色获得技能〖佐幸〗。",
   zuoxing: "佐幸",
   zuoxing2: "佐幸",
   zuoxing_info:
-    "1 lần trong giai đoạn hành động，若令 bạn 获得〖佐幸〗的角色存活且体力上限大于1，则 bạn 可以令其减1 sinh lực 上限，并视 là 一张普通锦囊牌。",
+    "1 lần trong giai đoạn ra bài，若令 bạn 获得〖佐幸〗的角色存活且体力上限大于1，则 bạn 可以令其减1 sinh lực 上限，并视 là 一张普通锦囊牌。",
   sghuishi: "辉逝",
   sghuishi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择一名其他角色：若其有未发动过的觉醒技，则 bạn 令其发动这些觉醒技时无视原有条件；否则其摸四张牌。然后 bạn giảm 2 sinh lực 上限。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名其他角色：若其有未发动过的觉醒技，则 bạn 令其发动这些觉醒技时无视原有条件；否则其摸四张牌。然后 bạn giảm 2 sinh lực 上限。",
   shen_taishici: "神太史慈",
   dulie: "笃烈",
   dulie_info:
@@ -248,16 +248,16 @@ export const translate_extra = {
     "Tỏa định kỹ， khi bạn sử dụng 有对应实体牌的非转化【杀】结算结束后， bạn 选择一项：①摸一张牌，且本回合使用【杀】的次数上限+1。②摸三张牌，且本回合不能再使用【杀】。",
   dangmo: "荡魔",
   dangmo_info:
-    " khi  bạn 于出牌阶段内使用第一张【杀】选择目标后， bạn 可以 là 此牌增加至多Y-1个目标（Y là  bạn 的体力值）。",
+    " khi  bạn 于  giai đoạn ra bài内使用第一张【杀】选择目标后， bạn 可以 là 此牌增加至多Y-1个目标（Y là  bạn 的体力值）。",
   reshuishi: "慧识",
   reshuishi_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的体力上限小于10， bạn 可进行判定牌不置入弃牌堆的判定。若判定结果与本次发动技能时的其他判定结果的花色均不相同且 bạn 的体力上限小于10，则 bạn 加1 sinh lực 上限并重复此流程。然后 bạn 将所有位于处理区的判定牌交给一名角色。若其手牌数 là 全场最多，则 bạn giảm 1 sinh lực 上限。",
+    "1 lần trong giai đoạn ra bài，若 bạn 的体力上限小于10， bạn 可进行判定牌不置入弃牌堆的判定。若判定结果与本次发动技能时的其他判定结果的花色均不相同且 bạn 的体力上限小于10，则 bạn 加1 sinh lực 上限并重复此流程。然后 bạn 将所有位于处理区的判定牌交给一名角色。若其手牌数 là 全场最多，则 bạn giảm 1 sinh lực 上限。",
   resghuishi: "辉逝",
   resghuishi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可选择一名角色。若 bạn 的体力上限不小于存活人数且其有未发动的觉醒技，则 bạn 令其中一个技能无视发动条件；否则其摸四张牌。然后 bạn giảm 2 sinh lực 上限。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可选择一名角色。若 bạn 的体力上限不小于存活人数且其有未发动的觉醒技，则 bạn 令其中一个技能无视发动条件；否则其摸四张牌。然后 bạn giảm 2 sinh lực 上限。",
   qizhengxiangsheng: "奇正相生",
   qizhengxiangsheng_info:
-    "出牌阶段，对一名其他角色使用。 bạn 将目标角色标记 là “奇兵” hoặc “正兵”（对其他角色不可见）。然后目标角色可以打出一张【杀】 hoặc 【闪】。若其是“奇兵”且未打出【杀】，则 bạn 对其造成1点 sát thương ；若其是“正兵”且未打出【闪】，则 bạn 获得其一张牌。",
+    "  giai đoạn ra bài，对一名其他角色使用。 bạn 将目标角色标记 là “奇兵” hoặc “正兵”（对其他角色不可见）。然后目标角色可以打出一张【杀】 hoặc 【闪】。若其是“奇兵”且未打出【杀】，则 bạn 对其造成1点 sát thương ；若其是“正兵”且未打出【闪】，则 bạn 获得其一张牌。",
   shen_xunyu: "神荀彧",
   tianzuo: "天佐",
   tianzuo_info:
@@ -271,7 +271,7 @@ export const translate_extra = {
   shen_sunce: "神孙策",
   yingba: "英霸",
   yingba_info:
-    "①1 lần trong giai đoạn hành động， bạn 可令一名体力上限大于1的其他角色减少1 sinh lực 上限并获得“平定”标记，然后 bạn giảm 少1 sinh lực 上限。② bạn 对拥有“平定”标记的角色使用牌没有距离限制。",
+    "①1 lần trong giai đoạn ra bài， bạn 可令一名体力上限大于1的其他角色减少1 sinh lực 上限并获得“平定”标记，然后 bạn giảm 少1 sinh lực 上限。② bạn 对拥有“平定”标记的角色使用牌没有距离限制。",
   scfuhai: "覆海",
   scfuhai_info:
     "Tỏa định kỹ。① khi bạn sử dụng 牌指定目标后，若目标角色有“平定”标记，则其不可响应此牌。若 bạn 本回合内以此法获得的牌数小于2，则 bạn 摸一张牌。②拥有“平定”标记的角色死亡时， bạn 增加X sinh lực 上限并摸X张牌。（X là 其拥有的“平定”标记数）。",
@@ -287,14 +287,14 @@ export const translate_extra = {
     "Tỏa định kỹ。① khi 有一张基本牌 hoặc 普通锦囊牌不因使用而进入弃牌堆后， bạn 获得一枚“天任”标记。② khi  bạn 获得“天任”标记 hoặc 体力上限变化后，若 bạn 的“天任”数不小于X，则 bạn 移去X枚“天任”，加1 sinh lực 上限并摸两张牌（X là  bạn 的体力上限）。",
   pingxiang: "平襄",
   pingxiang_info:
-    "Hạn định kỹ。出牌阶段，若 bạn 的体力上限大于⑨，则 bạn 可减⑨ sinh lực 上限，视 là 使用至多⑨张火【杀】，然后失去〖九伐〗，并将手牌上限基数改 là 体力上限直到游戏结束。",
+    "Hạn định kỹ。  giai đoạn ra bài，若 bạn 的体力上限大于⑨，则 bạn 可减⑨ sinh lực 上限，视 là 使用至多⑨张火【杀】，然后失去〖九伐〗，并将手牌上限基数改 là 体力上限直到游戏结束。",
   shen_sunquan: "神孙权",
   dili: "帝力",
   dili_info:
     'Tỏa định kỹ。游戏开始时， bạn 随机获得一条<span style="font-family: yuanli">东吴命运线</span>。',
   yuheng: "驭衡",
   yuheng_info:
-    '①1 lần trong giai đoạn hành động。 bạn 可以失去所有不 là 〖驭衡〗的非Tỏa định kỹ，然后随机获得全部<span style="font-family: yuanli">东吴命运线</span>涉及的一个技能。若 bạn 本阶段内没有发动过其他非Tỏa định kỹ，则 bạn 随机获得 khi 前<span style="font-family: yuanli">东吴命运线</span>涉及的一个内容。②出牌阶段结束时，若 bạn 未于本阶段内发动过〖驭衡①〗，则 bạn 失去1 sinh lực 。',
+    '①1 lần trong giai đoạn ra bài。 bạn 可以失去所有不 là 〖驭衡〗的非Tỏa định kỹ，然后随机获得全部<span style="font-family: yuanli">东吴命运线</span>涉及的一个技能。若 bạn 本阶段内没有发动过其他非Tỏa định kỹ，则 bạn 随机获得 khi 前<span style="font-family: yuanli">东吴命运线</span>涉及的一个内容。②  giai đoạn ra bài结束时，若 bạn 未于本阶段内发动过〖驭衡①〗，则 bạn 失去1 sinh lực 。',
   yuheng_append:
     '<span style="font-family: yuanli">天下英雄谁敌手？曹刘。生子 khi 如孙仲谋！</span>',
   dili_shengzhi: "圣质",
@@ -347,7 +347,7 @@ export const translate_extra = {
   key_kagari: "篝",
   kagari_zongsi: "纵丝",
   kagari_zongsi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一张不在游戏外的牌，然后将其置于牌堆/弃牌堆的顶部/底部 hoặc 一名角色的对应区域内。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一张不在游戏外的牌，然后将其置于牌堆/弃牌堆的顶部/底部 hoặc 一名角色的对应区域内。",
   key_shiki: "神山识",
   key_shiki_ab: "神山识",
   shiki_omusubi: "御结",
@@ -359,7 +359,7 @@ export const translate_extra = {
   hina_shenshi: "神视",
   hina_shenshi_yingbian: "神视",
   hina_shenshi_info:
-    "神势力技。Bắt đầu giai đoạn hành động/结束时， bạn 可摸两张牌，然后将其中一张牌置于牌堆顶。 bạn 以此法获得的牌视 là 拥有全部应变效果，且可以无条件发动。",
+    "神势力技。Bắt đầu giai đoạn ra bài/结束时， bạn 可摸两张牌，然后将其中一张牌置于牌堆顶。 bạn 以此法获得的牌视 là 拥有全部应变效果，且可以无条件发动。",
   hina_xingzhi: "幸凪",
   hina_xingzhi_info:
     "键势力技。每回合限一次， bạn 可以通过“助战”触发一张牌的全部应变效果，且响应助战的角色摸两张牌。",
@@ -531,13 +531,13 @@ export const translate_diy = {
     "Tỏa định kỹ，每个 Giai đoạn kết thúc ，若 bạn 的装备区内有牌，则 bạn 弃置之。然后， bạn 依次弃置场上的X张牌。（X là  bạn 以此法弃置的牌数）",
   nk_shekong: "设控",
   nk_shekong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张手牌并选择一名其他角色（不能超过该角色的牌数），然后令其选择一项：弃置一张牌并令 bạn 摸X张牌， hoặc 弃置X张牌并令 bạn 摸一张牌。然后， bạn 将 bạn 与其弃置的且位于弃牌堆中的牌以任意顺序置于牌堆顶。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张手牌并选择一名其他角色（不能超过该角色的牌数），然后令其选择一项：弃置一张牌并令 bạn 摸X张牌， hoặc 弃置X张牌并令 bạn 摸一张牌。然后， bạn 将 bạn 与其弃置的且位于弃牌堆中的牌以任意顺序置于牌堆顶。",
   key_huanjie: "幻界",
   key_huanjie_info:
     "Tỏa định kỹ， khi  bạn 进行判定 hoặc 摸牌时， bạn 改 là 从牌堆的另一端获取相应的牌。",
   yuri_xingdong: "行动",
   yuri_xingdong_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 获得一张【杀】 hoặc 普通锦囊牌。1 lần trong giai đoạn hành động， bạn 可以将一张【杀】 hoặc 普通锦囊牌交给一名其他角色，然后该角色选择一项：对除 bạn 以外的角色使用此牌并在此牌结算完成后和 bạn 各摸一张牌； hoặc 跳过下回合的判定阶段和摸牌阶段。",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 获得一张【杀】 hoặc 普通锦囊牌。1 lần trong giai đoạn ra bài， bạn 可以将一张【杀】 hoặc 普通锦囊牌交给一名其他角色，然后该角色选择一项：对除 bạn 以外的角色使用此牌并在此牌结算完成后和 bạn 各摸一张牌； hoặc 跳过下回合的判定阶段和摸牌阶段。",
   //目标角色跳过阶段的同时 该回合不能发动〖整经(郑玄)〗
   yuri_wangxi: "忘隙",
   yuri_wangxi_info:
@@ -550,7 +550,7 @@ export const translate_diy = {
     "一名角色的判定阶段开始时，若其判定区内有牌，则 bạn 可以获得其判定区内的所有牌。若 bạn 的体力值大于1， bạn 失去1 sinh lực 。",
   umi_chaofan: "炒饭",
   umi_chaofan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张花色不同的手牌并选择一名其他角色。 bạn 摸一张牌，若 bạn 的体力值：大于2，目标角色回复1 sinh lực ；等于2，目标角色摸两张牌；小于2，目标角色受到1点无来源且对应渠道 là 这两张牌的火焰 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张花色不同的手牌并选择一名其他角色。 bạn 摸一张牌，若 bạn 的体力值：大于2，目标角色回复1 sinh lực ；等于2，目标角色摸两张牌；小于2，目标角色受到1点无来源且对应渠道 là 这两张牌的火焰 sát thương 。",
   umi_lunhui: "轮回",
   umi_lunhui_info:
     "一名其他角色的回合结束时，若 bạn 的手牌数小于体力值，则 bạn 可以失去1 sinh lực 。若如此做， bạn 摸两张牌并进行一个额外回合，且 bạn 于此回合内计算与此角色的距离视 là 1。",
@@ -566,11 +566,11 @@ export const translate_diy = {
     "Tỏa định kỹ，蓄力技， khi 有角色死亡时， bạn 对自己造成<span class=yellowtext>1</span>点 sát thương ，然后对所有其他角色依次造成<span class=firetext>1</span>点 sát thương 。 khi 有角色因此法进入濒死状态时， bạn 加1 sinh lực 上限并回复1 sinh lực ，然后失去此技能并终止此技能的所有后续结算。",
   yukine_wenzhou: "问咒",
   yukine_wenzhou_info:
-    "一名角色的Bắt đầu giai đoạn hành động，其可以交给 bạn 一张牌。若如此做， bạn 选择一项：交给其一张牌， hoặc 令其从牌堆中获得一张与此牌类型相同的牌，且其于此阶段内使用与此牌牌名相同的牌时无法被响应。",
+    "一名角色的Bắt đầu giai đoạn ra bài，其可以交给 bạn 一张牌。若如此做， bạn 选择一项：交给其一张牌， hoặc 令其从牌堆中获得一张与此牌类型相同的牌，且其于此阶段内使用与此牌牌名相同的牌时无法被响应。",
   //如果对自己发动【问咒】，则自己可以响应这些牌。但其他角色发动【问咒】时，该角色自己并不能响应
   yusa_yanyi: "演艺",
   yusa_yanyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定至多X名与 bạn 距离不大于 bạn 的体力值的角色。这些角色选择一项：①令 bạn 摸一张牌。②回复1 sinh lực ，然后交给 bạn 一张牌。（X là  bạn 的攻击范围且至少 là 1）",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定至多X名与 bạn 距离不大于 bạn 的体力值的角色。这些角色选择一项：①令 bạn 摸一张牌。②回复1 sinh lực ，然后交给 bạn 一张牌。（X là  bạn 的攻击范围且至少 là 1）",
   misa_yehuo: "业火",
   misa_yehuo_info:
     "一名角色的摸牌阶段开始时，若其在 bạn 的攻击范围内， bạn 可以弃置X张牌并选择一项：①对其造成1点火属性 sát thương 。②令其于此摸牌阶段放弃摸牌。（X là  bạn 与其的的距离）",
@@ -599,19 +599,19 @@ export const translate_diy = {
   kengo_weishang_sha: "伪伤",
   kengo_weishang_shan: "伪伤",
   kengo_weishang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以废除一个装备栏并摸两张牌。若 bạn 的武器栏已废除，则 bạn 使用【杀】的次数上限+1，且 khi bạn sử dụng 【杀】指定目标后，目标角色弃置一张牌；若 bạn 的防具栏已废除，则 bạn 可以将一张牌 khi 做【闪】使用 hoặc 打出；若 bạn 的攻击/防御坐骑栏已废除，则 bạn 至其他角色的距离-1/其他角色至 bạn 的距离-1。",
+    "1 lần trong giai đoạn ra bài， bạn 可以废除一个装备栏并摸两张牌。若 bạn 的武器栏已废除，则 bạn 使用【杀】的次数上限+1，且 khi bạn sử dụng 【杀】指定目标后，目标角色弃置一张牌；若 bạn 的防具栏已废除，则 bạn 可以将一张牌 khi 做【闪】使用 hoặc 打出；若 bạn 的攻击/防御坐骑栏已废除，则 bạn 至其他角色的距离-1/其他角色至 bạn 的距离-1。",
   kengo_guidui: "归队",
   kengo_guidui_info:
     "Tỏa định kỹ，准备阶段，若 bạn 有已废除的装备栏，则 bạn 恢复这些装备栏，且本局游戏内发动【伪伤】时不能废除这些装备栏。",
   yoshino_jueyi: "决义",
   yoshino_jueyi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一名其他角色。 bạn 摸一张牌并与其猜拳（平局则重来）。若 bạn 赢， bạn 对其造成1点 sát thương 。若 bạn 没赢， bạn 本阶段内使用牌时不能指定其 là 目标。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一名其他角色。 bạn 摸一张牌并与其猜拳（平局则重来）。若 bạn 赢， bạn 对其造成1点 sát thương 。若 bạn 没赢， bạn 本阶段内使用牌时不能指定其 là 目标。",
   yui_jiang: "激昂",
   yui_jiang_info:
     "每 khi bạn sử dụng （指定目标后） hoặc 被使用（成 là 目标后）一张【决斗】 hoặc 红色的【杀】时， bạn 可以摸一张牌。",
   yui_lieyin: "烈音",
   yui_lieyin_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 选择一项：①本阶段内的红色牌均视 là 【杀】；②本阶段内的【杀】均视 là 【决斗】。",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 选择一项：①本阶段内的红色牌均视 là 【杀】；②本阶段内的【杀】均视 là 【决斗】。",
   yui_takaramono: "珍宝",
   yui_takaramono_info:
     "觉醒技，准备阶段，若 bạn 满足以下条件中的至少两个：①体力值不大于1；②场上有已死亡的角色；③已因〖激昂〗累计获得过至少三张牌；则 bạn 获得技能〖引吭〗，将〖烈音〗描述中的「 bạn 选择」改 là 「 bạn 可选择」，然后加1 sinh lực 上限并回复1 sinh lực 。",
@@ -631,7 +631,7 @@ export const translate_diy = {
   kanata_shuangche: "双掣",
   haruka_shuangche_backup: "双掣",
   haruka_shuangche_info:
-    "出牌阶段， bạn 可以视 là 使用任意基本牌 hoặc 普通锦囊牌。此牌结算完成后， bạn 选择一项：1.弃置X张牌。2.失去1 sinh lực 且本回合内不能再发动〖双掣〗。（X là  bạn 于此回合内发动过〖双掣〗的次数）",
+    "  giai đoạn ra bài， bạn 可以视 là 使用任意基本牌 hoặc 普通锦囊牌。此牌结算完成后， bạn 选择一项：1.弃置X张牌。2.失去1 sinh lực 且本回合内不能再发动〖双掣〗。（X là  bạn 于此回合内发动过〖双掣〗的次数）",
   // bạn 不能以此法使用【回魂】
   saya_shouji: "授计",
   saya_shouji_info:
@@ -666,7 +666,7 @@ export const translate_diy = {
     "Tỏa định kỹ，游戏开始时， bạn 选择 bạn 的性别。回合开始时， bạn 可以切换 bạn 的性别。",
   sunohara_tiaoyin: "挑引",
   sunohara_tiaoyin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张花色各不相同的手牌，然后获得等量角色区域内的各一张牌。若 bạn 以此法获得了异性角色区域内的牌，则 bạn 失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张花色各不相同的手牌，然后获得等量角色区域内的各一张牌。若 bạn 以此法获得了异性角色区域内的牌，则 bạn 失去1 sinh lực 。",
   sunohara_jianren: "坚忍",
   sunohara_jianren_info:
     " khi  bạn 受到 sát thương 后， bạn 可以令一名角色摸一张牌。若 sát thương 无来源 hoặc 来源与 bạn 性别不同，则改 là 摸三张牌。",
@@ -690,23 +690,23 @@ export const translate_diy = {
     "Tỏa định kỹ，1. bạn 的手牌上限+X。2.游戏开始时， bạn 摸X张牌（X là  bạn 的体力上限）",
   akane_quanqing: "权倾",
   akane_quanqing_info:
-    "出牌阶段， bạn 可选择：1.弃置一张 điểm số 大于10的牌并对攻击范围内的一名其他角色造成1点 sát thương ；2.弃置一张 điểm số 大于6的牌并弃置攻击范围内的一名其他角色区域内的一张牌。3.弃置一张牌并令攻击范围内的一名其他角色摸一张牌。",
+    "  giai đoạn ra bài， bạn 可选择：1.弃置一张 điểm số 大于10的牌并对攻击范围内的一名其他角色造成1点 sát thương ；2.弃置一张 điểm số 大于6的牌并弃置攻击范围内的一名其他角色区域内的一张牌。3.弃置一张牌并令攻击范围内的一名其他角色摸一张牌。",
   akane_yifu: "蚁附",
   akane_yifu2: "蚁附",
   akane_yifu_info:
-    "Chủ công kỹ，其他键势力角色的1 lần trong giai đoạn hành động，其可交给 bạn 一张手牌。然后 bạn 摸一张牌，并将一张手牌交给该角色。",
+    "Chủ công kỹ，其他键势力角色的1 lần trong giai đoạn ra bài，其可交给 bạn 一张手牌。然后 bạn 摸一张牌，并将一张手牌交给该角色。",
   doruji_feiqu: "肥躯",
   doruji_feiqu_info:
     "Tỏa định kỹ， khi bạn sử dụng 【杀】时， hoặc  bạn 成 là 【杀】的目标后， bạn 令此【杀】不可被响应。",
   yuiko_fenglun: "锋论",
   yuiko_fenglun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 本阶段内使用牌没有次数和距离限制。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 本阶段内使用牌没有次数和距离限制。",
   yuiko_dilve: "底略",
   yuiko_dilve_info:
     " bạn 可以使用牌堆底的一张牌进行拼点。 khi  bạn 拼点后， bạn 可以获得两张拼点牌。",
   riki_spwenji: "问计",
   riki_spwenji_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌名称相同的牌时不能被其他角色响应。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌名称相同的牌时不能被其他角色响应。",
   riki_nvzhuang: "女装",
   riki_nvzhuang_info:
     "Tỏa định kỹ，此武将牌视 là 包含女性性别。 Giai đoạn kết thúc ，若 bạn ：有手牌， bạn 摸一张牌；没有手牌， bạn 摸两张牌。",
@@ -715,7 +715,7 @@ export const translate_diy = {
     "觉醒技，准备阶段，若 bạn 已因〖问计〗获得了三张 hoặc 更多的牌，则 bạn 加1 sinh lực 上限并回复1 sinh lực ，失去〖问计〗并获得〖重振〗。",
   riki_chongzhen: "重振",
   riki_chongzhen_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得该角色手牌区，装备区，判定区的各一张牌；若 bạn 没赢， bạn 于此阶段内使用牌时不能指定其他角色 là 目标。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得该角色手牌区，装备区，判定区的各一张牌；若 bạn 没赢， bạn 于此阶段内使用牌时不能指定其他角色 là 目标。",
   hisako_yinbao: "音爆",
   hisako_yinbao_info:
     " khi  bạn 受到 sát thương /回复体力后， bạn 可以判定。若结果 là ♠，则 bạn 对一名其他角色造成1点雷属性 sát thương 。",
@@ -732,10 +732,10 @@ export const translate_diy = {
   noda_xunxin: "寻衅",
   noda_xunxin2: "寻衅",
   noda_xunxin_info:
-    "出牌阶段限X次， bạn 可以视 là 对一名体力值不小于 bạn 的角色使用【决斗】。若如此做，此【决斗】结算完成后，没赢的角色交给赢的角色一张牌。（X là  bạn 的体力值）",
+    "  giai đoạn ra bài限X次， bạn 可以视 là 对一名体力值不小于 bạn 的角色使用【决斗】。若如此做，此【决斗】结算完成后，没赢的角色交给赢的角色一张牌。（X là  bạn 的体力值）",
   tomoya_shangxian: "伤弦",
   tomoya_shangxian_info:
-    "Tỏa định kỹ， bạn 计算与其他角色的距离时始终从逆时针方向计算。Bắt đầu giai đoạn hành động， bạn 可摸一张牌，并改变此方向。",
+    "Tỏa định kỹ， bạn 计算与其他角色的距离时始终从逆时针方向计算。Bắt đầu giai đoạn ra bài， bạn 可摸一张牌，并改变此方向。",
   tomoya_wangjin: "往今",
   tomoya_wangjin_info:
     "每项每轮各限一次。一名其他角色的回合结束时，若其：在 bạn 的攻击范围内， bạn 可令其摸一张牌。若其的体力值小于 bạn ，则 bạn 摸一张牌，并可交给其一张牌。不在 bạn 的攻击范围内，则 bạn 摸两张牌，并令其弃置 bạn 的一张手牌。若其的体力值大于 bạn ，则 bạn 视 là 对其使用一张【杀】（无距离限制）。",
@@ -748,7 +748,7 @@ export const translate_diy = {
   ayato_jianshen_info: "Tỏa định kỹ， bạn 手牌中的【杀】均视 là 神属性。",
   ayato_zonghuan: "纵幻",
   ayato_zonghuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，然后选择一项：将其中的一张牌置入弃牌堆， hoặc 以该角色的视角使用其中的一张，然后摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，然后选择一项：将其中的一张牌置入弃牌堆， hoặc 以该角色的视角使用其中的一张，然后摸一张牌。",
   ao_xishi: "习事",
   ao_xishi_info:
     "Tỏa định kỹ， khi bạn sử dụng  hoặc 打出♦牌时， hoặc 其他角色使用♦牌指定 bạn  là 目标后， bạn 摸一张牌。",
@@ -761,7 +761,7 @@ export const translate_diy = {
   ao_diegui: "蝶归",
   ao_diegui_backup: "蝶归",
   ao_diegui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张「蝶」交给一名角色，该角色摸两张牌并复原武将牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张「蝶」交给一名角色，该角色摸两张牌并复原武将牌。",
   yuzuru_wuxin: "无心",
   yuzuru_wuxin_info:
     " Giai đoạn kết thúc ， bạn 可以选择一项：失去1 sinh lực 并令一名角色摸两张牌， hoặc 弃置两张牌并回复1 sinh lực 。",
@@ -776,13 +776,13 @@ export const translate_diy = {
     "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 失去1 sinh lực 并摸两张牌。然后 bạn 可以将两张牌交给一名其他角色。",
   yuzuru_quji: "去疾",
   yuzuru_quji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置X张牌并选择至多等量已受伤的其他角色，这些角色各回复1 sinh lực 。若 bạn 以此法弃置了黑色牌，则 bạn 失去1 sinh lực 。（X là  bạn 已损失的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置X张牌并选择至多等量已受伤的其他角色，这些角色各回复1 sinh lực 。若 bạn 以此法弃置了黑色牌，则 bạn 失去1 sinh lực 。（X là  bạn 已损失的体力值）",
   yuzuru_kunfen_rewrite: "困奋·改",
   yuzuru_kunfen_rewrite_info:
     "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 摸两张牌。然后 bạn 可以将两张牌交给一名其他角色。",
   yuzuru_quji_rewrite: "去疾·改",
   yuzuru_quji_rewrite_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置X张牌并选择至多等量已受伤的其他角色，这些角色各回复1 sinh lực 。（X là  bạn 已损失的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置X张牌并选择至多等量已受伤的其他角色，这些角色各回复1 sinh lực 。（X là  bạn 已损失的体力值）",
   yuzuru_bujin: "步进",
   yuzuru_bujin_info:
     "Tỏa định kỹ，己方其他角色计算与其他角色的距离-1且摸牌阶段的额定摸牌数+1。",
@@ -800,7 +800,7 @@ export const translate_diy = {
     "Hạn định kỹ，准备阶段， bạn 可以将体力值回复至体力上限并摸等同于回复量的牌，然后将武将牌替换 là 【西园美鸟】。",
   midori_nonghuan: "弄幻",
   midori_nonghuan_info:
-    "出牌阶段限X次（X là  bạn 的体力值）， bạn 可以获得一名本阶段内未选择过的其他角色的区域内的一张牌。 bạn 摸一张牌，然后将一张牌交给该角色。然后 bạn 清除此技能结算过程中所有卡牌移动事件的移动记录。",
+    "  giai đoạn ra bài限X次（X là  bạn 的体力值）， bạn 可以获得一名本阶段内未选择过的其他角色的区域内的一张牌。 bạn 摸一张牌，然后将一张牌交给该角色。然后 bạn 清除此技能结算过程中所有卡牌移动事件的移动记录。",
   //即技能结算完成后，所有涉及到的牌移动事件不会再被getHistory获取
   midori_tishen: "替身",
   midori_tishen_info:
@@ -825,7 +825,7 @@ export const translate_diy = {
     " khi  bạn 受到 sát thương  hoặc 回复体力后， bạn 可令一名其他角色回复1 sinh lực 。",
   shiorimiyuki_tingxian: "铤险",
   shiorimiyuki_tingxian_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸至多三张牌。若如此做， bạn 回复1 sinh lực ，且此阶段结束时 bạn 失去X sinh lực 。（X là  bạn 获得的牌中仍在手牌区的牌的数量）",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸至多三张牌。若如此做， bạn 回复1 sinh lực ，且此阶段结束时 bạn 失去X sinh lực 。（X là  bạn 获得的牌中仍在手牌区的牌的数量）",
   shiorimiyuki_tingxian2: "铤险",
   miki_shenqiang: "神枪",
   miki_shenqiang_info:
@@ -845,10 +845,10 @@ export const translate_diy = {
   shiori_huijuan: "绘卷",
   shiori_huijuan_discard: "绘卷",
   shiori_huijuan_info:
-    "Tỏa định kỹ，其他角色的 Giai đoạn kết thúc 开始时， bạn 可以视 là 使用一张该角色本回合出牌阶段内使用过的基本牌 hoặc 普通锦囊牌。准备阶段开始时，若 bạn 自上个回合起以此法使用的牌数不小于X，则 bạn 选择一项：①弃置装备区 hoặc 判定区内的一张牌。②跳过本回合的出牌阶段。（X là 场上玩家数的一半且至少 là 2）",
+    "Tỏa định kỹ，其他角色的 Giai đoạn kết thúc 开始时， bạn 可以视 là 使用一张该角色本回合  giai đoạn ra bài内使用过的基本牌 hoặc 普通锦囊牌。准备阶段开始时，若 bạn 自上个回合起以此法使用的牌数不小于X，则 bạn 选择一项：①弃置装备区 hoặc 判定区内的一张牌。②跳过本回合的  giai đoạn ra bài。（X là 场上玩家数的一半且至少 là 2）",
   kaori_siyuan: "思愿",
   kaori_siyuan_info:
-    "出牌阶段， bạn 可以将一张装备牌 hoặc 延时锦囊牌置于一名其他角色的装备区内，然后可以视 là 使用一张基本牌 hoặc 普通锦囊牌。",
+    "  giai đoạn ra bài， bạn 可以将一张装备牌 hoặc 延时锦囊牌置于一名其他角色的装备区内，然后可以视 là 使用一张基本牌 hoặc 普通锦囊牌。",
   akiko_dongcha: "洞察",
   akiko_dongcha_info_identity:
     "Tỏa định kỹ，其他角色的手牌对 bạn 可见。游戏开始时， bạn 令其他角色的身份牌对 bạn 可见。",
@@ -865,7 +865,7 @@ export const translate_diy = {
     "Tỏa định kỹ，其他角色计算与 bạn 的距离时+X。准备阶段和 Giai đoạn kết thúc ， bạn 摸X张牌（X là  bạn 已损失的体力值）。",
   godan_yuanyi: "远忆",
   godan_yuanyi_info:
-    "Tỏa định kỹ，回合开始时， bạn 摸X张牌并进行一个额外的出牌阶段。（X là 游戏轮数且至多 là 3）",
+    "Tỏa định kỹ，回合开始时， bạn 摸X张牌并进行一个额外的  giai đoạn ra bài。（X là 游戏轮数且至多 là 3）",
   godan_feiqu: "肥躯",
   godan_feiqu_info:
     "Tỏa định kỹ， khi bạn sử dụng 【杀】时， hoặc  bạn 成 là 【杀】的目标后， bạn 令此【杀】不可被响应。",
@@ -893,7 +893,7 @@ export const translate_diy = {
     "回合开始时， bạn 可以弃置一张牌并指定一名其他角色，该角色须弃置一张牌，否则 bạn 摸一张牌。",
   kotori_skill_shu: "蜀义",
   kotori_skill_shu_info:
-    " bạn 使用【杀】上限+1；出牌阶段结束时，若 bạn 于此阶段使用【杀】次数不少于2，摸一张牌。",
+    " bạn 使用【杀】上限+1；  giai đoạn ra bài结束时，若 bạn 于此阶段使用【杀】次数不少于2，摸一张牌。",
   kotori_skill_wu: "吴耀",
   kotori_skill_wu_info:
     "回合结束时，若 bạn 的手牌数不等于 bạn 的体力值，则 bạn 摸一张牌。",
@@ -902,7 +902,7 @@ export const translate_diy = {
     "Tỏa định kỹ，弃牌阶段开始时，若 bạn 的手牌数比体力值多2 hoặc 更多， bạn 本回合手牌上限+1；若 bạn 已损失体力值大于1， bạn 手牌上限+1",
   kotori_skill_key: "键魂",
   kotori_skill_key_info:
-    "1 lần trong giai đoạn hành động， bạn 可以摸一张牌并获得1点护甲。若如此做， bạn 于 khi 前回合结束时失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以摸一张牌并获得1点护甲。若如此做， bạn 于 khi 前回合结束时失去1 sinh lực 。",
   kotori_skill_jin: "晋势",
   kotori_skill_jin_info:
     "摸牌阶段结束时， bạn 可以展示 bạn 于此阶段内因摸牌而获得的牌。若这些牌的花色均不同，则 bạn 摸一张牌。",
@@ -917,7 +917,7 @@ export const translate_diy = {
     "每回合每种魔物限一次， bạn 可将一个蓝色/红色/绿色/黄色/紫色/灰色魔物 khi 做【树上开花】使用。",
   jojiro_shensu: "神速",
   jojiro_shensu_info:
-    " bạn 可以选择一至三项：1. 跳过判定阶段和摸牌阶段；2. 跳过出牌阶段并弃置一张装备牌；3. 跳过弃牌阶段并将 bạn 的武将牌翻面。 bạn 每选择一项，视 là  bạn 对一名其他角色使用一张没有距离限制的【杀】",
+    " bạn 可以选择一至三项：1. 跳过判定阶段和摸牌阶段；2. 跳过  giai đoạn ra bài并弃置一张装备牌；3. 跳过弃牌阶段并将 bạn 的武将牌翻面。 bạn 每选择一项，视 là  bạn 对一名其他角色使用一张没有距离限制的【杀】",
   jojiro_shensu1: "神速",
   jojiro_shensu2: "神速",
   jojiro_shensu4: "神速",
@@ -941,7 +941,7 @@ export const translate_diy = {
   shizuku_sizhi: "思智",
   shizuku_sizhi2: "思智",
   shizuku_sizhi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张 điểm số 之和 là 13的牌，然后摸两倍数量的牌。以此法获得的牌中，黑色牌本回合无距离和次数限制，红色牌本回合不计入手牌上限。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张 điểm số 之和 là 13的牌，然后摸两倍数量的牌。以此法获得的牌中，黑色牌本回合无距离和次数限制，红色牌本回合不计入手牌上限。",
   shizuku_biyi: "避忆",
   shizuku_biyi_info:
     " khi  bạn 受到 sát thương 后， bạn 可以进行一次判定，然后若 bạn 弃置任意张 điểm số 之和与判定结果 điểm số 相同的牌， bạn 回复1 sinh lực 。",
@@ -951,10 +951,10 @@ export const translate_diy = {
   hiroto_huyu: "虎驭",
   hiroto_huyu2: "虎驭",
   hiroto_huyu_info:
-    "其他角色的出牌阶段结束时，若 bạn 没有技能〖纵略〗，则其可将两张手牌交给 bạn 。若如此做， bạn 获得〖纵略〗。 bạn 的下回合结束时， bạn 失去〖纵略〗并将本回合内获得的所有牌交给该角色。",
+    "其他角色的  giai đoạn ra bài结束时，若 bạn 没有技能〖纵略〗，则其可将两张手牌交给 bạn 。若如此做， bạn 获得〖纵略〗。 bạn 的下回合结束时， bạn 失去〖纵略〗并将本回合内获得的所有牌交给该角色。",
   hiroto_zonglve: "纵略",
   hiroto_zonglve_info:
-    "Tỏa định kỹ， bạn 的手牌上限+3。1 lần trong giai đoạn hành động， bạn 可以将一张手牌背面朝下放置，并展示一名其他角色的一张手牌。若这两张牌：颜色相同， bạn 对其造成1点 sát thương 并弃置其展示的牌。颜色不同， bạn 获得该角色区域内的两张牌。",
+    "Tỏa định kỹ， bạn 的手牌上限+3。1 lần trong giai đoạn ra bài， bạn 可以将一张手牌背面朝下放置，并展示一名其他角色的一张手牌。若这两张牌：颜色相同， bạn 对其造成1点 sát thương 并弃置其展示的牌。颜色不同， bạn 获得该角色区域内的两张牌。",
   hiroto_tuolao: "脱牢",
   hiroto_tuolao_info:
     "觉醒技，回合结束后，若此回合不是 bạn 的第一个回合且 bạn 本轮内未因〖虎驭〗失去过牌，则 bạn 摸三张牌，失去〖虎驭〗并获得〖纵略〗。",
@@ -964,7 +964,7 @@ export const translate_diy = {
   rumi_shuwu: "淑武",
   rumi_shuwu2: "淑武",
   rumi_shuwu_info:
-    "Tỏa định kỹ， bạn 使用【杀】无距离和次数限制， bạn 使用普通锦囊牌选择目标后，可增加一个目标。出牌阶段结束时， bạn 令X=0，且每满足一项便令X+1：① bạn 于本阶段内使用【杀】的次数不大于1。② bạn 于本阶段内未使用锦囊牌造成过 sát thương 。③ bạn 的体力值不大于3。 bạn 摸X张牌，且本回合手牌上限+X。",
+    "Tỏa định kỹ， bạn 使用【杀】无距离和次数限制， bạn 使用普通锦囊牌选择目标后，可增加一个目标。  giai đoạn ra bài结束时， bạn 令X=0，且每满足一项便令X+1：① bạn 于本阶段内使用【杀】的次数不大于1。② bạn 于本阶段内未使用锦囊牌造成过 sát thương 。③ bạn 的体力值不大于3。 bạn 摸X张牌，且本回合手牌上限+X。",
   chihaya_liewu: "烈武",
   chihaya_liewu2: "烈武",
   chihaya_liewu_info:
@@ -973,10 +973,10 @@ export const translate_diy = {
   chihaya_youfeng_info:
     "Chuyển hoán kỹ，阴，每轮限一次， bạn 可以加1 sinh lực 上限，视 là 使用一张普通锦囊牌；阳，每轮限一次， bạn 可以废除 bạn 的一个装备栏，视 là 使用一张基本牌。",
   chihaya_huairou: "怀柔",
-  chihaya_huairou_info: "出牌阶段， bạn 可以重铸装备牌。",
+  chihaya_huairou_info: "  giai đoạn ra bài， bạn 可以重铸装备牌。",
   yukito_kongwu: "控物",
   yukito_kongwu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以表演《小空飞天》。若如此做， bạn 从以下项目中随机选择X项，并执行其中的一项：①令一名角色摸两张牌。②对一名角色造成1点 sát thương 。③令一名已受伤的角色回复1 sinh lực 。④弃置一名角色区域内的两张牌。⑤移动场上的一张牌。若X=0，则 bạn 弃置两张牌。（X là  bạn 的得分）",
+    "1 lần trong giai đoạn ra bài， bạn 可以表演《小空飞天》。若如此做， bạn 从以下项目中随机选择X项，并执行其中的一项：①令一名角色摸两张牌。②对一名角色造成1点 sát thương 。③令一名已受伤的角色回复1 sinh lực 。④弃置一名角色区域内的两张牌。⑤移动场上的一张牌。若X=0，则 bạn 弃置两张牌。（X là  bạn 的得分）",
   yukito_yaxiang: "鸦翔",
   yukito_yaxiang_info:
     "Hạn định kỹ， khi 有角色进入濒死状态时， bạn 可移去此武将牌，然后令该角色将体力值回复至3点，弃置判定区的所有牌并获得技能〖终愿〗。",
@@ -985,17 +985,17 @@ export const translate_diy = {
     "Hạn định kỹ。 khi  bạn 的判定结果生效时， bạn 可将判定结果改 là 任意花色和 điểm số 并结束此时机。",
   asara_shelu: "摄录",
   asara_shelu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后展示一名其他角色的一张手牌并将其置于 bạn 的武将牌上，称 là “影”。若 bạn 以此法弃置的牌和展示的牌：花色相同，则 bạn 摸两张牌。 điểm số 相同，则 bạn 回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后展示一名其他角色的一张手牌并将其置于 bạn 的武将牌上，称 là “影”。若 bạn 以此法弃置的牌和展示的牌：花色相同，则 bạn 摸两张牌。 điểm số 相同，则 bạn 回复1 sinh lực 。",
   asara_yingwei: "影威",
   asara_yingwei_info:
     " bạn 可以如手牌般使用 hoặc 打出“影”。Tỏa định kỹ， khi bạn sử dụng “影”时，强制触发对应的应变效果。",
   kotomi_qinji: "琴击",
   kotomi_qinji_info:
-    "Bắt đầu giai đoạn hành động， bạn 可视 là 使用使用【万箭齐发】。 bạn 以此法使用【万箭齐发】造成的 sát thương 视 là 失去体力。",
+    "Bắt đầu giai đoạn ra bài， bạn 可视 là 使用使用【万箭齐发】。 bạn 以此法使用【万箭齐发】造成的 sát thương 视 là 失去体力。",
   kotomi_chuanxiang: "传箱",
   kotomi_chuanxiang2: "传箱",
   kotomi_chuanxiang_info:
-    "其他角色的1 lần trong giai đoạn hành động，其可以将装备区内的一张牌移动到另一名角色的装备区内，然后 bạn 摸一张牌。若 bạn 是目标角色，则 bạn 改 là 摸两张牌。",
+    "其他角色的1 lần trong giai đoạn ra bài，其可以将装备区内的一张牌移动到另一名角色的装备区内，然后 bạn 摸一张牌。若 bạn 是目标角色，则 bạn 改 là 摸两张牌。",
   mia_shihui: "时迴",
   mia_shihui_info:
     "Tỏa định kỹ，摸牌阶段， bạn 改 là 摸X+1张牌（X là  bạn 上回合弃置的牌数）； Giai đoạn kết thúc ， bạn 弃置一张牌并回复1 sinh lực 。",
@@ -1010,7 +1010,7 @@ export const translate_diy = {
     " Giai đoạn kết thúc ，若 bạn 本回合内使用过牌且这些牌的类型：不均相同， bạn 可视 là 使用【排兵布阵】 hoặc 智囊；均相同， bạn 获得仁库中的所有牌（没有则改 là 摸两张牌）。",
   kano_paibingbuzhen: "排兵布阵",
   kano_paibingbuzhen_info:
-    "出牌阶段，对至多三名角色使用。目标角色摸一张牌，然后将一张牌置入仁库。若仁库中的牌类型 hoặc 颜色均相同，则 bạn 摸一张牌。",
+    "  giai đoạn ra bài，对至多三名角色使用。目标角色摸一张牌，然后将一张牌置入仁库。若仁库中的牌类型 hoặc 颜色均相同，则 bạn 摸一张牌。",
   kano_poyu: "破羽",
   kano_poyu_info:
     " khi  bạn 成 là 【杀】 hoặc  sát thương 性锦囊牌的目标后，若仁库中有牌， bạn 可判定。然后 bạn 可从仁库中移去一张与此牌类型 hoặc 花色相同的牌，令此牌对 bạn 无效。",
@@ -1052,7 +1052,7 @@ export const translate_diy = {
   kud_qiaoshou_end: "巧手",
   kud_qiaoshou_backup: "巧手",
   kud_qiaoshou_info:
-    "出牌阶段/ Giai đoạn kết thúc ，若 bạn 没有“巧”，则 bạn 可以将一张手牌作 là “巧”置于武将牌上并摸一张牌，且视 là 装备了一张 bạn 选择的武器牌 hoặc 进攻坐骑/防具牌 hoặc 防御坐骑直到“巧”进入弃牌堆。出牌阶段结束时/准备阶段开始时， bạn 将“巧”置入弃牌堆。",
+    "  giai đoạn ra bài/ Giai đoạn kết thúc ，若 bạn 没有“巧”，则 bạn 可以将一张手牌作 là “巧”置于武将牌上并摸一张牌，且视 là 装备了一张 bạn 选择的武器牌 hoặc 进攻坐骑/防具牌 hoặc 防御坐骑直到“巧”进入弃牌堆。  giai đoạn ra bài结束时/准备阶段开始时， bạn 将“巧”置入弃牌堆。",
   kud_buhui: "不悔",
   kud_buhui_info:
     "Hạn định kỹ， khi  bạn 进入濒死状态时， bạn 可以弃置“巧”和装备区内的所有牌（至少一张）并摸等量的牌，将体力回复至2点，获得技能〖重振〗。",
@@ -1091,11 +1091,11 @@ export const translate_diy = {
   nao_shouqing2: "守情",
   nao_shouqing3: "守情",
   nao_shouqing_info:
-    "其他角色的出牌阶段内可以对 bạn 使用【桃】。若如此做，其摸一张牌且本局游戏内的手牌上限+1。",
+    "其他角色的  giai đoạn ra bài内可以对 bạn 使用【桃】。若如此做，其摸一张牌且本局游戏内的手牌上限+1。",
   key_yuuki: "冰室忧希",
   yuuki_yicha: "异插",
   yuuki_yicha_info:
-    "Bắt đầu giai đoạn hành động， bạn 可依次进行两次判定并将判定牌依次置入两行三列方阵的两个随机位置中。然后 bạn 依次进行四次判定，每次可将 khi 前判定牌置入空方格，且须与相邻方格的牌颜色均不同。若如此做， bạn 令一名角色获得方阵内的所有牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可依次进行两次判定并将判定牌依次置入两行三列方阵的两个随机位置中。然后 bạn 依次进行四次判定，每次可将 khi 前判定牌置入空方格，且须与相邻方格的牌颜色均不同。若如此做， bạn 令一名角色获得方阵内的所有牌。",
   key_kyouko: "伊座并杏子",
   kyouko_rongzhu: "容助",
   kyouko_rongzhu_info:
@@ -1104,7 +1104,7 @@ export const translate_diy = {
   kyouko_gongmian_use: "共勉",
   kyouko_gongmian_exchange: "共勉",
   kyouko_gongmian_info:
-    "①出牌阶段， bạn 可以选择一名未以此法选择过的角色，若其手牌：大于 bạn ， bạn 获得其一张牌，然后交给其一张牌；小于 bạn ，其交给 bạn 一张牌，然后 bạn 交给其一张牌；等于 bạn ， bạn 与其各摸一张牌。②出牌阶段结束时， bạn 可以获得一名其他角色区域内的至多X张牌，然后交给其等量的牌。③弃牌阶段开始时，若X不小于 bạn 的体力值， bạn 可以获得一名手牌数少于 bạn 的角色的所有手牌，然后将手牌数的一半（向上取整）交给该角色。（X là  bạn 本回合内发动过〖共勉①〗的次数）",
+    "①  giai đoạn ra bài， bạn 可以选择一名未以此法选择过的角色，若其手牌：大于 bạn ， bạn 获得其一张牌，然后交给其一张牌；小于 bạn ，其交给 bạn 一张牌，然后 bạn 交给其一张牌；等于 bạn ， bạn 与其各摸一张牌。②  giai đoạn ra bài结束时， bạn 可以获得一名其他角色区域内的至多X张牌，然后交给其等量的牌。③弃牌阶段开始时，若X不小于 bạn 的体力值， bạn 可以获得一名手牌数少于 bạn 的角色的所有手牌，然后将手牌数的一半（向上取整）交给该角色。（X là  bạn 本回合内发动过〖共勉①〗的次数）",
   key_tenzen: "加纳天善",
   tenzen_yixing: "弈兴",
   tenzen_yixing_info:
@@ -1126,7 +1126,7 @@ export const translate_diy = {
   kotarou_rewrite_sha: "改写",
   kotarou_rewrite_block: "改写",
   kotarou_rewrite_info:
-    "出牌阶段， bạn 可选择：①视 là 使用一张本局游戏没有以此法使用过的基本牌 hoặc 普通锦囊牌；②移动场上的一张牌；③增加一 sinh lực 上限并失去1 sinh lực （体力上限至多 là 5）；④下一次造成的 sát thương +1；⑤下一次回复的体力值+1；⑥本回合内的手牌上限和使用【杀】的使用次数+1。若 bạn 于本回合内发动过〖改写〗的次数超过两次，则 bạn 令此技能失效，且于回合结束后将体力上限降至3点，失去〖丝刃〗和〖改写〗。",
+    "  giai đoạn ra bài， bạn 可选择：①视 là 使用一张本局游戏没有以此法使用过的基本牌 hoặc 普通锦囊牌；②移动场上的一张牌；③增加一 sinh lực 上限并失去1 sinh lực （体力上限至多 là 5）；④下一次造成的 sát thương +1；⑤下一次回复的体力值+1；⑥本回合内的手牌上限和使用【杀】的使用次数+1。若 bạn 于本回合内发动过〖改写〗的次数超过两次，则 bạn 令此技能失效，且于回合结束后将体力上限降至3点，失去〖丝刃〗和〖改写〗。",
   key_kyou: "藤林杏",
   kyou_zhidian: "掷典",
   kyou_zhidian_info:
@@ -1140,15 +1140,15 @@ export const translate_diy = {
     "准备阶段， bạn 可以投掷一枚骰子，观看牌堆顶的X张牌（X là 投掷 điểm số ）并以任意顺序扣置于一名没有“星屑”的角色的武将牌上，称 là “星屑”。有“星屑”的角色造成的 sát thương +1，且 khi 其从牌堆顶摸牌 hoặc 取得判定牌时，改 là 从“星屑”中获取。",
   seira_yuanying: "缘映",
   seira_yuanying_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择两名角色。这两名角色成 là “姻缘者”且获得〖姻缘〗直到 bạn 下次发动〖缘映〗。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择两名角色。这两名角色成 là “姻缘者”且获得〖姻缘〗直到 bạn 下次发动〖缘映〗。",
   seira_yinyuan: "姻缘",
   seira_yinyuan_info:
-    " bạn 的手牌对其他“姻缘者”可见。1 lần trong giai đoạn hành động， bạn 可以获得一名其他“姻缘者”区域内的一张牌，然后其回复1 sinh lực 。",
+    " bạn 的手牌对其他“姻缘者”可见。1 lần trong giai đoạn ra bài， bạn 可以获得一名其他“姻缘者”区域内的一张牌，然后其回复1 sinh lực 。",
 
   noname: "小无",
   noname_zhuyuan: "祝愿",
   noname_zhuyuan_info:
-    "①每回合每名角色限一次。出牌阶段， bạn 可以将四张花色各不相同的牌交给一名其他角色。 bạn 与其获得技能〖铁骑〗和〖激昂〗至各自的回合结束。②Tỏa định kỹ，若 bạn 于 khi 前回合内：未发动过〖祝愿〗，则 bạn 使用牌无次数限制；发动过〖祝愿〗，则 bạn 使用牌无距离限制。",
+    "①每回合每名角色限一次。  giai đoạn ra bài， bạn 可以将四张花色各不相同的牌交给一名其他角色。 bạn 与其获得技能〖铁骑〗和〖激昂〗至各自的回合结束。②Tỏa định kỹ，若 bạn 于 khi 前回合内：未发动过〖祝愿〗，则 bạn 使用牌无次数限制；发动过〖祝愿〗，则 bạn 使用牌无距离限制。",
   noname_duocai: "多彩",
   noname_duocai_info:
     "每回合限一次。其他角色区域内的牌因弃置而进入弃牌堆后， bạn 可以获得之。若 bạn 以此法获得的牌数：大于2， bạn 弃置一名角色区域内的一张牌；等于2， bạn 摸一张牌；小于2， bạn 回复1 sinh lực 。",
@@ -1185,7 +1185,7 @@ export const translate_diy = {
     "觉醒技， Giai đoạn kết thúc 开始时，若“威”数大于4，则 bạn 加2 sinh lực 上限，获得〖喋谋〗和〖制皇〗，并将〖集权〗改 là Tỏa định kỹ。",
   nsdiemou: "喋谋",
   nsdiemou_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động，若“威”大于全场角色数， bạn 移去所有“威”，减一 sinh lực 上限并摸X张牌。若X大于4， bạn 翻面。（X là 移去的“威”数）",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài，若“威”大于全场角色数， bạn 移去所有“威”，减一 sinh lực 上限并摸X张牌。若X大于4， bạn 翻面。（X là 移去的“威”数）",
   nszhihuang: "制皇",
   nszhihuang_damage: "制皇",
   nszhihuang_info:
@@ -1195,7 +1195,7 @@ export const translate_diy = {
   nsweiyuan_use: "围援",
   nsweiyuan_use_backup: "围援",
   nsweiyuan_info:
-    "1 lần trong giai đoạn hành động， khi bạn sử dụng 牌指定其他角色A là 唯一目标后， bạn 可以令一名除该角色外的其他角色B选择一项：①交给A一张牌：然后 bạn 对B造成一点 sát thương ；② bạn 摸一张牌，且可以将一张手牌 khi 做本回合使用过的一张基本牌/普通锦囊牌使用（无次数距离限制）。",
+    "1 lần trong giai đoạn ra bài， khi bạn sử dụng 牌指定其他角色A là 唯一目标后， bạn 可以令一名除该角色外的其他角色B选择一项：①交给A一张牌：然后 bạn 对B造成一点 sát thương ；② bạn 摸一张牌，且可以将一张手牌 khi 做本回合使用过的一张基本牌/普通锦囊牌使用（无次数距离限制）。",
   nsjuxian: "据险",
   nsjuxian2: "据险",
   nsjuxian_info:
@@ -1222,7 +1222,7 @@ export const translate_diy = {
     "此牌不可被【 Vô Giải Khả Kích 】响应。若判定结果 là ：黑色， bạn 受到使用者造成的1点雷属性 sát thương 且弃置一张牌；红色，使用者摸两张牌，且 bạn 本回合的手牌上限-1。",
   nsfuzhou_num: "符咒",
   nsfuzhou_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，且该角色本回合手牌上限减1。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，且该角色本回合手牌上限减1。",
   nsguidao: "鬼道",
   nsguidao_info: "一名角色的判定牌生效前， bạn 可以打出一张黑色牌替换之。",
   nstaiping: "太平",
@@ -1230,10 +1230,10 @@ export const translate_diy = {
     "觉醒技。准备阶段，若 bạn ：已因〖符咒〗造成了两次 hoặc 更多的 sát thương ，则 bạn 将〖鬼道〗中的“黑色牌”修改 là “牌”，将〖符咒〗修改 là 〖符咒·邪〗；若 bạn 已因〖符咒〗摸了两次 hoặc 更多的牌，则 bạn 将〖鬼道〗中的“黑色牌”修改 là “牌”，将〖符咒〗修改 là 〖符咒·正〗。",
   nsfuzhou_damage: "符咒·邪",
   nsfuzhou_damage_info:
-    "出牌阶段限两次。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，且该角色本回合手牌上限-1。",
+    "  giai đoạn ra bài限两次。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，且该角色本回合手牌上限-1。",
   nsfuzhou_draw: "符咒·正",
   nsfuzhou_draw_info:
-    "出牌阶段限两次。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，该角色回复1 sinh lực 并摸一张牌，且本回合的手牌上限+1。",
+    "  giai đoạn ra bài限两次。 bạn 可以将一张黑色牌置于一名角色的判定区内，称 là “符”。其于判定阶段进行“符”判定，若判定结果 là ：黑色，其受到一点雷属性 sát thương 并弃置一张牌；红色， bạn 摸两张牌，该角色回复1 sinh lực 并摸一张牌，且本回合的手牌上限+1。",
   ns_yanghu: "羊祜",
   nsbizhao: "避召",
   nsbizhao2: "避召",
@@ -1244,7 +1244,7 @@ export const translate_diy = {
     "每回合限一次， khi bạn sử dụng 【杀】 hoặc 普通锦囊牌对其他角色造成 sát thương 后， bạn 可使用该牌与受到 sát thương 的角色拼点。 bạn 可令输的角色摸两张牌； khi  bạn 受到其他角色使用【杀】 hoặc 普通锦囊牌造成的 sát thương 后，可使用该牌与 sát thương 来源拼点。 bạn 可令赢的角色回复一 sinh lực 。",
   nsyidi: "遗敌",
   nsyidi_info:
-    "1 lần trong giai đoạn hành động， bạn 可展示一张手牌，然后将其交给一名其他角色。若 là 基本牌，该角色可使用此牌；若不 là 基本牌， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可展示一张手牌，然后将其交给一名其他角色。若 là 基本牌，该角色可使用此牌；若不 là 基本牌， bạn 摸一张牌。",
 
   diy_wenyang: "文鸯",
   ns_zhangwei: "张葳",
@@ -1268,13 +1268,13 @@ export const translate_diy = {
     "<span class=yellowtext>Hạn định kỹ</span>  khi 一名其他角色进入濒死状态时， bạn 可以令其选择获得技能【雷击】 hoặc 【鬼道】，其回复体力至1并摸两张牌。 khi 该被【传术】的角色造成 hoặc 受到一次 sát thương 后， bạn 摸一张牌。其阵亡后， bạn 重置技能【传术】",
   ns_xiandao1: "仙道",
   ns_xiandao1_info:
-    "<font color=#f00>Tỏa định kỹ</font> 游戏开始和回合 Giai đoạn kết thúc ， bạn 随机获得技能【雷击】 hoặc 【鬼道】，直到下个出牌阶段开始",
+    "<font color=#f00>Tỏa định kỹ</font> 游戏开始和回合 Giai đoạn kết thúc ， bạn 随机获得技能【雷击】 hoặc 【鬼道】，直到下个  giai đoạn ra bài开始",
   ns_xiandao2: "仙道",
   ns_xiandao2_info:
     "<font color=#f00>Tỏa định kỹ</font>  bạn 防止受到任何属性 sát thương ",
   ns_xiandao: "仙道",
   ns_xiandao_info:
-    "<font color=#f00>Tỏa định kỹ</font> 游戏开始、 bạn 进入游戏时和回合 Giai đoạn kết thúc ， bạn 随机获得技能【雷击】 hoặc 【鬼道】，直到下个出牌阶段阶段开始。 bạn 防止受到任何属性 sát thương ",
+    "<font color=#f00>Tỏa định kỹ</font> 游戏开始、 bạn 进入游戏时和回合 Giai đoạn kết thúc ， bạn 随机获得技能【雷击】 hoặc 【鬼道】，直到下个  giai đoạn ra bài阶段开始。 bạn 防止受到任何属性 sát thương ",
   ns_chuanshu2: "术",
   ns_chuanshu2_info:
     "<font color=#f00>Tỏa định kỹ</font>  khi  bạn 造成 hoặc 受到一次 sát thương 后，南华老仙摸一张牌",
@@ -1283,7 +1283,7 @@ export const translate_diy = {
     "<font color=#f00>Tỏa định kỹ</font>  khi  bạn 【传术】的角色阵亡后， bạn 重置技能【传术】",
   ns_xiuzheng: "修真",
   ns_xiuzheng_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择一名其他角色，然后展示牌堆顶的两张牌，若同 là 红色，则其受到一点火焰 sát thương ；若同 là 黑色，其受到一点雷电 sát thương ；若颜色不相同， bạn 弃置其一张牌。然后 bạn 获得这两张展示的牌后再弃置两张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可选择一名其他角色，然后展示牌堆顶的两张牌，若同 là 红色，则其受到一点火焰 sát thương ；若同 là 黑色，其受到一点雷电 sát thương ；若颜色不相同， bạn 弃置其一张牌。然后 bạn 获得这两张展示的牌后再弃置两张牌",
   nsanruo: "暗弱",
   nsanruo_info:
     "Tỏa định kỹ， bạn 手牌中的[杀]和普通锦囊牌(借刀杀人等带有指向目标的锦囊除外)均对 bạn 不可见。但 bạn 可以正常使用之",
@@ -1295,7 +1295,7 @@ export const translate_diy = {
     "Chủ công kỹ， bạn 的回合内， bạn 可以将一张【暗弱】牌交给一名群势力其他角色观看，其可以选择是否告诉 bạn 此牌的名字。然后 bạn 选择一项：使用这张牌并摸一张牌； hoặc 结束此回合",
   nsjuanli: "狷戾",
   nsjuanli_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名有手牌的其他角色进行赌牌，若 bạn 赢，目标角色失去1 sinh lực 且该角色与 bạn 距离-1直到与 bạn 下次赌牌，若 bạn 没赢，目标角色回复1 sinh lực ，且该角色与 bạn 距离+1直到与 bạn 的下次赌牌。（赌牌:赌牌的两名角色分别亮开一张手牌，若花色相同则赌牌平局，若花色不同，则依次展示牌堆顶的牌直到翻开的牌与其中一人亮出牌的花色相同，则该角色获得赌牌的胜利）",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名有手牌的其他角色进行赌牌，若 bạn 赢，目标角色失去1 sinh lực 且该角色与 bạn 距离-1直到与 bạn 下次赌牌，若 bạn 没赢，目标角色回复1 sinh lực ，且该角色与 bạn 距离+1直到与 bạn 的下次赌牌。（赌牌:赌牌的两名角色分别亮开一张手牌，若花色相同则赌牌平局，若花色不同，则依次展示牌堆顶的牌直到翻开的牌与其中一人亮出牌的花色相同，则该角色获得赌牌的胜利）",
   nsyuanchou: "远筹",
   nsyuanchou_info:
     "Tỏa định kỹ， khi  bạn 成 là 锦囊牌的目标时，若来源角色与 bạn 的距离大于1，则取消之",
@@ -1319,25 +1319,25 @@ export const translate_diy = {
     "摸牌阶段开始时， bạn 可弃置一张手牌，然后摸X张牌(X là  bạn 弃置牌的名称字数)，若如此做，本回合 bạn 不可使用 hoặc 打出【杀】",
   nsxinzhan: "心战",
   nsxinzhan_info:
-    "1 lần trong giai đoạn hành động， bạn 可将任意张手牌交给一名其他角色，若如此做，该角色失去X sinh lực (X là  bạn 交给其的牌张数的一半，向下取整)，若 bạn 给的牌达到六张，则改 là 该角色失去一 sinh lực 上限",
+    "1 lần trong giai đoạn ra bài， bạn 可将任意张手牌交给一名其他角色，若如此做，该角色失去X sinh lực (X là  bạn 交给其的牌张数的一半，向下取整)，若 bạn 给的牌达到六张，则改 là 该角色失去一 sinh lực 上限",
   nsfuhuo: "符火",
   nsfuhuo2: "符火",
   nsfuhuo_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张手牌置于一名武将牌上没有“符”的角色的武将牌上，称 là “符”，若如此做，其回合外使用 hoặc 打出【闪】时， bạn 可令其判定，若结果 là ： ♥︎ ， bạn 对其造成2点火焰 sát thương ； ♦︎ ， bạn 弃置其一张手牌，然后对其造成1点火焰 sát thương 。 bạn 的下个回合开始时， bạn 获得其武将牌上的“符”",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张手牌置于一名武将牌上没有“符”的角色的武将牌上，称 là “符”，若如此做，其回合外使用 hoặc 打出【闪】时， bạn 可令其判定，若结果 là ： ♥︎ ， bạn 对其造成2点火焰 sát thương ； ♦︎ ， bạn 弃置其一张手牌，然后对其造成1点火焰 sát thương 。 bạn 的下个回合开始时， bạn 获得其武将牌上的“符”",
   nswangfeng: "望风",
   nswangfeng_info: "在判定牌生效前， bạn 可以打出一张红色牌替换之",
   nshunji: "混击",
   nshunji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以摸一张牌，视 là 使用一张【万箭齐发】。此【万箭齐发】造成 sát thương 时，受 sát thương 角色选择一项：①弃置 bạn 一张牌；②摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以摸一张牌，视 là 使用一张【万箭齐发】。此【万箭齐发】造成 sát thương 时，受 sát thương 角色选择一项：①弃置 bạn 一张牌；②摸一张牌",
   nscuanquan: "篡权",
   nscuanquan_info:
     "Tỏa định kỹ，如果 bạn 的身份 là 忠臣，则在受伤三次后与主公，互换身份和体力上限",
   nsjianning: "奸佞",
   nsjianning_info:
-    "1 lần trong giai đoạn hành động，如果 bạn 的身份 là 内奸， bạn 可以与一名手牌数比 bạn 少的角色交换手牌，并对其造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài，如果 bạn 的身份 là 内奸， bạn 可以与一名手牌数比 bạn 少的角色交换手牌，并对其造成一点 sát thương ",
   nschangshi: "常仕",
   nschangshi_info:
-    "1 lần trong giai đoạn hành động，如果 bạn 的身份 là 反贼， bạn 可以指定两名其他角色互换体力；如果两名角色体力之差等于1， bạn 失去一 sinh lực ",
+    "1 lần trong giai đoạn ra bài，如果 bạn 的身份 là 反贼， bạn 可以指定两名其他角色互换体力；如果两名角色体力之差等于1， bạn 失去一 sinh lực ",
   nsbaquan: "霸权",
   nsbaquan_info:
     "回合结束时， bạn 可以弃置所有手牌，并获得相应 điểm số 的护甲， bạn 的新一回合开始时清除所有护甲",
@@ -1345,10 +1345,10 @@ export const translate_diy = {
   nsbugua_use_info:
     "弃置一张牌，并将牌堆顶的六张牌反面朝上逐张按先后顺序排放，然后抛骰子，展示牌序号与骰子显示的 điểm số 一致的牌，然后 bạn 根据这张牌的花色、 điểm số 随机获得牌堆中相应的一张牌",
   nsbugua_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，并将牌堆顶的六张牌反面朝上逐张按先后顺序排放，然后抛骰子，展示牌序号与骰子显示的 điểm số 一致的牌，然后 bạn 根据这张牌的花色、 điểm số 按以下规则随机获得牌堆中相应的一张牌：乾（ ♥︎ 偶数）：无中生有；坤（ ♠︎ 奇数）：决斗；震（ ♠︎ 偶数）：南蛮入侵；巽（ ♥︎ 奇数）：万箭齐发；坎（ ♣︎ 偶数）：过河拆桥、兑（ ♣︎ 奇数）：借刀杀人、艮（方片偶数）：顺手牵羊、离（方片奇数）：火攻。若牌堆中无此牌则摸一张牌，然后 bạn 观看未展示的另外五张牌并按任意顺序将其置于牌堆顶。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，并将牌堆顶的六张牌反面朝上逐张按先后顺序排放，然后抛骰子，展示牌序号与骰子显示的 điểm số 一致的牌，然后 bạn 根据这张牌的花色、 điểm số 按以下规则随机获得牌堆中相应的一张牌：乾（ ♥︎ 偶数）：无中生有；坤（ ♠︎ 奇数）：决斗；震（ ♠︎ 偶数）：南蛮入侵；巽（ ♥︎ 奇数）：万箭齐发；坎（ ♣︎ 偶数）：过河拆桥、兑（ ♣︎ 奇数）：借刀杀人、艮（方片偶数）：顺手牵羊、离（方片奇数）：火攻。若牌堆中无此牌则摸一张牌，然后 bạn 观看未展示的另外五张牌并按任意顺序将其置于牌堆顶。",
   nstuiyan: "推演",
   nstuiyan_info:
-    "出牌阶段，若 bạn 使用的牌 điểm số 比上一张使用的牌 điểm số 大， bạn 可以摸一张牌，反之 bạn 本回合不能再以此法摸牌； khi bạn sử dụng 的牌 điểm số 首次达到8的倍数时， bạn 可以在结算后立即发动一次【卜卦】",
+    "  giai đoạn ra bài，若 bạn 使用的牌 điểm số 比上一张使用的牌 điểm số 大， bạn 可以摸一张牌，反之 bạn 本回合不能再以此法摸牌； khi bạn sử dụng 的牌 điểm số 首次达到8的倍数时， bạn 可以在结算后立即发动一次【卜卦】",
   nstianji: "天机",
   nstianji_info:
     "Hạn định kỹ， khi 一名其他角色进入濒死状态， bạn 可自减一 sinh lực 上限，令其回复体力至1并增加一 sinh lực 上限",
@@ -1375,7 +1375,7 @@ export const translate_diy = {
     "Tỏa định kỹ，单体锦囊牌无法对 bạn 造成 sát thương 。其它角色于其回合内第二次使用锦囊牌指定 bạn  là 目标时，取消之",
   nscaijian: "才鉴",
   nscaijian_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的手牌数不大于 bạn 的体力上限，则 bạn 可以展示 bạn 的手牌，观看牌堆顶相同数量的牌并以任意方式交换之",
+    "1 lần trong giai đoạn ra bài，若 bạn 的手牌数不大于 bạn 的体力上限，则 bạn 可以展示 bạn 的手牌，观看牌堆顶相同数量的牌并以任意方式交换之",
   nsgongjian: "恭俭",
   nsgongjian_info:
     "Tỏa định kỹ，弃牌阶段， bạn 须将弃牌交给一名体力值大于 bạn 的其它角色",
@@ -1384,7 +1384,7 @@ export const translate_diy = {
     " khi  bạn 成 là 一名角色牌的目标后 bạn 可以对该角色使用一张牌，若此牌对其造成 sát thương ，则该角色的牌失效。若失效的 là 黑色牌，则 bạn 摸一张牌",
   nsxionglue: "雄略",
   nsxionglue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色手牌，然后发现一张锦囊牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色手牌，然后发现一张锦囊牌",
   nsyaowang: "妖妄",
   nsyaowang_info:
     "回合开始阶段 bạn 可以选择一名角色然后获得其其中一项技能直到回合结束，然后该角色随机获得一项未上场武将的其中一项技能直到其回合结束",
@@ -1411,7 +1411,7 @@ export const translate_diy = {
     " khi  bạn 的体力值等于0 hoặc 更低时， bạn 可以将任意一张♣牌 khi 【桃】使用",
   nshaoling: "号令",
   nshaoling_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以指定一名其他角色，令另外所有其他角色角色选择一项：1、对该角色使用一张【杀】；2、交给 bạn 一张牌，然后视 là  bạn 对其使用一张【杀】",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以指定一名其他角色，令另外所有其他角色角色选择一项：1、对该角色使用一张【杀】；2、交给 bạn 一张牌，然后视 là  bạn 对其使用一张【杀】",
   nspinmin: "拼命",
   nspinmin_info:
     "Tỏa định kỹ， khi  bạn 于回合内死亡时， bạn 不死亡并增加一 sinh lực 上限（每回合最多增加1点且不能超过4）； khi  bạn 于回合外死亡时， bạn 不死亡并减少一 sinh lực 上限（体力上限 là 0会导致 bạn 死亡）",
@@ -1420,7 +1420,7 @@ export const translate_diy = {
     "Tỏa định kỹ， khi  bạn 于回合内失去手牌时， bạn 失去一 sinh lực 并摸一张牌； bạn 回合内使用的牌数不能超过4",
   nsduijue: "对决",
   nsduijue_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置一张手牌，若如此做，此阶段 bạn 可以将一张与此牌颜色不同的手牌 khi 作[决斗]使用（限2次）",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置一张手牌，若如此做，此阶段 bạn 可以将一张与此牌颜色不同的手牌 khi 作[决斗]使用（限2次）",
   nsshuangxiong: "双雄",
   nsshuangxiong_info:
     " khi bạn sử dụng [决斗] hoặc 被使用[决斗]时， bạn 可以将武将牌翻面",
@@ -1446,7 +1446,8 @@ export const translate_diy = {
   nsshoudao_info:
     " khi 左右“幻身”全部死亡时， bạn 获得技能“雷击”和“鬼道”。 khi  bạn 死亡时，若此时有两个“幻身”， bạn 可以令一名其他角色获得技能“雷击”和“鬼道”。若有一个“幻身”， bạn 可以令一名其他角色获得技能“雷击” hoặc “鬼道”。(杀死 bạn 的角色除外)",
   nsnongquan: "弄权",
-  nsnongquan_info: "出牌阶段， bạn 可以将最后一张手牌 khi 作【无中生有】使用",
+  nsnongquan_info:
+    "  giai đoạn ra bài， bạn 可以将最后一张手牌 khi 作【无中生有】使用",
   nsdufu: "毒妇",
   nsdufu_info:
     "每 khi  bạn 即将造成一次 sát thương 时， bạn 可以 là 此 sát thương 重新指定 sát thương 来源",
@@ -1454,10 +1455,11 @@ export const translate_diy = {
   diyjizhi_info:
     " khi bạn sử dụng 一张装备牌 hoặc 锦囊牌时， bạn 可以摸一张牌并展示之，若此牌是基本牌， bạn 须弃置一张手牌，每回合限3次",
   yiesheng: "回雪",
-  yiesheng_info: "出牌阶段， bạn 可以弃置任意数量的黑色手牌，然后摸等量的牌。",
+  yiesheng_info:
+    "  giai đoạn ra bài， bạn 可以弃置任意数量的黑色手牌，然后摸等量的牌。",
   liangji: "环计",
   liangji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名未以此法放置牌的其他角色并将一张手牌置于其武将牌上。目标角色于摸牌阶段开始时，获得此牌。若其 là 男性角色，则获得技能【无双】，若其 là 女性角色，则获得技能【离间】，直到回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名未以此法放置牌的其他角色并将一张手牌置于其武将牌上。目标角色于摸牌阶段开始时，获得此牌。若其 là 男性角色，则获得技能【无双】，若其 là 女性角色，则获得技能【离间】，直到回合结束。",
   chengmou: "逞谋",
   chengmou_info:
     "摸牌阶段开始时，若 bạn 有“功”牌， bạn 获得之并跳过摸牌阶段，若 bạn 所获得的“功”牌多于两张， bạn 须失去一 sinh lực 。",
@@ -1472,15 +1474,15 @@ export const translate_diy = {
     "每 khi  bạn 即将受到其他角色造成的 sát thương 时，若 bạn 已受伤，则 bạn 可以防止此 sát thương ，改 là 失去X sinh lực 上限并摸X张牌，X là  sát thương  điểm số ",
   liangce: "粮策",
   liangce_info:
-    "①1 lần trong giai đoạn hành động， bạn 可以将一张基本牌 khi 【五谷丰登】使用。② khi 因执行【五谷丰登】的效果而亮出的牌因效果执行完毕而置入弃牌堆后， bạn 可以选择一名角色，令该角色获取之",
+    "①1 lần trong giai đoạn ra bài， bạn 可以将一张基本牌 khi 【五谷丰登】使用。② khi 因执行【五谷丰登】的效果而亮出的牌因效果执行完毕而置入弃牌堆后， bạn 可以选择一名角色，令该角色获取之",
   jianbi: "坚壁",
   jianbi_info:
     " khi  bạn 成 là 锦囊牌的目标时，若此牌的目标包括其他角色， bạn 可以令此牌对1个目标无效",
   diyjuntun: "军屯",
-  diyjuntun_info: "出牌阶段， bạn 可以重铸装备牌",
+  diyjuntun_info: "  giai đoạn ra bài， bạn 可以重铸装备牌",
   choudu: "筹度",
   choudu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，并指定一名角色视 là 其使用一张调兵遣将",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，并指定一名角色视 là 其使用一张调兵遣将",
   liduan: "立断",
   liduan_info:
     " khi 一名其他角色于其回合外获得牌后，若其此次获得的牌数 là 1且 là 装备牌（无论是否可见）， bạn 可以令该角色选择一项：1.使用此牌；2.将一张手牌交给 bạn ",
@@ -1500,14 +1502,14 @@ export const translate_diy = {
   kangyin: "亢音",
   kangyin2: "亢音",
   kangyin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去1 sinh lực 并选择一名其他角色，弃置该角色的一张牌。若此牌： là 基本牌， bạn 可以令一至X名角色各摸一张牌；不 là 基本牌，于此回合内： bạn 的进攻距离+X，且 bạn 使用杀的额外目标数上限+X。（X là  bạn 已损失的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去1 sinh lực 并选择一名其他角色，弃置该角色的一张牌。若此牌： là 基本牌， bạn 可以令一至X名角色各摸一张牌；不 là 基本牌，于此回合内： bạn 的进攻距离+X，且 bạn 使用杀的额外目标数上限+X。（X là  bạn 已损失的体力值）",
   zhucheng: "筑城",
   zhucheng2: "筑城",
   zhucheng_info:
     "① Giai đoạn kết thúc 开始时，若没有“筑”， bạn 可以将牌堆顶的X张牌置于 bạn 的武将牌上〔称 là “筑”〕（X là  bạn 已损失的体力值与1中的较大值），否则 bạn 可以获取所有“筑”。② khi  bạn 成 là 杀的目标时，若有“筑”， bạn 可以令此杀的使用者弃置X张牌（X là “筑”的数量），否则杀对 bạn 无效",
   duoqi: "夺气",
   duoqi_info:
-    " khi 一名角色于除 bạn 之外的角色的出牌阶段内因弃置而失去牌后， bạn 可以移去一张“筑”，并结束此出牌阶段",
+    " khi 一名角色于除 bạn 之外的角色的  giai đoạn ra bài内因弃置而失去牌后， bạn 可以移去一张“筑”，并结束此  giai đoạn ra bài",
 
   siji: "伺机",
   ciqiu: "刺酋",
@@ -1545,19 +1547,19 @@ export const translate_diy = {
   diykuanggu_info:
     "Tỏa định kỹ，每 khi  bạn 造成一点 sát thương ， bạn 在其攻击范围内， bạn 回复一 sinh lực ，否则 bạn 摸一张牌",
   diyqiangxi_info:
-    "出牌阶段， bạn 可以自减一 sinh lực  hoặc 弃一张武器牌，然后 bạn 对 bạn 攻击范围内的一名角色造成一点 sát thương 并弃置其一张牌，每回合限一次。",
+    "  giai đoạn ra bài， bạn 可以自减一 sinh lực  hoặc 弃一张武器牌，然后 bạn 对 bạn 攻击范围内的一名角色造成一点 sát thương 并弃置其一张牌，每回合限一次。",
   diyduanliang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色的基本牌 khi 兵粮寸断对一名角色使用，然后摸一张牌。 bạn 的兵粮寸断可以指定距离2以内的角色作 là 目标",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色的基本牌 khi 兵粮寸断对一名角色使用，然后摸一张牌。 bạn 的兵粮寸断可以指定距离2以内的角色作 là 目标",
   guihan_info:
     "Hạn định kỹ， khi  bạn 进入濒死状态时，可以指定一名男性角色与其各回复一 sinh lực 并摸两张牌",
   luweiyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张非基本牌 khi 作水攻使用；结算后 bạn 可以视 là 对其中一个目标使用一张不计入出杀次数的杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张非基本牌 khi 作水攻使用；结算后 bạn 可以视 là 对其中一个目标使用一张不计入出杀次数的杀",
   xiongzi_info:
     "Tỏa định kỹ， bạn 于摸牌阶段额外摸X+1张牌，X là  bạn 装备区牌数的一半，向下取整",
   honglian_info:
     "每 khi  bạn 受到来自其他角色的 sát thương ，可以弃置 sát thương 来源的所有红色牌",
   jieyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色手牌令场上所有角色受到一点火焰 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色手牌令场上所有角色受到一点火焰 sát thương ",
   diyguhuo_info: "Tỏa định kỹ，准备阶段， bạn 摸两张牌，然后弃置区域内的两张牌",
   diychanyuan_info: "Tỏa định kỹ，杀死 bạn 的角色失去一 sinh lực 上限",
   zonghuo_info:
@@ -1565,7 +1567,7 @@ export const translate_diy = {
   shaoying_info:
     "每 khi  bạn 造成一次火焰 sát thương ，可指定距离受 sát thương 角色1以内的另一名角色，并展示牌堆顶的一张牌，若此牌 là 红色，该角色受到一点火焰 sát thương ",
   juedao_info:
-    "出牌阶段， bạn 可以弃置一张手牌，横置 bạn 的武将牌；Tỏa định kỹ，若 bạn 的武将牌横置，则 bạn 计算至其他角色的距离和其他角色计算至 bạn 的距离均+1。",
+    "  giai đoạn ra bài， bạn 可以弃置一张手牌，横置 bạn 的武将牌；Tỏa định kỹ，若 bạn 的武将牌横置，则 bạn 计算至其他角色的距离和其他角色计算至 bạn 的距离均+1。",
   geju_info:
     "准备阶段开始时， bạn 可以摸X张牌（X là 攻击范围内不含有 bạn 的势力数）。",
   siji_info:
@@ -1582,7 +1584,7 @@ export const translate_diy = {
   ns_zanghong: "臧洪",
   nsshimeng: "誓盟",
   nsshimeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择任意名角色。这些角色依次选择一项：⒈摸一张牌。⒉使用一张【杀】。然后若选择前者角色数大于选择后者的角色数，则 bạn 获得1点护甲并失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择任意名角色。这些角色依次选择一项：⒈摸一张牌。⒉使用一张【杀】。然后若选择前者角色数大于选择后者的角色数，则 bạn 获得1点护甲并失去1 sinh lực 。",
   ns_ruanji: "阮籍",
   nsshizui: "酾醉",
   nsshizui_info:
@@ -1597,7 +1599,7 @@ export const translate_diy = {
   ns_zhonglimu: "钟离牧",
   nskuanhuai: "宽怀",
   nskuanhuai_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以从弃牌堆中获得一张非基本牌。若如此做： bạn 本阶段内不能使用基本牌，且本回合的弃牌阶段结束时， bạn 可以依次使用本阶段内弃置的基本牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以从弃牌堆中获得一张非基本牌。若如此做： bạn 本阶段内不能使用基本牌，且本回合的弃牌阶段结束时， bạn 可以依次使用本阶段内弃置的基本牌。",
   nsdingbian: "定边",
   nsdingbian_info:
     "Tỏa định kỹ。 khi  bạn 于回合内使用锦囊牌 hoặc 装备牌后， bạn 令自己本回合的手牌上限-1且选择一项：⒈从牌堆获得一张基本牌。⒉令一种基本牌于本回合内不计入手牌上限。",
@@ -1624,7 +1626,7 @@ export const translate_diy = {
   ns_caimao: "蔡瑁",
   nsdingzhou: "定州",
   nsdingzhou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名区域内有牌的其他角色。 bạn 随机获得其区域内的一张牌，然后摸一张牌。若 bạn 以此法获得了两张颜色不同的牌，则 bạn 失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名区域内有牌的其他角色。 bạn 随机获得其区域内的一张牌，然后摸一张牌。若 bạn 以此法获得了两张颜色不同的牌，则 bạn 失去1 sinh lực 。",
   ol_guohuai_ab: "郭淮",
   junk_zhangrang_ab: "张让",
   old_jiakui_ab: "贾逵",
@@ -1670,7 +1672,7 @@ export const translate_gujian = {
 
   yunyou: "云游",
   yunyou_info:
-    "每两轮限一次，出牌阶段， bạn 可以发现一张地图牌本局未使用过的地图牌并使用之",
+    "每两轮限一次，  giai đoạn ra bài， bạn 可以发现一张地图牌本局未使用过的地图牌并使用之",
   xuanzhen: "玄阵",
   // xuanzhen_bg:'阵',
   xuanzhen_info:
@@ -1689,7 +1691,7 @@ export const translate_gujian = {
   lingyan: "灵偃",
   lingyan_bg: "偃",
   lingyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 điểm số 与武将牌上的牌均不同的手牌置于武将牌上，然后获得与其花色对应的一枚偃甲蛋",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 điểm số 与武将牌上的牌均不同的手牌置于武将牌上，然后获得与其花色对应的一枚偃甲蛋",
   xunjian: "寻剑",
   xunjian_info:
     "Tỏa định kỹ，每 khi bạn sử dụng  hoặc 打出一张牌，若牌堆中有同名牌， bạn 有X的机率获得之，X là  bạn 的“灵偃”牌数/13",
@@ -1703,7 +1705,7 @@ export const translate_gujian = {
     "Tỏa định kỹ，奇数游戏轮次开始时， bạn 获得潜行直到下一轮开始；偶数游戏轮次开始时， bạn 随机获得一张机关牌",
   xuanci: "旋刺",
   xuanci_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♣︎ 牌 khi 作飞镖使用；Tỏa định kỹ， bạn 使用飞镖无距离限制， bạn 使用飞镖后对目标结算后视 là 对目标使用一张杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♣︎ 牌 khi 作飞镖使用；Tỏa định kỹ， bạn 使用飞镖无距离限制， bạn 使用飞镖后对目标结算后视 là 对目标使用一张杀",
   humeng: "湖梦",
   humeng_sub: "偃甲谢衣",
   humeng_info:
@@ -1728,7 +1730,8 @@ export const translate_gujian = {
   lianjing_info:
     "每两轮限一次，回合结束后， bạn 可以选择至多2名其他角色，将其他角色移出游戏，然后 bạn 与所选的角色依次进行一个回合",
   zuiji: "醉饮",
-  zuiji_info: "出牌阶段， bạn 可以将一张手牌 hoặc 装备牌 khi 作酒使用",
+  zuiji_info:
+    "  giai đoạn ra bài， bạn 可以将一张手牌 hoặc 装备牌 khi 作酒使用",
   manwu: "曼舞",
   manwu_info:
     "在一名角色的 Giai đoạn kết thúc ，若其手牌数 là 全场最少 hoặc 之一， bạn 可以令其摸一张牌",
@@ -1747,7 +1750,7 @@ export const translate_gujian = {
     "濒死阶段， bạn 可以与一名体力值不超过 bạn 的体力上限的角色拼点，若 bạn 赢， bạn 失去一 sinh lực 上限并将体力值回复至与该角色相同；若 bạn 没赢， bạn 立即死亡",
   chizhen: "驰阵",
   chizhen_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸X张牌并弃置X张牌，若 bạn 弃置了杀，可以视 là 使用一张决斗（X là  bạn 已损失的体力值且至少 là 1）",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸X张牌并弃置X张牌，若 bạn 弃置了杀，可以视 là 使用一张决斗（X là  bạn 已损失的体力值且至少 là 1）",
   xidie: "戏蝶",
   xidie2: "戏蝶",
   xidie_info:
@@ -1798,7 +1801,8 @@ export const translate_gujian = {
     "Hạn định kỹ，濒死阶段， bạn 可以复原武将牌，弃置所有牌并摸三张牌，然后将体力回复至1；若如此做， bạn 失去技能【反噬】，获得技能【绝境】，并于两回合后立即死亡",
 
   yanjia: "偃甲",
-  yanjia_info: "出牌阶段， bạn 可以将两张非特殊装备牌合成 là 一张强化装备",
+  yanjia_info:
+    "  giai đoạn ra bài， bạn 可以将两张非特殊装备牌合成 là 一张强化装备",
   xiuhua: "袖花",
   xiuhua_info:
     "每 khi 一件其他角色的装备因被替换 hoặc 弃置进入弃牌堆， bạn 可以获得之",
@@ -1812,7 +1816,7 @@ export const translate_gujian = {
     "在 bạn 的回合内， bạn 可以弃置一张装备牌，并展示牌堆顶的一张牌，若其 là 装备牌， bạn 须将其交给任意一张角色并对其造成一点 sát thương ，否则 bạn 摸一张牌",
   jizhan: "疾战",
   jizhan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将移动到任意一名角色的前一位，视 là 对其使用了一张不计入出杀次数的杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以将移动到任意一名角色的前一位，视 là 对其使用了一张不计入出杀次数的杀",
   qianjun: "千军",
   qianjun_info:
     "每 khi bạn sử dụng 一张杀， bạn 可以弃置一张牌，令距离目标1以内的所有角色成 là 额外目标",
@@ -1823,11 +1827,11 @@ export const translate_gujian = {
   yangming: "养命",
   yangming2: "养命",
   xuanning_info:
-    "出牌阶段， bạn 可以弃置一基本牌，获得至多3个玄凝标记。 khi  bạn 受到 sát thương 时， bạn 失去一枚玄凝标记， sát thương 来源随机弃置一张牌",
+    "  giai đoạn ra bài， bạn 可以弃置一基本牌，获得至多3个玄凝标记。 khi  bạn 受到 sát thương 时， bạn 失去一枚玄凝标记， sát thương 来源随机弃置一张牌",
   liuguang_info:
     "准备阶段，若 bạn 有玄凝标记， bạn 可以弃置一枚玄凝标记，选择至多三名角色依次令其选择一项：弃置一张牌， hoặc 受到一点 sát thương ，并终止流光结算",
   yangming_info:
-    "出牌阶段， bạn 可以弃置一张红色牌，并在下个出牌阶段结束时令距离1以内的任意名角色回复一 sinh lực ，在此之前不可再次发动",
+    "  giai đoạn ra bài， bạn 可以弃置一张红色牌，并在下个  giai đoạn ra bài结束时令距离1以内的任意名角色回复一 sinh lực ，在此之前不可再次发动",
   zhaolu: "朝露",
   jiehuo: "劫火",
   yuling: "御灵",
@@ -1838,11 +1842,11 @@ export const translate_gujian = {
   zhaolu_info:
     "Tỏa định kỹ，每隔X回合， bạn 流失一 sinh lực 上限，每 khi  bạn 受到一点 sát thương  hoặc 有人死亡，视 là 减少两个回合，X là 现存角色数且至多 là 5",
   jiehuo_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以对一名其他角色造成两点火焰 sát thương ，然后死亡",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以对一名其他角色造成两点火焰 sát thương ，然后死亡",
   yuling_info:
-    "Tỏa định kỹ， bạn 没有摸牌和弃牌阶段， bạn 的手牌数始终 là 5， bạn 在一个出牌阶段最多使用X+2张牌，X là  bạn 的体力上限",
+    "Tỏa định kỹ， bạn 没有摸牌和弃牌阶段， bạn 的手牌数始终 là 5， bạn 在一个  giai đoạn ra bài最多使用X+2张牌，X là  bạn 的体力上限",
   yuling_info_alter:
-    "Tỏa định kỹ， bạn 没有摸牌和弃牌阶段， bạn 的手牌数始终 là 5， bạn 在一个出牌阶段最多使用X+1张牌，X là  bạn 的体力上限",
+    "Tỏa định kỹ， bạn 没有摸牌和弃牌阶段， bạn 的手牌数始终 là 5， bạn 在一个  giai đoạn ra bài最多使用X+1张牌，X là  bạn 的体力上限",
 };
 
 export const translate_gwent = {
@@ -1916,7 +1920,7 @@ export const translate_gwent = {
     "准备阶段， bạn 可以发现一张牌堆中的牌，若 bạn 手牌中有同名牌， bạn 可以改 là 造成一点火属性 sát thương Tỏa định kỹ。准备阶段开始时， bạn 随机切换至一种形态",
   sqlonghuo: "龙火",
   sqlonghuo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置所有手牌并摸等量的牌，若敌方角色手牌中与 bạn 弃置的牌同名的牌，则随机弃置其中一张。准备阶段开始时， bạn 随机切换至一种形态",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置所有手牌并摸等量的牌，若敌方角色手牌中与 bạn 弃置的牌同名的牌，则随机弃置其中一张。准备阶段开始时， bạn 随机切换至一种形态",
   sqlongwu: "龙舞",
   sqlongwu_info:
     " Giai đoạn kết thúc ， bạn 可以摸X张牌，然后可以使用一张牌，X là 手牌中同名牌数最多的牌的数量。准备阶段开始时， bạn 随机切换至一种形态",
@@ -1936,86 +1940,88 @@ export const translate_gwent = {
   gwjinli: "金醴",
   gwjinli_jiu: "先祖麦酒",
   gwjinli_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，并将一张先祖麦酒置于一名角色的武将牌上",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，并将一张先祖麦酒置于一名角色的武将牌上",
   gw_xianzumaijiu: "先祖麦酒",
   gw_xianzumaijiu_info:
-    "出牌阶段对自己使用， bạn 使用下一张杀造成 sát thương 后，令所有友方角色摸一张牌；濒死阶段，对自己使用，回复1 sinh lực ",
+    "  giai đoạn ra bài对自己使用， bạn 使用下一张杀造成 sát thương 后，令所有友方角色摸一张牌；濒死阶段，对自己使用，回复1 sinh lực ",
   gwliaotian: "燎天",
   gwliaotian_info:
-    "出牌阶段限2次，若 bạn 有至少两张手牌且颜色均相同， bạn 可以重铸 bạn 的全部手牌，并视 là 对一名随机敌方角色使用一张不计入出杀次数的杀",
+    "  giai đoạn ra bài限2次，若 bạn 有至少两张手牌且颜色均相同， bạn 可以重铸 bạn 的全部手牌，并视 là 对一名随机敌方角色使用一张不计入出杀次数的杀",
   gwmaoxian_yioufeisi: "伊欧菲斯",
   gwmaoxian_yioufeisi_info:
-    "选择两名角色，令目标依次视 là 对对方使用一张杀，然后结束出牌阶段",
+    "选择两名角色，令目标依次视 là 对对方使用一张杀，然后结束  giai đoạn ra bài",
   gwmaoxian_luoqi: "罗契",
   gwmaoxian_luoqi_info:
-    "选择一名角色视 là 对其使用一张不计入出杀次数的杀，然后所有其他角色可以对目标使用一张杀，然后结束出牌阶段",
+    "选择一名角色视 là 对其使用一张不计入出杀次数的杀，然后所有其他角色可以对目标使用一张杀，然后结束  giai đoạn ra bài",
   gwmaoxian_jieluote: "杰洛特",
   gwmaoxian_jieluote_info:
-    "对一名角色造成一点 sát thương ，若目标体力值大于2且 là 全场最多，改 là 造成2点 sát thương ，然后结束出牌阶段",
+    "对一名角色造成一点 sát thương ，若目标体力值大于2且 là 全场最多，改 là 造成2点 sát thương ，然后结束  giai đoạn ra bài",
   gwmaoxian_yenaifa: "叶奈法",
   gwmaoxian_yenaifa_info:
-    "对至多3名随机敌方角色施加一个随机负面效果，然后结束出牌阶段",
+    "对至多3名随机敌方角色施加一个随机负面效果，然后结束  giai đoạn ra bài",
   gwmaoxian_telisi: "特丽斯",
   gwmaoxian_telisi_info:
-    "对至多3名随机友方角色施加一个随机正面效果，然后结束出牌阶段",
+    "对至多3名随机友方角色施加一个随机正面效果，然后结束  giai đoạn ra bài",
   gwmaoxian_hengsaite: "亨赛特",
   gwmaoxian_hengsaite_info:
-    "视 là 使用一张万箭齐发，每 khi 有一名角色因此受到 sát thương ， bạn 获得一张杀，然后结束出牌阶段",
+    "视 là 使用一张万箭齐发，每 khi 有一名角色因此受到 sát thương ， bạn 获得一张杀，然后结束  giai đoạn ra bài",
   gwmaoxian_fuertaisite: "弗尔泰斯特",
-  gwmaoxian_fuertaisite_info: "令至多两名角色各获得一点护甲，然后结束出牌阶段",
+  gwmaoxian_fuertaisite_info:
+    "令至多两名角色各获得一点护甲，然后结束  giai đoạn ra bài",
   gwmaoxian_laduoweide: "拉多维德",
   gwmaoxian_laduoweide_info:
-    "令一名角色的非Tỏa định kỹ失效直到其下一回合结束，并对其造成一点 sát thương ，然后结束出牌阶段",
+    "令一名角色的非Tỏa định kỹ失效直到其下一回合结束，并对其造成一点 sát thương ，然后结束  giai đoạn ra bài",
   gwmaoxian_enxier: "恩希尔",
   gwmaoxian_enxier_info:
-    "与一名手牌并不超过1的其他角色交换手牌，然后结束出牌阶段",
+    "与一名手牌并不超过1的其他角色交换手牌，然后结束  giai đoạn ra bài",
   gwmaoxian_fulisi: "符里斯",
   gwmaoxian_fulisi_info:
-    "选择至多三名角色，观看目标的手牌并可以弃置其中1~2张，然后结束出牌阶段",
+    "选择至多三名角色，观看目标的手牌并可以弃置其中1~2张，然后结束  giai đoạn ra bài",
   gwmaoxian_kaerweite: "卡尔维特",
-  gwmaoxian_kaerweite_info: "获得至多两名角色各一张手牌，然后结束出牌阶段",
+  gwmaoxian_kaerweite_info:
+    "获得至多两名角色各一张手牌，然后结束  giai đoạn ra bài",
   gwmaoxian_bulanwang: "布兰王",
   gwmaoxian_bulanwang_info:
-    "弃置至多2张牌并摸数量等于弃牌数2倍的牌，跳过弃牌阶段，然后结束出牌阶段",
+    "弃置至多2张牌并摸数量等于弃牌数2倍的牌，跳过弃牌阶段，然后结束  giai đoạn ra bài",
   gwmaoxian_kuite: "奎特",
   gwmaoxian_kuite_info:
-    "视 là 对一名手牌数不小于 bạn 的角色连续使用2张决斗，然后结束出牌阶段",
+    "视 là 对一名手牌数不小于 bạn 的角色连续使用2张决斗，然后结束  giai đoạn ra bài",
   gwmaoxian_haluo: "哈洛",
   gwmaoxian_haluo_info:
-    "对所有体力值全场最少的角色造成一点 sát thương ，然后结束出牌阶段",
+    "对所有体力值全场最少的角色造成一点 sát thương ，然后结束  giai đoạn ra bài",
   gwmaoxian_dagong: "达贡",
   gwmaoxian_dagong_info:
-    "视 là 同时使用刺骨寒霜、蔽日浓雾和倾盆大雨，然后结束出牌阶段",
+    "视 là 同时使用刺骨寒霜、蔽日浓雾和倾盆大雨，然后结束  giai đoạn ra bài",
   gwmaoxian_gaier: "盖尔",
   gwmaoxian_gaier_info:
-    "令一名角色增加 hoặc 减少一 sinh lực 和体力上限，然后结束出牌阶段",
+    "令一名角色增加 hoặc 减少一 sinh lực 和体力上限，然后结束  giai đoạn ra bài",
   gwmaoxian_airuiting: "艾瑞汀",
   gwmaoxian_airuiting_info:
-    "令所有其他角色选择一项：使用一张杀， hoặc 失去一 sinh lực ，然后结束出牌阶段",
+    "令所有其他角色选择一项：使用一张杀， hoặc 失去一 sinh lực ，然后结束  giai đoạn ra bài",
   gwmaoxian_aisinie: "埃丝涅",
   gwmaoxian_aisinie_info:
-    "回复一 sinh lực 并获得任意一张银卡法术，然后结束出牌阶段",
+    "回复一 sinh lực 并获得任意一张银卡法术，然后结束  giai đoạn ra bài",
   gwmaoxian_falanxisika: "法兰茜斯卡",
   gwmaoxian_falanxisika_info:
-    "随机观看3张金卡法术并使用其中一张，然后结束出牌阶段",
+    "随机观看3张金卡法术并使用其中一张，然后结束  giai đoạn ra bài",
   gwmaoxian_huoge: "霍格",
   gwmaoxian_huoge_info:
-    "观看牌堆顶的6张牌，使用至多2张，然后弃掉其余的牌，然后结束出牌阶段",
+    "观看牌堆顶的6张牌，使用至多2张，然后弃掉其余的牌，然后结束  giai đoạn ra bài",
   gwmaoxian: "冒险",
   gwhuanbi: "幻笔",
   gwhuanbi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，并创造一张冒险牌，然后随机选择一名有手牌的角色，被选中的角色可以交给 bạn 一张手牌并获得一张该牌的复制",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，并创造一张冒险牌，然后随机选择一名有手牌的角色，被选中的角色可以交给 bạn 一张手牌并获得一张该牌的复制",
   gwminxiang: "冥想",
   gwminxiang_old_info:
     " Giai đoạn kết thúc ， bạn 可以选择一张本回合使用过的基本牌 hoặc 普通锦囊牌并选择两名其他角色，令目标分别视 là 对对方使用一张此牌的复制",
   gwminxiang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张基本牌 hoặc 普通锦囊牌并摸一张牌，然后选择其他两名角色，令目标分别视 là 对对方使用一张 bạn 弃置的牌的同名牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张基本牌 hoặc 普通锦囊牌并摸一张牌，然后选择其他两名角色，令目标分别视 là 对对方使用一张 bạn 弃置的牌的同名牌",
   gwlangshi: "狼噬",
   gwlangshi_info:
     "每 khi  bạn 造成一次 sát thương ， bạn 可以对一名体力值不小于受 sát thương 角色的其他角色造一点 sát thương ",
   gwjingshi: "血契",
   gwjingshi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以猜测手牌中黑色牌最多的角色是谁，若猜对， bạn 可以观看所有其他角色的手牌并获得任意一张",
+    "1 lần trong giai đoạn ra bài， bạn 可以猜测手牌中黑色牌最多的角色是谁，若猜对， bạn 可以观看所有其他角色的手牌并获得任意一张",
   gwjingtian: "经天",
   gwjingtian_info:
     "Tỏa định kỹ，牌堆顶的9张牌对 bạn 始终可见； bạn 始终跳过摸牌阶段，改 là 获得3枚“经天”标记；每名角色的回合限一次， bạn 可以在任意时间点移去一枚“经天”标记，然后获得牌堆顶的一张牌",
@@ -2030,17 +2036,17 @@ export const translate_gwent = {
     "Tỏa định kỹ， bạn 防止一切 sát thương ；准备阶段， bạn 须弃置一名其他角色的一张手牌；若 bạn 以此法累计弃置弃置的总 điểm số 达到了24， bạn 变身 là 汉姆多尔",
   gwgouhun: "勾魂",
   gwgouhun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以交给一名有手牌的其他角色一张手牌，然后令其选择一项：1. 将手牌中与此牌花色相同的牌（至少一张）交给 bạn ；2. 弃置手牌中与此牌花色不同的牌（至少一张）；3. 进入混乱状态直到下一回合结束",
+    "1 lần trong giai đoạn ra bài， bạn 可以交给一名有手牌的其他角色一张手牌，然后令其选择一项：1. 将手牌中与此牌花色相同的牌（至少一张）交给 bạn ；2. 弃置手牌中与此牌花色不同的牌（至少一张）；3. 进入混乱状态直到下一回合结束",
   gw_wuyao: "雾妖",
   gw_wuyao_info: "在 bạn 行动时可 khi 作杀使用；回合结束后，从手牌中消失",
   gw_lang: "狼",
   gw_lang_info: "在 bạn 行动时可 khi 作酒使用；回合结束后，从手牌中消失",
   gwyewu: "叶舞",
   gwyewu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，并弃置一名随机敌人的一张随机牌；若目标弃置的牌与 bạn 弃置的牌颜色相同，则重复发动；每以此法弃置一张敌方角色的手牌， bạn 获得一张【雾妖】；每以此法弃置一张敌方角色的手牌， bạn 获得一张【狼】",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，并弃置一名随机敌人的一张随机牌；若目标弃置的牌与 bạn 弃置的牌颜色相同，则重复发动；每以此法弃置一张敌方角色的手牌， bạn 获得一张【雾妖】；每以此法弃置一张敌方角色的手牌， bạn 获得一张【狼】",
   shuangxi: "霜袭",
   shuangxi_info:
-    "每两轮限一次，出牌阶段， bạn 可以视 là 使用一张【刺骨寒霜】；若 bạn 在本回合造成过 sát thương ，改 là 使用【白霜】",
+    "每两轮限一次，  giai đoạn ra bài， bạn 可以视 là 使用一张【刺骨寒霜】；若 bạn 在本回合造成过 sát thương ，改 là 使用【白霜】",
   gwfengshi: "风蚀",
   gwfengshi_info:
     " Giai đoạn kết thúc ， bạn 可以选择一项：1.  là 自己施加一个随机负面效果，并对两名随机敌人施加一个随机负面效果；2.  là 自己施加两个随机正面效果，并对一名随机敌人施加一个随机正面效果",
@@ -2056,14 +2062,14 @@ export const translate_gwent = {
     "Tỏa định kỹ， bạn 造成的 sát thương +X，X là  bạn 到该角色距离的一半，向下取整； Giai đoạn kết thúc ，若 bạn 连续两轮未造成 sát thương ， bạn 切换至沉睡状态",
   julian: "巨敛",
   julian_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸若干张牌直到 bạn 的手牌数 là 全场最多 hoặc 之一",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸若干张牌直到 bạn 的手牌数 là 全场最多 hoặc 之一",
   gwfusheng: "复生",
   gwfusheng_info:
     " khi 一名未翻面的角色进入濒死状态时， bạn 可以令其翻面并回复一 sinh lực ，然后 bạn 与其各摸一张牌",
   gwqinwu: "琴舞",
   gwqinwu2: "琴舞",
   gwqinwu_info:
-    "1 lần trong giai đoạn hành động，每 khi bạn sử dụng 一张基本牌， bạn 可以令一名角色摸一张牌并获得技能【琴舞】直到其下一回合结束",
+    "1 lần trong giai đoạn ra bài，每 khi bạn sử dụng 一张基本牌， bạn 可以令一名角色摸一张牌并获得技能【琴舞】直到其下一回合结束",
   huanshu: "幻术",
   huanshu2: "幻术",
   huanshu3: "幻术",
@@ -2071,7 +2077,7 @@ export const translate_gwent = {
     " Giai đoạn kết thúc ， bạn 可以将一张手牌背面朝上置于 bạn 的武将牌上； khi 一名敌方角色使用一张与之颜色相同的锦囊牌时， bạn 展示并移去此牌，取消锦囊的效果，然后摸两张牌；准备阶段， bạn 移去武将牌上的“幻术”牌",
   gwjieyin: "结印",
   gwjieyin_info:
-    "出牌阶段， bạn 可以视 là 使用瘟疫、燕子药水 hoặc 昆恩法印（不能重复使用同一法术），技能两轮重置一次",
+    "  giai đoạn ra bài， bạn 可以视 là 使用瘟疫、燕子药水 hoặc 昆恩法印（不能重复使用同一法术），技能两轮重置一次",
   zhengjun: "整军",
   zhengjun_info:
     "Tỏa định kỹ，每 khi bạn sử dụng  hoặc 打出一张卡牌，若这是 bạn 在本局游戏中使用 hoặc 打出的第二张与之同名的牌， bạn 增加一 sinh lực 和体力上限； Giai đoạn kết thúc ， bạn 可以观看牌堆顶的X张牌并获得其中一张，X là  bạn 以此法增加的体力上限数",
@@ -2080,22 +2086,22 @@ export const translate_gwent = {
     "准备阶段，若 bạn 的手牌数 là 全场最少 hoặc 之一， bạn 可以获得一张十字召唤",
   jielue: "劫掠",
   jielue_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 从两个随机队友处各获得一张可使用的牌并依次使用之，然后被拿牌的队友摸一张牌",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 从两个随机队友处各获得一张可使用的牌并依次使用之，然后被拿牌的队友摸一张牌",
   jielue_old_info:
     " khi  bạn 于回合内首次使用基本牌时， bạn 可以获得两张该牌的复制（使用复制的牌时不触发此技能）",
   gwfengchi: "风驰",
   gwfengchi_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 随机观看3个可以在出牌阶段使用的技能，并获得其中一个技能直到此阶段结束",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 随机观看3个可以在  giai đoạn ra bài使用的技能，并获得其中一个技能直到此阶段结束",
   gwjushi: "巨噬",
   gwjushi2: "巨噬",
   gwjushi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一名距离1以内的其他角色的一张随机牌置于 bạn 的武将牌上； khi  bạn 受到 sát thương 后，令“巨噬”牌回到原来的位置；准备阶段， bạn 获得武将牌上的“巨噬”牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一名距离1以内的其他角色的一张随机牌置于 bạn 的武将牌上； khi  bạn 受到 sát thương 后，令“巨噬”牌回到原来的位置；准备阶段， bạn 获得武将牌上的“巨噬”牌",
   bolang: "搏浪",
   bolang_info:
     "准备阶段， bạn 可以观看牌堆顶的6张牌，然后将其中至多3张移入弃牌堆；每 khi  bạn 造成一次 sát thương ， bạn 可以从弃牌堆中获得一张以此法移入弃牌堆的牌（每回合限发动一次）",
   lingji: "灵计",
   lingji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以摸两张牌并弃置两张牌，若弃置的牌花色相同， bạn 获得一张随机铜卡并展示；若弃置的牌 điểm số 相同， bạn 获得一张随机银卡并展示",
+    "1 lần trong giai đoạn ra bài， bạn 可以摸两张牌并弃置两张牌，若弃置的牌花色相同， bạn 获得一张随机铜卡并展示；若弃置的牌 điểm số 相同， bạn 获得一张随机银卡并展示",
   gwjinyan: "金焰",
   gwjinyan_info:
     "Tỏa định kỹ，准备阶段，若游戏轮数 là 3的倍数， bạn 获得一张随机金卡； khi 游戏轮数不是3的倍数时， bạn 防止所有 sát thương ",
@@ -2115,7 +2121,7 @@ export const translate_gwent = {
     " bạn 不能使用、打出 hoặc 弃置此牌； Giai đoạn kết thúc ，若此牌在 bạn 手牌中， bạn 弃置之并随机弃置一张手牌",
   hupeng: "呼朋",
   hupeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并将一张杜达元帅置入一名角色的手牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并将一张杜达元帅置入一名角色的手牌",
   shuijian: "水箭",
   shuijian_info:
     "准备阶段， bạn 可以弃置一张手牌视 là 对所有敌方角色使用一张万箭齐发",
@@ -2124,22 +2130,22 @@ export const translate_gwent = {
     "Tỏa định kỹ，准备阶段，若游戏轮数 là 4的倍数， bạn 令所有敌方角色随机弃置一张手牌（若没有手牌改 là 受到一点火焰 sát thương ），然后在此回合结束后获得一个额外回合",
   yinzhang: "银杖",
   yinzhang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后发现一张银卡法术",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后发现一张银卡法术",
   gwtianbian: "天变",
   gwtianbian_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一项：随机使用一张对全场有正面效果的牌； hoặc 随机使用一张对全场有负面效果的牌",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一项：随机使用一张对全场有正面效果的牌； hoặc 随机使用一张对全场有负面效果的牌",
   gwxiaoshou: "枭首",
   gwxiaoshou_info:
-    "出牌阶段限两次， bạn 可以弃置一张牌对场上体力值最高（ hoặc 之一）的一名角色造成一点 sát thương ",
+    "  giai đoạn ra bài限两次， bạn 可以弃置一张牌对场上体力值最高（ hoặc 之一）的一名角色造成一点 sát thương ",
   gwjiquan: "集权",
   gwjiquan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以从任意名角色处各获得一张牌，每拿一张牌，被拿牌的角色视 là 对 bạn 使用一张杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以从任意名角色处各获得一张牌，每拿一张牌，被拿牌的角色视 là 对 bạn 使用一张杀",
   nuhou: "怒吼",
   nuhou_info:
     "每 khi  bạn 受到一次 sát thương ， bạn 可以弃置一张牌，然后对一名随机敌人造成一点 sát thương 并随机弃置其一张牌",
   shewu: "蛇舞",
   shewu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置1至3张牌然后摸3张牌；若 bạn 弃置了至少2张牌， bạn 本回合使用卡牌无视距离；若 bạn 弃置了3张牌， bạn 回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置1至3张牌然后摸3张牌；若 bạn 弃置了至少2张牌， bạn 本回合使用卡牌无视距离；若 bạn 弃置了3张牌， bạn 回复一 sinh lực ",
   gwzhanjiang: "斩将",
   gwzhanjiang_info:
     "每轮限一次，在一名角色的准备阶段， bạn 可以弃置一张牌，然后所有角色可以对该角色使用一张杀，出杀的角色在响应时摸一张牌， khi 有至少两名角色响应后终止结算",
@@ -2160,17 +2166,17 @@ export const translate_gwent = {
     "每 khi bạn sử dụng 一张杀， bạn 可以弃置一张牌并获得一个随机法印效果：1. 目标随机弃置两张牌；2. 目标进入混乱状态直到下一回合开始；3. 对目标造成一点火属性 sát thương ；4. 获得一点护甲；5. 令目标翻面并摸一张牌",
   gwbaquan: "霸权",
   gwbaquan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以获得一名其他角色的所有牌，然后还给其等量的牌，若 bạn 归还的牌均 là  bạn 获得的牌且该角色体力值不小于 bạn ， bạn 对其造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以获得一名其他角色的所有牌，然后还给其等量的牌，若 bạn 归还的牌均 là  bạn 获得的牌且该角色体力值不小于 bạn ， bạn 对其造成一点 sát thương ",
   hunmo: "魂墨",
   hunmo_info:
-    "出牌阶段，若 bạn 手牌数少于2， bạn 可以选择一名手牌数小于2的其他角色，观看牌堆顶的两张牌， bạn 获得一张并交给其另一张；若 bạn 手牌数不少2， bạn 可以选择一名手牌数不少于2的其他角色， bạn 弃置一张手牌，然后观看并弃置其一张手牌。每回合对同一名角色最多发动一次",
+    "  giai đoạn ra bài，若 bạn 手牌数少于2， bạn 可以选择一名手牌数小于2的其他角色，观看牌堆顶的两张牌， bạn 获得一张并交给其另一张；若 bạn 手牌数不少2， bạn 可以选择一名手牌数不少于2的其他角色， bạn 弃置一张手牌，然后观看并弃置其一张手牌。每回合对同一名角色最多发动一次",
   huihun: "回魂",
   huihun_info:
     " Giai đoạn kết thúc ， bạn 可以从弃牌堆中获得本回合使用的前两张红色牌",
   lanquan: "远略",
   lanquan_backup: "远略",
   lanquan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看牌堆顶的6张牌，并选择一张使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看牌堆顶的6张牌，并选择一张使用",
 
   chaoyong: "潮涌",
   chaoyong_info:
@@ -2309,13 +2315,13 @@ export const translate_hearth = {
     " khi bạn sử dụng  hoặc 打出一张牌后，暗影镜像变 là 该牌的复制",
   hsfashu_buwendingyibian: "不稳定异变",
   hsfashu_buwendingyibian_info:
-    "出牌阶段对一名角色使用，目标将一张手牌重铸 là 同类别的牌，本回合可重复使用此牌，最多使用X次，X là  khi 前体力值",
+    "  giai đoạn ra bài对一名角色使用，目标将一张手牌重铸 là 同类别的牌，本回合可重复使用此牌，最多使用X次，X là  khi 前体力值",
   hualing: "化灵",
   hualing_info:
     "每三轮限一次， bạn 可以选择一名其他角色，获得其一项技能，然后将其随机变形 là 一名强度高一级的武将",
   yibian: "异变",
   yibian_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động，若 bạn 没有不稳定异变，则将一张不稳定异变置于 bạn 的手牌",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài，若 bạn 没有不稳定异变，则将一张不稳定异变置于 bạn 的手牌",
   wxuying: "虚影",
   wxuying_info:
     "Tỏa định kỹ，准备阶段， bạn 移去手牌中的暗影镜像，然后获得一张暗影镜像（ khi bạn sử dụng  hoặc 打出一张牌后，暗影镜像变 là 该牌的复制）； khi  bạn 回合内使用暗影镜像时， bạn 摸一张牌； khi  bạn 回合外使用暗影镜像时， bạn 获得潜行直到下一回合开始",
@@ -2370,13 +2376,13 @@ export const translate_hearth = {
     "Tỏa định kỹ，每 khi  bạn 造成一次 sát thương ， bạn 获得两张随机鱼人牌",
   hsnitai: "拟态",
   hsnitai_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 获得一张随机炉石角色的技能牌",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 获得一张随机炉石角色的技能牌",
   hstianqi: "天启",
   hstianqi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一项：弃置一张手牌并随机装备一件天启骑士（不能替换现有装备）， hoặc 弃置一张装备区内的牌并摸两张牌； khi  bạn 以此法弃置天启骑士时，若 bạn 武将牌上没有对应的天启骑士， bạn 将其置于 bạn 的武将牌上；准备阶段，若 bạn 的武将牌上有4张天启骑士， bạn 获得游戏胜利",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一项：弃置一张手牌并随机装备一件天启骑士（不能替换现有装备）， hoặc 弃置一张装备区内的牌并摸两张牌； khi  bạn 以此法弃置天启骑士时，若 bạn 武将牌上没有对应的天启骑士， bạn 将其置于 bạn 的武将牌上；准备阶段，若 bạn 的武将牌上有4张天启骑士， bạn 获得游戏胜利",
   hspuzhao: "普照",
   hspuzhao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张 ♥︎ 牌，然后令至多三名随机友方角色各摸一张牌（若 bạn 无其他队友，改 là 摸两张牌）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张 ♥︎ 牌，然后令至多三名随机友方角色各摸一张牌（若 bạn 无其他队友，改 là 摸两张牌）",
   hsyanxin: "炎心",
   hsyanxin_info:
     "Tỏa định kỹ，在 bạn 摸牌时，若牌堆中有红色牌， bạn 摸到的首张牌必 là 红色",
@@ -2395,7 +2401,7 @@ export const translate_hearth = {
     "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 视 là 对一名随机敌人使用一张杀；若此杀被闪避， bạn 视 là 对另一名随机敌人使用一张杀",
   hllingxi: "灵息",
   hllingxi_info:
-    "出牌阶段， bạn 可以令一名已受伤的其他角色弃置两张牌并回复一 sinh lực （同阶段对一名角色限用一次）； Giai đoạn kết thúc ， bạn 可以回复一 sinh lực ",
+    "  giai đoạn ra bài， bạn 可以令一名已受伤的其他角色弃置两张牌并回复一 sinh lực （同阶段对一名角色限用一次）； Giai đoạn kết thúc ， bạn 可以回复一 sinh lực ",
   xiyong: "汐涌",
   xiyong_info:
     " Giai đoạn kết thúc ， bạn 可以摸一张牌并可以使用之，若 bạn 使用了此牌， bạn 再摸一张牌",
@@ -2403,10 +2409,10 @@ export const translate_hearth = {
   hsjixie_zhadan: "炸弹机器人",
   hsjixie_zhadan_pop: "炸弹",
   hsjixie_zhadan_info:
-    "出牌阶段对自己使用，对一名随机敌人造成一点火属性 sát thương ",
+    "  giai đoạn ra bài对自己使用，对一名随机敌人造成一点火属性 sát thương ",
   yindan: "引弹",
   yindan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张 ♠︎ 牌并流失一 sinh lực ，然后获得两张炸弹机器人",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 牌并流失一 sinh lực ，然后获得两张炸弹机器人",
   huanjue: "幻觉",
   huanjue_info:
     "每 khi bạn sử dụng 一张牌，若此牌指定了惟一目标， bạn 可以发现一张牌，然后可以代替此牌结算",
@@ -2422,7 +2428,7 @@ export const translate_hearth = {
   yinzong_info: "Tỏa định kỹ，每 khi  bạn 失去装备区内的牌， bạn 获得一张闪",
   tansuo: "探索",
   tansuo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后发现一张炉石衍生牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后发现一张炉石衍生牌",
   srjici: "棘刺",
   srjici_info:
     "Tỏa định kỹ，每 khi  bạn 造成一次 sát thương ， bạn 摸一张牌，受 sát thương 角色随机弃置一张牌",
@@ -2432,7 +2438,7 @@ export const translate_hearth = {
   azaowu: "造物",
   azaowu_backup: "造物",
   azaowu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张基本牌 khi 作任意一张基本牌使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张基本牌 khi 作任意一张基本牌使用",
   shouwang: "守望",
   shouwang2: "守望",
   shouwang_info:
@@ -2467,17 +2473,18 @@ export const translate_hearth = {
   hsqizhou: "祈咒",
   hsqizhou_feng: "风之祈咒",
   hsqizhou_feng_info:
-    "出牌阶段对自己使用，令所有目标的敌人打出一张杀 hoặc 受到一点雷属性 sát thương ",
+    "  giai đoạn ra bài对自己使用，令所有目标的敌人打出一张杀 hoặc 受到一点雷属性 sát thương ",
   hsqizhou_shui: "水之祈咒",
-  hsqizhou_shui_info: "出牌阶段对自己使用，回复两 sinh lực ",
+  hsqizhou_shui_info: "  giai đoạn ra bài对自己使用，回复两 sinh lực ",
   hsqizhou_huo: "火之祈咒",
-  hsqizhou_huo_info: "出牌阶段对任意角色使用，令目标受到一点火属性 sát thương ",
+  hsqizhou_huo_info:
+    "  giai đoạn ra bài对任意角色使用，令目标受到一点火属性 sát thương ",
   hsqizhou_tu: "土之祈咒",
-  hsqizhou_tu_info: "出牌阶段对任意其他角色使用，令目标获得一点护甲",
+  hsqizhou_tu_info: "  giai đoạn ra bài对任意其他角色使用，令目标获得一点护甲",
   kqizhou: "祈咒",
   kqizhou_info: "准备阶段，若 bạn 于上回合使用过锦囊牌，则可以获得一张元素祈咒",
   jingcu: "晶簇",
-  jingcu_info: "出牌阶段， bạn 可以减少一 sinh lực 上限并摸两张牌",
+  jingcu_info: "  giai đoạn ra bài， bạn 可以减少一 sinh lực 上限并摸两张牌",
   shengzhang: "生长",
   shengzhang_info:
     "Tỏa định kỹ，若 bạn 于弃牌阶段弃置了牌， bạn 增加一 sinh lực 上限",
@@ -2494,7 +2501,7 @@ export const translate_hearth = {
   fuhua: "腐化",
   fuhua2: "腐化",
   fuhua_info:
-    "出牌阶段， bạn 可以将一张毒交给一名没有魔血技能的其他角色，该角色选择一项：1. 获得技能魔血，此后每个 Giai đoạn kết thúc 需交给 bạn 一张手牌；2. 视 là  bạn 对其使用一张决斗",
+    "  giai đoạn ra bài， bạn 可以将一张毒交给一名没有魔血技能的其他角色，该角色选择一项：1. 获得技能魔血，此后每个 Giai đoạn kết thúc 需交给 bạn 一张手牌；2. 视 là  bạn 对其使用一张决斗",
   moxie: "魔血",
   moxie_info:
     "Tỏa định kỹ， khi  bạn 因【毒】失去体力时， bạn 改 là 摸两张牌； Giai đoạn kết thúc ， bạn 将一张随机手牌转化 là 毒。",
@@ -2513,7 +2520,7 @@ export const translate_hearth = {
     " Giai đoạn kết thúc ，若 bạn 手牌中有 ♠︎ 牌， bạn 可以令一名其他角色的非Tỏa định kỹ失效直到其下一回合结束",
   midian: "秘典",
   midian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张锦囊牌，然后随机获得三张锦囊牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张锦囊牌，然后随机获得三张锦囊牌",
   yuelu: "月露",
   yuelu_info:
     "在一名角色的濒死阶段， bạn 可以弃置一张黑色牌令其回复一 sinh lực 并获得一点护甲",
@@ -2524,7 +2531,7 @@ export const translate_hearth = {
     "准备阶段， bạn 可以令任意名手牌数多于 bạn 的角色各弃置一张手牌，然后 bạn 可以从弃置的牌中选择一张加入手牌",
   yushou: "御兽",
   yushou_info:
-    "出牌阶段， bạn 可以弃置一张牌并召唤一个随机的野兽宠物，回合开始阶段， bạn 随机失去一个宠物",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌并召唤一个随机的野兽宠物，回合开始阶段， bạn 随机失去一个宠物",
   yushou_misha: "米莎",
   yushou_misha_info: "每 khi  bạn 受到一次 sát thương ， bạn 获得一点护甲",
   yushou_huofu: "霍弗",
@@ -2550,7 +2557,7 @@ export const translate_hearth = {
     "本局对战中，每 khi bạn sử dụng 一张青玉牌， bạn 的手牌上限+1； khi  bạn 累计使用三张青玉牌后， bạn 可以于准备阶段摸一张牌； khi  bạn 累计使用九张青玉牌后， bạn 可以于 Giai đoạn kết thúc 摸一张牌",
   lianjin: "炼金",
   lianjin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并获得一张由三张随机牌组成的药水； khi  bạn 因弃置而失去药水牌时， bạn 随机获得药水的组成卡牌之一",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并获得一张由三张随机牌组成的药水； khi  bạn 因弃置而失去药水牌时， bạn 随机获得药水的组成卡牌之一",
   shouji: "收集",
   shouji_info:
     "每 khi bạn sử dụng 一张杀， bạn 可以获得一张目标随机手牌的复制；每 khi  bạn 的杀被闪避， bạn 可以获得一张目标随机非特殊装备牌的复制；每回合限各限一次",
@@ -2564,26 +2571,26 @@ export const translate_hearth = {
   peiyu_info:
     "准备阶段， bạn 可以令一名没有图腾的角色获得一个随机图腾直到其首次受到 sát thương ",
   peiyu_old_info:
-    "出牌阶段， bạn 可以弃置一张牌令一名没有图腾的角色获得一个随机图腾， hoặc 令一名有图腾的角色替换一个图腾； bạn 死亡时，其他角色失去以此法获得的图腾",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌令一名没有图腾的角色获得一个随机图腾， hoặc 令一名有图腾的角色替换一个图腾； bạn 死亡时，其他角色失去以此法获得的图腾",
   wzhanyi: "战意",
   wzhanyi_info:
-    " bạn 可以跳过出牌阶段，改 là 摸三张牌并展示之，将摸到的装备牌置于装备区，然后可以使用手牌中的杀",
+    " bạn 可以跳过  giai đoạn ra bài，改 là 摸三张牌并展示之，将摸到的装备牌置于装备区，然后可以使用手牌中的杀",
   shengteng: "升腾",
   shengteng_info:
     "Tỏa định kỹ，每 khi bạn sử dụng 锦囊牌造成 sát thương ， bạn 增加一 sinh lực 上限并回复一 sinh lực ",
   yuansu: "寂灭",
   yuansu_info:
-    "1 lần trong giai đoạn hành động，若 bạn 已损失的体力值不少于3， bạn 可以将体力上限降至与体力值相同，视 là 使用一张元素毁灭",
+    "1 lần trong giai đoạn ra bài，若 bạn 已损失的体力值不少于3， bạn 可以将体力上限降至与体力值相同，视 là 使用一张元素毁灭",
   nuyan: "怒焰",
   nuyan2: "怒焰",
   nuyan_backup: "怒焰",
   nuyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张红色牌 khi 作任意一张能造成 sát thương 的牌使用（不得是 bạn 本局以此法使用过的牌）",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张红色牌 khi 作任意一张能造成 sát thương 的牌使用（不得是 bạn 本局以此法使用过的牌）",
   nuyan2_info:
-    "出牌阶段限三次， bạn 可以失去一 sinh lực ，视 là 使用任意一张能造成 sát thương 的牌”",
+    "  giai đoạn ra bài限三次， bạn 可以失去一 sinh lực ，视 là 使用任意一张能造成 sát thương 的牌”",
   chouhuo: "仇火",
   chouhuo_info:
-    "觉醒技，Bắt đầu giai đoạn hành động，若 bạn 的怒焰技能已将可用的牌用完， bạn 失去一 sinh lực 上限，获得两点护甲，然后将怒焰的描述改 là “出牌阶段限三次， bạn 可以失去一 sinh lực ，视 là 使用任意一张能造成 sát thương 的牌”",
+    "觉醒技，Bắt đầu giai đoạn ra bài，若 bạn 的怒焰技能已将可用的牌用完， bạn 失去一 sinh lực 上限，获得两点护甲，然后将怒焰的描述改 là “  giai đoạn ra bài限三次， bạn 可以失去一 sinh lực ，视 là 使用任意一张能造成 sát thương 的牌”",
   hsdusu: "毒素",
   hsdusu_xueji: "血蓟",
   hsdusu_xueji_info: "随机弃置一名角色的2张装备牌",
@@ -2603,18 +2610,18 @@ export const translate_hearth = {
   hstuteng: "图腾",
   kuangluan: "狂乱",
   kuangluan2: "狂乱",
-  // kuangluan_info:'Tỏa định kỹ，每 khi  bạn 于回合内使用一张普通锦囊牌，便于出牌阶段结束时随机使用一张普通锦囊牌（随机指定目标）',
+  // kuangluan_info:'Tỏa định kỹ，每 khi  bạn 于回合内使用一张普通锦囊牌，便于  giai đoạn ra bài结束时随机使用一张普通锦囊牌（随机指定目标）',
   kuangluan_info:
     "Tỏa định kỹ，每 khi 一名其他角色对 bạn 造成 sát thương ，该角色进入混乱状态直到 khi 前回合结束",
   zengli: "赠礼",
   zengli_info:
-    "1 lần trong giai đoạn hành động， bạn 指定一名其他角色与 bạn 各装备一把武器",
+    "1 lần trong giai đoạn ra bài， bạn 指定一名其他角色与 bạn 各装备一把武器",
   xiubu: "修补",
   xiubu_info:
     "每 khi  bạn 装备一把未强化的武器， bạn 可以获得数量等同于武器攻击范围的随机零件",
   mobao: "魔爆",
   mobao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置至多三张黑色牌，然后对所有于上轮对 bạn 造成过 sát thương 的角色造成等同于 bạn 弃牌数的雷电 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置至多三张黑色牌，然后对所有于上轮对 bạn 造成过 sát thương 的角色造成等同于 bạn 弃牌数的雷电 sát thương ",
   xianji: "献祭",
   xianji2: "献祭",
   xianji3: "献祭",
@@ -2626,7 +2633,7 @@ export const translate_hearth = {
   maoxian: "奇旅",
   maoxian2: "奇旅",
   maoxian_info:
-    "出牌阶段限两次， bạn 可以发现一个技能并获得之（替换此前发现的技能）",
+    "  giai đoạn ra bài限两次， bạn 可以发现一个技能并获得之（替换此前发现的技能）",
   tanmi: "探秘",
   tanmi_info:
     "在一名其他角色的 Giai đoạn kết thúc ，若 bạn 没有手牌， bạn 可以摸两张牌并可以使用两张牌",
@@ -2635,13 +2642,13 @@ export const translate_hearth = {
     "Tỏa định kỹ，每 khi 其他角色于回合内首次使用非特殊卡牌指定 bạn  là 惟一目标， bạn 获得一张此牌的复制",
   tanbao_old: "探宝",
   tanbao_old_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置三张牌，然后展示牌堆顶的三张牌，然后获得其中任意张类别不同的牌；若三张牌类别均不相同， bạn 回复全部体力值",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置三张牌，然后展示牌堆顶的三张牌，然后获得其中任意张类别不同的牌；若三张牌类别均不相同， bạn 回复全部体力值",
   qianghuax: "强化",
   qianghuax_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张不同类别的牌，然后展示并获得与弃置的牌类别相同且价值更高的牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张不同类别的牌，然后展示并获得与弃置的牌类别相同且价值更高的牌",
   zhuizong: "追踪",
   zhuizong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张牌，观看牌堆顶的等同于弃牌数四倍的牌，然后获得其中的一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张牌，观看牌堆顶的等同于弃牌数四倍的牌，然后获得其中的一张牌",
   xunbao: "寻宝",
   xunbao2: "寻宝",
   xunbao_info:
@@ -2659,7 +2666,7 @@ export const translate_hearth = {
     "在任意一名其他角色的 Giai đoạn kết thúc ，若 bạn 于此回合内受过其 sát thương ， bạn 可以将一张传送门交给除此角色外的任意一名角色",
   bingyan: "冰焰",
   bingyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张红色牌 khi 作炽羽袭， hoặc 将一张黑色牌 khi 作惊雷闪使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张红色牌 khi 作炽羽袭， hoặc 将一张黑色牌 khi 作惊雷闪使用",
   hsshenqi: "神器",
   hsshenqi_morijingxiang: "末日镜像",
   hsshenqi_morijingxiang_info:
@@ -2685,10 +2692,10 @@ export const translate_hearth = {
     "每 khi  bạn 造成一次 sát thương ，若此 sát thương 是 bạn 本回合第一次造成 sát thương ， bạn 摸两张牌；否则 bạn 增加一 sinh lực 上限并回复一 sinh lực ",
   shifa: "魔瘾",
   shifa_info:
-    "Tỏa định kỹ，每 khi  bạn 于回合内使用一张非转化的普通锦囊牌， bạn 摸一张牌（每回合最多发动3次）；Bắt đầu giai đoạn hành động， bạn 令 bạn 与一名随机敌人各获得一张随机普通锦囊牌",
+    "Tỏa định kỹ，每 khi  bạn 于回合内使用一张非转化的普通锦囊牌， bạn 摸一张牌（每回合最多发动3次）；Bắt đầu giai đoạn ra bài， bạn 令 bạn 与一名随机敌人各获得一张随机普通锦囊牌",
   oldshifa: "魔瘾",
   oldshifa_info:
-    "Tỏa định kỹ，每 khi  bạn 于回合内使用一张非转化的普通锦囊牌， bạn 摸一张牌；Bắt đầu giai đoạn hành động， bạn 令 bạn 与一名随机敌人各获得一张随机普通锦囊牌",
+    "Tỏa định kỹ，每 khi  bạn 于回合内使用一张非转化的普通锦囊牌， bạn 摸一张牌；Bắt đầu giai đoạn ra bài， bạn 令 bạn 与一名随机敌人各获得一张随机普通锦囊牌",
   yuanzheng: "远征",
   yuanzheng_info:
     "每 khi  bạn 对距离1以外的角色使用一张牌， bạn 可以弃置目标区域内的一张牌",
@@ -2701,10 +2708,10 @@ export const translate_hearth = {
     "觉醒技， khi  bạn 进入濒死状态时， bạn 须将体力和体力上限变 là 2，并将武将牌翻至背面；在 bạn 的下一准备阶段， bạn 对所有其他角色造成两点火焰 sát thương ，在此之前， bạn 不能成 là 其他角色的卡牌的目标",
   yulu: "雨露",
   yulu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定任意名角色各摸一张牌，然后各弃置区域内的一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定任意名角色各摸一张牌，然后各弃置区域内的一张牌",
   oldyulu: "雨露",
   oldyulu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定任意名角色各摸两张牌，然后各弃置区域内的两张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定任意名角色各摸两张牌，然后各弃置区域内的两张牌",
   duzhang: "毒瘴",
   duzhang2: "毒瘴",
   duzhang_info:
@@ -2716,10 +2723,10 @@ export const translate_hearth = {
   chuidiao_info: "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 随机摸0~2张牌",
   fushi: "缚誓",
   fushi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名已受伤角色失去一 sinh lực 上限并回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名已受伤角色失去一 sinh lực 上限并回复一 sinh lực ",
   oldfushi: "缚誓",
   oldfushi_info:
-    "出牌阶段， bạn 可以令一名已受伤角色失去一 sinh lực 上限并回复一 sinh lực ",
+    "  giai đoạn ra bài， bạn 可以令一名已受伤角色失去一 sinh lực 上限并回复一 sinh lực ",
   hhudun: "护盾",
   hhudun_info:
     "Tỏa định kỹ，在每名角色的准备阶段，若 bạn 没有护甲， bạn 获得一点护甲；每 khi  bạn 的护甲抵消一次 sát thương ， bạn 摸一张牌",
@@ -2737,10 +2744,10 @@ export const translate_hearth = {
     "Tỏa định kỹ， bạn 的装备牌不占用手牌上限； Giai đoạn kết thúc ， bạn 将手牌中的每张装备牌转化 là 两张随机基本牌，每转化一张装备牌便回复一 sinh lực ",
   shixu: "时序",
   shixu_info:
-    "Tỏa định kỹ，所有角色于出牌阶段每消耗3秒，便须于 Giai đoạn kết thúc 弃置一张牌",
+    "Tỏa định kỹ，所有角色于  giai đoạn ra bài每消耗3秒，便须于 Giai đoạn kết thúc 弃置一张牌",
   qianghua: "绝手",
   qianghua_info:
-    "出牌阶段内， bạn 可以令一张 bạn 使用的基本牌 hoặc 普通锦囊牌额外结算一次，每回合限一次",
+    "  giai đoạn ra bài内， bạn 可以令一张 bạn 使用的基本牌 hoặc 普通锦囊牌额外结算一次，每回合限一次",
   jixuan: "疾旋",
   jixuan_info: "Tỏa định kỹ，回合结束后， bạn 摸一张牌进行一个额外的回合",
   biri: "蔽日",
@@ -2770,10 +2777,10 @@ export const translate_hearth = {
   hsmengjing_card_config: "梦境",
   hsmengjing_feicuiyoulong: "翡翠幼龙",
   hsmengjing_feicuiyoulong_info:
-    "出牌阶段对任意一名角色使用，对目标造成一点 sát thương ",
+    "  giai đoạn ra bài对任意一名角色使用，对目标造成一点 sát thương ",
   hsmengjing_huanxiaojiemei: "欢笑姐妹",
   hsmengjing_huanxiaojiemei_info:
-    "出牌阶段对一名已受伤角色使用，令目标恢复一 sinh lực ",
+    "  giai đoạn ra bài对一名已受伤角色使用，令目标恢复一 sinh lực ",
   hsmengjing_suxing: "苏醒",
   hsmengjing_suxing_info: "令所有其他角色流失一 sinh lực 并随机弃置两张牌",
   hsmengjing_mengye: "梦魇",
@@ -2785,16 +2792,19 @@ export const translate_hearth = {
   hszuzhou: "诅咒",
   hszuzhou_nvwudeganguo: "女巫的钳锅",
   hszuzhou_nvwudeganguo_info:
-    "出牌阶段对一名角色使用，目标弃置一张牌，然后随机获得一张炉石衍生牌",
+    "  giai đoạn ra bài对一名角色使用，目标弃置一张牌，然后随机获得一张炉石衍生牌",
   hszuzhou_nvwudepingguo: "女巫的苹果",
-  hszuzhou_nvwudepingguo_info: "出牌阶段对一名角色使用，目标获得两张杀",
+  hszuzhou_nvwudepingguo_info:
+    "  giai đoạn ra bài对一名角色使用，目标获得两张杀",
   hszuzhou_nvwudexuetu: "女巫的学徒",
   hszuzhou_nvwudexuetu_info:
-    "出牌阶段对没有咒降技能的角色使用，令目标非Tỏa định kỹ失效，并获得技能咒降直到下一回合结束",
+    "  giai đoạn ra bài对没有咒降技能的角色使用，令目标非Tỏa định kỹ失效，并获得技能咒降直到下一回合结束",
   hszuzhou_wushushike: "巫术时刻",
-  hszuzhou_wushushike_info: "出牌阶段对所有角色使用，将手牌中的闪替换 là 杀",
+  hszuzhou_wushushike_info:
+    "  giai đoạn ra bài对所有角色使用，将手牌中的闪替换 là 杀",
   hszuzhou_guhuo: "蛊惑",
-  hszuzhou_guhuo_info: "出牌阶段对一名其他角色使用，令其交给 bạn 一张牌",
+  hszuzhou_guhuo_info:
+    "  giai đoạn ra bài对一名其他角色使用，令其交给 bạn 一张牌",
   xjumo: "聚魔",
   xjumo_info: "Tỏa định kỹ， bạn 的手牌上限+3；若 bạn 已受伤，改 là +5",
   liehun: "裂魂",
@@ -2802,10 +2812,10 @@ export const translate_hearth = {
     "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 获得手牌中所有非基本、非特殊牌的复制",
   malymowang: "魔网",
   malymowang_info:
-    "Tỏa định kỹ， bạn 的锦囊牌在每回合中造成的首次 sát thương +1；Bắt đầu giai đoạn hành động， bạn 发现一张普通锦囊牌",
+    "Tỏa định kỹ， bạn 的锦囊牌在每回合中造成的首次 sát thương +1；Bắt đầu giai đoạn ra bài， bạn 发现一张普通锦囊牌",
   oldmalymowang: "魔网",
   oldmalymowang_info:
-    "Tỏa định kỹ， bạn 的锦囊牌造成的 sát thương +1；Bắt đầu giai đoạn hành động， bạn 发现一张普通锦囊牌",
+    "Tỏa định kỹ， bạn 的锦囊牌造成的 sát thương +1；Bắt đầu giai đoạn ra bài， bạn 发现一张普通锦囊牌",
   lingzhou: "灵咒",
   lingzhou_info:
     "每 khi bạn sử dụng 一张非转化的锦囊牌，可令一名角色摸一张牌 hoặc 回复一 sinh lực ",
@@ -2822,12 +2832,12 @@ export const translate_hearth = {
     "每 khi  bạn 的武将牌翻至正面时， bạn 可以指定一名角色视 là 对其使用了一张杀",
   enze: "恩泽",
   enze_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名角色令其手牌数与 bạn 相等（最多摸 hoặc 弃三张牌）",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名角色令其手牌数与 bạn 相等（最多摸 hoặc 弃三张牌）",
   oldenze: "恩泽",
   oldenze_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名角色令其手牌数与 bạn 相等",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名角色令其手牌数与 bạn 相等",
   enze_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名角色令其手牌数与 bạn 相等（最多摸 hoặc 弃两张牌）",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名角色令其手牌数与 bạn 相等（最多摸 hoặc 弃两张牌）",
   chongsheng: "重生",
   chongsheng_bg: "生",
   chongsheng_info:
@@ -2839,14 +2849,14 @@ export const translate_hearth = {
   guozai2: "过载",
   guozai2_bg: "载",
   guozai_info:
-    "1 lần trong giai đoạn hành động， bạn 可将手牌补至四张，并于此阶段结束时弃置等量的牌",
+    "1 lần trong giai đoạn ra bài， bạn 可将手牌补至四张，并于此阶段结束时弃置等量的牌",
   guozai_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可将手牌补至三张，并于此阶段结束时弃置等量的牌",
+    "1 lần trong giai đoạn ra bài， bạn 可将手牌补至三张，并于此阶段结束时弃置等量的牌",
   guozaix: "过载",
   guozaix2: "过载",
   guozaix2_bg: "载",
   guozaix_info:
-    "出牌阶段限两次， bạn 可将手牌补至四张，并于此阶段结束时弃置等量的牌",
+    "  giai đoạn ra bài限两次， bạn 可将手牌补至四张，并于此阶段结束时弃置等量的牌",
   oldhanshuang: "寒霜",
   oldhanshuang_info:
     "Tỏa định kỹ， bạn 使用黑色牌对一名未翻面角色造成 sát thương 后， bạn 令受 sát thương 角色翻面",
@@ -2859,7 +2869,7 @@ export const translate_hearth = {
   bingshi_info: "Tỏa định kỹ， bạn 死亡时，对所有其他角色造成一点 sát thương ",
   huanwu: "唤雾",
   huanwu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名角色增加一 sinh lực 上限，回复一 sinh lực ，并摸两张牌（每名角色限发动一次）",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名角色增加一 sinh lực 上限，回复一 sinh lực ，并摸两张牌（每名角色限发动一次）",
   fengnu: "风怒",
   fengnu_info:
     "Tỏa định kỹ， bạn 使用的任何卡牌无数量及距离限制； khi  bạn 于回合内重复使用同名卡牌时， bạn 摸一张牌（每回合最多以此法摸3张牌）",
@@ -2875,7 +2885,8 @@ export const translate_hearth = {
   kuixin_info:
     " Giai đoạn kết thúc ， bạn 可以获得一名手牌数不少于 bạn 的角色的一张手牌",
   hswuji: "无羁",
-  hswuji_info: "出牌阶段结束时， bạn 可以摸X张牌，X là  bạn 本回合使用的卡牌数",
+  hswuji_info:
+    "  giai đoạn ra bài结束时， bạn 可以摸X张牌，X là  bạn 本回合使用的卡牌数",
   yanshu: "炎舞",
   yanshu_info:
     "每回合限一次， khi  bạn 弃置非基本牌后， bạn 可以获得一张流星火雨",
@@ -2895,7 +2906,7 @@ export const translate_hearth = {
     "出牌阶阶段限一次，若 bạn 的武将牌正面朝上且手牌数不大于 khi 前体力值， bạn 可以翻面并摸三张牌，若如此做， bạn 跳过本回合的弃牌阶段",
   aoshu: "奥术",
   aoshu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♠︎ 牌 khi 作无中生有使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♠︎ 牌 khi 作无中生有使用",
 
   qianhou: "千喉",
   qianhou_info:
@@ -2906,36 +2917,36 @@ export const translate_hearth = {
   xinci: "心刺",
   xinci_bg: "暗",
   xinci_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色牌令一名角色流失一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色牌令一名角色流失一 sinh lực ",
   zhongjia: "战甲",
   zhongjia_info:
     "Tỏa định kỹ，每 khi  bạn 受到一次 sát thương ， bạn 获得一点护甲； khi  bạn 的体力值大于1且大于手牌数时， bạn 的护甲不 là  bạn 抵挡 sát thương ",
   dunji: "盾击",
   dunji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以对攻击范围内的至多X名其他角色各造成一点 sát thương ，并失去等量的护甲，X là  bạn 的护甲数",
+    "1 lần trong giai đoạn ra bài， bạn 可以对攻击范围内的至多X名其他角色各造成一点 sát thương ，并失去等量的护甲，X là  bạn 的护甲数",
   qiaodong: "巧动",
   qiaodong_info: " bạn 可以将一张装备牌 khi 作闪使用 hoặc 打出",
   fengxian: "奉献",
   fengxian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令场上所有角色各弃置一张手牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以令场上所有角色各弃置一张手牌",
   zhanhou: "战吼",
   zhanhou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张防具牌并获得一点护甲",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张防具牌并获得一点护甲",
   oldzhanhou: "战吼",
-  oldzhanhou_info: "出牌阶段， bạn 可以弃置一张防具牌并获得一点护甲",
+  oldzhanhou_info: "  giai đoạn ra bài， bạn 可以弃置一张防具牌并获得一点护甲",
   anying: "暗影",
   anying_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以弃置一张黑色牌，失去技能圣光，并获得技能心刺",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以弃置一张黑色牌，失去技能圣光，并获得技能心刺",
   shijie: "视界",
   shijie_info:
     " Giai đoạn kết thúc ， bạn 可以获得一名其他角色的一张手牌，然后该角色摸一张牌",
   shengguang: "圣光",
   shengguang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色牌令一名角色回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色牌令一名角色回复一 sinh lực ",
   bingjia: "冰甲",
   bingjia2: "冰甲",
   bingjia_info:
-    "出牌阶段，若 bạn 武将牌上没有牌， bạn 可以将一张手牌背面朝上置于 bạn 的武将牌上， khi  bạn 成 là 其他角色的与此牌花色相同的牌的目标时， bạn 移去此牌，获得一点护甲，并且本回合内防止一切 sát thương ",
+    "  giai đoạn ra bài，若 bạn 武将牌上没有牌， bạn 可以将一张手牌背面朝上置于 bạn 的武将牌上， khi  bạn 成 là 其他角色的与此牌花色相同的牌的目标时， bạn 移去此牌，获得一点护甲，并且本回合内防止一切 sát thương ",
   bianxing: "变形",
   bianxing_info:
     " khi 一其他角色于回合内使用卡牌指定了惟一的其他目标后， bạn 可以用一张合理的基本牌替代此牌，每名角色的回合限一次",
@@ -2945,7 +2956,7 @@ export const translate_hearth = {
   mdzhoufu: "缚魂",
   mdzhoufu2: "缚魂",
   mdzhoufu_info:
-    "出牌阶段， bạn 可以将一张黑色手牌置于一名其他角色的武将牌上，在其判定时以此牌作 là 判定结果，然后 bạn 获得亮出的判定牌",
+    "  giai đoạn ra bài， bạn 可以将一张黑色手牌置于一名其他角色的武将牌上，在其判定时以此牌作 là 判定结果，然后 bạn 获得亮出的判定牌",
   zuzhou: "诅咒",
   zuzhou_info:
     "Tỏa định kỹ，准备阶段，若场上没有浮雷且 bạn 手牌中有 ♠︎ 牌， bạn 将牌堆中的一张浮雷置于 bạn 的判定区； khi 一名角色受到浮雷 sát thương 时， bạn 移去此浮雷",
@@ -2958,7 +2969,7 @@ export const translate_hearth = {
     "每回合限一次， khi  bạn 需要打出卡牌时， bạn 可以观看一名手牌数不多于 bạn 的角色的手牌并将其视 là  bạn 的手牌打出",
   tuteng: "图腾",
   tuteng_info:
-    "出牌阶段， bạn 可以获得一个随机基础图腾；每 khi  bạn 受到一次 sát thương ， bạn 随机失去一个图腾",
+    "  giai đoạn ra bài， bạn 可以获得一个随机基础图腾；每 khi  bạn 受到一次 sát thương ， bạn 随机失去一个图腾",
   zuling: "祖灵",
   zuling_info:
     "觉醒技，准备阶段，若 bạn 拥有至少3个图腾， bạn 失去一 sinh lực 上限，并将图腾描述中的“获得一个随机基础图腾”改 là “获得任意一个图腾（若有4个图腾则改 là 替换一个图腾）”",
@@ -2984,14 +2995,14 @@ export const translate_hearth = {
     "每 khi  bạn 因弃置而失去黑色牌，可对一名角色造成1点雷电 sát thương ，并随机弃置其一张牌，每回合限发动一次",
   fenliu: "分流",
   fenliu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去一 sinh lực 并获得3张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去一 sinh lực 并获得3张牌",
   hongxi: "虹吸",
   hongxi_info: "Tỏa định kỹ，每 khi 有一名角色死亡， bạn 将体力回复至体力上限",
   jihuo: "激活",
   jihuo_info: "在 bạn 的回合结束后， bạn 可以弃置一张手牌并进行一个额外的回合",
   jianren: "刃舞",
   jianren_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置装备区内的武器牌，对所有其他角色造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置装备区内的武器牌，对所有其他角色造成一点 sát thương ",
   mengun: "闷棍",
   mengun2: "闷棍",
   mengun_info:
@@ -3024,7 +3035,7 @@ export const translate_jiange = {
   sfanshi_info: "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 失去1 sinh lực ",
   konghun: "控魂",
   konghun_info:
-    "Bắt đầu giai đoạn hành động，若 bạn 的体力值不大于1（场上存活角色数不小于6时改 là 2）， bạn 可以对至多X名角色各造成1点雷电 sát thương ，然后 bạn 恢复等量体力，X là 场上其他存活角色数的一半（向下取整且至多 là 4）",
+    "Bắt đầu giai đoạn ra bài，若 bạn 的体力值不大于1（场上存活角色数不小于6时改 là 2）， bạn 可以对至多X名角色各造成1点雷电 sát thương ，然后 bạn 恢复等量体力，X là 场上其他存活角色数的一半（向下取整且至多 là 4）",
   jizhen_info: " Giai đoạn kết thúc ， bạn 可以令所至多两名已受伤角色摸一张牌",
   // biantian2_info:'已获得大雾标记',
   // biantian3_info:'已获得狂风标记',
@@ -3053,7 +3064,7 @@ export const translate_jiange = {
   jingfan: "惊帆",
   jingfan2: "惊帆",
   jingfan_info:
-    "回合内，每 khi bạn sử dụng 一张卡牌， bạn 的进攻距离+1；出牌阶段结束时， bạn 可以将手牌数补至X，并指定至多X名角色令其进攻距离+1直到其下一回合结束，X là  bạn 回合内使用的卡牌数",
+    "回合内，每 khi bạn sử dụng 一张卡牌， bạn 的进攻距离+1；  giai đoạn ra bài结束时， bạn 可以将手牌数补至X，并指定至多X名角色令其进攻距离+1直到其下一回合结束，X là  bạn 回合内使用的卡牌数",
 };
 
 export const translate_mobile = {
@@ -3067,7 +3078,7 @@ export const translate_mobile = {
     "Tỏa định kỹ，回合开始时，若【霹雳车】未加入游戏 hoặc 在牌堆/弃牌堆内，则 bạn 使用之； khi  bạn 受到1点 sát thương 后，若 bạn 的装备区里没有【霹雳车】，则 bạn 摸一张牌并使用牌堆中的一张随机武器牌。",
   choulve: "筹略",
   choulve_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以令一名其他角色交给 bạn 一张牌，若其如此做，视 là  bạn 使用上一张对 bạn 过造成 sát thương 且不 là 延时锦囊牌的牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以令一名其他角色交给 bạn 一张牌，若其如此做，视 là  bạn 使用上一张对 bạn 过造成 sát thương 且不 là 延时锦囊牌的牌。",
   tunchu: "屯储",
   tunchu_info:
     "摸牌阶段，若 bạn 没有「粮」， bạn 可以多摸两张牌。若如此做，摸牌阶段结束时， bạn 可以将任意张手牌置于 bạn 的武将上，称 là 「粮」，只要 bạn 的武将牌上有「粮」， bạn 便不能使用【杀】",
@@ -3093,10 +3104,10 @@ export const translate_mobile = {
     "每名角色的回合限一次， khi  bạn 成 là 一名角色使用牌的目标后，若该角色的体力值大于 bạn 的体力值， bạn 可以随机获得牌堆里的一张 bạn 没有的基本牌。",
   yirang: "揖让",
   yirang_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以将所有非基本牌交给一名体力上限大于 bạn 的其他角色，然后调整体力上限至与该角色相同并回复X sinh lực （X là  bạn 以此法交给其的牌的类别数）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以将所有非基本牌交给一名体力上限大于 bạn 的其他角色，然后调整体力上限至与该角色相同并回复X sinh lực （X là  bạn 以此法交给其的牌的类别数）。",
   kuangcai: "狂才",
   kuangcai_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以令 bạn 此阶段内的主动出牌时间变 là 5秒。若如此做， bạn 于此阶段内使用牌没距离和次数限制，且每 khi  bạn 于此阶段内使用牌时， bạn 摸一张牌且主动出牌时间-1秒。若主动出牌时间减至0，则 bạn 结束出牌阶段。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以令 bạn 此阶段内的主动出牌时间变 là 5秒。若如此做， bạn 于此阶段内使用牌没距离和次数限制，且每 khi  bạn 于此阶段内使用牌时， bạn 摸一张牌且主动出牌时间-1秒。若主动出牌时间减至0，则 bạn 结束  giai đoạn ra bài。",
   shejian: "舌剑",
   shejian_info:
     "弃牌阶段结束时，若 bạn 于此阶段弃置的所有牌花色均不相同，则 bạn 可以弃置一名其他角色的一张牌。",
@@ -3105,12 +3116,12 @@ export const translate_mobile = {
     "每回合限一次。 khi  bạn 受到 sát thương 时， bạn 可以展示所有手牌，然后令 sát thương 来源选择一项：交给 bạn 一张与 bạn 所有手牌花色均不相同的一张牌， hoặc 防止此 sát thương 。",
   xinfu_zhaoxin: "昭心",
   xinfu_zhaoxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将任意张手牌置于武将牌上并摸等量的牌，称之 là 「望」（ bạn 至多拥有三张「望」）。 bạn  hoặc  bạn 攻击范围内的一名其他角色的摸牌阶段结束后，其可以获得一张由 bạn 选择的「望」，然后 bạn 可以对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将任意张手牌置于武将牌上并摸等量的牌，称之 là 「望」（ bạn 至多拥有三张「望」）。 bạn  hoặc  bạn 攻击范围内的一名其他角色的摸牌阶段结束后，其可以获得一张由 bạn 选择的「望」，然后 bạn 可以对其造成1点 sát thương 。",
   zhaoxin_give: "昭心",
   zhaoxin_give_info: "",
   xinfu_qianchong: "谦冲",
   xinfu_qianchong_info:
-    "Tỏa định kỹ，若 bạn 的装备区内有牌且：均 là 红色，则 bạn 视 là 拥有技能〖明哲〗。均 là 黑色，则 bạn 视 là 拥有技能〖帷幕〗。若均不满足，则Bắt đầu giai đoạn hành động， bạn 可以选择一种类别的牌，然后 bạn 本回合内使用该类别的牌时没有次数和距离限制。",
+    "Tỏa định kỹ，若 bạn 的装备区内有牌且：均 là 红色，则 bạn 视 là 拥有技能〖明哲〗。均 là 黑色，则 bạn 视 là 拥有技能〖帷幕〗。若均不满足，则Bắt đầu giai đoạn ra bài， bạn 可以选择一种类别的牌，然后 bạn 本回合内使用该类别的牌时没有次数和距离限制。",
   qc_weimu: "帷幕",
   qc_weimu_info: "",
   qc_mingzhe: "明哲",
@@ -3163,9 +3174,11 @@ export const translate_mobile = {
   rewrite_tengjia_info:
     "Tỏa định kỹ，【南蛮入侵】、【万箭齐发】和普【杀】对 bạn 无效。 khi  bạn 受到火焰 sát thương 时，此 sát thương +1。 khi  bạn 即将被横置时，取消之。",
   rewrite_zhuge: "元戎精械弩",
-  rewrite_zhuge_info: "Tỏa định kỹ， bạn 于出牌阶段内使用【杀】无次数限制。",
+  rewrite_zhuge_info:
+    "Tỏa định kỹ， bạn 于  giai đoạn ra bài内使用【杀】无次数限制。",
   rw_zhuge_skill: "诸葛连弩",
-  rw_zhuge_skill_info: "Tỏa định kỹ， bạn 于出牌阶段内使用【杀】无次数限制。",
+  rw_zhuge_skill_info:
+    "Tỏa định kỹ， bạn 于  giai đoạn ra bài内使用【杀】无次数限制。",
   takaramono: "宝物",
   wolong_card: "卧龙",
   wolong_card_info:
@@ -3181,7 +3194,7 @@ export const translate_mobile = {
     "将一名角色装备区内的防具牌移动到另一名角色对应区域。若场上有存活的司马徽，则改 là 将1名角色装备区内的1件装备移动到另1角色对应区域。",
   xinfu_pingcai: "评才",
   xinfu_pingcai_info:
-    "1 lần trong giai đoạn hành động， bạn 可以挑选一个宝物并擦拭掉其上面的灰尘。然后， bạn 可以根据宝物类型执行对应的效果。",
+    "1 lần trong giai đoạn ra bài， bạn 可以挑选一个宝物并擦拭掉其上面的灰尘。然后， bạn 可以根据宝物类型执行对应的效果。",
   xinfu_pdgyingshi: "隐世",
   xinfu_pdgyingshi_info:
     "Tỏa định kỹ， bạn 始终跳过准备阶段，判定阶段， Giai đoạn kết thúc 。 bạn 不能被选择 là 延时锦囊牌的目标。",
@@ -3210,12 +3223,12 @@ export const translate_mobile = {
   yizan_count_info: "",
   xinfu_jingxie1: "精械",
   xinfu_jingxie1_info:
-    "出牌阶段， bạn 可以展示一张未强化过的【诸葛连弩】 hoặc 标准包/军争包/SP包中的防具牌，然后对其进行强化。 khi  bạn 处于濒死状态时， bạn 可以重铸一张防具牌，然后将体力回复至1点。",
+    "  giai đoạn ra bài， bạn 可以展示一张未强化过的【诸葛连弩】 hoặc 标准包/军争包/SP包中的防具牌，然后对其进行强化。 khi  bạn 处于濒死状态时， bạn 可以重铸一张防具牌，然后将体力回复至1点。",
   xinfu_jingxie2: "精械",
   xinfu_jingxie2_info: "",
   xinfu_qiaosi: "巧思",
   xinfu_qiaosi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以投掷一枚六面骰子，展示牌堆顶的X张牌并获得之。然后， bạn 选择一项：1.交给一名其他角色X张牌。2.弃置X张牌。（X là 骰子的 điểm số ）",
+    "1 lần trong giai đoạn ra bài， bạn 可以投掷一枚六面骰子，展示牌堆顶的X张牌并获得之。然后， bạn 选择一项：1.交给一名其他角色X张牌。2.弃置X张牌。（X là 骰子的 điểm số ）",
   xin_xiahoudun: "手杀夏侯惇",
   xinqingjian: "清俭",
   xinqingjian2: "清俭",
@@ -3241,7 +3254,7 @@ export const translate_mobile = {
   re_wangyun: "手杀王允",
   relianji: "连计",
   relianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名其他角色。第一名角色随机使用牌堆中的一张武器牌，然后这名角色视 là 对另一名角色随机使用一张下列的牌名的牌：【决斗】、【火攻】、【南蛮入侵】、【万箭齐发】 hoặc 普【杀】。然后若此牌造成 sát thương ， bạn 获得X枚“连计”标记（X là 此次扣减的体力值 điểm số ）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名其他角色。第一名角色随机使用牌堆中的一张武器牌，然后这名角色视 là 对另一名角色随机使用一张下列的牌名的牌：【决斗】、【火攻】、【南蛮入侵】、【万箭齐发】 hoặc 普【杀】。然后若此牌造成 sát thương ， bạn 获得X枚“连计”标记（X là 此次扣减的体力值 điểm số ）。",
   remoucheng: "谋逞",
   remoucheng_info:
     "觉醒技， khi 一名角色因〖连计〗造成 sát thương 后，若 bạn 拥有的“连计”标记数大于2， bạn 加1 sinh lực 上限，回复1 sinh lực ，失去“连计”，获得“矜功”。",
@@ -3264,7 +3277,7 @@ export const translate_mobile = {
 
   xinzhanyi: "战意",
   xinzhanyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并失去1 sinh lực ，然后根据 bạn 弃置的牌获得以下效果直到回合结束：基本牌， bạn 可以将一张基本牌 khi 作杀、酒 hoặc 桃使用，且 bạn 本回合第一次以此法使用的牌的回复值/ sát thương 值+1；锦囊牌，摸三张牌且 bạn 使用的牌不能被【 Vô Giải Khả Kích 】响应；装备牌， bạn 使用【杀】 sau khi chỉ định mục tiêu duy nhất ，其弃置两张牌，然后 bạn 获得其中的一张。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并失去1 sinh lực ，然后根据 bạn 弃置的牌获得以下效果直到回合结束：基本牌， bạn 可以将一张基本牌 khi 作杀、酒 hoặc 桃使用，且 bạn 本回合第一次以此法使用的牌的回复值/ sát thương 值+1；锦囊牌，摸三张牌且 bạn 使用的牌不能被【 Vô Giải Khả Kích 】响应；装备牌， bạn 使用【杀】 sau khi chỉ định mục tiêu duy nhất ，其弃置两张牌，然后 bạn 获得其中的一张。",
   xinzhanyi_basic_backup: "战意",
   xinzhanyi_basic: "战意",
   xinzhanyi_equip: "战意",
@@ -3274,7 +3287,7 @@ export const translate_mobile = {
     " khi bạn sử dụng  hoặc 打出【杀】时， bạn 可以获得一名其他角色的一张牌，然后其摸一张牌。",
   rexushen: "许身",
   rexushen_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以失去X sinh lực （X là 场上男性角色的数量）。若 bạn 以此法进入了濒死状态，则 khi  bạn 因一名角色而脱离此濒死状态后， bạn 可以令其获得技能〖武圣〗和〖 khi 先〗。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以失去X sinh lực （X là 场上男性角色的数量）。若 bạn 以此法进入了濒死状态，则 khi  bạn 因一名角色而脱离此濒死状态后， bạn 可以令其获得技能〖武圣〗和〖 khi 先〗。",
   rezhennan: "镇南",
   rezhennan_info:
     " khi  bạn 成 là 其他角色使用的牌的目标后，若此牌的目标数大于该角色的体力值，则 bạn 可以弃置一张牌并对其造成1点 sát thương 。",
@@ -3287,14 +3300,14 @@ export const translate_mobile = {
     "Tỏa định kỹ， khi  bạn 受到【杀】的 sát thương 时，若 bạn 已受伤，则 bạn 防止此 sát thương 并获得此【杀】对应的所有实体牌，然后减1 sinh lực 上限。",
   wuyuan: "武缘",
   wuyuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张【杀】交给一名其他角色，然后 bạn 回复1 sinh lực ，其摸一张牌。若此【杀】 là ：红色【杀】，其回复1 sinh lực ；属性【杀】，其改 là 摸两张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张【杀】交给一名其他角色，然后 bạn 回复1 sinh lực ，其摸一张牌。若此【杀】 là ：红色【杀】，其回复1 sinh lực ；属性【杀】，其改 là 摸两张牌。",
 
   re_weiwenzhugezhi: "手杀卫温诸葛直",
   re_xugong: "手杀许贡",
   re_zhanggong: "手杀张恭",
   reqianxin: "遣信",
   reqianxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可将至多两张手牌随机交给等量的其他角色，称 là 「信」。这些角色的准备阶段开始时，若其手牌中有「信」，则其选择一项：令 bạn 摸两张牌，本回合手牌上限-2。",
+    "1 lần trong giai đoạn ra bài， bạn 可将至多两张手牌随机交给等量的其他角色，称 là 「信」。这些角色的准备阶段开始时，若其手牌中有「信」，则其选择一项：令 bạn 摸两张牌，本回合手牌上限-2。",
   rebiaozhao: "表召",
   rebiaozhao_info:
     " Giai đoạn kết thúc ， bạn 可以将一张牌置于武将牌上，称 là 「表」。 khi 有一张与「表」 điểm số 相同的牌进入弃牌堆后， bạn 将「表」置入弃牌堆并失去1 sinh lực 。准备阶段，若 bạn 的武将牌上有「表」，则 bạn 移去「表」并选择一名角色，该角色回复1 sinh lực 并摸三张牌。",
@@ -3304,10 +3317,10 @@ export const translate_mobile = {
   rebiaozhao3_info: "",
   refuhai: "浮海",
   refuhai_info:
-    "1 lần trong giai đoạn hành động， bạn 可令其他角色同时在「潮起」和「潮落」中选择一项，并依次展示这些角色的选项。若从 bạn 下家开始选择了相同选项的角色数目大于1，则 bạn 摸X张牌（X là 连续相同结果的数量）。",
+    "1 lần trong giai đoạn ra bài， bạn 可令其他角色同时在「潮起」和「潮落」中选择一项，并依次展示这些角色的选项。若从 bạn 下家开始选择了相同选项的角色数目大于1，则 bạn 摸X张牌（X là 连续相同结果的数量）。",
   qiaosi: "巧思",
   qiaosi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以表演「大键角色图」并根据表演结果获得相应的牌。然后， bạn 选择一项：1.弃置X张牌。2.将X张牌交给一名其他角色。（X là  bạn 以此法获得的牌数）",
+    "1 lần trong giai đoạn ra bài， bạn 可以表演「大键角色图」并根据表演结果获得相应的牌。然后， bạn 选择一项：1.弃置X张牌。2.将X张牌交给一名其他角色。（X là  bạn 以此法获得的牌数）",
   qiaosi_map: "大键角色图",
   qiaosi_map_info:
     "<br><li>星野 梦美：锦囊牌*2<br><li>能美 库特莉亚芙卡：装备牌/【杀】/【酒】*1<br><li>友利 奈绪：【杀】/【酒】*1<br><li>神尾 观铃：【闪】/【桃】*1<br><li>伊吹 风子：锦囊牌/【闪】/【桃】*1<br><li>仲村 由理：装备牌*2<br><li>Illustration: うら;Twitter:@ura530",
@@ -3354,7 +3367,7 @@ export const translate_mobile = {
   yizheng: "义争",
   yizheng2: "义争",
   yizheng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名体力值不大于 bạn 的其他角色拼点。若 bạn 赢，其跳过下个摸牌阶段。若 bạn 没赢， bạn giảm 1 sinh lực 上限。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名体力值不大于 bạn 的其他角色拼点。若 bạn 赢，其跳过下个摸牌阶段。若 bạn 没赢， bạn giảm 1 sinh lực 上限。",
   re_heqi: "手杀贺齐",
   reqizhou: "绮胄",
   reqizhou_info:
@@ -3362,12 +3375,12 @@ export const translate_mobile = {
   reshanxi: "闪袭",
   reshanxi2: "闪袭",
   reshanxi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置一张红色基本牌并选择一名有牌的其他角色，将其的至多X张牌置于其的武将牌上（X là  bạn 的体力值）。回合结束时，该角色获得这些牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置一张红色基本牌并选择一名有牌的其他角色，将其的至多X张牌置于其的武将牌上（X là  bạn 的体力值）。回合结束时，该角色获得这些牌。",
   chendeng: "手杀陈登",
   zhouxuan: "周旋",
   zhouxuan2: "周旋",
   zhouxuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并指定一名角色，然后选择一个基本牌的名称 hoặc 非基本牌的类型。其使用 hoặc 打出下一张牌时，若此牌的名称 hoặc 类型和 bạn 选择的相同，则 bạn 观看牌堆顶的三张牌，然后将这些牌分配给任意角色。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并指定一名角色，然后选择一个基本牌的名称 hoặc 非基本牌的类型。其使用 hoặc 打出下一张牌时，若此牌的名称 hoặc 类型和 bạn 选择的相同，则 bạn 观看牌堆顶的三张牌，然后将这些牌分配给任意角色。",
   fengji: "丰积",
   fengji_info:
     "Tỏa định kỹ，回合结束时， bạn 记录 bạn 的手牌数。准备阶段开始时，若 bạn 的手牌数不小于 bạn 记录的手牌数，则 bạn 摸两张牌且本回合手牌上限 là 体力上限。",
@@ -3377,11 +3390,11 @@ export const translate_mobile = {
   reqingce: "清侧",
   reqingce_backup: "清侧",
   rezhengrong_info:
-    " khi  bạn 于出牌阶段使用的指定了其他角色 là 目标的牌结算完成后，若此牌是 bạn 本局游戏内于出牌阶段使用的指定了其他角色 là 目标的第偶数张牌，则 bạn 可以将一名其他角色角色的随机一张牌置于 bạn 的武将牌上，称 là 「荣」。",
+    " khi  bạn 于  giai đoạn ra bài使用的指定了其他角色 là 目标的牌结算完成后，若此牌是 bạn 本局游戏内于  giai đoạn ra bài使用的指定了其他角色 là 目标的第偶数张牌，则 bạn 可以将一名其他角色角色的随机一张牌置于 bạn 的武将牌上，称 là 「荣」。",
   rehongju_info:
     "觉醒技，准备阶段，若 bạn 武将牌上「荣」的数量不小于3且有角色死亡，则 bạn 摸等同于「荣」数量的牌。然后可以用任意数量的手牌交换等量的「荣」。 bạn giảm 1 sinh lực 上限并获得技能〖清侧〗。",
   reqingce_info:
-    "出牌阶段， bạn 可以将一张「荣」置入弃牌堆，然后弃置场上的一张牌。",
+    "  giai đoạn ra bài， bạn 可以将一张「荣」置入弃牌堆，然后弃置场上的一张牌。",
   re_pangtong: "手杀庞统",
   dongcheng: "手杀董承",
   chengzhao: "承诏",
@@ -3393,7 +3406,7 @@ export const translate_mobile = {
     "每回合限一次， khi  bạn 成 là 【杀】的目标后， bạn 可以重铸一张牌。若如此做， bạn 选择一项：①令使用者摸两张牌，且此【杀】无效。②令使用弃置一张牌，且 bạn 不能响应此【杀】。",
   gongsun: "共损",
   gongsun_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置两张牌并指定一名其他角色。 bạn 选择一个基本牌 hoặc 普通锦囊牌的牌名。直到 bạn 的下回合开始 hoặc  bạn 死亡， bạn 与其不能使用 hoặc 打出 hoặc 弃置此名称的牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置两张牌并指定一名其他角色。 bạn 选择一个基本牌 hoặc 普通锦囊牌的牌名。直到 bạn 的下回合开始 hoặc  bạn 死亡， bạn 与其不能使用 hoặc 打出 hoặc 弃置此名称的牌。",
   gongsun_shadow: "共损",
   xin_chengpu: "手杀程普",
   relihuo: "疠火",
@@ -3404,14 +3417,14 @@ export const translate_mobile = {
   dengzhi: "手杀邓芝",
   jimeng: "急盟",
   jimeng_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以获得一名其他角色的一张牌，然后交给该角色X张牌（X là  bạn  khi 前体力值）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以获得一名其他角色的一张牌，然后交给该角色X张牌（X là  bạn  khi 前体力值）。",
   shuaiyan: "率言",
   shuaiyan_info:
     "弃牌阶段开始时，若 bạn 的手牌数大于1，则 bạn 可以展示所有手牌，然后 bạn 令一名其他角色交给 bạn 一张牌。",
   zhengxuan: "郑玄",
   zhengjing: "整经",
   zhengjing_info:
-    "出牌阶段， bạn 可以整理卡牌。然后， bạn 将整理出的卡牌中的至少一张作 là “经”置于一名角色的武将牌上，然后获得其余的牌。该角色的准备阶段获得这些牌，且跳过此回合的判定和摸牌阶段。",
+    "  giai đoạn ra bài， bạn 可以整理卡牌。然后， bạn 将整理出的卡牌中的至少一张作 là “经”置于一名角色的武将牌上，然后获得其余的牌。该角色的准备阶段获得这些牌，且跳过此回合的判定和摸牌阶段。",
   zhengjing2: "整经",
 
   mobile_yijiang: "将星独具",
@@ -3421,7 +3434,7 @@ export const translate_mobile = {
   yj_ganning: "☆甘宁",
   xhzhiyan: "治严",
   xhzhiyan_info:
-    "出牌阶段，若 bạn 的手牌数不等于体力上限，则 bạn 可以将手牌摸至/弃至手牌上限，然后本回合不能对其他角色使用牌/可以将弃置的一张牌交给一名其他角色。",
+    "  giai đoạn ra bài，若 bạn 的手牌数不等于体力上限，则 bạn 可以将手牌摸至/弃至手牌上限，然后本回合不能对其他角色使用牌/可以将弃置的一张牌交给一名其他角色。",
   zhilve: "知略",
   zhilve_info:
     "Tỏa định kỹ，准备阶段， bạn 选择一项：1.移动场上装备区的一张牌并失去1 sinh lực 。2.移动场上判定区的一张牌并令本回合手牌上限-1。3.本回合摸牌阶段多摸一张牌且使用的第一张【杀】无距离限制且不计入次数限制。",
@@ -3429,16 +3442,16 @@ export const translate_mobile = {
   xinzhilve_backup: "知略",
   xinzhilve_mark: "知略",
   xinzhilve_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去1 sinh lực 并选择一项：1.移动场上的一张牌；2.视 là 使用一张无距离限制且不计入次数限制的【杀】并摸一张牌。然后 bạn 本回合的手牌上限+1。",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去1 sinh lực 并选择一项：1.移动场上的一张牌；2.视 là 使用一张无距离限制且不计入次数限制的【杀】并摸一张牌。然后 bạn 本回合的手牌上限+1。",
   xinxhzhiyan: "治严",
   xinxhzhiyan_false: "治严",
   xinxhzhiyan_info:
-    "出牌阶段每项各限一次，若 bạn 的手牌数：大于体力值，则 bạn 可以将X张手牌交给一名其他角色（X là  bạn 的手牌数与体力值之差）；小于体力上限，则 bạn 可以摸X张牌且本阶段内不能再对其他角色使用牌。（X là  bạn 的手牌数与体力上限之差）",
+    "  giai đoạn ra bài每项各限一次，若 bạn 的手牌数：大于体力值，则 bạn 可以将X张手牌交给一名其他角色（X là  bạn 的手牌数与体力值之差）；小于体力上限，则 bạn 可以摸X张牌且本阶段内不能再对其他角色使用牌。（X là  bạn 的手牌数与体力上限之差）",
   weifeng: "威风",
   weifeng2: "威风",
   weifeng3: "威风",
   weifeng_info:
-    "Tỏa định kỹ， khi  bạn 于出牌阶段内使用第一张 sát thương 性基本牌 hoặc 普通锦囊牌后， bạn 令此牌的一名没有“惧”的其他目标角色获得一枚名称 là 此牌牌名的“惧”。有“惧”的角色受到 sát thương 时，其移去“惧”，然后若造成 sát thương 的牌名称和“惧”：相同，此 sát thương +1；不同， bạn 获得该角色的一张牌。准备阶段开始时 hoặc  bạn 死亡时， bạn 移去场上的所有“惧”。",
+    "Tỏa định kỹ， khi  bạn 于  giai đoạn ra bài内使用第一张 sát thương 性基本牌 hoặc 普通锦囊牌后， bạn 令此牌的一名没有“惧”的其他目标角色获得一枚名称 là 此牌牌名的“惧”。有“惧”的角色受到 sát thương 时，其移去“惧”，然后若造成 sát thương 的牌名称和“惧”：相同，此 sát thương +1；不同， bạn 获得该角色的一张牌。准备阶段开始时 hoặc  bạn 死亡时， bạn 移去场上的所有“惧”。",
   gnjinfan: "锦帆",
   gnjinfan_gain: "锦帆",
   gnjinfan_info:
@@ -3476,21 +3489,21 @@ export const translate_mobile = {
   xin_liaohua: "手杀廖化",
   redangxian: " khi 先",
   redangxian_info:
-    "Tỏa định kỹ，回合开始时， bạn 从弃牌堆中获得一张【杀】并进行一个额外的出牌阶段。",
+    "Tỏa định kỹ，回合开始时， bạn 从弃牌堆中获得一张【杀】并进行一个额外的  giai đoạn ra bài。",
   refuli: "伏枥",
   refuli_info:
     "Hạn định kỹ， khi  bạn 处于濒死状态时， bạn 可以将体力值回复至X点（X là 势力数）。然后若 bạn 的体力值 là 全场唯一最多， bạn 翻面。",
   xin_caozhang: "手杀曹彰",
   rejiangchi: "将驰",
   rejiangchi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一项：1、摸一张牌，若如此做， bạn 本阶段内不能使用【杀】。 2、弃置一张牌，若如此做，此阶段 bạn 使用【杀】无距离限制且 bạn 可以额外使用一张【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一项：1、摸一张牌，若如此做， bạn 本阶段内不能使用【杀】。 2、弃置一张牌，若如此做，此阶段 bạn 使用【杀】无距离限制且 bạn 可以额外使用一张【杀】。",
   rezhenxing: "镇行",
   rezhenxing_info:
     " Giai đoạn kết thúc 开始时 hoặc  khi  bạn 受到 sát thương 后， bạn 可以观看牌堆顶的三张牌，然后 bạn 获得其中与其余牌花色均不相同的一张牌。",
   xin_jianyong: "手杀简雍",
   xinqiaoshui: "巧说",
   xinqiaoshui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名其他角色拼点。若 bạn 赢，则 bạn 本阶段内使用的下一张基本牌 hoặc 普通锦囊牌可以增加减少一个目标。若 bạn 没赢， bạn 本阶段内不能使用锦囊牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名其他角色拼点。若 bạn 赢，则 bạn 本阶段内使用的下一张基本牌 hoặc 普通锦囊牌可以增加减少一个目标。若 bạn 没赢， bạn 本阶段内不能使用锦囊牌。",
   xinjyzongshi: "纵适",
   xinjyzongshi_info:
     " khi  bạn 拼点后， bạn 可以观看牌堆顶的一张牌，然后选择一项：获得此牌， hoặc 获得两张拼点牌中 điểm số 较小的一张。",
@@ -3498,7 +3511,7 @@ export const translate_mobile = {
   beizhu: "备诛",
   beizhu_draw: "备诛",
   beizhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌。若其中：没有【杀】， bạn 弃置其一张牌，然后 bạn 可令其获得牌堆中的一张【杀】；有【杀】，其依次对 bạn 使用这些【杀】， khi  bạn 因此受到1点 sát thương 后， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌。若其中：没有【杀】， bạn 弃置其一张牌，然后 bạn 可令其获得牌堆中的一张【杀】；有【杀】，其依次对 bạn 使用这些【杀】， khi  bạn 因此受到1点 sát thương 后， bạn 摸一张牌。",
   xin_zhuran: "手杀朱然",
   mobiledanshou: "胆守",
   mobiledanshou_info:
@@ -3507,7 +3520,7 @@ export const translate_mobile = {
   hongyi: "弘仪",
   hongyi2: "弘仪",
   hongyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色。 bạn 的下回合开始前，该角色造成 sát thương 时进行判定，若结果 là ：黑色，此 sát thương -1。红色，受到 sát thương 的角色摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色。 bạn 的下回合开始前，该角色造成 sát thương 时进行判定，若结果 là ：黑色，此 sát thương -1。红色，受到 sát thương 的角色摸一张牌。",
   requanfeng: "劝封",
   requanfeng_gain: "劝封",
   requanfeng_info:
@@ -3518,12 +3531,12 @@ export const translate_mobile = {
   simashi: "司马师",
   baiyi: "败移",
   baiyi_info:
-    "Hạn định kỹ，出牌阶段，若 bạn 已受伤， bạn 可以交换两名其他角色的座次。",
+    "Hạn định kỹ，  giai đoạn ra bài，若 bạn 已受伤， bạn 可以交换两名其他角色的座次。",
   jinglve: "景略",
   jinglve2: "景略",
   jinglve3: "景略",
   jinglve_info:
-    "1 lần trong giai đoạn hành động，若场上没有与 bạn 对应的「死士」牌，则 bạn 可以观看一名其他角色的手牌，将其中一张牌标记 là 「死士」。 khi 其使用对应的实体牌中包含「死士」的牌时， bạn 取消此牌的所有目标。 khi 「死士」牌不因使用而进入弃牌堆， hoặc 其回合结束后，若「死士」牌仍在其区域内，则 bạn 获得此牌。",
+    "1 lần trong giai đoạn ra bài，若场上没有与 bạn 对应的「死士」牌，则 bạn 可以观看一名其他角色的手牌，将其中一张牌标记 là 「死士」。 khi 其使用对应的实体牌中包含「死士」的牌时， bạn 取消此牌的所有目标。 khi 「死士」牌不因使用而进入弃牌堆， hoặc 其回合结束后，若「死士」牌仍在其区域内，则 bạn 获得此牌。",
   shanli: "擅立",
   shanli_info:
     "觉醒技，准备阶段，若 bạn 已发动过〖败移〗且对至少两名角色发动过〖景略〗，则 bạn giảm 1 sinh lực 上限并选择一名角色。系统随机选择三个不 là 〖忘隙(仲村由理)〗的Chủ công kỹ，然后 bạn 选择其中一个技能，令其获得之。其将交互表情中的【拖鞋】和【酒杯】替换 là 【枷锁】和【玉玺】。",
@@ -3532,7 +3545,7 @@ export const translate_mobile = {
   hucheer: "胡车儿",
   daoji: "盗戟",
   daoji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张非基本牌并选择一名装备区里有牌的其他角色， bạn 获得其装备区中的一张牌并使用之。若 bạn 以此法获得的牌是武器牌，则 bạn 使用此牌后对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张非基本牌并选择一名装备区里有牌的其他角色， bạn 获得其装备区中的一张牌并使用之。若 bạn 以此法获得的牌是武器牌，则 bạn 使用此牌后对其造成1点 sát thương 。",
   xin_hansui: "手杀韩遂",
   xinniluan: "逆乱",
   xinniluan_info:
@@ -3544,7 +3557,7 @@ export const translate_mobile = {
   liyong2: "厉勇",
   liyong3: "厉勇",
   liyong_info:
-    "Tỏa định kỹ，若 bạn 于出牌阶段使用的【杀】被【闪】抵消，本阶段 bạn 下一张【杀】不可被响应且 sát thương +1，指定的目标本回合非Tỏa định kỹ失效， khi 此【杀】造成 sát thương 后，若目标角色未死亡， bạn 失去1 sinh lực 。",
+    "Tỏa định kỹ，若 bạn 于  giai đoạn ra bài使用的【杀】被【闪】抵消，本阶段 bạn 下一张【杀】不可被响应且 sát thương +1，指定的目标本回合非Tỏa định kỹ失效， khi 此【杀】造成 sát thương 后，若目标角色未死亡， bạn 失去1 sinh lực 。",
   gongsunkang: "公孙康",
   juliao: "据辽",
   juliao_info:
@@ -3577,19 +3590,19 @@ export const translate_mobile = {
   xin_gongsunzan: "手杀公孙瓒",
   re_dengai: "手杀邓艾",
   flappybird: "飞鸟",
-  flappybird_info: "出牌阶段， bạn 可游玩一局Flappy Bird。",
+  flappybird_info: "  giai đoạn ra bài， bạn 可游玩一局Flappy Bird。",
   sp_wangcan: "手杀王粲",
   spqiai: "七哀",
   spqiai_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张非基本牌交给一名其他角色。然后其选择一项：① bạn 回复1 sinh lực 。② bạn 摸两张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张非基本牌交给一名其他角色。然后其选择一项：① bạn 回复1 sinh lực 。② bạn 摸两张牌。",
   spshanxi: "善檄",
   spshanxi_suoming: "善檄",
   spshanxi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可令一名其他角色获得“檄”标记并清除场上已有的其他“檄”标记（若有）。有“檄”标记的角色回复体力时，若其体力值大于0，则其需选择一项：①交给 bạn 两张牌。②失去1 sinh lực 。",
+    "Bắt đầu giai đoạn ra bài， bạn 可令一名其他角色获得“檄”标记并清除场上已有的其他“檄”标记（若有）。有“檄”标记的角色回复体力时，若其体力值大于0，则其需选择一项：①交给 bạn 两张牌。②失去1 sinh lực 。",
   sp_chenzhen: "陈震",
   shameng: "歃盟",
   shameng_info:
-    "1 lần trong giai đoạn hành động， bạn 可弃置两张颜色相同的手牌并选择一名其他角色。其摸两张牌，然后 bạn 摸三张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可弃置两张颜色相同的手牌并选择一名其他角色。其摸两张牌，然后 bạn 摸三张牌。",
   sp_sunshao: "手杀孙邵",
   fubi: "辅弼",
   fubi2: "辅弼",
@@ -3601,10 +3614,10 @@ export const translate_mobile = {
   sp_xunchen: "手杀荀谌",
   jianzhan: "谏战",
   jianzhan_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择一名其他角色A和其攻击范围内的另一名手牌数小于其的角色B。A选择一项：①视 là 对B使用一张【杀】。②令 bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择一名其他角色A和其攻击范围内的另一名手牌数小于其的角色B。A选择一项：①视 là 对B使用一张【杀】。②令 bạn 摸一张牌。",
   duoji: "夺冀",
   duoji_info:
-    "Hạn định kỹ，出牌阶段， bạn 可弃置两张手牌并选择一名装备区有牌的其他角色。 bạn 获得其装备区里的所有牌。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可弃置两张手牌并选择一名装备区有牌的其他角色。 bạn 获得其装备区里的所有牌。",
   re_handang: "手杀韩 khi ",
   luotong: "骆统",
   qinzheng: "勤政",
@@ -3627,7 +3640,7 @@ export const translate_mobile = {
   sp_bianfuren: "手杀卞夫人",
   spwanwei: "挽危",
   spwanwei_info:
-    "每轮累计限一次。①出牌阶段， bạn 可选择一名其他角色。② khi 有其他角色处于濒死状态时。 bạn 可令该角色回复X+1 sinh lực （至少回复至1），然后 bạn 失去X sinh lực 。（X là  bạn 的体力值）",
+    "每轮累计限一次。①  giai đoạn ra bài， bạn 可选择一名其他角色。② khi 有其他角色处于濒死状态时。 bạn 可令该角色回复X+1 sinh lực （至少回复至1），然后 bạn 失去X sinh lực 。（X là  bạn 的体力值）",
   spyuejian: "约俭",
   spyuejian_info:
     "Tỏa định kỹ， bạn 的手牌上限基数等于 bạn 的体力上限。 khi  bạn 处于濒死状态时， bạn 可弃置两张牌，然后回复1 sinh lực 。",
@@ -3637,7 +3650,7 @@ export const translate_mobile = {
     " Giai đoạn kết thúc ，若 bạn 于本回合内未造成过 sát thương ，则 bạn 可摸两张牌。",
   fyjianyu: "谏喻",
   fyjianyu_info:
-    "每轮限一次。出牌阶段， bạn 可选择两名角色，令这些角色获得“喻”直到 bạn 的下回合开始。 khi 一名有“喻”的角色A使用牌指定另一名有“喻”的角色B là 目标时， bạn 令B摸一张牌。",
+    "每轮限一次。  giai đoạn ra bài， bạn 可选择两名角色，令这些角色获得“喻”直到 bạn 的下回合开始。 khi 一名有“喻”的角色A使用牌指定另一名有“喻”的角色B là 目标时， bạn 令B摸一张牌。",
   fyjianyux: "谏喻",
   refubi: "辅弼",
   refubi_info:
@@ -3645,27 +3658,27 @@ export const translate_mobile = {
   rezuici: "罪辞",
   rezuici_backup: "罪辞",
   rezuici_info:
-    "出牌阶段， hoặc  khi  bạn 处于濒死状态时， bạn 可以废除一个有牌的装备栏并回复2 sinh lực ，然后可以移动“辅弼”标记。",
+    "  giai đoạn ra bài， hoặc  khi  bạn 处于濒死状态时， bạn 可以废除一个有牌的装备栏并回复2 sinh lực ，然后可以移动“辅弼”标记。",
   nanhualaoxian: "手杀南华老仙",
   yufeng: "御风",
   yufeng2: "御风",
   yufeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以表演“御风飞行”。若表演失败，则 bạn 摸X张牌。若表演成功，则 bạn 可以选择至多X名其他角色获得“御风”效果，然后摸X-Y张牌（准备阶段开始时， bạn 进行判定。若结果 là ：红色， bạn 跳过摸牌阶段；黑色， bạn 跳过出牌阶段和弃牌阶段。X là  bạn 的得分。Y là  bạn 选择的角色数）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以表演“御风飞行”。若表演失败，则 bạn 摸X张牌。若表演成功，则 bạn 可以选择至多X名其他角色获得“御风”效果，然后摸X-Y张牌（准备阶段开始时， bạn 进行判定。若结果 là ：红色， bạn 跳过摸牌阶段；黑色， bạn 跳过  giai đoạn ra bài和弃牌阶段。X là  bạn 的得分。Y là  bạn 选择的角色数）。",
   tianshu: "天书",
   tianshu_info:
-    "1 lần trong giai đoạn hành động，若场上没有【太平要术】，则 bạn 可以弃置一张牌并选择一名角色。该角色获得并使用【太平要术】。",
+    "1 lần trong giai đoạn ra bài，若场上没有【太平要术】，则 bạn 可以弃置一张牌并选择一名角色。该角色获得并使用【太平要术】。",
   wujing: "吴景",
   heji: "合击",
   heji_info:
     " khi 有角色使用的【决斗】 hoặc 红色【杀】结算完成后，若此牌对应的目标数 là 1，则 bạn 可以对相同的目标使用一张【杀】 hoặc 【决斗】（无距离和次数限制）。若 bạn 以此法使用的牌不 là 转化牌，则 bạn 从牌堆中随机获得一张红色牌。",
   liubing: "流兵",
   liubing_info:
-    "Tỏa định kỹ。① khi  bạn 声明使用【杀】时，若此牌是 bạn 本回合使用的第一张有唯一对应实体牌的【杀】，则 bạn 将此牌的花色改 là ♦。②其他角色于其出牌阶段内使用的非转化黑色杀结算结束后，若此【杀】未造成 sát thương ，则 bạn 获得之。",
+    "Tỏa định kỹ。① khi  bạn 声明使用【杀】时，若此牌是 bạn 本回合使用的第一张有唯一对应实体牌的【杀】，则 bạn 将此牌的花色改 là ♦。②其他角色于其  giai đoạn ra bài内使用的非转化黑色杀结算结束后，若此【杀】未造成 sát thương ，则 bạn 获得之。",
   sp_mifuren: "糜夫人",
   spcunsi: "存嗣",
   spcunsi2: "存嗣",
   spcunsi_info:
-    "1 lần trong giai đoạn hành động， bạn 可将武将牌翻至背面并选择一名其他角色。其从牌堆 hoặc 弃牌堆中获得一张【杀】，且下一张杀的 sát thương 值基数+1。",
+    "1 lần trong giai đoạn ra bài， bạn 可将武将牌翻至背面并选择一名其他角色。其从牌堆 hoặc 弃牌堆中获得一张【杀】，且下一张杀的 sát thương 值基数+1。",
   spguixiu: "闺秀",
   spguixiu_info:
     "Tỏa định kỹ， khi  bạn 受到 sát thương 后，若 bạn 的武将牌背面朝上，则 bạn 将武将牌翻至正面。 khi  bạn 的武将牌从背面翻至正面时， bạn 摸一张牌。",
@@ -3673,17 +3686,17 @@ export const translate_mobile = {
   spyinju: "引裾",
   spyinju2: "引裾",
   spyinju_info:
-    "1 lần trong giai đoạn hành động， bạn 可令一名其他角色选择一项：①对 bạn 使用一张【杀】（无距离限制）。②其下个回合的准备阶段开始时，跳过出牌阶段和弃牌阶段。",
+    "1 lần trong giai đoạn ra bài， bạn 可令一名其他角色选择一项：①对 bạn 使用一张【杀】（无距离限制）。②其下个回合的准备阶段开始时，跳过  giai đoạn ra bài和弃牌阶段。",
   spchijie: "持节",
   spchijie_info:
     "每回合限一次。 khi  bạn 成 là 其他角色使用牌的唯一目标时， bạn 可判定。若结果大于6，则 bạn 取消此牌的所有目标。",
   reduoji: "夺冀",
   reduoji_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张牌置于其他角色的武将牌上，称 là “冀”。 khi 有装备牌因使用而进入一名角色的装备区后，若该角色有“冀”且其 là 使用者，则 bạn 获得此装备牌，其移去一个“冀”并摸一张牌。一名其他角色的回合结束后，若其有“冀”，则 bạn 获得其的所有“冀”。",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张牌置于其他角色的武将牌上，称 là “冀”。 khi 有装备牌因使用而进入一名角色的装备区后，若该角色有“冀”且其 là 使用者，则 bạn 获得此装备牌，其移去一个“冀”并摸一张牌。一名其他角色的回合结束后，若其有“冀”，则 bạn 获得其的所有“冀”。",
   re_jiangwei: "手杀姜维",
   retiaoxin: "挑衅",
   retiaoxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名有牌的其他角色，该角色需对 bạn 使用一张【杀】，否则 bạn 弃置其一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名有牌的其他角色，该角色需对 bạn 使用一张【杀】，否则 bạn 弃置其一张牌。",
   re_zhurong: "手杀祝融",
   relieren: "烈刃",
   relieren_info:
@@ -3691,7 +3704,7 @@ export const translate_mobile = {
   zhouqun: "周群",
   tiansuan: "天算",
   tiansuan_info:
-    "1 lần trong giai đoạn hành động，若场上没有因 bạn 产生的“命运签”，则 bạn 可以抽取一张“命运签”，然后令一名角色获得“命运签”直到 bạn 的下回合开始。若 bạn 以此法抽取的“命运签” là ：上上签， bạn 观看其手牌；上上签/上签， bạn 获得其区域内的一张牌。",
+    "1 lần trong giai đoạn ra bài，若场上没有因 bạn 产生的“命运签”，则 bạn 可以抽取一张“命运签”，然后令一名角色获得“命运签”直到 bạn 的下回合开始。若 bạn 以此法抽取的“命运签” là ：上上签， bạn 观看其手牌；上上签/上签， bạn 获得其区域内的一张牌。",
   tiansuan_faq: "【命运签】说明",
   tiansuan_faq_info:
     " khi  bạn 抽取“命运签”时， bạn 可以令其中一种命运签的权重+1。<br>上上签（权重1）： khi  bạn 受到 sát thương 时，防止此 sát thương 。<br>上签（权重2）： khi  bạn 受到 sát thương 时， bạn 令 sát thương 值改 là 1； khi  bạn 受到1点 sát thương 后， bạn 摸一张牌。<br>中签（权重3）： khi  bạn 受到 sát thương 时， bạn 令 sát thương 属性改 là 火属性并将 sát thương 值改 là 1。<br>下签（权重2）： khi  bạn 受到 sát thương 时， bạn 令此 sát thương +1。<br>下下签（权重1）： khi  bạn 受到 sát thương 时， bạn 令此 sát thương +1。 bạn 不能使用【酒】 hoặc 【桃】。",
@@ -3705,7 +3718,7 @@ export const translate_mobile = {
   wangling: "王凌",
   mouli: "谋立",
   mouli_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌交给一名其他角色，其获得如下效果直到 bạn 的下回合开始：其可以将黑色牌 khi 做【杀】，红色牌 khi 做【闪】使用。其第一次触发“使用【杀】/【闪】结算完成后”的时机时， bạn 摸三张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌交给一名其他角色，其获得如下效果直到 bạn 的下回合开始：其可以将黑色牌 khi 做【杀】，红色牌 khi 做【闪】使用。其第一次触发“使用【杀】/【闪】结算完成后”的时机时， bạn 摸三张牌。",
   zifu: "自缚",
   zifu_info:
     "Tỏa định kỹ， khi 有角色死亡时，若其因 bạn 获得的“谋立”效果未过期，则 bạn giảm 2 sinh lực 上限。",
@@ -3721,14 +3734,14 @@ export const translate_mobile = {
     "Tỏa định kỹ，其他角色的手牌上限-1。 bạn 手牌区的装备牌均视 là 【酒】。",
   chuhai: "除害",
   chuhai_info:
-    "1 lần trong giai đoạn hành động， bạn 可以摸一张牌，然后和一名其他角色拼点。若 bạn 赢，则 bạn 观看其手牌，并从牌堆/弃牌堆中获得其手牌中包含的类型的牌各一张，且 khi  bạn 于此阶段内对其造成 sát thương 后， bạn 将牌堆/弃牌堆中的一张装备牌置于 bạn 的一个空置装备栏内。",
+    "1 lần trong giai đoạn ra bài， bạn 可以摸一张牌，然后和一名其他角色拼点。若 bạn 赢，则 bạn 观看其手牌，并从牌堆/弃牌堆中获得其手牌中包含的类型的牌各一张，且 khi  bạn 于此阶段内对其造成 sát thương 后， bạn 将牌堆/弃牌堆中的一张装备牌置于 bạn 的一个空置装备栏内。",
   sp_kongrong: "孔融",
   spmingshi: "名士",
   spmingshi_info:
     "Tỏa định kỹ， khi  bạn 受到1点 sát thương 后， sát thương 来源弃置一张牌。",
   splirang: "礼让",
   splirang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置所有手牌，然后将其中的至多X张牌交给一名其他角色（X là  bạn 的体力值），之后摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置所有手牌，然后将其中的至多X张牌交给一名其他角色（X là  bạn 的体力值），之后摸一张牌。",
   ol_yujin: "手杀于禁",
   rejieyue: "节钺",
   rejieyue_info:
@@ -3747,11 +3760,11 @@ export const translate_mobile = {
   muzhen: "睦阵",
   muzhen_backup: "睦阵",
   muzhen_info:
-    "出牌阶段各限一次。① bạn 可以将两张牌交给一名装备区内有牌的其他角色，然后获得其装备区内的一张牌。② bạn 可以将装备区内的一张牌置于其他角色的装备区内，然后获得其一张手牌。",
+    "  giai đoạn ra bài各限一次。① bạn 可以将两张牌交给一名装备区内有牌的其他角色，然后获得其装备区内的一张牌。② bạn 可以将装备区内的一张牌置于其他角色的装备区内，然后获得其一张手牌。",
   sp_huaxin: "手杀华歆",
   hxrenshi: "仁仕",
   hxrenshi_info:
-    "出牌阶段每名角色限一次。 bạn 可以将一张手牌交给一名其他角色。",
+    "  giai đoạn ra bài每名角色限一次。 bạn 可以将一张手牌交给一名其他角色。",
   debao: "德保",
   debao_info:
     "Tỏa định kỹ， khi 其他角色获得 bạn 的牌后，若 bạn 的“仁”数小于 bạn 的体力上限，则 bạn 将牌堆顶的一张牌置于 bạn 的武将牌上，称 là “仁”。准备阶段， bạn 获得所有“仁”。",
@@ -3761,14 +3774,14 @@ export const translate_mobile = {
   sp_xujing: "手杀许靖",
   boming: "博名",
   boming_info:
-    "出牌阶段限两次， bạn 可以将一张牌交给一名其他角色。 Giai đoạn kết thúc ，若 bạn 本回合以此法失去了两张以上的牌，则 bạn 摸一张牌。",
+    "  giai đoạn ra bài限两次， bạn 可以将一张牌交给一名其他角色。 Giai đoạn kết thúc ，若 bạn 本回合以此法失去了两张以上的牌，则 bạn 摸一张牌。",
   ejian: "恶荐",
   ejian_info:
     "Tỏa định kỹ，每名角色限一次。 khi 有其他角色因〖博名〗而获得了 bạn 的牌后，若其拥有与此牌类型相同的其他牌，则 bạn 令其选择一项：①受到1点 sát thương 。②展示所有手牌，并弃置所有与此牌类别相同的牌。",
   xin_zhoucang: "手杀周仓",
   mobilezhongyong: "忠勇",
   mobilezhongyong_info:
-    " khi  bạn 于出牌阶段使用【杀】结算结束后，若没有目标角色使用【闪】响应过此【杀】，则 bạn 可获得此【杀】；否则 bạn 可选择一项：①获得目标角色使用的【闪】，然后可将此【杀】交给另一名其他角色。②将目标角色使用的【闪】交给另一名其他角色，然后 bạn 本回合使用【杀】的次数上限+1且下一张【杀】的 sát thương 值基数+1。（ bạn 不能使用本回合因执行〖忠勇〗的效果获得的牌）",
+    " khi  bạn 于  giai đoạn ra bài使用【杀】结算结束后，若没有目标角色使用【闪】响应过此【杀】，则 bạn 可获得此【杀】；否则 bạn 可选择一项：①获得目标角色使用的【闪】，然后可将此【杀】交给另一名其他角色。②将目标角色使用的【闪】交给另一名其他角色，然后 bạn 本回合使用【杀】的次数上限+1且下一张【杀】的 sát thương 值基数+1。（ bạn 不能使用本回合因执行〖忠勇〗的效果获得的牌）",
   mjdingyi: "定仪",
   mjdingyi_info:
     "游戏开始时， bạn 选择一个效果（相同效果不可叠加）并令全场角色获得之：①摸牌阶段额定摸牌数+1。②手牌上限+2。③攻击范围+1。④脱离濒死状态时回复1 sinh lực 。",
@@ -3777,7 +3790,7 @@ export const translate_mobile = {
     " khi  bạn 受到 sát thương 后， bạn 可令 sát thương 来源失去〖定仪〗效果，然后令其从牌堆中获得一张由 bạn 选择的智囊。",
   mjfubi: "辅弼",
   mjfubi_info:
-    "每轮限一次。出牌阶段， bạn 可选择一项：①更换一名角色的〖定仪〗效果。②弃置一张牌并令一名角色的〖定仪〗效果翻倍直到 bạn 的下回合开始。",
+    "每轮限一次。  giai đoạn ra bài， bạn 可选择一项：①更换一名角色的〖定仪〗效果。②弃置一张牌并令一名角色的〖定仪〗效果翻倍直到 bạn 的下回合开始。",
   mjshengxi: "生息",
   mjshengxi_info:
     "准备阶段， bạn 可以获得一张【调剂盐梅】； Giai đoạn kết thúc ，若 bạn 本回合使用过牌且未造成 sát thương ，则 bạn 可以获得一张智囊。",
@@ -3786,15 +3799,15 @@ export const translate_mobile = {
     "每回合限一次。 khi  bạn 因弃置而失去牌后， bạn 可令一名其他角色获得其中的一张牌，然后 bạn 摸一张牌。",
   tiaojiyanmei: "调剂盐梅",
   tiaojiyanmei_info:
-    "出牌阶段，对两名手牌数不均相同的其他角色使用。若目标角色于此牌使用准备工作结束时的手牌数大于此时所有目标的平均手牌数，其弃置一张牌。若小于则其摸一张牌。此牌使用结束后，若所有目标角色的手牌数均相等，则 bạn 可令一名角色获得所有因执行此牌效果而弃置的牌。",
+    "  giai đoạn ra bài，对两名手牌数不均相同的其他角色使用。若目标角色于此牌使用准备工作结束时的手牌数大于此时所有目标的平均手牌数，其弃置一张牌。若小于则其摸一张牌。此牌使用结束后，若所有目标角色的手牌数均相等，则 bạn 可令一名角色获得所有因执行此牌效果而弃置的牌。",
   binglinchengxiax: "兵临城下",
   binglinchengxiax_info:
-    "出牌阶段，对一名其他角色使用。 bạn 展示牌堆顶的四张牌，依次对其使用其中所有的【杀】，然后将剩余的牌置于牌堆顶。",
+    "  giai đoạn ra bài，对一名其他角色使用。 bạn 展示牌堆顶的四张牌，依次对其使用其中所有的【杀】，然后将剩余的牌置于牌堆顶。",
   mjweipo: "危迫",
   mjweipo_effect: "危迫",
   mjweipo_remove: "危迫",
   mjweipo_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以选择一个智囊 hoặc 【兵临城下】，令一名没有〖危迫〗效果的角色获得如下一次性效果直到 bạn 下回合开始：其可于出牌阶段弃置一张【杀】，并获得一张 bạn 选择的牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以选择一个智囊 hoặc 【兵临城下】，令一名没有〖危迫〗效果的角色获得如下一次性效果直到 bạn 下回合开始：其可于  giai đoạn ra bài弃置一张【杀】，并获得一张 bạn 选择的牌。",
   mjchenshi: "陈势",
   mjchenshi_player: "陈势",
   mjchenshi_target: "陈势",
@@ -3815,7 +3828,7 @@ export const translate_mobile = {
     "其他角色的回合开始时， bạn 可选择一项：①令其从仁库中获得一张牌。②若其手牌数大于体力值，则令其将X张手牌置入仁库（X là 其手牌数与体力值之差）。",
   binglun: "病论",
   binglun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将仁库中的一张牌置于弃牌堆并选择一名角色。该角色选择一项：①摸一张牌。②于其下回合结束时回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将仁库中的一张牌置于弃牌堆并选择一名角色。该角色选择一项：①摸一张牌。②于其下回合结束时回复1 sinh lực 。",
   sp_zhangwen: "手杀张温",
   gebo: "戈帛",
   gebo_info:
@@ -3829,7 +3842,7 @@ export const translate_mobile = {
     "Tỏa định kỹ。准备阶段， bạn 将所有“生”置入弃牌堆，然后摸X张牌，并将等量的牌置于武将牌上，称 là “生”（X là  bạn 因〖引狼〗而选择的势力的存活角色数）。",
   yinlang: "引狼",
   yinlang_info:
-    "①每轮限一次。回合开始时， bạn 选择场上的一个势力。②一名角色的Bắt đầu giai đoạn hành động，若其势力与 bạn 选择的势力相同，则其选择一项：1.获得 bạn 的一张“生”，然后其本回合使用牌时不能指定 bạn 以外的角色 là 目标。2. bạn 获得一张“生”。",
+    "①每轮限一次。回合开始时， bạn 选择场上的一个势力。②一名角色的Bắt đầu giai đoạn ra bài，若其势力与 bạn 选择的势力相同，则其选择一项：1.获得 bạn 的一张“生”，然后其本回合使用牌时不能指定 bạn 以外的角色 là 目标。2. bạn 获得一张“生”。",
   huaibi: "怀璧",
   huaibi_info:
     "Chủ công kỹ，Tỏa định kỹ。 bạn 的手牌上限+X（X là  bạn 因〖引狼〗而选择的势力的存活角色数）。",
@@ -3839,17 +3852,17 @@ export const translate_mobile = {
     "① Giai đoạn kết thúc ， bạn 摸两张牌，然后将两张牌随机插入牌堆前2X张牌的位置中（X là 角色数，选择牌的牌名对其他角色可见）。② khi 有其他角色使用“遗珠”牌指定唯一目标时， bạn 可清除对应的“遗珠”标记并取消此目标，然后 bạn 可使用此牌。③ khi 有“遗珠”牌进入弃牌堆后， bạn 摸一张牌并清除对应的“遗珠”标记。",
   luanchou: "鸾俦",
   luanchou_info:
-    "1 lần trong giai đoạn hành động， bạn 可令两名角色获得“姻”标记并清除原有标记。拥有“姻”标记的角色视 là 拥有技能〖共患〗。",
+    "1 lần trong giai đoạn ra bài， bạn 可令两名角色获得“姻”标记并清除原有标记。拥有“姻”标记的角色视 là 拥有技能〖共患〗。",
   gonghuan: "共患",
   gonghuan_info:
     "Tỏa định kỹ。每回合限一次，一名其他角色受到 sát thương 时，若其拥有“姻”标记且其体力值小于 bạn ，则 bạn 将 sát thương 转移给自己。此 sát thương 结算结束后， bạn 与其移去“姻”标记。",
   sp_yanghu: "手杀羊祜",
   mingfa: "明伐",
   mingfa_info:
-    "① Giai đoạn kết thúc ， bạn 可展示一张牌并记录 là “明伐”。②Bắt đầu giai đoạn hành động，若“明伐”牌在 bạn 的手牌区 hoặc 装备区，则 bạn 可以使用“明伐”牌与一名其他角色拼点。若 bạn 赢： bạn 获得对方一张牌并从牌堆中获得一张 điểm số 等于“明伐”牌牌面 điểm số -1的牌。若 bạn 没赢： bạn 本回合不能使用牌指定其他角色 là 目标。③ bạn 的拼点牌亮出后， bạn 令此牌的 điểm số +2。",
+    "① Giai đoạn kết thúc ， bạn 可展示一张牌并记录 là “明伐”。②Bắt đầu giai đoạn ra bài，若“明伐”牌在 bạn 的手牌区 hoặc 装备区，则 bạn 可以使用“明伐”牌与一名其他角色拼点。若 bạn 赢： bạn 获得对方一张牌并从牌堆中获得一张 điểm số 等于“明伐”牌牌面 điểm số -1的牌。若 bạn 没赢： bạn 本回合不能使用牌指定其他角色 là 目标。③ bạn 的拼点牌亮出后， bạn 令此牌的 điểm số +2。",
   rongbei: "戎备",
   rongbei_info:
-    "Hạn định kỹ。出牌阶段， bạn 可选择一名有空装备栏的角色。系统 là 该角色的每个空装备栏选择一张装备牌，然后该角色使用之。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可选择一名有空装备栏的角色。系统 là 该角色的每个空装备栏选择一张装备牌，然后该角色使用之。",
   xin_caifuren: "手杀蔡夫人",
   xinqieting: "窃听",
   xinqieting_info:
@@ -3874,21 +3887,21 @@ export const translate_mobile = {
     "① khi bạn sử dụng 牌时，若此牌不 là 延时锦囊牌且 bạn 没有同名的“备”，则 bạn 获得一枚与此牌名称相同的“备”。② Giai đoạn kết thúc ， bạn 可移去一枚“备”，然后从牌堆中获得一张与此“备”名称相同的牌。",
   xinzifu: "自缚",
   xinzifu_info:
-    "Tỏa định kỹ。出牌阶段结束时，若 bạn 本阶段内未使用牌，则 bạn 移去所有“备”且本回合的手牌上限-1。",
+    "Tỏa định kỹ。  giai đoạn ra bài结束时，若 bạn 本阶段内未使用牌，则 bạn 移去所有“备”且本回合的手牌上限-1。",
   mibei: "秘备",
   mibei_info:
     "使命技。①使命： khi bạn sử dụng 的牌结算完成后，若 bạn 的“备”中包含的基本牌，锦囊牌，装备牌数量均大于1，则 bạn 从牌堆中获得这三种类型的牌各一张并获得技能“谋立”。②失败： Giai đoạn kết thúc 开始时，若 bạn 没有“备”，且 bạn 于本回合的准备阶段开始时也没有“备”，则 bạn giảm 1 sinh lực 上限。",
   xinmouli: "谋立",
   xinmouli_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名其他角色。其移去 bạn 的一个“备”，然后从牌堆中获得一张与此“备”名称相同的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名其他角色。其移去 bạn 的一个“备”，然后从牌堆中获得一张与此“备”名称相同的牌。",
   re_zhonghui: "手杀钟会",
   requanji: "权计",
   requanji_info:
-    "出牌阶段结束时，若 bạn 的手牌数大于体力值， hoặc  khi  bạn 受到1点 sát thương 后， bạn 可以摸一张牌，然后将一张手牌置于武将牌上，称 là “权”； bạn 的手牌上限+X（X là “权”的数量）。",
+    "  giai đoạn ra bài结束时，若 bạn 的手牌数大于体力值， hoặc  khi  bạn 受到1点 sát thương 后， bạn 可以摸一张牌，然后将一张手牌置于武将牌上，称 là “权”； bạn 的手牌上限+X（X là “权”的数量）。",
   xin_guyong: "手杀顾雍",
   xinshenxing: "慎行",
   xinshenxing_info:
-    "出牌阶段限X次（X là  bạn 的体力值）， bạn 可以弃置两张牌，然后摸一张牌。若这两张牌颜色不同，则改 là 摸两张牌。",
+    "  giai đoạn ra bài限X次（X là  bạn 的体力值）， bạn 可以弃置两张牌，然后摸一张牌。若这两张牌颜色不同，则改 là 摸两张牌。",
   xinbingyi: "秉壹",
   xinbingyi_info:
     " Giai đoạn kết thúc ， bạn 可展示所有手牌。若这些牌的颜色 hoặc 类型均相同，则 bạn 可以令至多X名角色各摸一张牌（X là  bạn 的手牌数）。",
@@ -3898,7 +3911,7 @@ export const translate_mobile = {
     "每回合限一次。 khi bạn sử dụng 【杀】 hoặc 【决斗】 sau khi chỉ định mục tiêu duy nhất ， bạn 可选择：①获得目标角色的一张手牌。②弃置一张基本牌，并令此牌的 sát thương 值基数+1。③背水：减1 sinh lực 上限，然后依次执行上述所有选项。",
   dbzhuifeng: "椎锋",
   dbzhuifeng_info:
-    "魏势力技。每回合限两次， bạn 可以失去1 sinh lực 并视 là 使用一张【决斗】。 khi  bạn 因此【决斗】而受到 sát thương 时， bạn 防止此 sát thương 并令此技能失效直到出牌阶段结束。",
+    "魏势力技。每回合限两次， bạn 可以失去1 sinh lực 并视 là 使用一张【决斗】。 khi  bạn 因此【决斗】而受到 sát thương 时， bạn 防止此 sát thương 并令此技能失效直到  giai đoạn ra bài结束。",
   dbchongjian: "冲坚",
   dbchongjian_backup: "冲坚",
   dbchongjian_info:
@@ -3915,20 +3928,20 @@ export const translate_mobile = {
     " Giai đoạn kết thúc ， bạn 可以展示牌堆顶的三张牌，然后根据X值（X là 这三张牌中红色牌的数量），令一名其他角色获得对应的效果直到其下回合结束：①三张：其摸牌阶段多摸两张牌，使用【杀】的次数上限+1。②两张：其使用【杀】的次数上限-1，跳过弃牌阶段。③小于两张：其于准备阶段开始时弃置一张手牌。",
   yuanqing: "渊清",
   yuanqing_info:
-    "Tỏa định kỹ，出牌阶段结束时， bạn 随机将弃牌堆中 bạn 本阶段使用过的牌类型的各一张牌置于仁库中。",
+    "Tỏa định kỹ，  giai đoạn ra bài结束时， bạn 随机将弃牌堆中 bạn 本阶段使用过的牌类型的各一张牌置于仁库中。",
   shuchen: "疏陈",
   shuchen_info:
     "Tỏa định kỹ， khi 有角色进入濒死状态时，若仁库中的牌数大于四，则 bạn 获得仁库中的所有牌，然后其回复1 sinh lực 。",
   rechuhai: "除害",
   rechuhai_info:
-    "使命技。①1 lần trong giai đoạn hành động， bạn 可以摸一张牌，然后和一名其他角色拼点。若 bạn 赢，则 bạn 观看其手牌，并从牌堆/弃牌堆中获得其手牌中包含的类型的牌各一张，且 khi  bạn 于此阶段内对其造成 sát thương 后， bạn 将牌堆/弃牌堆中的一张装备牌置于 bạn 的一个空置装备栏内。② khi  bạn 因发动〖除害①〗而展示拼点牌时， bạn 令此牌的 điểm số +X（X=(4- bạn 装备区的牌数)）。③使命： khi 有装备牌进入 bạn 的装备区后，若 bạn 的装备区内有至少三张牌，则 bạn 将体力值回复至上限，失去〖乡害〗并获得〖彰名〗。④失败： khi  bạn 因发动〖除害①〗发起的拼点没赢时，若 bạn 的最终 điểm số 不大于6，则 bạn 触发使命失败分支。",
+    "使命技。①1 lần trong giai đoạn ra bài， bạn 可以摸一张牌，然后和一名其他角色拼点。若 bạn 赢，则 bạn 观看其手牌，并从牌堆/弃牌堆中获得其手牌中包含的类型的牌各一张，且 khi  bạn 于此阶段内对其造成 sát thương 后， bạn 将牌堆/弃牌堆中的一张装备牌置于 bạn 的一个空置装备栏内。② khi  bạn 因发动〖除害①〗而展示拼点牌时， bạn 令此牌的 điểm số +X（X=(4- bạn 装备区的牌数)）。③使命： khi 有装备牌进入 bạn 的装备区后，若 bạn 的装备区内有至少三张牌，则 bạn 将体力值回复至上限，失去〖乡害〗并获得〖彰名〗。④失败： khi  bạn 因发动〖除害①〗发起的拼点没赢时，若 bạn 的最终 điểm số 不大于6，则 bạn 触发使命失败分支。",
   zhangming: "彰名",
   zhangming_info:
     "Tỏa định kỹ。① bạn 使用的♣牌不能被其他角色响应。②每回合限一次， khi  bạn 对其他角色造成 sát thương 后， bạn 随机弃置其一张手牌，然后 bạn 从牌堆 hoặc 弃牌堆中获得与其展示牌类型不同类型的牌各一张（若其没有手牌，则 bạn 改 là 从牌堆 hoặc 弃牌堆中获得所有类型牌各一张），且以此法获得的牌不计入本回合的手牌上限。",
   xin_sunluban: "手杀孙鲁班",
   xinzenhui: "谮毁",
   xinzenhui_info:
-    "1 lần trong giai đoạn hành động。 khi bạn sử dụng 【杀】 hoặc 黑色普通锦囊牌指定目标时， bạn 可选择另一名能成 là 此牌目标的其他角色并选择一项：①令其也成 là 此牌的目标。②获得其一张牌，然后将此牌的使用者改 là 该角色。",
+    "1 lần trong giai đoạn ra bài。 khi bạn sử dụng 【杀】 hoặc 黑色普通锦囊牌指定目标时， bạn 可选择另一名能成 là 此牌目标的其他角色并选择一项：①令其也成 là 此牌的目标。②获得其一张牌，然后将此牌的使用者改 là 该角色。",
   xinjiaojin: "骄矜",
   xinjiaojin_info:
     " khi  bạn 受到男性角色造成的 sát thương 时， bạn 可以弃置一张装备牌并防止此 sát thương 。",
@@ -3939,10 +3952,10 @@ export const translate_mobile = {
   sp_chendong: "陈武董袭",
   spyilie: "毅烈",
   spyilie_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择：①本阶段内使用【杀】的次数上限+1。②本回合内使用【杀】被【闪】抵消时，摸一张牌。③背水：失去1 sinh lực ，然后依次执行上述所有选项。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择：①本阶段内使用【杀】的次数上限+1。②本回合内使用【杀】被【闪】抵消时，摸一张牌。③背水：失去1 sinh lực ，然后依次执行上述所有选项。",
   spfenming: "奋命",
   spfenming_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名体力值不大于 bạn 的角色。若其：未横置，其横置；已横置， bạn 获得其一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名体力值不大于 bạn 的角色。若其：未横置，其横置；已横置， bạn 获得其一张牌。",
   yuanhuan: "袁涣",
   qingjue: "请决",
   qingjue_info:
@@ -3964,13 +3977,13 @@ export const translate_mobile = {
     "Tỏa định kỹ。① khi  bạn 不因〖绝勇〗成 là 唯一牌的目标时，若此牌不 là 转化牌且对应的实体牌牌数 là 1且不 là 【桃】 hoặc 【酒】且 bạn 的“绝”数小于 bạn 的体力值的二倍，则 bạn 将此牌置于 bạn 的武将牌上，称 là “绝”，且取消此牌的目标。② Giai đoạn kết thúc 开始时，若 bạn 有“绝”，则 bạn 令所有“绝”的原使用者依次对 bạn 使用所有“绝”，将无法使用的“绝”置入弃牌堆。",
   poxiang: "破降",
   poxiang_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以将一张牌交给一名其他角色。 bạn 摸三张牌（不计入本回合的手牌上限），移去所有“绝”并失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以将一张牌交给一名其他角色。 bạn 摸三张牌（不计入本回合的手牌上限），移去所有“绝”并失去1 sinh lực 。",
   jutu: "据土",
   jutu_info:
     "Tỏa định kỹ，准备阶段， bạn 获得所有 bạn 武将牌上的“生”，然后摸X+1张牌，然后将X张牌置于 bạn 的武将牌上，称 là “生”（X là  bạn 因〖邀虎〗选择势力的角色数量)。",
   yaohu: "邀虎",
   yaohu_info:
-    "每轮限一次， bạn 的回合开始时， bạn 须选择场上一个势力。该势力其他角色的Bắt đầu giai đoạn hành động，其获得 bạn 的一张“生”，然后其须选择一项：①对 bạn 指定的另一名的其他角色使用一张【杀】（无距离和次数限制）；②交给 bạn 两张牌。",
+    "每轮限一次， bạn 的回合开始时， bạn 须选择场上一个势力。该势力其他角色的Bắt đầu giai đoạn ra bài，其获得 bạn 的一张“生”，然后其须选择一项：①对 bạn 指定的另一名的其他角色使用一张【杀】（无距离和次数限制）；②交给 bạn 两张牌。",
   rehuaibi: "怀璧",
   rehuaibi_info:
     "Chủ công kỹ，Tỏa định kỹ， bạn 的手牌上限+X（X là  bạn 因〖邀虎〗选择势力的角色数量)。",
@@ -4007,9 +4020,9 @@ export const translate_mobile = {
     " khi  bạn 受到其他角色造成的渠道 là 【杀】的 sát thương 后，若 bạn 的装备区内有武器牌，则 bạn 可以获得此【杀】对应的所有实体牌，然后将这些牌 khi 做【杀】对 sát thương 来源使用（无距离限制）。若其装备区内没有武器牌，则此 sát thương +1。",
   shanxie: "擅械",
   shanxie_info:
-    "①1 lần trong giai đoạn hành động， bạn 可从牌堆中获得一张武器牌。若牌堆中没有武器牌，则 bạn 改 là 随机获得一名角色装备区内的一张武器牌。② khi 其他角色使用【闪】响应 bạn 使用的【杀】时，若此【闪】没有 điểm số  hoặc  điểm số 不大于 bạn 攻击范围的二倍，则 bạn 令此【闪】无效。",
+    "①1 lần trong giai đoạn ra bài， bạn 可从牌堆中获得一张武器牌。若牌堆中没有武器牌，则 bạn 改 là 随机获得一名角色装备区内的一张武器牌。② khi 其他角色使用【闪】响应 bạn 使用的【杀】时，若此【闪】没有 điểm số  hoặc  điểm số 不大于 bạn 攻击范围的二倍，则 bạn 令此【闪】无效。",
   shanxie_info_old:
-    "①1 lần trong giai đoạn hành động， bạn 可选择一项：⒈从牌堆中获得一张武器牌。⒉获得一名其他角色装备区内的一张武器牌并使用，然后其将一张手牌 khi 做【杀】对 bạn 使用。② khi 其他角色使用【闪】响应 bạn 使用的【杀】时，若此【闪】没有 điểm số  hoặc  điểm số 不大于 bạn 攻击范围的二倍，则 bạn 令此【闪】无效。",
+    "①1 lần trong giai đoạn ra bài， bạn 可选择一项：⒈从牌堆中获得一张武器牌。⒉获得一名其他角色装备区内的一张武器牌并使用，然后其将一张手牌 khi 做【杀】对 bạn 使用。② khi 其他角色使用【闪】响应 bạn 使用的【杀】时，若此【闪】没有 điểm số  hoặc  điểm số 不大于 bạn 攻击范围的二倍，则 bạn 令此【闪】无效。",
   sunyi: "手杀孙翊",
   zaoli: "躁厉",
   zaoli_info:
@@ -4017,7 +4030,7 @@ export const translate_mobile = {
   sp_gaolan: "手杀高览",
   spjungong: "峻攻",
   spjungong_info:
-    "出牌阶段， bạn 可失去X+1 sinh lực  hoặc 弃置X+1张牌，视 là 对一名其他角色使用【杀】（不计入次数和距离限制，X là  bạn 本回合内发动过〖等力〗的次数）。若 bạn 因此【杀】造成了 sát thương ，则 bạn 令此技能失效直到回合结束。",
+    "  giai đoạn ra bài， bạn 可失去X+1 sinh lực  hoặc 弃置X+1张牌，视 là 对一名其他角色使用【杀】（不计入次数和距离限制，X là  bạn 本回合内发动过〖等力〗的次数）。若 bạn 因此【杀】造成了 sát thương ，则 bạn 令此技能失效直到回合结束。",
   spdengli: "等力",
   spdengli_info:
     " khi bạn sử dụng 【杀】指定目标后， hoặc 成 là 【杀】的目标后，若使用者和目标的体力值相等，则 bạn 摸一张牌。",
@@ -4034,47 +4047,47 @@ export const translate_mobile = {
   sp_cuiyan: "手杀崔琰",
   spyajun: "雅俊",
   spyajun_info:
-    "①摸牌阶段， bạn 令额定摸牌数+1。②Bắt đầu giai đoạn hành động， bạn 可以用一张本回合获得的牌与其他角色拼点。若 bạn 赢，则 bạn 可将其中一张拼点牌置于牌堆顶。若 bạn 没赢， bạn 本回合的手牌上限-1。",
+    "①摸牌阶段， bạn 令额定摸牌数+1。②Bắt đầu giai đoạn ra bài， bạn 可以用一张本回合获得的牌与其他角色拼点。若 bạn 赢，则 bạn 可将其中一张拼点牌置于牌堆顶。若 bạn 没赢， bạn 本回合的手牌上限-1。",
   spzundi: "尊嫡",
   spzundi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌并选择一名角色，然后 bạn 进行判定。若结果 là ：黑色，其摸三张牌；红色，其可以移动场上的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌并选择一名角色，然后 bạn 进行判定。若结果 là ：黑色，其摸三张牌；红色，其可以移动场上的一张牌。",
   sp_zhangchangpu: "手杀张昌蒲",
   spdifei: "抵诽",
   spdifei_info:
     "Tỏa định kỹ。每回合限一次， khi  bạn 受到 sát thương 后， bạn 摸一张牌 hoặc 弃置一张手牌，然后展示所有手牌。若此 sát thương 的渠道 là 没有花色的牌 hoặc  bạn 的手牌中没有与此牌花色相同的牌，则 bạn 回复1 sinh lực 。",
   spyanjiao: "严教",
   spyanjiao_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以将手牌中一种花色的所有牌交给一名其他角色，对其造成1点 sát thương 。然后 bạn 于自己的下回合开始时摸等量的牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以将手牌中一种花色的所有牌交给一名其他角色，对其造成1点 sát thương 。然后 bạn 于自己的下回合开始时摸等量的牌。",
   sp_jiangwan: "蒋琬",
   spzhenting: "镇庭",
   spzhenting_info:
     "每回合限一次。 khi  bạn 攻击范围内的角色成 là 【杀】 hoặc 延时锦囊的目标时，若 bạn 不是此牌的使用者且不是此牌的目标，则 bạn 可以将此目标改 là 自己。然后 bạn 选择一项：①弃置使用者的一张手牌。②摸一张牌。",
   spjincui: "尽瘁",
   spjincui_info:
-    "Hạn định kỹ。出牌阶段， bạn 可以和一名其他角色交换位置，然后失去X sinh lực （X là  bạn 的体力值）。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可以和一名其他角色交换位置，然后失去X sinh lực （X là  bạn 的体力值）。",
   sp_jiangqing: "蒋钦",
   spjianyi: "俭衣",
   spjianyi_info:
     "Tỏa định kỹ。其他角色的回合结束时，若弃牌堆中有于本回合内因弃置而进入弃牌堆的防具牌，则 bạn 获得其中一张。",
   spshangyi: "尚义",
   spshangyi_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以弃置一张牌并选择一名其他角色。其观看 bạn 的手牌，然后 bạn 观看其手牌并获得其中的一张。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以弃置一张牌并选择一名其他角色。其观看 bạn 的手牌，然后 bạn 观看其手牌并获得其中的一张。",
   sunhanhua: "孙寒华",
   chongxu: "冲虚",
   chongxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以随机演奏一首音乐，并根据完成度来获得相应的分数（至多五分）。然后 bạn 可修改〖妙剑〗 hoặc 〖莲华〗（消耗3分），并使用剩余的分数进行摸牌（每张2分）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以随机演奏一首音乐，并根据完成度来获得相应的分数（至多五分）。然后 bạn 可修改〖妙剑〗 hoặc 〖莲华〗（消耗3分），并使用剩余的分数进行摸牌（每张2分）。",
   chongxu_faq: "目前的曲库",
   chongxu_faq_info:
     "　<br>《鸟之诗》- 折户伸治<br>《竹取飛翔　～ Lunatic Princess》- ZUN<br>《ignotus》- ak+q<br>《Super Mario 3D World Theme》- 横田真人",
   miaojian: "妙剑",
   miaojian_info:
-    "1 lần trong giai đoạn hành động。 bạn 可将一张【杀】 khi 做刺【杀】使用， hoặc 将一张锦囊牌 khi 做【无中生有】使用。",
+    "1 lần trong giai đoạn ra bài。 bạn 可将一张【杀】 khi 做刺【杀】使用， hoặc 将一张锦囊牌 khi 做【无中生有】使用。",
   miaojian1: "妙剑·改",
   miaojian1_info:
-    "1 lần trong giai đoạn hành động。 bạn 可将一张基本牌 khi 做刺【杀】使用， hoặc 将一张非基本牌 khi 做【无中生有】使用。",
+    "1 lần trong giai đoạn ra bài。 bạn 可将一张基本牌 khi 做刺【杀】使用， hoặc 将一张非基本牌 khi 做【无中生有】使用。",
   miaojian2: "妙剑·极",
   miaojian2_info:
-    "1 lần trong giai đoạn hành động。 bạn 可视 là 使用一张刺【杀】 hoặc 【无中生有】。",
+    "1 lần trong giai đoạn ra bài。 bạn 可视 là 使用一张刺【杀】 hoặc 【无中生有】。",
   shhlianhua: "莲华",
   shhlianhua_info: " khi  bạn 成 là 【杀】的目标后， bạn 摸一张牌。",
   shhlianhua1: "莲华·改",
@@ -4087,7 +4100,7 @@ export const translate_mobile = {
   rezongxuan: "纵玄",
   rezongxuan_place: "纵玄",
   rezongxuan_info:
-    " khi  bạn 的牌因弃置而进入弃牌堆后， bạn 可以将其以任意顺序置于牌堆顶。1 lần trong giai đoạn hành động， bạn 可以摸一张牌，然后将一张牌置于牌堆顶。",
+    " khi  bạn 的牌因弃置而进入弃牌堆后， bạn 可以将其以任意顺序置于牌堆顶。1 lần trong giai đoạn ra bài， bạn 可以摸一张牌，然后将一张牌置于牌堆顶。",
   sp_lvfan: "吕范",
   spdiaodu: "调度",
   spdiaodu_info:
@@ -4096,7 +4109,7 @@ export const translate_mobile = {
   spdiancai_info:
     "其他角色的 Giai đoạn kết thúc 开始时， bạn 可以令至多X名角色各摸一张牌（X là  bạn 本回合失去的手牌数）。",
   spyanji: "严纪",
-  spyanji_info: "Bắt đầu giai đoạn hành động， bạn 可以进行“整肃”。",
+  spyanji_info: "Bắt đầu giai đoạn ra bài， bạn 可以进行“整肃”。",
   yj_huangzhong: "☆黄忠",
   spshidi: "势敌",
   spshidi_info:
@@ -4110,7 +4123,7 @@ export const translate_mobile = {
   sp_huangfusong: "手杀皇甫嵩",
   spzhengjun: "整军",
   spzhengjun_info:
-    "①Bắt đầu giai đoạn hành động， bạn 可进行“整肃”。② khi  bạn 因整肃而摸牌 hoặc 回复体力后， bạn 可令一名其他角色选择摸两张牌 hoặc 回复1 sinh lực 。",
+    "①Bắt đầu giai đoạn ra bài， bạn 可进行“整肃”。② khi  bạn 因整肃而摸牌 hoặc 回复体力后， bạn 可令一名其他角色选择摸两张牌 hoặc 回复1 sinh lực 。",
   spshiji: "势击",
   spshiji_info:
     " khi  bạn 对其他角色造成属性 sát thương 时，若 bạn 的手牌数不 là 全场唯一最多，则 bạn 可以观看其手牌。 bạn 令其弃置其中的所有红色牌，然后摸等量的牌。",
@@ -4120,31 +4133,31 @@ export const translate_mobile = {
   sp_zhujun: "手杀朱儁",
   yangjie: "佯解",
   yangjie_info:
-    "1 lần trong giai đoạn hành động， bạn 可以摸一张牌并和一名其他角色A拼点。 khi  bạn 以此法展示 bạn 的拼点牌时， bạn 令此牌 điểm số -X（X là  bạn 已损失的体力值）。若 bạn 没赢，则 bạn 可以令另一名其他角色B获得两张拼点牌，然后其视 là 对A使用一张火【杀】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以摸一张牌并和一名其他角色A拼点。 khi  bạn 以此法展示 bạn 的拼点牌时， bạn 令此牌 điểm số -X（X là  bạn 已损失的体力值）。若 bạn 没赢，则 bạn 可以令另一名其他角色B获得两张拼点牌，然后其视 là 对A使用一张火【杀】。",
   zjjuxiang: "拒降",
   zjjuxiang_info:
     "Hạn định kỹ。一名其他角色脱离濒死状态时， bạn 可以对其造成1点 sát thương ，然后摸X张牌（X là 其体力上限且至多 là 5）。",
   houfeng: "厚俸",
   houfeng_info:
-    "每轮限一次。一名其他角色的Bắt đầu giai đoạn hành động，若其在 bạn 的攻击范围内，则 bạn 可以令其进行“整肃”。然后 khi 其于本回合内因整肃而摸牌 hoặc 回复体力后， bạn 可选择摸两张牌 hoặc 回复1 sinh lực 。",
+    "每轮限一次。一名其他角色的Bắt đầu giai đoạn ra bài，若其在 bạn 的攻击范围内，则 bạn 可以令其进行“整肃”。然后 khi 其于本回合内因整肃而摸牌 hoặc 回复体力后， bạn 可选择摸两张牌 hoặc 回复1 sinh lực 。",
   sp_maojie: "毛玠",
   bingqing: "秉清",
   bingqing_info:
-    " khi  bạn 于出牌阶段内使用的牌结算结束后，若 bạn 于本阶段内使用的所有其他牌与此牌花色均不相同，则 bạn 可根据X的值执行对应效果： là 2， bạn 令一名角色摸两张牌； là 3， bạn 弃置一名角色区域内的一张牌； là 4， bạn 对一名其他角色造成1点 sát thương 。（X là  bạn 本阶段内使用过的牌中包含的花色数）",
+    " khi  bạn 于  giai đoạn ra bài内使用的牌结算结束后，若 bạn 于本阶段内使用的所有其他牌与此牌花色均不相同，则 bạn 可根据X的值执行对应效果： là 2， bạn 令一名角色摸两张牌； là 3， bạn 弃置一名角色区域内的一张牌； là 4， bạn 对一名其他角色造成1点 sát thương 。（X là  bạn 本阶段内使用过的牌中包含的花色数）",
   yingfeng: "迎奉",
   yingfeng_info:
     "准备阶段， bạn 可以令一名角色获得“奉”标记并移除场上所有其他的“奉”标记。有“奉”标记的角色使用牌没有距离限制。",
   xin_sunxiu: "手杀孙休",
   mobileyanzhu: "宴诛",
   mobileyanzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名有牌的其他角色选择一项：① bạn 获得其装备区里所有的牌，然后 bạn 失去技能〖宴诛〗。② bạn 获得其一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名有牌的其他角色选择一项：① bạn 获得其装备区里所有的牌，然后 bạn 失去技能〖宴诛〗。② bạn 获得其一张牌。",
   mobilexingxue: "兴学",
   mobilexingxue_info:
     " Giai đoạn kết thúc 开始时， bạn 可以令至多X名角色依次摸一张牌并将一张牌置于牌堆顶（X là  bạn 的体力值，若 bạn 未拥有〖宴诛〗，则将X改 là  bạn 的体力上限，且其可以改 là 将一张牌交给一名其他目标角色）。",
   re_wuguotai: "手杀吴国太",
   reganlu: "甘露",
   reganlu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择装备区牌数之差的绝对值不大于X的两名角色 hoặc 包含 bạn 在内的两名角色，然后交换这两名角色装备区内的牌。（X là  bạn 已损失的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择装备区牌数之差的绝对值不大于X的两名角色 hoặc 包含 bạn 在内的两名角色，然后交换这两名角色装备区内的牌。（X là  bạn 已损失的体力值）",
   taoqian: "手杀陶谦",
   miheng: "手杀祢衡",
   re_gaoshun: "手杀高顺",
@@ -4154,11 +4167,11 @@ export const translate_mobile = {
     "Tỏa định kỹ。① khi bạn sử dụng 有 điểm số 的牌结算结束后， bạn 将此牌 điểm số 记录 là X。② khi bạn sử dụng 牌时，若X÷Y的余数 là 0，则 bạn 摸一张牌（Y là 此牌的 điểm số ）。③ bạn 使用Y÷X的余数 là 0的牌无次数限制（Y là 此牌的 điểm số ）。",
   juezhi: "爵制",
   juezhi_info:
-    "出牌阶段， bạn 可以弃置至少两张牌，然后从牌堆中获得一张 điểm số  là X的牌（X=min(13, 这些牌的 điểm số 和)）。",
+    "  giai đoạn ra bài， bạn 可以弃置至少两张牌，然后从牌堆中获得一张 điểm số  là X的牌（X=min(13, 这些牌的 điểm số 和)）。",
   sp_jianggan: "手杀蒋干",
   spdaoshu: "盗书",
   spdaoshu_info:
-    "每轮限一次。一名敌方角色的Bắt đầu giai đoạn hành động，若其有手牌，则 bạn 可以令其视 là 使用一张【酒】。其须声明一个基本牌的牌名，然后 bạn 判断其手牌区内是否有该牌名的牌。若 bạn 判断正确，则 bạn 随机获得其五张手牌，否则 bạn 不能响应其使用的牌直到回合结束。",
+    "每轮限一次。一名敌方角色的Bắt đầu giai đoạn ra bài，若其有手牌，则 bạn 可以令其视 là 使用一张【酒】。其须声明一个基本牌的牌名，然后 bạn 判断其手牌区内是否有该牌名的牌。若 bạn 判断正确，则 bạn 随机获得其五张手牌，否则 bạn 不能响应其使用的牌直到回合结束。",
   spdaizui: "戴罪",
   spdaizui_info:
     "Hạn định kỹ。 khi  bạn 受到 sát thương 值不小于体力值的 sát thương 时， bạn 可防止此 sát thương 并将此 sát thương 渠道对应的所有实体牌置于 sát thương 来源的武将牌上，称 là “释”。本回合结束时，其获得所有“释”。",
@@ -4166,18 +4179,18 @@ export const translate_mobile = {
   re_bulianshi: "手杀步练师",
   reanxu: "安恤",
   reanxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名其他角色，令其中一名角色获得另一名角色的一张牌。若以此法移动的牌不来自装备区，则 bạn 摸一张牌。然后 bạn 可以令二者中手牌数较少的一名角色摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名其他角色，令其中一名角色获得另一名角色的一张牌。若以此法移动的牌不来自装备区，则 bạn 摸一张牌。然后 bạn 可以令二者中手牌数较少的一名角色摸一张牌。",
   liuba: "刘巴",
   duanbi: "锻币",
   duanbi_info:
-    "1 lần trong giai đoạn hành động。若场上所有角色的手牌数之和大于角色数之和的二倍，则 bạn 可以令所有其他角色各弃置X张手牌（X là 该角色手牌数的一半且向下取整且至多 là 3）。然后 bạn 可选择一名角色，令其随机获得三张以此法被弃置的牌。",
+    "1 lần trong giai đoạn ra bài。若场上所有角色的手牌数之和大于角色数之和的二倍，则 bạn 可以令所有其他角色各弃置X张手牌（X là 该角色手牌数的一半且向下取整且至多 là 3）。然后 bạn 可选择一名角色，令其随机获得三张以此法被弃置的牌。",
   tongduo: "统度",
   tongduo_info:
     "每回合限一次。 khi  bạn 成 là 其他角色使用牌的唯一目标后， bạn 可令一名角色重铸一张牌。",
   xin_jushou: "手杀沮授",
   xinjianying: "渐营",
   xinjianying_info:
-    "Tỏa định kỹ。① khi  bạn 于出牌阶段内使用与此阶段 bạn 使用的上一张牌 điểm số  hoặc 花色相同的牌时， bạn 可以摸一张牌。②1 lần trong giai đoạn hành động， bạn 可以将一张牌 khi 做任意基本牌使用（不计入次数限制）。若 bạn 于此阶段内使用的上一张牌有花色，则此牌的花色视 là 上一张牌的花色。",
+    "Tỏa định kỹ。① khi  bạn 于  giai đoạn ra bài内使用与此阶段 bạn 使用的上一张牌 điểm số  hoặc 花色相同的牌时， bạn 可以摸一张牌。②1 lần trong giai đoạn ra bài， bạn 可以将一张牌 khi 做任意基本牌使用（不计入次数限制）。若 bạn 于此阶段内使用的上一张牌有花色，则此牌的花色视 là 上一张牌的花色。",
   re_xunyu: "手杀荀彧",
   rejieming: "节命",
   rejieming_info:
@@ -4185,24 +4198,24 @@ export const translate_mobile = {
   xin_quancong: "手杀全琮",
   sbyaoming: "邀名",
   sbyaoming_info:
-    "①游戏开始时， bạn 获得2枚“名”。② khi  bạn 受到1点 sát thương 后，若 bạn 的“名”少于4枚，则 bạn 获得一枚“名”。③出牌阶段 hoặc  khi  bạn 受到 sát thương 后， bạn 可以移除一枚“名”并选择一项：⒈弃置一名手牌数不小于 bạn 的角色的一张牌。⒉令一名手牌数不大于 bạn 的角色摸一张牌。若 bạn 上次发动〖邀名③〗时未获得过“名”且 bạn 选择的选项和上次不同，则 bạn 获得一枚“名”。",
+    "①游戏开始时， bạn 获得2枚“名”。② khi  bạn 受到1点 sát thương 后，若 bạn 的“名”少于4枚，则 bạn 获得一枚“名”。③  giai đoạn ra bài hoặc  khi  bạn 受到 sát thương 后， bạn 可以移除一枚“名”并选择一项：⒈弃置一名手牌数不小于 bạn 的角色的一张牌。⒉令一名手牌数不大于 bạn 的角色摸一张牌。若 bạn 上次发动〖邀名③〗时未获得过“名”且 bạn 选择的选项和上次不同，则 bạn 获得一枚“名”。",
   ruanhui: "阮慧",
   mingcha: "明察",
   mingcha_info:
     "摸牌阶段开始时， bạn 亮出牌堆顶的两张牌。若这两张牌中有 điểm số 小于7的牌，则 bạn 可以放弃摸牌并获得这些牌，然后 bạn 可以获得一名其他角色的随机一张牌。",
   jingzhong: "敬重",
   jingzhong_info:
-    "弃牌阶段结束时，若 bạn 于本阶段内弃置过至少两张黑色牌，则 bạn 可以选择一名其他角色并获得如下效果直到其回合结束：每阶段限三次，其于出牌阶段内使用的牌结算结束后， bạn 获得此牌对应的实体牌。",
+    "弃牌阶段结束时，若 bạn 于本阶段内弃置过至少两张黑色牌，则 bạn 可以选择一名其他角色并获得如下效果直到其回合结束：每阶段限三次，其于  giai đoạn ra bài内使用的牌结算结束后， bạn 获得此牌对应的实体牌。",
   xin_mamidi: "手杀马日磾",
   chengye: "承业",
   chengye_info:
-    "Tỏa định kỹ。①其他角色使用的非转化牌结算结束后， hoặc 其他角色的装备牌和延时锦囊牌进入弃牌堆后， hoặc 有延时锦囊牌因其他角色执行判定阶段的流程而进入弃牌堆后，若 bạn 的“六经”有空缺的位置可以置入此牌，则 bạn 将此牌置于 bạn 武将牌上，填补“六经”的对应位置。②Bắt đầu giai đoạn hành động，若 bạn 的“六经”没有空缺的位置，则 bạn 获得所有“六经”。",
+    "Tỏa định kỹ。①其他角色使用的非转化牌结算结束后， hoặc 其他角色的装备牌和延时锦囊牌进入弃牌堆后， hoặc 有延时锦囊牌因其他角色执行判定阶段的流程而进入弃牌堆后，若 bạn 的“六经”有空缺的位置可以置入此牌，则 bạn 将此牌置于 bạn 武将牌上，填补“六经”的对应位置。②Bắt đầu giai đoạn ra bài，若 bạn 的“六经”没有空缺的位置，则 bạn 获得所有“六经”。",
   chengye_append:
     '<span style="font-family: yuanli"><li>《诗经》： sát thương 类锦囊牌<br><li>《尚书》：基本牌<br><li>《仪礼》： Vô Giải Khả Kích <br><li>《易经》：无中生有<br><li>《乐经》：乐不思蜀<br><li>《春秋》：装备牌</span>',
   buxu: "补叙",
   buxu_backup: "补叙",
   buxu_info:
-    "出牌阶段，若 bạn 的“六经”中有空缺的位置，则 bạn 可以弃置X+1张牌并选择一种空缺的“六经”。系统从牌堆 hoặc 弃牌堆中检索一张对应的牌，然后 bạn 将此牌置于 bạn 武将牌上，填补“六经”的对应位置。",
+    "  giai đoạn ra bài，若 bạn 的“六经”中有空缺的位置，则 bạn 可以弃置X+1张牌并选择一种空缺的“六经”。系统从牌堆 hoặc 弃牌堆中检索一张对应的牌，然后 bạn 将此牌置于 bạn 武将牌上，填补“六经”的对应位置。",
 
   mobile_standard: "手杀异构·标准包",
   mobile_shenhua: "手杀异构·神话再临",
@@ -4236,7 +4249,7 @@ export const translate_mtg = {
   lingyong3: "灵俑",
   lingyong3_bg: "俑",
   lingyong_info:
-    "Tỏa định kỹ，每 khi 一名其他角色死亡， bạn 获得一个与该角色同名且体力上限 là 1、初始手牌 là 2的随从；出牌阶段， bạn 可以调遣以此法获得的随从（直到随从死亡不可再次切换）",
+    "Tỏa định kỹ，每 khi 一名其他角色死亡， bạn 获得一个与该角色同名且体力上限 là 1、初始手牌 là 2的随从；  giai đoạn ra bài， bạn 可以调遣以此法获得的随从（直到随从死亡不可再次切换）",
   mbaizhan: "百战",
   mbaizhan_info:
     "Tỏa định kỹ，每 khi  bạn 造成一点 sát thương ， bạn 获得一点护甲",
@@ -4245,12 +4258,12 @@ export const translate_mtg = {
     " Giai đoạn kết thúc ，若 bạn 有护甲， bạn 可以移去全部护甲，然后进行一个额外回合；在额外回合中， bạn 的摸牌阶段摸牌基数 là  bạn 移去的护甲数；额外回合结束后，若 bạn 未造成 sát thương ， bạn 失去一 sinh lực ",
   mtongnian: "通念",
   mtongnian_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 获得一张替身牌，此牌对应一名随机敌人的一张随机手牌；每 khi bạn sử dụng 一张非替身牌，随机更换替身牌对应的牌； khi bạn sử dụng 替身牌时，改 là 使用替身牌对应的牌； khi 出牌阶段结束， hoặc 替身牌离开手牌区， hoặc 敌方角色没有手牌时，销毁替身牌",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 获得一张替身牌，此牌对应一名随机敌人的一张随机手牌；每 khi bạn sử dụng 一张非替身牌，随机更换替身牌对应的牌； khi bạn sử dụng 替身牌时，改 là 使用替身牌对应的牌； khi   giai đoạn ra bài结束， hoặc 替身牌离开手牌区， hoặc 敌方角色没有手牌时，销毁替身牌",
   msuoling: "塑灵",
   msuoling_info:
     "每轮限一次， khi 一名其他角色使用一张非转化的普通锦囊牌时， bạn 可以弃置一张与之花色相同的牌取消之，然后 bạn 视 là 使用该锦囊牌",
   msuoling_old_info:
-    "1 lần trong giai đoạn hành động，若 bạn 手牌中有替身牌且手牌数不超过5， bạn 可以展示手牌，若其中的非替身手牌能通过四则运算得到 bạn 的替身牌的 điểm số ， bạn 将替身牌转化 là 非替身牌，然后获得一张新的替身牌（此技能托管无效）",
+    "1 lần trong giai đoạn ra bài，若 bạn 手牌中有替身牌且手牌数不超过5， bạn 可以展示手牌，若其中的非替身手牌能通过四则运算得到 bạn 的替身牌的 điểm số ， bạn 将替身牌转化 là 非替身牌，然后获得一张新的替身牌（此技能托管无效）",
   mhuanyi: "幻逸",
   mhuanyi_info:
     "每两轮限一次， Giai đoạn kết thúc ， bạn 可以选择一名其他角色和一种卡牌类型（选择结果对其他角色不可见），直到下一回合开始， khi  bạn 首次成 là 该类型卡牌的惟一目标时， bạn 将目标转移给 bạn 指定的角色（目标须合法）",
@@ -4284,7 +4297,7 @@ export const translate_offline = {
     " khi  bạn 受到有来源的 sát thương 后， bạn 可以进行判定（此判定结果生效前， bạn 可以打出一张手牌替换判定牌）。然后 bạn 可以观看 sát thương 来源的手牌并弃置其中的任意张与判定结果花色相同的牌。",
   spfuluan: "扶乱",
   spfuluan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置三张花色相同的牌并选择攻击范围内的一名角色。若如此做，该角色翻面且 bạn 不能使用【杀】直到回合结束",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置三张花色相同的牌并选择攻击范围内的一名角色。若如此做，该角色翻面且 bạn 不能使用【杀】直到回合结束",
   spshude: "淑德",
   spshude_info: " Giai đoạn kết thúc 开始时， bạn 可以将手牌补至体力上限。",
   spmingjian: "明鉴",
@@ -4296,7 +4309,7 @@ export const translate_offline = {
   yj_caoang: "SP曹昂",
   yjxuepin: "血拼",
   yjxuepin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择攻击范围内的一名角色并失去1 sinh lực 。 bạn 弃置其两张牌。若这两张牌类型相同， bạn 回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择攻击范围内的一名角色并失去1 sinh lực 。 bạn 弃置其两张牌。若这两张牌类型相同， bạn 回复1 sinh lực 。",
   ns_chendao: "SP陈到",
   nsjianglie: "将烈",
   nsjianglie_info:
@@ -4309,30 +4322,30 @@ export const translate_offline = {
   ns_zhangji: "SP张济",
   nsfeixiong: "飞熊",
   nsfeixiong_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以和一名其他角色拼点。赢的角色对没赢的角色造成1点 sát thương 。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以和一名其他角色拼点。赢的角色对没赢的角色造成1点 sát thương 。",
   nscesuan: "策算",
   nscesuan_info:
     "Tỏa định kỹ， khi  bạn 受到 sát thương 时， bạn 防止此 sát thương 并失去一 sinh lực 上限。若 bạn 因以此法失去体力上限导致体力值减少，则 bạn 摸一张牌。",
   nslulve: "掳掠",
   nslulve_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置X张牌并选择一名装备区内有牌的其他角色，然后对其造成1点 sát thương （X là 其装备区内的牌数）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置X张牌并选择一名装备区内有牌的其他角色，然后对其造成1点 sát thương （X là 其装备区内的牌数）。",
   ns_fanchou: "SP樊稠",
   nsyangwu: "扬武",
   nsyangwu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张♥手牌并选择一名手牌数大于 bạn 的其他角色。 bạn 观看其手牌并获得其中的X张牌（X là 其与 bạn 手牌数之差的一半且向上取整）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张♥手牌并选择一名手牌数大于 bạn 的其他角色。 bạn 观看其手牌并获得其中的X张牌（X là 其与 bạn 手牌数之差的一半且向上取整）。",
   jsp_liubei: "群刘备",
   jsp_liubei_ab: "刘备",
   jsprende: "仁德",
   jsprende_info:
-    "出牌阶段， bạn 可以将至少一张手牌交给其他角色；若 bạn 于此阶段内给出的牌首次达到两张， bạn 可以视 là 使用一张基本牌",
+    "  giai đoạn ra bài， bạn 可以将至少一张手牌交给其他角色；若 bạn 于此阶段内给出的牌首次达到两张， bạn 可以视 là 使用一张基本牌",
   ns_caoanmin: "曹安民",
   nskuishe: "窥舍",
   nskuishe_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色A的一张牌，并将此牌交给不 là A的一名角色。然后A可以对 bạn 使用一张【杀】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色A的一张牌，并将此牌交给不 là A的一名角色。然后A可以对 bạn 使用一张【杀】。",
   sp_xiahoushi: "SP夏侯氏",
   xinfu_yanyu: "燕语",
   xinfu_yanyu_info:
-    "一名角色的Bắt đầu giai đoạn hành động， bạn 可以弃置一张牌。若如此做，则该出牌阶段内， khi 有与 bạn 弃置的牌类别相同的其他牌进入弃牌堆后， bạn 可令任意一名角色获得此牌。每阶段以此法获得的牌不能超过三张。",
+    "一名角色的Bắt đầu giai đoạn ra bài， bạn 可以弃置一张牌。若如此做，则该  giai đoạn ra bài内， khi 有与 bạn 弃置的牌类别相同的其他牌进入弃牌堆后， bạn 可令任意一名角色获得此牌。每阶段以此法获得的牌不能超过三张。",
   xinfu_yanyu2: "燕语",
   xinfu_xiaode: "孝德",
   xinfu_xiaode_info:
@@ -4342,7 +4355,7 @@ export const translate_offline = {
   chixin1: "赤心",
   chixin2: "赤心",
   chixin_info:
-    " bạn 可以将♦牌 khi 作【杀】 hoặc 【闪】使用 hoặc 打出。出牌阶段， bạn 对在 bạn 攻击范围内且本回合内未成 là 过 bạn 使用的【杀】的目标的角色使用的【杀】没有次数限制。",
+    " bạn 可以将♦牌 khi 作【杀】 hoặc 【闪】使用 hoặc 打出。  giai đoạn ra bài， bạn 对在 bạn 攻击范围内且本回合内未成 là 过 bạn 使用的【杀】的目标的角色使用的【杀】没有次数限制。",
   suiren: "随仁",
   suiren_info:
     "Hạn định kỹ，准备阶段开始时， bạn 可以失去技能〖义从〗，然后加1 sinh lực 上限并回复1 sinh lực ，然后令一名角色摸三张牌。",
@@ -4367,7 +4380,7 @@ export const translate_offline = {
   sp_daqiao: "☆SP大乔",
   yanxiao: "言笑",
   yanxiao_info:
-    "出牌阶段， bạn 可以将一张♦牌置于一名角色的判定区内。判定区内有〖言笑〗牌的角色下个判定阶段开始时，其获得判定区里的所有牌。",
+    "  giai đoạn ra bài， bạn 可以将一张♦牌置于一名角色的判定区内。判定区内有〖言笑〗牌的角色下个判定阶段开始时，其获得判定区里的所有牌。",
   anxian: "安娴",
   anxian_info:
     " khi bạn sử dụng 【杀】对目标角色造成 sát thương 时， bạn 可以防止此 sát thương ，令其弃置一张手牌，然后 bạn 摸一张牌； khi  bạn 成 là 【杀】的目标后， bạn 可以弃置一张手牌，令此【杀】对 bạn 无效，然后此【杀】的使用者摸一张牌。",
@@ -4375,7 +4388,7 @@ export const translate_offline = {
   yinling: "银铃",
   yinling_bg: "锦",
   yinling_info:
-    "出牌阶段，若 bạn 的“锦”小于四张， bạn 可以弃置一张黑色牌并指定一名其他角色。若如此做， bạn 将其的一张牌置于 bạn 的武将牌上，称 là “锦”。",
+    "  giai đoạn ra bài，若 bạn 的“锦”小于四张， bạn 可以弃置一张黑色牌并指定一名其他角色。若如此做， bạn 将其的一张牌置于 bạn 的武将牌上，称 là “锦”。",
   junwei: "军威",
   junwei2: "军威",
   junwei_info:
@@ -4394,7 +4407,7 @@ export const translate_offline = {
   tanhu2: "探虎",
   tanhu3: "探虎",
   tanhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束： bạn 与该角色的距离 là 1， bạn 对该角色使用的普通锦囊牌不能被【 Vô Giải Khả Kích 】响应。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束： bạn 与该角色的距离 là 1， bạn 对该角色使用的普通锦囊牌不能被【 Vô Giải Khả Kích 】响应。",
   mouduan: "谋断",
   mouduan_info:
     "游戏开始时， bạn 获得标记“武”并获得技能〖激昂〗和〖谦逊〗。 khi  bạn 失去手牌后，若手牌数不大于2， bạn 须将 bạn 的标记变 là “文”，将这两项技能改 là 〖英姿〗和〖克己〗。一名角色的回合开始前， bạn 可弃一张牌将标记翻回。",
@@ -4406,7 +4419,7 @@ export const translate_offline = {
   dahe2: "大喝",
   dahe2_bg: "喝",
   dahe_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色拼点。若 bạn 赢，该角色不能使用 hoặc 打出不 là ♥花色的【闪】直到回合结束，且 bạn 可将该角色拼点的牌交给场上一名体力不多于 bạn 的角色。若 bạn 没赢， bạn 须展示手牌并弃置其中的一张。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色拼点。若 bạn 赢，该角色不能使用 hoặc 打出不 là ♥花色的【闪】直到回合结束，且 bạn 可将该角色拼点的牌交给场上一名体力不多于 bạn 的角色。若 bạn 没赢， bạn 须展示手牌并弃置其中的一张。",
   sp_liubei: "☆SP刘备",
   zhaolie: "昭烈",
   zhaolie_info:
@@ -4428,7 +4441,7 @@ export const translate_offline = {
     "每回合限一次。 khi  bạn 对其他角色发动〖赠予〗后， bạn 令其不能使用 hoặc 打出与本次赠予移动的牌A花色相同的牌直到回合结束。然后若牌A： là 锦囊牌， bạn 摸两张牌。 là 装备牌， bạn 获得其一张不 là A的牌。 là 武器牌， bạn 对其造成1点 sát thương 。",
   yjsancai: "散财",
   yjsancai_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示所有手牌。若这些牌的类别均相同，则 bạn 可以发动一次〖赠予〗（可以选择任意手牌）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示所有手牌。若这些牌的类别均相同，则 bạn 可以发动一次〖赠予〗（可以选择任意手牌）。",
   yjyibing: "义兵",
   yjyibing_info:
     " khi  bạn 不因〖赠予〗而于摸牌阶段外获得牌时， bạn 可以将此次获得的所有牌 khi 做【杀】使用（无距离限制且不计入使用次数）。",
@@ -4483,19 +4496,19 @@ export const translate_old = {
   old_guhuo_wuxie: "蛊惑",
   old_jijun: "集军",
   old_jijun_info:
-    "出牌阶段， bạn 可以将任意张手牌置于 bạn 的武将牌上。（均称 là “方”）",
+    "  giai đoạn ra bài， bạn 可以将任意张手牌置于 bạn 的武将牌上。（均称 là “方”）",
   old_fangtong: "方统",
   old_fangtong_info:
     "Tỏa định kỹ， Giai đoạn kết thúc ，若 bạn 的“方”的数目大于等于36，则 bạn 所在的游戏阵营直接取得游戏胜利。",
   old_zuilun: "罪论",
   old_zuilun_info:
-    "出牌阶段， bạn 可以获得一名其他角色的一张牌（手牌、装备区各一次），然后该角色摸一张牌。",
+    "  giai đoạn ra bài， bạn 可以获得一名其他角色的一张牌（手牌、装备区各一次），然后该角色摸一张牌。",
   old_fuyin: "父荫",
   old_fuyin_info:
     "Tỏa định kỹ，若 bạn 的装备区内没有防具牌，手牌数大于 hoặc 等于 bạn 的其他角色不能使用【杀】、【决斗】 hoặc 【火攻】指定 bạn  là 目标",
   oldanxu: "安恤",
   oldanxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择手牌数不相等的两名其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之，然后若此牌不 là  ♠︎ ， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择手牌数不相等的两名其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之，然后若此牌不 là  ♠︎ ， bạn 摸一张牌。",
   oldfaen: "法恩",
   oldfaen_info: " khi 一名角色翻面 hoặc 横置后， bạn 可以令其摸一张牌。",
   oldxuanfeng: "旋风",
@@ -4530,7 +4543,7 @@ export const translate_ow = {
     " Giai đoạn kết thúc ， bạn 可以选择至多两名角色， khi  bạn  hoặc 目标中的任意一名角色成 là 杀的目标时，其余角色也将被追加 là 目标，直到 bạn 死亡 hoặc 下一回合开始",
   qianggu: "强固",
   qianggu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张牌并获得两点护甲，若如此做，直到 bạn 的下个回合开始，其他角色对 bạn 使用杀时需要弃置一张基本牌，否则杀对 bạn 无效",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张牌并获得两点护甲，若如此做，直到 bạn 的下个回合开始，其他角色对 bạn 使用杀时需要弃置一张基本牌，否则杀对 bạn 无效",
   qianggu2: "强固",
   qianggu2_bg: "固",
   qianggu2_info: "其他角色对 bạn 使用杀时需要弃置一张基本牌，否则杀对 bạn 无效",
@@ -4544,11 +4557,11 @@ export const translate_ow = {
     "Tỏa định kỹ， bạn 摸牌阶段摸牌数+X，X là  bạn 上一轮发动屏障的次数",
   dianji: "电击",
   dianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌 khi 作惊雷闪对距离2以内的角色使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌 khi 作惊雷闪对距离2以内的角色使用",
   feitiao: "飞跳",
   feitiao2: "飞跳",
   feitiao_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置一张牌并指定一名角色， bạn 与该角色的距离视 là 1直到回合结束，然后该角色随机弃置一张牌",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置一张牌并指定一名角色， bạn 与该角色的距离视 là 1直到回合结束，然后该角色随机弃置一张牌",
   bshaowei: "哨卫",
   bshaowei_info:
     " Giai đoạn kết thúc ， bạn 可以切换至哨卫模式。 khi 处于此模式时， bạn 的杀无视距离和防具、无数量限制且不可闪避； bạn 不能闪避杀",
@@ -4557,7 +4570,7 @@ export const translate_ow = {
     " Giai đoạn kết thúc ， bạn 可以切换至侦查模式。 khi 处于此模式时，每 khi bạn sử dụng 一张杀， bạn 摸一张牌 hoặc 回复一 sinh lực ",
   liangou: "链钩",
   liangou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，指定一名其他角色并进行一次判定，若结果不 là  ♥︎ ，该角色与 bạn 距离 là 1且受到的首次 sát thương +1直到回合结束",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，指定一名其他角色并进行一次判定，若结果不 là  ♥︎ ，该角色与 bạn 距离 là 1且受到的首次 sát thương +1直到回合结束",
   xiyang: "吸氧",
   xiyang_info:
     " Giai đoạn kết thúc ，若 bạn 武将牌正面朝上， bạn 可以翻面并回复两 sinh lực ",
@@ -4583,19 +4596,19 @@ export const translate_ow = {
     "Tỏa định kỹ，若 bạn 已发动重盾， khi  bạn 没有护甲时， bạn 的杀造成的 sát thương +1",
   zhongdun: "重盾",
   zhongdun_info:
-    "游戏开始时， bạn 获得8点护甲；1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并将一点护甲分给一名没有护甲的其他角色",
+    "游戏开始时， bạn 获得8点护甲；1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并将一点护甲分给一名没有护甲的其他角色",
   zhongdun_info_alter:
-    "游戏开始时， bạn 获得6点护甲；1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并将一点护甲分给一名没有护甲的其他角色",
+    "游戏开始时， bạn 获得6点护甲；1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并将一点护甲分给一名没有护甲的其他角色",
   paotai: "炮台",
   paotai2: "炮台",
   paotai_info:
-    "出牌阶段， bạn 可以弃置一张杀布置 hoặc 升级一个炮台（最高3级）； Giai đoạn kết thúc ，炮台有一定机率对一名随机敌人造成一点火焰 sát thương ；每 khi  bạn 受到一点 sát thương ，炮台降低一级",
+    "  giai đoạn ra bài， bạn 可以弃置一张杀布置 hoặc 升级一个炮台（最高3级）； Giai đoạn kết thúc ，炮台有一定机率对一名随机敌人造成一点火焰 sát thương ；每 khi  bạn 受到一点 sát thương ，炮台降低一级",
   maoding: "铆钉",
   maoding2: "铆钉",
   maoding_info:
-    "每 khi  bạn 造成 hoặc 受到一次 sát thương ， bạn 可以获得一个零件；出牌阶段， bạn 可以弃置两张零件牌令一名没有护甲的角色获得一点护甲",
+    "每 khi  bạn 造成 hoặc 受到一次 sát thương ， bạn 可以获得一个零件；  giai đoạn ra bài， bạn 可以弃置两张零件牌令一名没有护甲的角色获得一点护甲",
   maoding_info_alter:
-    "每 khi  bạn 造成一次 sát thương ， bạn 可以获得一个零件；出牌阶段， bạn 可以弃置两张零件牌令一名没有护甲的角色获得一点护甲",
+    "每 khi  bạn 造成一次 sát thương ， bạn 可以获得一个零件；  giai đoạn ra bài， bạn 可以弃置两张零件牌令一名没有护甲的角色获得一点护甲",
   bfengshi: "风矢",
   bfengshi2: "风矢",
   bfengshi_info:
@@ -4604,7 +4617,7 @@ export const translate_ow = {
     "Tỏa định kỹ，在一合内每 khi bạn sử dụng 一张牌， bạn 的攻击范围+1； bạn 的首张杀增加15%的概率强制命中； bạn 的首张杀造成 sát thương 后增加15%的概率令 sát thương +1",
   yinbo: "音波",
   yinbo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张 ♠︎ 牌，然后随机弃置三名敌人各一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 牌，然后随机弃置三名敌人各一张牌",
   liudan: "榴弹",
   liudan_info:
     "每 khi bạn sử dụng 一张杀， bạn 可以令所有不是此杀目标的其他角色有50%概率成 là 此杀的额外目标",
@@ -4612,29 +4625,29 @@ export const translate_ow = {
   shoujia2: "兽夹",
   shoujia3: "兽夹",
   shoujia_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张牌背面朝上置于一名其他角色的武将牌上， khi 该角色使用一张与此牌花色相同的牌指定其他角色 là 目标时，移去此牌，该角色将武将牌翻至背面； khi  bạn 受到 sát thương 时，移去此牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张牌背面朝上置于一名其他角色的武将牌上， khi 该角色使用一张与此牌花色相同的牌指定其他角色 là 目标时，移去此牌，该角色将武将牌翻至背面； khi  bạn 受到 sát thương 时，移去此牌",
   shihuo: "嗜火",
   shihuo_info:
     "Tỏa định kỹ，每 khi 一名角色受到火焰 sát thương ， bạn 摸一张牌",
   shanguang: "闪光",
   shanguang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张方片牌令攻击范围内的一名其他角色本回合内不能使用 hoặc 打出卡牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张方片牌令攻击范围内的一名其他角色本回合内不能使用 hoặc 打出卡牌",
   tiandan: "填弹",
   tiandan_info:
     "摸牌阶段开始时， bạn 可以跳过出牌和弃牌阶段，然后获得若干张杀直到 bạn 的手牌数等于 bạn 的体值（最多 là 5）",
   shenqiang: "神枪",
   shenqiang_info:
-    "Tỏa định kỹ，每 khi  bạn 在出牌阶段使用杀造成 sát thương ，本阶段内出杀次数上限+1",
+    "Tỏa định kỹ，每 khi  bạn 在  giai đoạn ra bài使用杀造成 sát thương ，本阶段内出杀次数上限+1",
   mianzhen: "眠针",
   mianzhen2: "眠针",
   mianzhen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并令一名其他角色打出一张闪，否则该角色不能使用 hoặc 打出卡牌直到其受到 sát thương  hoặc 下一回合结束",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并令一名其他角色打出一张闪，否则该角色不能使用 hoặc 打出卡牌直到其受到 sát thương  hoặc 下一回合结束",
   aqianghua: "强化",
   aqianghua2: "强化",
   aqianghua_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将 bạn 的全部手牌（至少一张）交给一名其他角色，该角色获得一点护甲且下一次造成的 sát thương +1",
+    "1 lần trong giai đoạn ra bài， bạn 可以将 bạn 的全部手牌（至少一张）交给一名其他角色，该角色获得一点护甲且下一次造成的 sát thương +1",
   aqianghua_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以将 bạn 的全部手牌（至少一张）交给一名其他角色，该角色下一次造成的 sát thương +1",
+    "1 lần trong giai đoạn ra bài， bạn 可以将 bạn 的全部手牌（至少一张）交给一名其他角色，该角色下一次造成的 sát thương +1",
   zhiyuan: "支援",
   zhiyuan_info:
     "每 khi  bạn 即将造成 sát thương ， bạn 可以防止此 sát thương ，改 là 令目标回复等量的体力",
@@ -4642,26 +4655,26 @@ export const translate_ow = {
   juji2: "狙击",
   juji3: "狙击",
   juji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张花色不同的牌并指定一名有手牌的其他角色，若该角色的手牌中含有与 bạn 弃置的牌花色相同的牌，则本回合内 bạn 与其距离 là 1且该角色不能闪避 bạn 的杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张花色不同的牌并指定一名有手牌的其他角色，若该角色的手牌中含有与 bạn 弃置的牌花色相同的牌，则本回合内 bạn 与其距离 là 1且该角色不能闪避 bạn 的杀",
   duwen: "毒吻",
   duwen2: "毒吻",
   duwen_info:
     "Tỏa định kỹ， khi  bạn 造成 sát thương 时，若 bạn 的手牌数与受 sát thương 角色相等，此 sát thương +1",
   zhuagou: "抓钩",
   zhuagou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌并将 bạn 的座位移到任意位置",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌并将 bạn 的座位移到任意位置",
   dulei: "诡雷",
   dulei2: "诡雷",
   dulei_info:
-    "出牌阶段，若 bạn 武将牌上没有牌， bạn 可以将一张牌背面朝上置于 bạn 的武将牌上， khi 一名角色使用与该牌花色相同的牌指定 bạn  là 目标时， bạn 展示并移去此牌，然后该角色失去一 sinh lực 并随机弃置一张牌",
+    "  giai đoạn ra bài，若 bạn 武将牌上没有牌， bạn 可以将一张牌背面朝上置于 bạn 的武将牌上， khi 一名角色使用与该牌花色相同的牌指定 bạn  là 目标时， bạn 展示并移去此牌，然后该角色失去一 sinh lực 并随机弃置一张牌",
   shuangqiang: "霜枪",
   shuangqiang_info:
     "每 khi  bạn 对一名未翻面的角色造成 sát thương ， bạn 可以令 sát thương -1，然后令受 sát thương 角色翻面",
   baoxue: "暴雪",
   baoxue_info:
-    "Hạn định kỹ，出牌阶段，若 bạn 未翻面， bạn 可以展示并弃置 bạn 的所有黑色牌，然后令至多X名其他角色随机弃置一张牌并将武将牌翻至背面，X là  bạn 的弃牌数；结算后 bạn 将武将牌翻至背面",
+    "Hạn định kỹ，  giai đoạn ra bài，若 bạn 未翻面， bạn 可以展示并弃置 bạn 的所有黑色牌，然后令至多X名其他角色随机弃置一张牌并将武将牌翻至背面，X là  bạn 的弃牌数；结算后 bạn 将武将牌翻至背面",
   baoxue_info_alter:
-    "Hạn định kỹ，出牌阶段， bạn 可以展示并弃置 bạn 的所有黑色牌，并选择等量其他角色将武将牌翻至背面，结算后 bạn 将武将牌翻至背面",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以展示并弃置 bạn 的所有黑色牌，并选择等量其他角色将武将牌翻至背面，结算后 bạn 将武将牌翻至背面",
   bingqiang: "冰墙",
   bingqiang2: "冰墙",
   bingqiang2_bg: "墙",
@@ -4672,7 +4685,7 @@ export const translate_ow = {
   bingqiang5: "冰墙",
   bingqiang5_bg: "障",
   bingqiang_info:
-    "出牌阶段， bạn 可以弃置X张红色牌令一名角色和其相邻角色的防御离+X， hoặc 弃置X张黑色牌令一名角色和其相邻角色的进攻离-X，效果持续到 bạn 的下个回合开始",
+    "  giai đoạn ra bài， bạn 可以弃置X张红色牌令一名角色和其相邻角色的防御离+X， hoặc 弃置X张黑色牌令一名角色和其相邻角色的进攻离-X，效果持续到 bạn 的下个回合开始",
   jidong: "急冻",
   jidong_info:
     "在一名角色的 Giai đoạn kết thúc ，若 bạn 的体力值 là 1且未翻面， bạn 可以翻面并回复两 sinh lực ，在 bạn 的武将牌翻至正面前， bạn 防止所有 sát thương ，也不能成 là 其他角色卡牌的目标",
@@ -4683,13 +4696,13 @@ export const translate_ow = {
     "Tỏa định kỹ，游戏开始时， bạn 获得一个体力 là 4的机甲； bạn 的手牌上限 là  bạn 和机甲的体力之和； bạn 受到的 sát thương 由机甲承担",
   zihui: "自毁",
   zihui_info:
-    "出牌阶段， bạn 可以令距离2以内的所有其他角色选择一项：弃置数量等同 bạn 机甲体力值的牌， hoặc 受到2点火焰 sát thương ，并在结算完毕后摧毁 bạn 的机甲",
+    "  giai đoạn ra bài， bạn 可以令距离2以内的所有其他角色选择一项：弃置数量等同 bạn 机甲体力值的牌， hoặc 受到2点火焰 sát thương ，并在结算完毕后摧毁 bạn 的机甲",
   zihui_info_alter:
-    "出牌阶段， bạn 可以令距离2以内的所有其他角色选择一项：1. 弃置数量等同 bạn 机甲体力值的牌（不足则全弃，至少弃1张）；2.  hoặc 受到2点火焰 sát thương ，并在结算完毕后摧毁 bạn 的机甲",
+    "  giai đoạn ra bài， bạn 可以令距离2以内的所有其他角色选择一项：1. 弃置数量等同 bạn 机甲体力值的牌（不足则全弃，至少弃1张）；2.  hoặc 受到2点火焰 sát thương ，并在结算完毕后摧毁 bạn 的机甲",
   tuijin: "推进",
   tuijin2: "推进",
   tuijin_info:
-    "1 lần trong giai đoạn hành động，若 bạn 有机甲， bạn 可以指定一名角色，本回合内视 là 与其距离 là 1",
+    "1 lần trong giai đoạn ra bài，若 bạn 有机甲， bạn 可以指定一名角色，本回合内视 là 与其距离 là 1",
   chongzhuang: "重装",
   chongzhuang_info:
     "在 bạn 失去机甲后， khi  bạn 累计造成了4点 sát thương 时， bạn 重新获得机甲",
@@ -4715,16 +4728,16 @@ export const translate_ow = {
   xie: "谐",
   xie2: "谐",
   xie_info:
-    "出牌阶段， bạn 可以弃置一张 ♥︎ 手牌并指定一名角色，该角色自其下一回合开始每隔六回合回复一 sinh lực ，直到 bạn 死亡。同一时间只能对一人发动",
+    "  giai đoạn ra bài， bạn 可以弃置一张 ♥︎ 手牌并指定一名角色，该角色自其下一回合开始每隔六回合回复一 sinh lực ，直到 bạn 死亡。同一时间只能对一人发动",
   luan: "乱",
   luan2: "乱",
   luan_old_info:
-    "出牌阶段， bạn 可以弃置一张 ♠︎ 手牌并指定一名角色，该角色自其下一回合开始每隔六回合失去一 sinh lực ，直到 bạn 死亡。同一时间只能对一人发动",
+    "  giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 手牌并指定一名角色，该角色自其下一回合开始每隔六回合失去一 sinh lực ，直到 bạn 死亡。同一时间只能对一人发动",
   luan_info:
-    "出牌阶段， bạn 可以弃置一张 ♠︎ 手牌并指定一名角色，该角色受到 sát thương 后流失一 sinh lực ，直到 bạn 死亡 hoặc 其首次进入濒死状态。同一时间只能对一人发动",
+    "  giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 手牌并指定一名角色，该角色受到 sát thương 后流失一 sinh lực ，直到 bạn 死亡 hoặc 其首次进入濒死状态。同一时间只能对一人发动",
   sheng: "圣",
   sheng_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以将 bạn 的武将牌翻面，然后令任意名角色回复一 sinh lực ，若如此做， bạn 不能成 là 其他角色的卡牌目标直到下一回合开始",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以将 bạn 的武将牌翻面，然后令任意名角色回复一 sinh lực ，若如此做， bạn 不能成 là 其他角色的卡牌目标直到下一回合开始",
   xiandan: "霰弹",
   xiandan_info:
     "每 khi bạn sử dụng 一张杀， bạn 可以弃置一张红色牌令此杀不可闪避， hoặc 弃置一张黑色牌令此杀 sát thương +1",
@@ -4736,23 +4749,24 @@ export const translate_ow = {
     " bạn 的杀只能对距离1以外的角色使用；每 khi bạn sử dụng 杀造成 sát thương 后， bạn 可以弃置一张牌对距离目标1以内的其他角色各造成一点 sát thương ",
   huoyu: "火雨",
   huoyu_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以弃置两张红色牌，视 là 使用两张炽羽袭",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以弃置两张红色牌，视 là 使用两张炽羽袭",
   yuedong: "乐动",
-  yuedong_info: "出牌阶段结束时， bạn 可以令一名角色摸一张牌",
+  yuedong_info: "  giai đoạn ra bài结束时， bạn 可以令一名角色摸一张牌",
   kuoyin: "扩音",
   kuoyin_info:
-    "出牌阶段， bạn 可以弃置一张牌令本回合乐动的目标数改 là 3， hoặc 弃置两张牌令本回合乐动的摸牌量改 là 2",
-  kuoyin_info_alter: "出牌阶段， bạn 可以弃置一张牌令本回合乐动的目标数改 là 3",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌令本回合乐动的目标数改 là 3， hoặc 弃置两张牌令本回合乐动的摸牌量改 là 2",
+  kuoyin_info_alter:
+    "  giai đoạn ra bài， bạn 可以弃置一张牌令本回合乐动的目标数改 là 3",
   huhuan: "互换",
   huhuan_info:
-    "出牌阶段， bạn 可以弃置两张牌令本回合乐动的摸牌效果改 là 回复等量体力",
+    "  giai đoạn ra bài， bạn 可以弃置两张牌令本回合乐动的摸牌效果改 là 回复等量体力",
   guangshu: "光枢",
   guangshu_heart: "光盾",
   guangshu_spade: "光塔",
   guangshu_club: "光井",
   guangshu_diamond: "光流",
   guangshu_info:
-    "出牌阶段， bạn 可以弃置一张牌，并指定一名角色，根据弃置牌的花色执行如下效果：♥该角色下次受到 sát thương 时回复一 sinh lực ；♦︎该角色下次造成 sát thương 时摸两张牌；♣该角色无法使用杀直到下一回合结束；♠该角色于下个 Giai đoạn kết thúc 受到一点无来源的雷电 sát thương ",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌，并指定一名角色，根据弃置牌的花色执行如下效果：♥该角色下次受到 sát thương 时回复一 sinh lực ；♦︎该角色下次造成 sát thương 时摸两张牌；♣该角色无法使用杀直到下一回合结束；♠该角色于下个 Giai đoạn kết thúc 受到一点无来源的雷电 sát thương ",
   ziyu: "自愈",
   ziyu_info:
     "在一名角色的 Giai đoạn kết thúc ， bạn 可以回复一 sinh lực  hoặc 摸一张牌，每隔四回合发动一次",
@@ -4760,7 +4774,7 @@ export const translate_ow = {
     "在一名角色的 Giai đoạn kết thúc ， bạn 可以回复一 sinh lực  hoặc 摸一张牌，每隔六回合发动一次",
   shouhu: "守护",
   shouhu_info:
-    " bạn 不能使用杀；出牌阶段， bạn 可以弃置一张杀令一名其他角色回复一 sinh lực ",
+    " bạn 不能使用杀；  giai đoạn ra bài， bạn 可以弃置一张杀令一名其他角色回复一 sinh lực ",
   shanxian: "闪现",
   shanxian_info:
     "在一名其他角色的回合开始前，若 bạn 的武将牌正面朝上， bạn 可以摸一张牌并进行一个额外回合，并在回合结束后将武将牌翻至背面。若如此做， bạn 对其使用卡牌无视距离直到回合结束。",
@@ -4836,27 +4850,27 @@ export const translate_refresh = {
 
   olfangquan: "放权",
   olfangquan_info:
-    "出牌阶段开始前， bạn 可以跳过此阶段。若如此做，弃牌阶段开始时， bạn 可以弃置一张手牌，令一名其他角色进行一个额外回合。",
+    "  giai đoạn ra bài开始前， bạn 可以跳过此阶段。若如此做，弃牌阶段开始时， bạn 可以弃置一张手牌，令一名其他角色进行一个额外回合。",
   olruoyu: "若愚",
   olruoyu_info:
     "Chủ công kỹ，觉醒技，准备阶段，若 bạn 的体力值 là 全场最少，则 bạn 加1 sinh lực 上限，将体力回复至3点，然后获得技能〖思蜀〗和〖激将〗。",
   sishu: "思蜀",
   sishu_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一名角色。该角色本局游戏内【乐不思蜀】的判定效果反转。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一名角色。该角色本局游戏内【乐不思蜀】的判定效果反转。",
   olluanji: "乱击",
   olluanji_info:
     " bạn 可以将两张花色相同的手牌 khi 做【万箭齐发】使用。 khi bạn sử dụng 【万箭齐发】选择目标后， bạn 可以 là 此牌减少一个目标。",
   olluanji_remove: "乱击",
   olxueyi: "血裔",
   olxueyi_info:
-    "Chủ công kỹ，Tỏa định kỹ。①游戏开始时， bạn 获得2X个“裔”标记（X là 场上群势力角色的数目）。②Bắt đầu giai đoạn hành động， bạn 可以移去一个“裔”标记，然后摸一张牌。③ bạn 的手牌上限+Y（Y là “裔”标记数）。",
+    "Chủ công kỹ，Tỏa định kỹ。①游戏开始时， bạn 获得2X个“裔”标记（X là 场上群势力角色的数目）。②Bắt đầu giai đoạn ra bài， bạn 可以移去一个“裔”标记，然后摸一张牌。③ bạn 的手牌上限+Y（Y là “裔”标记数）。",
   olxueyi_draw: "血裔",
   olhunzi: "魂姿",
   olhunzi_info:
     "觉醒技，准备阶段，若 bạn 的体力值 là 1， bạn giảm 1 sinh lực 上限并回复1 sinh lực ，然后获得技能〖英姿〗和〖英魂〗。",
   olzhiba: "制霸",
   olzhiba_info:
-    "Chủ công kỹ，其他吴势力的角色的1 lần trong giai đoạn hành động，其可以与 bạn 拼点（ bạn 可拒绝此拼点）。若其没赢， bạn 可以获得两张拼点牌。 bạn 的1 lần trong giai đoạn hành động， bạn 可以和一名吴势力角色拼点，若 bạn 赢， bạn 获得两张拼点牌。",
+    "Chủ công kỹ，其他吴势力的角色的1 lần trong giai đoạn ra bài，其可以与 bạn 拼点（ bạn 可拒绝此拼点）。若其没赢， bạn 可以获得两张拼点牌。 bạn 的1 lần trong giai đoạn ra bài， bạn 可以和一名吴势力角色拼点，若 bạn 赢， bạn 获得两张拼点牌。",
   olzhiba2: "制霸",
   xinleiji: "雷击",
   xinleiji_misa: "雷击",
@@ -4873,12 +4887,12 @@ export const translate_refresh = {
   xinhuangtian: "黄天",
   xinhuangtian2: "黄天",
   xinhuangtian_info:
-    "Chủ công kỹ。其他群势力角色的1 lần trong giai đoạn hành động，该角色可以交给一张【闪】 hoặc  ♠︎ 手牌。",
+    "Chủ công kỹ。其他群势力角色的1 lần trong giai đoạn ra bài，该角色可以交给一张【闪】 hoặc  ♠︎ 手牌。",
   reqiangxi: "强袭",
   reqiangxi_info:
-    "出牌阶段对每名其他角色限一次， bạn 可以选择一项：1. 失去一 sinh lực 并对 bạn 攻击范围内的一名其他角色造成一点 sát thương ；2. 弃置一张武器牌并对 bạn 攻击范围内的一名其他角色造成一点 sát thương 。",
+    "  giai đoạn ra bài对每名其他角色限一次， bạn 可以选择一项：1. 失去一 sinh lực 并对 bạn 攻击范围内的一名其他角色造成一点 sát thương ；2. 弃置一张武器牌并对 bạn 攻击范围内的一名其他角色造成一点 sát thương 。",
   rehuoji: "火计",
-  rehuoji_info: "出牌阶段， bạn 可一张红色牌 khi 作【火攻】使用。",
+  rehuoji_info: "  giai đoạn ra bài， bạn 可一张红色牌 khi 作【火攻】使用。",
   rekanpo: "看破",
   rekanpo_info: " bạn 可以将一张黑色牌 khi 作【 Vô Giải Khả Kích 】使用。",
   reshuangxiong: "双雄",
@@ -4897,7 +4911,7 @@ export const translate_refresh = {
     "准备阶段， bạn 可以进行判定，若 là 黑色则可以继续判定，直到出现红色。然后 bạn 获得所有黑色的判定牌。 bạn 通过〖洛神〗获得的牌，不计入 khi 前回合的手牌上限。（结果 là 黑色的判定牌于此过程中不会进入弃牌堆）",
   rejieyin: "结姻",
   rejieyin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名男性角色并弃置一张手牌 hoặc 将装备区内的一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名男性角色并弃置一张手牌 hoặc 将装备区内的一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực 。",
   rebiyue: "闭月",
   rebiyue_info:
     " Giai đoạn kết thúc ， bạn 可以摸一张牌，若 bạn 没有手牌，则改 là 摸两张牌。",
@@ -4909,7 +4923,7 @@ export const translate_refresh = {
     "Tỏa định kỹ， bạn 使用锦囊牌无距离限制， bạn 装备区内的防具牌和宝物牌不能被其他角色弃置。",
   rezhiheng: "制衡",
   rezhiheng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张牌并摸等量的牌，若 bạn 在发动〖制衡〗时弃置了所有手牌，则 bạn 多摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张牌并摸等量的牌，若 bạn 在发动〖制衡〗时弃置了所有手牌，则 bạn 多摸一张牌。",
   rejiuyuan: "救援",
   rejiuyuan_info:
     "Chủ công kỹ，其他吴势力角色对自己使用【桃】时，若其体力值大于 bạn ，则其可以选择令 bạn 回复1 sinh lực ，然后其摸1张牌。",
@@ -4939,15 +4953,15 @@ export const translate_refresh = {
     " bạn 可以将一张红色牌 khi 做【杀】使用 hoặc 打出。 bạn 使用的方片杀没有距离限制。",
   new_yijue: "义绝",
   new_yijue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并令一名有手牌的其他角色展示一张手牌。若此牌 là 黑色，则该角色不能使用 hoặc 打出牌，非Tỏa định kỹ失效且受到来自 bạn 的 ♥︎ 【杀】的 sát thương +1直到回合结束。若此牌 là 红色，则 bạn 可以获得此牌，并可以令其回复一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并令一名有手牌的其他角色展示一张手牌。若此牌 là 黑色，则该角色不能使用 hoặc 打出牌，非Tỏa định kỹ失效且受到来自 bạn 的 ♥︎ 【杀】的 sát thương +1直到回合结束。若此牌 là 红色，则 bạn 可以获得此牌，并可以令其回复一 sinh lực 。",
   new_yijue2: "义绝",
   new_yijue2_info: "",
   new_repaoxiao: "咆哮",
   new_repaoxiao_info:
-    "Tỏa định kỹ，出牌阶段， bạn 使用【杀】没有数量限制。若 bạn 于此出牌阶段内使用过【杀】，则 bạn 本回合内使用【杀】没有距离限制。",
+    "Tỏa định kỹ，  giai đoạn ra bài， bạn 使用【杀】没有数量限制。若 bạn 于此  giai đoạn ra bài内使用过【杀】，则 bạn 本回合内使用【杀】没有距离限制。",
   new_tishen: "替身",
   new_tishen_info:
-    "出牌阶段结束时， bạn 可以弃置 bạn 所有的锦囊牌与坐骑牌。若如此做，直到 bạn 的下个回合开始， bạn 获得所有以 bạn  là 目标且未对 bạn 造成 sát thương 的【杀】。",
+    "  giai đoạn ra bài结束时， bạn 可以弃置 bạn 所有的锦囊牌与坐骑牌。若如此做，直到 bạn 的下个回合开始， bạn 获得所有以 bạn  là 目标且未对 bạn 造成 sát thương 的【杀】。",
   new_tishen2: "替身",
   new_tishen2_info: "",
   new_qingjian: "清俭",
@@ -4957,7 +4971,7 @@ export const translate_refresh = {
   qingjian_add_info: "",
   new_reqingnang: "青囊",
   new_reqingnang_info:
-    "出牌阶段， bạn 可以弃置一张手牌，令一名本回合内未成 là 过〖青囊〗的目标的角色回复一 sinh lực 。若 bạn 弃置的是黑色牌，则 bạn 本回合内不能再发动〖青囊〗。",
+    "  giai đoạn ra bài， bạn 可以弃置一张手牌，令一名本回合内未成 là 过〖青囊〗的目标的角色回复一 sinh lực 。若 bạn 弃置的是黑色牌，则 bạn 本回合内不能再发动〖青囊〗。",
   new_reyaowu: "耀武",
   new_reyaowu_info:
     "Tỏa định kỹ， khi 一名角色使用【杀】对 bạn 造成 sát thương 时，若此杀 là 红色，该角色回复1 sinh lực  hoặc 摸一张牌。否则 bạn 摸一张牌。",
@@ -5009,7 +5023,7 @@ export const translate_refresh = {
   liyu: "利驭",
   rerende: "仁德",
   rerende_info:
-    "出牌阶段， bạn 可以将至少一张手牌交给其他角色，然后 bạn 于此阶段内不能再以此法交给该角色牌；若 bạn 于此阶段内给出的牌首次达到两张， bạn 可以视 là 使用一张基本牌",
+    "  giai đoạn ra bài， bạn 可以将至少一张手牌交给其他角色，然后 bạn 于此阶段内不能再以此法交给该角色牌；若 bạn 于此阶段内给出的牌首次达到两张， bạn 可以视 là 使用一张基本牌",
   liyu_info:
     " khi bạn sử dụng 【杀】对一名其他角色造成 sát thương 后，该角色可令 bạn 获得其一张牌，若如此做，则视 là  bạn 对其选择的另一名角色使用一张【决斗】",
   xunxun_info:
@@ -5017,22 +5031,22 @@ export const translate_refresh = {
   wangxi_info:
     "每 khi  bạn 对其他角色造成1点 sát thương 后， hoặc 受到其他角色造成的1点 sát thương 后， bạn 可与该角色各摸一张牌。",
   reguose_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一项：将一张方片花色牌 khi 做【乐不思蜀】使用； hoặc 弃置一张方片花色牌并弃置场上的一张【乐不思蜀】。选择完成后， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一项：将一张方片花色牌 khi 做【乐不思蜀】使用； hoặc 弃置一张方片花色牌并弃置场上的一张【乐不思蜀】。选择完成后， bạn 摸一张牌。",
   fenwei_info:
     "Hạn định kỹ， khi 一名角色使用的锦囊牌指定了至少两名角色 là 目标时， bạn 可以令此牌对其中任意名角色无效。",
   chulao_info:
-    "1 lần trong giai đoạn hành động，若 bạn 有牌， bạn 可以选择任意名势力各不相同的其他角色， bạn 弃置 bạn 和这些角色的各一张牌。然后以此法弃置 ♠︎ 牌的角色各摸一张牌。",
+    "1 lần trong giai đoạn ra bài，若 bạn 有牌， bạn 可以选择任意名势力各不相同的其他角色， bạn 弃置 bạn 和这些角色的各一张牌。然后以此法弃置 ♠︎ 牌的角色各摸一张牌。",
   reguicai_info: "在任意角色的判定牌生效前， bạn 可以打出一张牌代替之",
   zhuhai_info:
     "一名其他角色的 Giai đoạn kết thúc 开始时，若该角色本回合造成过 sát thương ， bạn 可以对其使用一张【杀】。",
   qianxin_info:
     "觉醒技， khi  bạn 造成一次 sát thương 后，若 bạn 已受伤， bạn 须减1 sinh lực 上限，并获得技能“荐言”。",
   jianyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以声明一种牌的类别 hoặc 颜色，并亮出牌库中第一张符合 bạn 声明的牌，然后 bạn 令一名男性角色获得此牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以声明一种牌的类别 hoặc 颜色，并亮出牌库中第一张符合 bạn 声明的牌，然后 bạn 令一名男性角色获得此牌",
   rekurou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后失去1 sinh lực 。",
   zhaxiang_info:
-    "Tỏa định kỹ 每 khi  bạn 失去1 sinh lực 后， bạn 摸三张牌。然后若此时是 bạn 的出牌阶段，则直到回合结束， bạn 使用红色【杀】无距离限制且不能被【闪】响应， bạn 可以额外使用一张【杀】。",
+    "Tỏa định kỹ 每 khi  bạn 失去1 sinh lực 后， bạn 摸三张牌。然后若此时是 bạn 的  giai đoạn ra bài，则直到回合结束， bạn 使用红色【杀】无距离限制且不能被【闪】响应， bạn 可以额外使用一张【杀】。",
   qiaomeng_info:
     " khi bạn sử dụng 黑色【杀】对一名角色造成 sát thương 后， bạn 可以弃置该角色装备区里的一张牌，若此牌是坐骑牌， bạn 于此牌置入弃牌堆后获得之。",
   reyicong_info:
@@ -5042,7 +5056,7 @@ export const translate_refresh = {
   retieji_info:
     " khi bạn sử dụng 【杀】指定一名角色 là 目标后， bạn 可以进行一次判定并令该角色的非Tỏa định kỹ失效直到回合结束，除非该角色弃置一张与判定结果花色相同的牌，否则不能使用【闪】抵消此【杀】。",
   yijue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色拼点，若 bạn 赢，则直到回合结束，该角色不能使用 hoặc 打出手牌且其非Tỏa định kỹ失效，若 bạn 没赢， bạn 可令该角色回复一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色拼点，若 bạn 赢，则直到回合结束，该角色不能使用 hoặc 打出手牌且其非Tỏa định kỹ失效，若 bạn 没赢， bạn 可令该角色回复一 sinh lực 。",
   reyiji_info:
     "每 khi  bạn 受到1点 sát thương 后， bạn 可以摸两张牌。然后 bạn 可以在至多两名角色的武将牌旁边分别扣置至多两张手牌，这些角色的下个摸牌阶段开始时，该角色获得其武将牌旁的这些牌。",
   rejianxiong_info:
@@ -5058,7 +5072,7 @@ export const translate_refresh = {
   reyingzi_info:
     "Tỏa định kỹ，摸牌阶段摸牌时， bạn 额外摸一张牌； bạn 的手牌上限 là  bạn 的体力上限。",
   refanjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一张手牌并将此牌交给一名其他角色。然后该角色选择一项：展示其手牌并弃置所有与此牌花色相同的牌， hoặc 失去一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一张手牌并将此牌交给一名其他角色。然后该角色选择一项：展示其手牌并弃置所有与此牌花色相同的牌， hoặc 失去一 sinh lực 。",
   qingjian_info:
     "每 khi  bạn 于摸牌阶段外获得牌时， bạn 可以将其中任意牌以任意顺序交给其他角色，每回合最多发动四次",
   qinxue_info:
@@ -5073,7 +5087,7 @@ export const translate_refresh = {
     " khi  bạn 受到 sát thương 后， bạn 可进行判定，若结果 là ：红色， bạn 对 sát thương 来源造成1点 sát thương ，；黑色， bạn 弃置 sát thương 来源一张牌。",
   botu: "博图",
   botu_info:
-    "回合结束时，若 bạn 本回合出牌阶段内使用的牌包含四种花色，则 bạn 可以进行一个额外回合。",
+    "回合结束时，若 bạn 本回合  giai đoạn ra bài内使用的牌包含四种花色，则 bạn 可以进行一个额外回合。",
   rebotu: "博图",
   rebotu_info:
     "每轮限X次。 Giai đoạn kết thúc ，若本回合内置入弃牌堆的牌中包含至少四种花色，则 bạn 可获得一个额外的回合。（X là 存活角色数且至多 là 3）",
@@ -5136,10 +5150,10 @@ export const translate_refresh = {
     "觉醒技，准备阶段，若 bạn 的体力值不大于2， bạn giảm 1 sinh lực 上限，并获得技能〖英姿〗和〖英魂〗。",
   rezhijian: "直谏",
   rezhijian_info:
-    "出牌阶段， bạn 可以将手牌中的一张装备牌置于一名其他角色装备区里（不得替换原装备），然后摸一张牌。 khi bạn sử dụng 装备牌时， bạn 可以摸一张牌。",
+    "  giai đoạn ra bài， bạn 可以将手牌中的一张装备牌置于一名其他角色装备区里（不得替换原装备），然后摸一张牌。 khi bạn sử dụng 装备牌时， bạn 可以摸一张牌。",
   refangquan: "放权",
   refangquan_info:
-    " bạn 可跳过 bạn 的出牌阶段，若如此做， bạn 本回合的手牌上限 là  bạn 的体力上限，且回合结束时， bạn 可以弃置一张手牌并令一名其他角色进行一个额外的回合。",
+    " bạn 可跳过 bạn 的  giai đoạn ra bài，若如此做， bạn 本回合的手牌上限 là  bạn 的体力上限，且回合结束时， bạn 可以弃置一张手牌并令一名其他角色进行一个额外的回合。",
   xin_gaoshun: "界高顺",
   repojun: "破军",
   repojun2: "破军",
@@ -5148,7 +5162,7 @@ export const translate_refresh = {
     " khi bạn sử dụng 【杀】指定目标后， bạn 可以将其的至多X张牌置于其武将牌上（X là 其体力值），然后其于 khi 前回合结束时获得这些牌。 khi  bạn 因执行【杀】的效果而对一名角色造成 sát thương 时，若该角色的手牌数和装备区内的牌数均不大于 bạn ，则此 sát thương +1。",
   rexianzhen: "陷阵",
   rexianzhen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 本回合内对其使用牌没有次数和距离限制且无视其防具。若 bạn 没赢， bạn 本回合内不能使用【杀】。若 bạn 以此法失去的拼点牌 là 【杀】，则 bạn 的【杀】不计入本回合的手牌上限。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 本回合内对其使用牌没有次数和距离限制且无视其防具。若 bạn 没赢， bạn 本回合内不能使用【杀】。若 bạn 以此法失去的拼点牌 là 【杀】，则 bạn 的【杀】不计入本回合的手牌上限。",
   rejinjiu: "禁酒",
   rejinjiu_info:
     "Tỏa định kỹ， bạn 的【酒】均视 là 【杀】。其他角色不能于 bạn 的回合内使用【酒】。 khi  bạn 受到酒【杀】的 sát thương 时， bạn 令此 sát thương -X（X là 影响过此【杀】的 sát thương 值的【酒】的数量）",
@@ -5163,7 +5177,7 @@ export const translate_refresh = {
   re_zhangyi: "界张嶷",
   rewurong: "怃戎",
   rewurong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名其他角色与 bạn 同时展示一张手牌：若 bạn 展示的是【杀】且该角色展示的不是【闪】，则 bạn 对其造成1点 sát thương ；若 bạn 展示的不是【杀】且该角色展示的是【闪】，则 bạn 获得其一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名其他角色与 bạn 同时展示一张手牌：若 bạn 展示的是【杀】且该角色展示的不是【闪】，则 bạn 对其造成1点 sát thương ；若 bạn 展示的不是【杀】且该角色展示的是【闪】，则 bạn 获得其一张牌",
   ol_pangtong: "界庞统",
   olniepan: "涅槃",
   olniepan_info:
@@ -5171,7 +5185,7 @@ export const translate_refresh = {
   ol_weiyan: "界魏延",
   reqimou: "奇谋",
   reqimou_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以失去任意 sinh lực 并摸等量的牌，然后直到回合结束， bạn 计算与其他角色的距离时-X，且 bạn 可以多使用X张【杀】（X là  bạn 失去的体力值）",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以失去任意 sinh lực 并摸等量的牌，然后直到回合结束， bạn 计算与其他角色的距离时-X，且 bạn 可以多使用X张【杀】（X là  bạn 失去的体力值）",
   ol_xiaoqiao: "界小乔",
   rehongyan: "红颜",
   rehongyan_info:
@@ -5202,7 +5216,7 @@ export const translate_refresh = {
   rechunlao: "醇醪",
   rechunlao2: "醇醪",
   rechunlao_info:
-    "出牌阶段结束时，若 bạn 没有“醇”， bạn 可以将至少一张【杀】置于 bạn 的武将牌上，称 là “醇”。 khi 一名角色处于濒死状态时， bạn 可以移去一张“醇”，视 là 该角色使用一张【酒】，然后若此“醇”的属性 là ：火， bạn 回复1 sinh lực 、雷， bạn 摸两张牌。",
+    "  giai đoạn ra bài结束时，若 bạn 没有“醇”， bạn 可以将至少一张【杀】置于 bạn 的武将牌上，称 là “醇”。 khi 一名角色处于濒死状态时， bạn 可以移去一张“醇”，视 là 该角色使用一张【酒】，然后若此“醇”的属性 là ：火， bạn 回复1 sinh lực 、雷， bạn 摸两张牌。",
   re_caozhang: "界曹彰",
   yujin_yujin: "界于禁",
   rexuanfeng: "旋风",
@@ -5223,7 +5237,7 @@ export const translate_refresh = {
     " khi  bạn 于回合外因使用 hoặc 打出而失去手牌后， bạn 可以展示牌堆顶的一张牌。若这两张牌的类别相同， bạn 可以将展示的牌交给一名角色；若类别不同， bạn 可弃置攻击范围内包含 bạn 的角色区域里的一张牌。",
   regongji: "弓骑",
   regongji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张非基本牌，然后弃置一名其他角色的一张牌。Tỏa định kỹ， khi  bạn 的装备区内有坐骑牌时， bạn 的攻击范围无限。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张非基本牌，然后弃置一名其他角色的一张牌。Tỏa định kỹ， khi  bạn 的装备区内有坐骑牌时， bạn 的攻击范围无限。",
   ol_sunjian: "界孙坚",
   wulie: "武烈",
   wulie2: "武烈",
@@ -5289,11 +5303,11 @@ export const translate_refresh = {
     " Giai đoạn kết thúc ， bạn 可以对一名本回合内失去过牌的角色造成1点 sát thương 。",
   remieji: "灭计",
   remieji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色锦囊牌置于牌堆顶，然后令一名有牌的其他角色选择一项：交给 bạn 一张锦囊牌， hoặc 依次弃置两张非锦囊牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色锦囊牌置于牌堆顶，然后令一名有牌的其他角色选择一项：交给 bạn 一张锦囊牌， hoặc 依次弃置两张非锦囊牌。",
   re_manchong: "界满宠",
   rejunxing: "峻刑",
   rejunxing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张手牌并选择一名其他角色。该角色选择一项：1.弃置X张牌并失去1 sinh lực 。2.翻面并摸X张牌。（X là  bạn 弃置的牌数）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张手牌并选择一名其他角色。该角色选择一项：1.弃置X张牌并失去1 sinh lực 。2.翻面并摸X张牌。（X là  bạn 弃置的牌数）",
   re_gongsunzan: "OL公孙瓒",
   reqiaomeng: "趫猛",
   reqiaomeng_info:
@@ -5313,7 +5327,7 @@ export const translate_refresh = {
     " khi  bạn 于弃牌阶段弃置过至少两张牌， hoặc  khi  bạn 失去装备区里的牌后，若场上没有处于濒死状态的角色，则 bạn 可以弃置至多两名其他角色的共计两张牌。若此时处于 bạn 的回合内， bạn 可以对其中一名目标角色造成1点 sát thương 。",
   yongjin: "勇进",
   yongjin_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以依次移动场上的至多三张不同的装备牌。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以依次移动场上的至多三张不同的装备牌。",
   xin_liubiao: "界刘表",
   decadezishou: "自守",
   decadezishou_zhiheng: "自守",
@@ -5341,35 +5355,35 @@ export const translate_refresh = {
   re_gongsunyuan: "界公孙渊",
   rehuaiyi: "怀异",
   rehuaiyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示所有手牌，若这些牌的颜色：全部相同， bạn 摸一张牌，并将此技能于本阶段内改 là “限两次”，然后终止此技能的结算流程；不全部相同，则 bạn 选择一种颜色并弃置该颜色的所有手牌，然后 bạn 可以获得至多X名角色的各一张牌（X là  bạn 以此法弃置的手牌数）。若 bạn 以此法获得的牌不少于两张，则 bạn 失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示所有手牌，若这些牌的颜色：全部相同， bạn 摸一张牌，并将此技能于本阶段内改 là “限两次”，然后终止此技能的结算流程；不全部相同，则 bạn 选择一种颜色并弃置该颜色的所有手牌，然后 bạn 可以获得至多X名角色的各一张牌（X là  bạn 以此法弃置的手牌数）。若 bạn 以此法获得的牌不少于两张，则 bạn 失去1 sinh lực 。",
   re_caozhen: "界曹真",
   residi: "司敌",
   residi_push: "司敌",
   residi2: "司敌",
   residi3: "司敌",
   residi_info:
-    " Giai đoạn kết thúc ， bạn 可以将一张非基本牌置于武将牌上，称 là “司”。其他角色的Bắt đầu giai đoạn hành động， bạn 可以移去一张“司”。若如此做，其本阶段内不能使用 hoặc 打出与“司”颜色相同的牌。此阶段结束时，若其于此阶段内未使用过：【杀】， bạn 视 là 对其使用一张【杀】。锦囊牌， bạn 摸两张牌。",
+    " Giai đoạn kết thúc ， bạn 可以将一张非基本牌置于武将牌上，称 là “司”。其他角色的Bắt đầu giai đoạn ra bài， bạn 可以移去一张“司”。若如此做，其本阶段内不能使用 hoặc 打出与“司”颜色相同的牌。此阶段结束时，若其于此阶段内未使用过：【杀】， bạn 视 là 对其使用一张【杀】。锦囊牌， bạn 摸两张牌。",
   gz_re_xushu: "徐庶",
   re_zhangchunhua: "界张春华",
   xin_handang: "界韩 khi ",
   xingongji: "弓骑",
   xingongji2: "弓骑",
   xingongji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后 bạn 的攻击范围视 là 无限且使用与此牌花色相同的【杀】无次数限制直到回合结束。若 bạn 以此法弃置的牌 là 装备牌，则 bạn 可以弃置一名其他角色的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后 bạn 的攻击范围视 là 无限且使用与此牌花色相同的【杀】无次数限制直到回合结束。若 bạn 以此法弃置的牌 là 装备牌，则 bạn 可以弃置一名其他角色的一张牌。",
   xinjiefan: "解烦",
   xinjiefan_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择一名角色，令攻击范围内含有该角色的所有角色依次选择一项：1.弃置一张武器牌；2.令其摸一张牌。然后若游戏轮数 là 1，则 bạn 于此回合结束时恢复此技能。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名角色，令攻击范围内含有该角色的所有角色依次选择一项：1.弃置一张武器牌；2.令其摸一张牌。然后若游戏轮数 là 1，则 bạn 于此回合结束时恢复此技能。",
   gzquanji: "权计",
   gzquanji_info:
     "每回合每项各限一次。 khi  bạn 受到 sát thương 后 hoặc 造成 sát thương 后， bạn 可以摸一张牌，然后 bạn 将一张牌置于武将牌上，称 là “权”； bạn 的手牌上限+X（X là “权”的数量）。",
   gzpaiyi: "排异",
   gzpaiyi_backup: "排异",
   gzpaiyi_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以移去一张“权”并选择一名角色。令其摸X张牌（X là  bạn 的“权”数且至多 là 7）。然后若其手牌数大于 bạn ，则 bạn 对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以移去一张“权”并选择一名角色。令其摸X张牌（X là  bạn 的“权”数且至多 là 7）。然后若其手牌数大于 bạn ，则 bạn 对其造成1点 sát thương 。",
   ol_zhurong: "界祝融",
   changbiao: "长标",
   changbiao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将任意张手牌 khi 做【杀】使用（无距离限制）。若 bạn 因此【杀】对目标角色造成过 sát thương ，则 bạn 于出牌阶段结束时摸X张牌（X là 此【杀】对应的实体牌数量）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将任意张手牌 khi 做【杀】使用（无距离限制）。若 bạn 因此【杀】对目标角色造成过 sát thương ，则 bạn 于  giai đoạn ra bài结束时摸X张牌（X là 此【杀】对应的实体牌数量）。",
   re_zhoucang: "界周仓",
   rezhongyong: "忠勇",
   rezhongyong_info:
@@ -5382,11 +5396,11 @@ export const translate_refresh = {
     " bạn 使用普通的【杀】可以改 là 火【杀】，若此【杀】造成过 sát thương ， bạn 失去1 sinh lực ； bạn 使用火【杀】可以多选择一个目标。 bạn 每回合使用的第一张牌如果是【杀】，则此【杀】结算完毕后可置于 bạn 的武将牌上。",
   xinjiangchi: "将驰",
   xinjiangchi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择：①摸一张牌。②摸两张牌，然后本回合内不能使用 hoặc 打出【杀】。③弃置一张牌，然后本回合内可以多使用一张【杀】，且使用【杀】无距离限制。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择：①摸一张牌。②摸两张牌，然后本回合内不能使用 hoặc 打出【杀】。③弃置一张牌，然后本回合内可以多使用一张【杀】，且使用【杀】无距离限制。",
   re_chenqun: "界陈群",
   redingpin: "定品",
   redingpin_info:
-    "出牌阶段， bạn 可以弃置一张本回合未使用过/弃置过的类型的牌并选择一名角色。其进行判定，若结果 là ：黑色，其摸X张牌（X là 其体力值且至多 là 3）且本回合内不能再成 là 〖定品〗的目标； ♥︎ ， bạn 令此次弃置的牌不计入〖定品〗弃置牌合法性的检测；方片， bạn 将武将牌翻面。",
+    "  giai đoạn ra bài， bạn 可以弃置一张本回合未使用过/弃置过的类型的牌并选择一名角色。其进行判定，若结果 là ：黑色，其摸X张牌（X là 其体力值且至多 là 3）且本回合内不能再成 là 〖定品〗的目标； ♥︎ ， bạn 令此次弃置的牌不计入〖定品〗弃置牌合法性的检测；方片， bạn 将武将牌翻面。",
   refaen: "法恩",
   refaen_info: "一名角色翻至正面 hoặc 横置后， bạn 可令其摸一张牌。",
   reshizhi: "矢志",
@@ -5396,11 +5410,11 @@ export const translate_refresh = {
   rejigong: "急攻",
   rejigong2: "急攻",
   rejigong_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸至多三张牌。若如此做， bạn 本回合的手牌上限基数改 là X，且弃牌阶段结束时，若X不小于Y，则 bạn 回复1 sinh lực 。（X là  bạn 本回合内造成的 sát thương 值之和，Y là  bạn 本回合内因〖急攻〗摸牌而获得的牌的数量总和）",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸至多三张牌。若如此做， bạn 本回合的手牌上限基数改 là X，且弃牌阶段结束时，若X不小于Y，则 bạn 回复1 sinh lực 。（X là  bạn 本回合内造成的 sát thương 值之和，Y là  bạn 本回合内因〖急攻〗摸牌而获得的牌的数量总和）",
   ol_jiangwei: "界姜维",
   oltiaoxin: "挑衅",
   oltiaoxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名攻击范围内包含 bạn 的角色。然后除非该角色对 bạn 使用一张【杀】且此【杀】对 bạn 造成 sát thương ，否则 bạn 弃置其一张牌，然后将此技能于此出牌阶段内修改 là 出牌阶段限两次。 ",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名攻击范围内包含 bạn 的角色。然后除非该角色对 bạn 使用一张【杀】且此【杀】对 bạn 造成 sát thương ，否则 bạn 弃置其一张牌，然后将此技能于此  giai đoạn ra bài内修改 là   giai đoạn ra bài限两次。 ",
   olzhiji: "志继",
   olzhiji_info:
     "觉醒技，准备阶段 hoặc  Giai đoạn kết thúc ，若 bạn 没有手牌， bạn 回复1 sinh lực  hoặc 摸两张牌，然后减1 sinh lực 上限，获得〖观星〗。",
@@ -5409,21 +5423,21 @@ export const translate_refresh = {
     "准备阶段 hoặc  Giai đoạn kết thúc ， bạn 可以弃置一名角色X张牌（X là 其手牌数减体力值且至少 là 1），若其中没有装备牌， bạn 选择一项：1. bạn 弃一张牌；2.该角色摸等量的牌。",
   decadejingce: "精策",
   decadejingce_info:
-    " Giai đoạn kết thúc ，若 bạn 本回合使用过的牌数不小于 bạn 的体力值，则 bạn 可执行一个摸牌阶段 hoặc 出牌阶段；若这些牌包含的花色数也不小于 bạn 的体力值，则 bạn 将“ hoặc ”改 là “并”。",
+    " Giai đoạn kết thúc ，若 bạn 本回合使用过的牌数不小于 bạn 的体力值，则 bạn 可执行一个摸牌阶段 hoặc   giai đoạn ra bài；若这些牌包含的花色数也不小于 bạn 的体力值，则 bạn 将“ hoặc ”改 là “并”。",
   re_guanping: "界关平",
   relongyin: "龙吟",
   relongyin_info:
-    " khi 一名角色于其出牌阶段使用【杀】时， bạn 可弃置一张牌令此【杀】不计入出牌阶段使用次数。若此【杀】 là 红色，则 bạn 摸一张牌；若 bạn 以此法弃置的牌与此【杀】 điểm số 相同，则 bạn 重置“竭忠”。",
+    " khi 一名角色于其  giai đoạn ra bài使用【杀】时， bạn 可弃置一张牌令此【杀】不计入  giai đoạn ra bài使用次数。若此【杀】 là 红色，则 bạn 摸一张牌；若 bạn 以此法弃置的牌与此【杀】 điểm số 相同，则 bạn 重置“竭忠”。",
   jiezhong: "竭忠",
   jiezhong_info:
-    "Hạn định kỹ，Bắt đầu giai đoạn hành động， bạn 可以将手牌补至手牌上限（至多摸五张）。",
+    "Hạn định kỹ，Bắt đầu giai đoạn ra bài， bạn 可以将手牌补至手牌上限（至多摸五张）。",
   re_caifuren: "界蔡夫人",
   reqieting: "窃听",
   reqieting_info:
     "其他角色的回合结束时，若其本回合内未造成过 sát thương ，则 bạn 可将其装备区内的一张牌置于 bạn 的装备区内；若其本回合内未对其他角色使用过牌，则 bạn 可摸一张牌。",
   rexianzhou: "献州",
   rexianzhou_info:
-    "Hạn định kỹ。出牌阶段， bạn 可将装备区内的所有牌交给一名其他角色。 bạn 回复X sinh lực ，然后对其攻击范围内的至多X名角色各造成1点 sát thương （X là  bạn 以此法给出的牌数）。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可将装备区内的所有牌交给一名其他角色。 bạn 回复X sinh lực ，然后对其攻击范围内的至多X名角色各造成1点 sát thương （X là  bạn 以此法给出的牌数）。",
   xin_zhonghui: "界钟会",
   xinquanji: "权计",
   xinquanji_info:
@@ -5434,11 +5448,11 @@ export const translate_refresh = {
   xinpaiyi: "排异",
   xinpaiyi_backup: "排异",
   xinpaiyi_info:
-    "出牌阶段每项各限一次， bạn 可移去一张“权”并选择一项：①令一名角色摸X张牌。②对至多X名角色各造成1点 sát thương 。（X là “权”数）",
+    "  giai đoạn ra bài每项各限一次， bạn 可移去一张“权”并选择一项：①令一名角色摸X张牌。②对至多X名角色各造成1点 sát thương 。（X là “权”数）",
   re_guyong: "界顾雍",
   reshenxing: "慎行",
   reshenxing_info:
-    "出牌阶段， bạn 可以弃置X张牌（X là  bạn 本阶段内发动过〖慎行〗的次数且至多 là 2），然后摸一张牌。",
+    "  giai đoạn ra bài， bạn 可以弃置X张牌（X là  bạn 本阶段内发动过〖慎行〗的次数且至多 là 2），然后摸一张牌。",
   rebingyi: "秉壹",
   rebingyi_info:
     " Giai đoạn kết thúc ， bạn 可展示所有手牌。若这些牌：颜色均相同，则 bạn 可以令至多X名角色各摸一张牌（X là  bạn 的手牌数）； điểm số 均相同，则 bạn 摸一张牌。",
@@ -5448,7 +5462,7 @@ export const translate_refresh = {
     "Tỏa định kỹ。① bạn 的回合内，不处于濒死状态的角色不能使用【桃】。② khi 有角色于 bạn 的回合内进入濒死状态时， bạn 令其以外的所有其他角色的非Tỏa định kỹ失效直到此濒死状态结算结束。",
   reluanwu: "乱武",
   reluanwu_info:
-    "Hạn định kỹ，出牌阶段， bạn 可令所有其他角色依次选择一项：①对距离最近（ hoặc 之一）的角色使用一张【杀】；②失去1 sinh lực 。然后 bạn 摸X张牌（X là 选择①和②的角色数中的最大值）。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可令所有其他角色依次选择一项：①对距离最近（ hoặc 之一）的角色使用一张【杀】；②失去1 sinh lực 。然后 bạn 摸X张牌（X là 选择①和②的角色数中的最大值）。",
   reweimu: "帷幕",
   reweimu_info:
     "Tỏa định kỹ。① bạn 不能成 là 黑色锦囊牌的目标。② khi  bạn 于回合内受到 sát thương 时，防止此 sát thương 。",
@@ -5458,7 +5472,7 @@ export const translate_refresh = {
     "摸牌阶段开始时， bạn 可以多摸两张牌。然后摸牌阶段结束时，若 bạn 的手牌数大于5，则 bạn 将手牌数的一半（向下取整）交给一名手牌最少其他角色并获得如下效果直到 bạn 下回合开始： khi  bạn 成 là 【杀】 hoặc 普通锦囊牌的目标后，其可以交给 bạn 一张手 牌。",
   oldimeng: "缔盟",
   oldimeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可令两名满足X≤Y的其他角色交换手牌并获得如下效果：出牌阶段结束时， bạn 弃置X张牌（X là 这两名角色手牌数之差的绝对值；Y là  bạn 的手牌数）。",
+    "1 lần trong giai đoạn ra bài， bạn 可令两名满足X≤Y的其他角色交换手牌并获得如下效果：  giai đoạn ra bài结束时， bạn 弃置X张牌（X là 这两名角色手牌数之差的绝对值；Y là  bạn 的手牌数）。",
 
   rejijiang: "激将",
   rejijiang1: "激将",
@@ -5479,7 +5493,7 @@ export const translate_refresh = {
   reyanyu: "燕语",
   reyanyu2: "燕语",
   reyanyu_info:
-    "①出牌阶段， bạn 可以重铸【杀】。②出牌阶段结束时， bạn 可以令一名男性角色摸X张牌（X là  bạn 本阶段内发动过〖燕语①〗的次数且至多 là 3）。",
+    "①  giai đoạn ra bài， bạn 可以重铸【杀】。②  giai đoạn ra bài结束时， bạn 可以令一名男性角色摸X张牌（X là  bạn 本阶段内发动过〖燕语①〗的次数且至多 là 3）。",
   rehujia: "护驾",
   rehujia_info:
     "Chủ công kỹ。① khi  bạn 需要使用 hoặc 打出一张【闪】时， bạn 可以令其他魏势力角色选择是否打出一张【闪】。若有角色响应，则 bạn 视 là 使用 hoặc 打出了一张【闪】。②每回合限一次。 khi 有魏势力角色于回合外使用 hoặc 打出【闪】时，其可以令 bạn 摸一张牌。",
@@ -5497,27 +5511,27 @@ export const translate_refresh = {
   re_guohuanghou: "界郭皇后",
   rejiaozhao: "矫诏",
   rejiaozhao_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以展示一张手牌，并令一名距离 bạn 最近的角色选择一种基本牌 hoặc 普通锦囊牌的牌名。 bạn 可将此牌 khi 做其声明的牌使用直到此阶段结束（ bạn 不是此牌的合法目标）。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以展示一张手牌，并令一名距离 bạn 最近的角色选择一种基本牌 hoặc 普通锦囊牌的牌名。 bạn 可将此牌 khi 做其声明的牌使用直到此阶段结束（ bạn 不是此牌的合法目标）。",
   rejiaozhao_lv2: "矫诏·升级 Lv.1",
   rejiaozhao_lv2_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以将一张手牌 khi 做一张基本牌 hoặc 普通锦囊牌使用（ bạn 不是此牌的合法目标）。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以将一张手牌 khi 做一张基本牌 hoặc 普通锦囊牌使用（ bạn 不是此牌的合法目标）。",
   rejiaozhao_lv3: "矫诏·升级 Lv.2",
   rejiaozhao_lv3_info:
-    "出牌阶段每种类型各限一次。 bạn 可以将一张手牌 khi 做一张基本牌 hoặc 普通锦囊牌使用。",
+    "  giai đoạn ra bài每种类型各限一次。 bạn 可以将一张手牌 khi 做一张基本牌 hoặc 普通锦囊牌使用。",
   redanxin: "殚心",
   redanxin_info:
     " khi  bạn 受到 sát thương 后， bạn 可以摸一张牌并升级〖矫诏〗。",
   xin_wuguotai: "界吴国太",
   xinganlu: "甘露",
   xinganlu_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以令两名角色交换装备区内的牌，然后若这两名角色装备区内牌数差的绝对值大于 bạn 已损失的体力值，则 bạn 弃置两张手牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以令两名角色交换装备区内的牌，然后若这两名角色装备区内牌数差的绝对值大于 bạn 已损失的体力值，则 bạn 弃置两张手牌。",
   xinbuyi: "补益",
   xinbuyi_info:
     "一名角色进入濒死状态时， bạn 可展示其一张手牌。若此牌不 là 基本牌，则其弃置此牌并回复1 sinh lực 。若其以此法弃置的牌移动前 là 其的唯一一张手牌，则其摸一张牌。",
   decadexianzhen: "陷阵",
   decadexianzhen2: "陷阵",
   decadexianzhen_info:
-    "每回合限一次。出牌阶段， bạn 可以和一名其他角色拼点。若 bạn 赢：本回合 bạn 无视该角色的防具，且对其使用牌没有次数和距离限制，且本回合对其使用牌造成 sát thương 时，此 sát thương +1（每种牌名每回合限一次）；若 bạn 没赢： bạn 本回合内不能使用【杀】，且【杀】不计入手牌上限。",
+    "每回合限一次。  giai đoạn ra bài， bạn 可以和一名其他角色拼点。若 bạn 赢：本回合 bạn 无视该角色的防具，且对其使用牌没有次数和距离限制，且本回合对其使用牌造成 sát thương 时，此 sát thương +1（每种牌名每回合限一次）；若 bạn 没赢： bạn 本回合内不能使用【杀】，且【杀】不计入手牌上限。",
   decadejinjiu: "禁酒",
   decadejinjiu_info:
     "Tỏa định kỹ。 bạn 的【酒】的牌名均视 là 【杀】且 điểm số 视 là K； bạn 的回合内，其他角色不能使用【酒】。",
@@ -5530,18 +5544,18 @@ export const translate_refresh = {
     "觉醒技。 khi  bạn 造成 sát thương 后，若 bạn 已受伤，则 bạn giảm 1 sinh lực 上限并获得〖荐言〗。",
   rejianyan: "荐言",
   rejianyan_info:
-    "出牌阶段每项各限一次。 bạn 可选择一种颜色 hoặc 一种牌的类别，然后系统从牌堆中检索出一张满足该条件的牌并展示之。然后 bạn 将此牌交给一名男性角色 hoặc Key势力角色。",
+    "  giai đoạn ra bài每项各限一次。 bạn 可选择一种颜色 hoặc 一种牌的类别，然后系统从牌堆中检索出一张满足该条件的牌并展示之。然后 bạn 将此牌交给一名男性角色 hoặc Key势力角色。",
   re_zhanghe: "界张郃",
   reqiaobian: "巧变",
   reqiaobian_info:
-    "①游戏开始时， bạn 获得两枚“变”。②判定阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段。③摸牌阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段，然后可以获得至多两名其他角色的各一张手牌。④Bắt đầu giai đoạn hành động， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段，然后 bạn 可以移动场上的一张牌。⑤弃牌阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段。⑥ Giai đoạn kết thúc ，若 bạn 的〖巧变⑥〗记录中不包含 bạn 的手牌数，则 bạn 获得一枚“变”并记录 bạn 的手牌数。",
+    "①游戏开始时， bạn 获得两枚“变”。②判定阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段。③摸牌阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段，然后可以获得至多两名其他角色的各一张手牌。④Bắt đầu giai đoạn ra bài， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段，然后 bạn 可以移动场上的一张牌。⑤弃牌阶段开始时， bạn 可弃置一张牌 hoặc 一枚“变”并跳过此阶段。⑥ Giai đoạn kết thúc ，若 bạn 的〖巧变⑥〗记录中不包含 bạn 的手牌数，则 bạn 获得一枚“变”并记录 bạn 的手牌数。",
   olbeige: "悲歌",
   olbeige_info:
     " khi 有角色受到渠道 là 【杀】的 sát thương 后，若 bạn 有牌， bạn 可令其进行判定。然后 bạn 可弃置一张牌，根据判定结果执行以下的一个选项：♥，其回复1 sinh lực ；♦，其摸两张牌；♣， sát thương 来源弃置两张牌️；♠， sát thương 来源将武将牌翻面。若 bạn 弃置的牌与判定结果： điểm số 相同，则 bạn 获得 bạn 弃置的牌；花色相同，则 bạn 获得判定牌。",
   dc_bulianshi: "界步练师",
   dcanxu: "安恤",
   dcanxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名手牌数不同的其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之。然后若此牌不 là  ♠︎ ，则 bạn 摸一张牌；若这两名角色手牌数相等，则 bạn 回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名手牌数不同的其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之。然后若此牌不 là  ♠︎ ，则 bạn 摸一张牌；若这两名角色手牌数相等，则 bạn 回复1 sinh lực 。",
   dczhuiyi: "追忆",
   dczhuiyi_info:
     " khi  bạn 死亡时， bạn 可以令一名不 là 击杀者的其他角色摸X张牌（X là 存活角色数），然后其回复1 sinh lực 。",
@@ -5558,7 +5572,7 @@ export const translate_refresh = {
     " khi  bạn 受到其他角色造成的 sát thương 时， bạn 可以令 sát thương 来源选择一项：⒈防止此 sát thương 。然后其♥牌不计入本回合的手牌上限；⒉ bạn 观看其手牌并获得其中的所有♥牌，若其没有手牌，则 bạn 下次发动〖安东〗时改 là 自行选择。",
   reyingshi: "应势",
   reyingshi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示一张手牌，选择一名角色A和一名其他角色B。A可以对B使用一张【杀】，然后获得 bạn 展示的牌。若A因此【杀】造成过 sát thương ，则A获得牌堆中与展示牌花色 điểm số 相同的其他牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示一张手牌，选择一名角色A和一名其他角色B。A可以对B使用一张【杀】，然后获得 bạn 展示的牌。若A因此【杀】造成过 sát thương ，则A获得牌堆中与展示牌花色 điểm số 相同的其他牌。",
   dcqiaomeng: "趫猛",
   dcqiaomeng_info:
     " khi bạn sử dụng 黑色牌指定第一个目标后， bạn 可以弃置目标角色中一名其他角色的一张牌。若 bạn 以此法弃置的牌 là ：装备牌， bạn 获得此牌；锦囊牌， bạn 令此牌不可被响应。",
@@ -5567,13 +5581,13 @@ export const translate_refresh = {
   rezhanjue: "战绝",
   rezhanjue_effect: "战绝",
   rezhanjue_info:
-    "出牌阶段，若 bạn 本阶段内因〖战绝〗获得过的牌数小于3，则 bạn 可以将所有不具有“勤王”标记的手牌 khi 做【决斗】使用。此【决斗】使用结算结束后， bạn 摸一张牌。然后所有因此【决斗】受到过 sát thương 的角色也各摸一张牌。",
+    "  giai đoạn ra bài，若 bạn 本阶段内因〖战绝〗获得过的牌数小于3，则 bạn 可以将所有不具有“勤王”标记的手牌 khi 做【决斗】使用。此【决斗】使用结算结束后， bạn 摸一张牌。然后所有因此【决斗】受到过 sát thương 的角色也各摸一张牌。",
   reqinwang: "勤王",
   reqinwang_info:
-    "Chủ công kỹ。1 lần trong giai đoạn hành động， bạn 可以令所有其他蜀势力角色依次选择是否交给 bạn 一张【杀】，然后 bạn 可以令选择是的角色摸一张牌。",
+    "Chủ công kỹ。1 lần trong giai đoạn ra bài， bạn 可以令所有其他蜀势力角色依次选择是否交给 bạn 一张【杀】，然后 bạn 可以令选择是的角色摸一张牌。",
   shizhan: "势斩",
   shizhan_info:
-    "出牌阶段限两次， bạn 可以选择一名其他角色。该角色视 là 对 bạn 使用一张【决斗】。",
+    "  giai đoạn ra bài限两次， bạn 可以选择一名其他角色。该角色视 là 对 bạn 使用一张【决斗】。",
   ol_xunyu: "界荀彧",
   oljieming: "节命",
   oljieming_info:
@@ -5587,7 +5601,7 @@ export const translate_refresh = {
   re_sp_taishici_ab: "太史慈",
   rejixu: "击虚",
   rejixu_info:
-    "1 lần trong giai đoạn hành động。若 bạn 有手牌，则 bạn 可以选择至多X名角色，令这些角色猜测 bạn 的手牌区中是否有【杀】。若 bạn ：有【杀】，则 bạn 本阶段使用【杀】的次数上限+Y，且 khi  bạn 于本阶段内使用【杀】指定目标后， bạn 可以令这Y名角色也成 là 此【杀】的目标；没有【杀】，则 bạn 弃置这Y名角色的各一张牌。然后 bạn 摸Y张牌（X là  bạn 的体力值，Y là 这些角色中猜错的角色数）。",
+    "1 lần trong giai đoạn ra bài。若 bạn 有手牌，则 bạn 可以选择至多X名角色，令这些角色猜测 bạn 的手牌区中是否有【杀】。若 bạn ：有【杀】，则 bạn 本阶段使用【杀】的次数上限+Y，且 khi  bạn 于本阶段内使用【杀】指定目标后， bạn 可以令这Y名角色也成 là 此【杀】的目标；没有【杀】，则 bạn 弃置这Y名角色的各一张牌。然后 bạn 摸Y张牌（X là  bạn 的体力值，Y là 这些角色中猜错的角色数）。",
 
   refresh_standard: "界限突破·标",
   refresh_feng: "界限突破·风",
@@ -5606,7 +5620,7 @@ export const translate_sb = {
   sp_yangwan: "手杀杨婉",
   spmingxuan: "瞑昡",
   spmingxuan_info:
-    "Tỏa định kỹ。Bắt đầu giai đoạn hành động， bạn 须选择至多X张花色各不相同的手牌（X là 未选择过选项一的角色），将这些牌随机交给这些角色中的等量角色。然后这些角色依次选择一项：⒈对 bạn 使用一张【杀】。⒉交给 bạn 一张牌，然后 bạn 摸一张牌。",
+    "Tỏa định kỹ。Bắt đầu giai đoạn ra bài， bạn 须选择至多X张花色各不相同的手牌（X là 未选择过选项一的角色），将这些牌随机交给这些角色中的等量角色。然后这些角色依次选择一项：⒈对 bạn 使用一张【杀】。⒉交给 bạn 一张牌，然后 bạn 摸一张牌。",
   spxianchou: "陷仇",
   spxianchou_info:
     " khi  bạn 受到有来源的 sát thương 后， bạn 可选择一名不 là  sát thương 来源的其他角色。该角色可以弃置一张牌，然后视 là 对 sát thương 来源使用一张【杀】（无距离限制）。若其因此【杀】造成了 sát thương ，则其摸一张牌， bạn 回复1 sinh lực 。",
@@ -5624,7 +5638,7 @@ export const translate_sb = {
   sb_huaxiong: "谋华雄",
   sbyangwei: "扬威",
   sbyangwei_info:
-    "出牌阶段， bạn 可以摸两张牌，令此技能于 bạn 的下下个 Giai đoạn kết thúc 前失效，且 bạn 获得如下效果直到回合结束：使用【杀】无距离限制，次数上限+1且无视防具。",
+    "  giai đoạn ra bài， bạn 可以摸两张牌，令此技能于 bạn 的下下个 Giai đoạn kết thúc 前失效，且 bạn 获得如下效果直到回合结束：使用【杀】无距离限制，次数上限+1且无视防具。",
   sb_yujin: "谋于禁",
   sbxiayuan: "狭援",
   sbxiayuan_info:
@@ -5661,17 +5675,17 @@ export const translate_shenhua = {
   nzry_shenshi1: "审时",
   nzry_shenshi: "审时",
   nzry_shenshi_info:
-    "Chuyển hoán kỹ，阴：1 lần trong giai đoạn hành động， bạn 可以将一张牌交给一名手牌数最多的角色，然后对其造成一点 sát thương ，若该角色因此死亡，则 bạn 可以令一名角色将手牌摸至四张。阳：其他角色对 bạn 造成 sát thương 后， bạn 可以观看该角色的手牌，然后交给其一张牌， khi 前角色回合结束时，若此牌仍在该角色的区域内， bạn 将手牌摸至四张。",
+    "Chuyển hoán kỹ，阴：1 lần trong giai đoạn ra bài， bạn 可以将一张牌交给一名手牌数最多的角色，然后对其造成一点 sát thương ，若该角色因此死亡，则 bạn 可以令一名角色将手牌摸至四张。阳：其他角色对 bạn 造成 sát thương 后， bạn 可以观看该角色的手牌，然后交给其一张牌， khi 前角色回合结束时，若此牌仍在该角色的区域内， bạn 将手牌摸至四张。",
   nzry_mingren: "明任",
   nzry_mingren_info:
     "游戏开始时， bạn 摸两张牌，然后将一张手牌置于 bạn 的武将牌上，称 là “任”。 Giai đoạn kết thúc ， bạn 可以用一张手牌替换“任”。",
   nzry_zhenliang: "贞良",
   nzry_zhenliang_info:
-    "Chuyển hoán kỹ，阴：1 lần trong giai đoạn hành động， bạn 可以弃置一张与“任”颜色相同的牌并对攻击范围内的一名角色造成1点 sát thương 。阳： khi  bạn 于回合外使用 hoặc 打出的牌结算完成后，若此牌与“任”颜色相同，则 bạn 可以令一名角色摸一张牌。",
+    "Chuyển hoán kỹ，阴：1 lần trong giai đoạn ra bài， bạn 可以弃置一张与“任”颜色相同的牌并对攻击范围内的一名角色造成1点 sát thương 。阳： khi  bạn 于回合外使用 hoặc 打出的牌结算完成后，若此牌与“任”颜色相同，则 bạn 可以令一名角色摸一张牌。",
   nzry_chenglve1: "成略",
   nzry_chenglve: "成略",
   nzry_chenglve_info:
-    "Chuyển hoán kỹ，1 lần trong giai đoạn hành động，阴： bạn 可以摸一张牌，然后弃置两张手牌。阳： bạn 可以摸两张牌，然后弃置一张手牌。若如此做，直到本回合结束， bạn 使用与弃置牌花色相同的牌无距离和次数限制。",
+    "Chuyển hoán kỹ，1 lần trong giai đoạn ra bài，阴： bạn 可以摸一张牌，然后弃置两张手牌。阳： bạn 可以摸两张牌，然后弃置一张手牌。若如此做，直到本回合结束， bạn 使用与弃置牌花色相同的牌无距离和次数限制。",
   nzry_shicai: "恃才",
   nzry_shicai_info:
     " khi bạn sử dụng 牌时，若此牌与 bạn 本回合使用的牌类型均不同（包括装备牌），则 bạn 可以将此牌置于牌堆顶，然后摸一张牌。",
@@ -5683,23 +5697,23 @@ export const translate_shenhua = {
   nzry_zhizheng: "掣政",
   rechezheng: "掣政",
   nzry_zhizheng_info:
-    "Tỏa định kỹ， bạn 的出牌阶段内， khi  bạn 对攻击范围内不包含 bạn 的其他角色造成 sát thương 时，防止此 sát thương 。出牌阶段结束时，若 bạn 本阶段内使用的牌数小于这些角色的数量，则 bạn 弃置其中一名角色的一张牌。",
+    "Tỏa định kỹ， bạn 的  giai đoạn ra bài内， khi  bạn 对攻击范围内不包含 bạn 的其他角色造成 sát thương 时，防止此 sát thương 。  giai đoạn ra bài结束时，若 bạn 本阶段内使用的牌数小于这些角色的数量，则 bạn 弃置其中一名角色的一张牌。",
   nzry_lijun1: "立军",
   nzry_lijun: "立军",
   nzry_lijun_info:
-    "Chủ công kỹ，其他吴势力角色的1 lần trong giai đoạn hành động，其使用【杀】结算后，可以将此【杀】对应的实体牌交给 bạn ，然后 bạn 可以令其摸一张牌且本阶段内使用【杀】的次数上限+1。",
+    "Chủ công kỹ，其他吴势力角色的1 lần trong giai đoạn ra bài，其使用【杀】结算后，可以将此【杀】对应的实体牌交给 bạn ，然后 bạn 可以令其摸一张牌且本阶段内使用【杀】的次数上限+1。",
   nzry_huaiju: "怀橘",
   nzry_huaiju_info:
     "Tỏa định kỹ，游戏开始时， bạn 获得3个“橘”标记。（有“橘”的角色受到 sát thương 时，防止此 sát thương ，然后移去一个“橘”；有“橘”的角色摸牌阶段额外摸一张牌）",
   tachibana_effect: "怀橘",
   nzry_yili: "遗礼",
   nzry_yili_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以失去一 sinh lực  hoặc 移去一个“橘”，然后令一名其他角色获得一个“橘”",
+    "Bắt đầu giai đoạn ra bài， bạn 可以失去一 sinh lực  hoặc 移去一个“橘”，然后令一名其他角色获得一个“橘”",
   nzry_zhenglun: "整论",
   nzry_zhenglun_info: "若 bạn 没有“橘”， bạn 可以跳过摸牌阶段然后获得一个“橘”",
   nzry_feijun: "飞军",
   nzry_feijun_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以弃置一张牌，然后选择一项：⒈令一名手牌数大于 bạn 的角色交给 bạn 一张牌；⒉令一名装备区里牌数大于 bạn 的角色弃置一张装备牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以弃置一张牌，然后选择一项：⒈令一名手牌数大于 bạn 的角色交给 bạn 一张牌；⒉令一名装备区里牌数大于 bạn 的角色弃置一张装备牌。",
   nzry_binglve: "兵略",
   nzry_binglve_info:
     "Tỏa định kỹ， khi  bạn 发动“飞军”时，若目标与 bạn 之前指定的目标均不相同，则 bạn 摸两张牌",
@@ -5724,16 +5738,16 @@ export const translate_shenhua = {
     "Tỏa định kỹ， bạn 每回合第一次成 là 【杀】 hoặc 【决斗】的目标后，若 bạn 的手牌数小于等于该角色，此牌对 bạn 无效。",
   drlt_wanglie: "往烈",
   drlt_wanglie_info:
-    "出牌阶段， bạn 使用的第一张牌无距离限制； khi  bạn 于回合内使用牌时， bạn 可以令此牌不能被响应，若如此做，本回合内 bạn 不能再使用牌",
+    "  giai đoạn ra bài， bạn 使用的第一张牌无距离限制； khi  bạn 于回合内使用牌时， bạn 可以令此牌不能被响应，若如此做，本回合内 bạn 不能再使用牌",
   drlt_xiongluan: "雄乱",
   drlt_xiongluan_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以废除 bạn 的判定区和装备区，然后指定一名其他角色。直到回合结束， bạn 对其使用牌无距离和次数限制，其不能使用和打出手牌",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以废除 bạn 的判定区和装备区，然后指定一名其他角色。直到回合结束， bạn 对其使用牌无距离和次数限制，其不能使用和打出手牌",
   drlt_congjian: "从谏",
   drlt_congjian_info:
     " khi  bạn 成 là 锦囊牌的目标时，若此牌的目标数大于1，则 bạn 可以交给其中一名其他目标角色一张牌，然后摸一张牌，若 bạn 给出的是装备牌，改 là 摸两张牌",
   drlt_yongsi: "庸肆",
   drlt_yongsi_info:
-    "Tỏa định kỹ，摸牌阶段， bạn 改 là 摸X张牌（X là 存活势力数）；出牌阶段结束时，若 bạn 本回合：1.没有造成 sát thương ，将手牌摸至 khi 前体力值；2.造成的 sát thương 超过1点，本回合手牌上限改 là 已损失体力值",
+    "Tỏa định kỹ，摸牌阶段， bạn 改 là 摸X张牌（X là 存活势力数）；  giai đoạn ra bài结束时，若 bạn 本回合：1.没有造成 sát thương ，将手牌摸至 khi 前体力值；2.造成的 sát thương 超过1点，本回合手牌上限改 là 已损失体力值",
   drlt_weidi: "伪帝",
   drlt_weidi_info:
     "Chủ công kỹ，弃牌阶段开始时，若 bạn 的手牌数大于手牌上限，则 bạn 可以将至多X张手牌分别交给等量的其他群雄角色（X là  bạn 的手牌数与手牌上限之差）。",
@@ -5742,12 +5756,12 @@ export const translate_shenhua = {
     "Tỏa định kỹ， khi  bạn 横置时，取消之。 bạn 不能成 là 延时类锦囊的目标。 bạn 不能成 là 其他角色拼点的目标。",
   drlt_jueyan: "决堰",
   drlt_jueyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以废除一个装备栏，然后执行对应一项：武器栏，本回合内 bạn 可以多使用三张【杀】；防具栏，摸三张牌，本回合手牌上限+3；2个坐骑栏，本回合 bạn 使用的牌无距离限制；宝物栏，本回合获得技能集智",
+    "1 lần trong giai đoạn ra bài， bạn 可以废除一个装备栏，然后执行对应一项：武器栏，本回合内 bạn 可以多使用三张【杀】；防具栏，摸三张牌，本回合手牌上限+3；2个坐骑栏，本回合 bạn 使用的牌无距离限制；宝物栏，本回合获得技能集智",
   drlt_poshi: "破势",
   drlt_poshi_info:
     "觉醒技，准备阶段开始时，若 bạn 的装备栏均已被废除 hoặc 体力值 là 1，则 bạn giảm 一 sinh lực 上限，将手牌摸至体力上限，失去技能“决堰”并获得技能“怀柔”",
   drlt_huairou: "怀柔",
-  drlt_huairou_info: "出牌阶段， bạn 可以重铸装备牌",
+  drlt_huairou_info: "  giai đoạn ra bài， bạn 可以重铸装备牌",
   drlt_zhenggu: "镇骨",
   drlt_zhenggu2: "镇骨",
   drlt_zhenggu_info:
@@ -5760,7 +5774,7 @@ export const translate_shenhua = {
     "觉醒技，准备阶段，若“荣”的数量大于 hoặc 等于3且场上有角色死亡，则 bạn 可以用任意张手牌替换等量的“荣”，然后扣减一 sinh lực 上限并获得技能“清侧”",
   drlt_qingce: "清侧",
   drlt_qingce_info:
-    "出牌阶段， bạn 可以移去一张“荣”，然后弃置一名角色装备区 hoặc 判定区内的一张牌。",
+    "  giai đoạn ra bài， bạn 可以移去一张“荣”，然后弃置一名角色装备区 hoặc 判定区内的一张牌。",
 
   zhengrong: "征荣",
   hongju: "鸿举",
@@ -5771,14 +5785,14 @@ export const translate_shenhua = {
   hongju_info:
     "觉醒技，准备阶段，若 bạn 武将牌上「荣」的数量不小于3，则 bạn 触发此技能。 bạn 可以用任意数量的手牌交换等量的「荣」。 bạn giảm 1 sinh lực 上限并获得技能〖清侧〗。",
   qingce_info:
-    "出牌阶段， bạn 可以获得一张「荣」并弃置一张手牌，然后弃置场上的一张牌。",
+    "  giai đoạn ra bài， bạn 可以获得一张「荣」并弃置一张手牌，然后弃置场上的一张牌。",
 
   jianchu: "鞬出",
   jianchu_info:
     " khi bạn sử dụng 【杀】指定一名角色 là 目标后， bạn 可以弃置其一张牌，若以此法弃置的牌 là 装备牌，此【杀】不可被【闪】响应，若不 là 装备牌，该角色获得此【杀】",
   redimeng: "缔盟",
   redimeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置X张牌选择两名其他角色（X là 这两名角色的手牌差）， bạn 混合他们的手牌，然后令其中一名角色获得其中的一张牌，并令另一名角色获得其中的一张牌，然后重复此流程，直到这些牌均被获得 là 止",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置X张牌选择两名其他角色（X là 这两名角色的手牌差）， bạn 混合他们的手牌，然后令其中一名角色获得其中的一张牌，并令另一名角色获得其中的一张牌，然后重复此流程，直到这些牌均被获得 là 止",
   reluanji: "乱击",
   reluanji_info:
     " bạn 可以将两张与 bạn 本回合以此法转化的花色均不相同的手牌 khi 【万箭齐发】使用，然后 khi 一名角色因响应此牌而打出【闪】时，该角色摸一张牌。若 bạn 以此法使用的【万箭齐发】未造成 sát thương ，则 bạn 可以在此牌结算完成后摸X张牌。(X là 此牌的目标数)",
@@ -5791,7 +5805,7 @@ export const translate_shenhua = {
     " khi  bạn 受到 sát thương 时， bạn 可以弃置一张♥牌，将此 sát thương 转移给一名其他角色，然后 bạn 选择一项：令该角色摸X张牌（X là 其已损失的体力值）； hoặc 防止其造成与受到的所有 sát thương ，且此技能失效直到 bạn 的下回合开始",
   xinshensu: "神速",
   xinshensu_info:
-    " bạn 可以选择一至三项：1. 跳过判定阶段和摸牌阶段；2. 跳过出牌阶段并弃置一张装备牌；3. 跳过弃牌阶段并将 bạn 的武将牌翻面。 bạn 每选择一项，视 là  bạn 对一名其他角色使用一张没有距离限制的【杀】",
+    " bạn 可以选择一至三项：1. 跳过判定阶段和摸牌阶段；2. 跳过  giai đoạn ra bài并弃置一张装备牌；3. 跳过弃牌阶段并将 bạn 的武将牌翻面。 bạn 每选择一项，视 là  bạn 对一名其他角色使用一张没有距离限制的【杀】",
   yinghun: "英魂",
   yinghun_info:
     "准备阶段开始时， bạn 可令一名其他角色执行一项：摸X张牌，然后弃置一张牌； hoặc 摸一张牌，然后弃置X张牌（X là  bạn 已损失的体力值）",
@@ -5839,23 +5853,24 @@ export const translate_shenhua = {
     " bạn 可以将装备区里的牌 khi 【 Vô Giải Khả Kích 】使用； khi  bạn 的武将牌从背面翻至正面时， bạn 可以弃置一张牌，然后移动场上的一张牌",
   xinjushou_info:
     " Giai đoạn kết thúc ， bạn 可以翻面并摸四张牌，然后弃置一张手牌，若以此法弃置的是装备牌，则 bạn 改 là 使用之",
-  jixi_info: "出牌阶段， bạn 可以将任意一张【田】 khi 作【顺手牵羊】使用",
+  jixi_info:
+    "  giai đoạn ra bài， bạn 可以将任意一张【田】 khi 作【顺手牵羊】使用",
   xinqiangxi_info:
-    "出牌阶段各限一次， bạn 可以选择一项：1. 失去一 sinh lực 并对 bạn 攻击范围内的一名其他角色造成一点 sát thương ；2. 弃置一张装备牌并对 bạn 攻击范围内的一名其他角色造成一点 sát thương  ",
+    "  giai đoạn ra bài各限一次， bạn 可以选择一项：1. 失去一 sinh lực 并对 bạn 攻击范围内的一名其他角色造成一点 sát thương ；2. 弃置一张装备牌并对 bạn 攻击范围内的一名其他角色造成一点 sát thương  ",
   qimou_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以失去任意 sinh lực ，然后直到回合结束， bạn 计算与其他角色的距离时-X，且 bạn 可以多使用X张【杀】（X là  bạn 失去的体力值）",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以失去任意 sinh lực ，然后直到回合结束， bạn 计算与其他角色的距离时-X，且 bạn 可以多使用X张【杀】（X là  bạn 失去的体力值）",
   tiaoxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名攻击范围内包含 bạn 的角色，该角色需对 bạn 使用一张【杀】，否则 bạn 弃置其一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名攻击范围内包含 bạn 的角色，该角色需对 bạn 使用一张【杀】，否则 bạn 弃置其一张牌。",
   zhiji_info:
     "觉醒技，准备阶段，若 bạn 没有手牌， bạn 须回复1 sinh lực  hoặc 摸两张牌，然后减1 sinh lực 上限，并获得技能〖观星〗。",
   xiangle_info:
     "Tỏa định kỹ， khi 其他角色使用【杀】指定 bạn  là 目标时，其需弃置一张基本牌，否则此【杀】对 bạn 无效。",
   fangquan_info:
-    " bạn 可跳过 bạn 的出牌阶段，若如此做，回合结束时， bạn 可以弃置一张手牌并令一名其他角色进行一个额外的回合。",
+    " bạn 可跳过 bạn 的  giai đoạn ra bài，若如此做，回合结束时， bạn 可以弃置一张手牌并令一名其他角色进行一个额外的回合。",
   ruoyu_info:
     "Chủ công kỹ，觉醒技，准备阶段，若 bạn 的体力是全场最少的( hoặc 之一)， bạn 须增加1 sinh lực 上限并回复1 sinh lực ，然后获得技能〖激将〗。",
   qiaobian_info:
-    " bạn 可以弃置一张手牌并跳过自己的一个阶段(准备阶段和 Giai đoạn kết thúc 除外)；若 bạn 以此法跳过了摸牌阶段，则 bạn 可以获得至多两名其他角色的各一张手牌；若 bạn 以此法跳过了出牌阶段，则 bạn 可以移动场上的一张牌。",
+    " bạn 可以弃置一张手牌并跳过自己的一个阶段(准备阶段和 Giai đoạn kết thúc 除外)；若 bạn 以此法跳过了摸牌阶段，则 bạn 可以获得至多两名其他角色的各一张手牌；若 bạn 以此法跳过了  giai đoạn ra bài，则 bạn 可以移动场上的一张牌。",
   tuntian_info:
     " khi  bạn 于回合外失去牌时， bạn 可以进行一次判定。若判定结果不 là ♥，则 bạn 将此牌置于 bạn 的武将牌上，称之 là 【田】。Tỏa định kỹ， bạn 计算与其他角色的距离时-X（X là  bạn 武将牌上【田】的数目）",
   zaoxian_info:
@@ -5865,9 +5880,9 @@ export const translate_shenhua = {
   hunzi_info:
     "觉醒技，准备阶段，若 bạn 的体力值 là 1， bạn giảm 1 sinh lực 上限，并获得技能〖英姿〗和〖英魂〗。",
   zhiba_info:
-    "Chủ công kỹ，其他吴势力角色的1 lần trong giai đoạn hành động，其可与 bạn 进行一次拼点。若该角色没赢， bạn 可以获得双方拼点的牌； bạn 的觉醒技发动后， bạn 可以拒绝此拼点。",
+    "Chủ công kỹ，其他吴势力角色的1 lần trong giai đoạn ra bài，其可与 bạn 进行一次拼点。若该角色没赢， bạn 可以获得双方拼点的牌； bạn 的觉醒技发动后， bạn 可以拒绝此拼点。",
   zhijian_info:
-    "出牌阶段， bạn 可以将手牌中的一张装备牌置于一名其他角色装备区里（不得替换原装备），然后摸一张牌。",
+    "  giai đoạn ra bài， bạn 可以将手牌中的一张装备牌置于一名其他角色装备区里（不得替换原装备），然后摸一张牌。",
   guzheng_info:
     "其他角色的弃牌阶段结束时， bạn 可以令其获得本阶段内进入弃牌堆的牌中的一张，然后 bạn 获得其余的牌。",
   beige_info:
@@ -5944,7 +5959,7 @@ export const translate_shenhua = {
   haoshi_info:
     "摸牌阶段， bạn 可以额外摸两张牌。若此时 bạn 的手牌数多于五张， bạn 须将一半(向下取整)的手牌交给场上除 bạn 外手牌数最少的一名角色。",
   dimeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择其他两名角色， bạn 弃置等同于这两名角色手牌数量之差的牌，然后交换他们的手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择其他两名角色， bạn 弃置等同于这两名角色手牌数量之差的牌，然后交换他们的手牌。",
   yinghun_old_info:
     "准备阶段，若 bạn 已受伤，则 bạn 可以令一名其他角色执行下列两项中的一项： 1.摸X张牌，然后弃一张牌。 2.摸一张牌，然后弃X张牌。 （X là  bạn 已损失的体力值）",
   jiuchi_info: " bạn 可以将一张♠手牌 khi 作【酒】使用。",
@@ -5955,7 +5970,7 @@ export const translate_shenhua = {
   baonue_info:
     "Chủ công kỹ，其他群雄角色造成 sát thương 后，可进行一次判定，若 là ♠， bạn 回复1 sinh lực 。",
   luanwu_info:
-    "Hạn định kỹ，出牌阶段， bạn 可令除 bạn 外的所有角色依次对与其距离最近的另一名角色使用一张【杀】，否则失去1 sinh lực 。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可令除 bạn 外的所有角色依次对与其距离最近的另一名角色使用一张【杀】，否则失去1 sinh lực 。",
   wansha_info:
     "Tỏa định kỹ， bạn 的回合内，除 bạn 以外，不处于濒死状态的角色不能使用【桃】。",
   weimu_info: "Tỏa định kỹ， bạn 不能成 là 黑色锦囊牌的目标。",
@@ -5996,31 +6011,31 @@ export const translate_shenhua = {
   ollianhuan_info:
     "  bạn 可以将一张♣牌 khi 【铁索连环】使用 hoặc 重铸。 bạn 使用【铁索连环】选择目标的上限数+1。",
   huoji_info:
-    "出牌阶段， bạn 可以将 bạn 的任意一张红色手牌 khi 作【火攻】使用。",
+    "  giai đoạn ra bài， bạn 可以将 bạn 的任意一张红色手牌 khi 作【火攻】使用。",
   bazhen_info:
     "Tỏa định kỹ，若 bạn 的防具栏内没有牌且没有被废除，则 bạn 视 là 装备着【八卦阵】。",
   kanpo_info:
     " bạn 可以将 bạn 的任意一张黑色手牌 khi 做【 Vô Giải Khả Kích 】使用。",
   lianhuan_info:
-    "出牌阶段， bạn 可以将一张 ♣︎ 手牌 khi 做【铁索连环】使用 hoặc 重铸。",
+    "  giai đoạn ra bài， bạn 可以将一张 ♣︎ 手牌 khi 做【铁索连环】使用 hoặc 重铸。",
   niepan_info:
-    "Hạn định kỹ，出牌阶段 hoặc  khi  bạn 处于濒死状态时， bạn 可以弃置 bạn 区域内的所有牌并复原 bạn 的武将牌，然后摸三张牌并将体力回复至3点。",
+    "Hạn định kỹ，  giai đoạn ra bài hoặc  khi  bạn 处于濒死状态时， bạn 可以弃置 bạn 区域内的所有牌并复原 bạn 的武将牌，然后摸三张牌并将体力回复至3点。",
   oldniepan_info:
     "Hạn định kỹ， khi  bạn 处于濒死状态时， bạn 可以弃置 bạn 区域内的所有牌并复原 bạn 的武将牌，然后摸三张牌并将体力回复至3点。",
   quhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名体力值大于 bạn 的角色拼点，若 bạn 赢，则该角色对其攻击范围内另一名由 bạn 指定的角色造成1点 sát thương 。若 bạn 没赢，该角色对 bạn 造成一点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名体力值大于 bạn 的角色拼点，若 bạn 赢，则该角色对其攻击范围内另一名由 bạn 指定的角色造成1点 sát thương 。若 bạn 没赢，该角色对 bạn 造成一点 sát thương 。",
   jieming_info:
     " khi  bạn 受到1点 sát thương 后， bạn 可令一名角色将手牌摸至X张（X là 其体力上限且至多 là 5）。",
   qiangxi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去一 sinh lực  hoặc 弃置一张武器牌，然后对 bạn 攻击范围内的一名其他角色造成一点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去一 sinh lực  hoặc 弃置一张武器牌，然后对 bạn 攻击范围内的一名其他角色造成一点 sát thương 。",
   qiangxix_info:
-    "出牌阶段限两次， bạn 可以失去一 sinh lực  hoặc 弃置一张武器牌，然后一名本阶段内未成 là 过〖强袭〗的目标的其他角色造成一点 sát thương 。",
+    "  giai đoạn ra bài限两次， bạn 可以失去一 sinh lực  hoặc 弃置一张武器牌，然后一名本阶段内未成 là 过〖强袭〗的目标的其他角色造成一点 sát thương 。",
   tianyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 获得以下技能效果直到回合结束： bạn 使用【杀】没有距离限制；可额外使用一张【杀】；使用【杀】时可额外指定一个目标。若 bạn 没赢， bạn 不能使用【杀】直到回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名其他角色拼点。若 bạn 赢， bạn 获得以下技能效果直到回合结束： bạn 使用【杀】没有距离限制；可额外使用一张【杀】；使用【杀】时可额外指定一个目标。若 bạn 没赢， bạn 不能使用【杀】直到回合结束。",
   shuangxiong_info:
     "摸牌阶段， bạn 可以改 là 进行一次判定： bạn 获得此判定牌，且 bạn 可以于此回合内将任意一张与此判定牌不同颜色的手牌 khi 做【决斗】使用。",
   luanji_info:
-    "出牌阶段， bạn 可以将任意两张相同花色的手牌 khi 做【万箭齐发】使用。",
+    "  giai đoạn ra bài， bạn 可以将任意两张相同花色的手牌 khi 做【万箭齐发】使用。",
   xueyi_info:
     "Chủ công kỹ，Tỏa định kỹ，场上每有一名其他群雄角色存活， bạn 的手牌上限便+2。",
   mengjin_info:
@@ -6090,7 +6105,7 @@ export const translate_shenhua = {
   tiangong_info:
     "Tỏa định kỹ， bạn 防止即将受到的雷电 sát thương 。每 khi  bạn 造成雷电 sát thương 时， bạn 摸一张牌。",
   shensu_info:
-    " bạn 可以跳过判定阶段和摸牌阶段， hoặc 跳过出牌阶段并弃置一张装备牌。若如此做，则 bạn 可以视 là 对任意一名角色使用一张无距离限制的【杀】",
+    " bạn 可以跳过判定阶段和摸牌阶段， hoặc 跳过  giai đoạn ra bài并弃置一张装备牌。若如此做，则 bạn 可以视 là 对任意一名角色使用一张无距离限制的【杀】",
   jushou_info: " Giai đoạn kết thúc ， bạn 可以摸3张牌，并将武将牌翻面。",
   moon_jushou_info: " Giai đoạn kết thúc ， bạn 可以摸一张牌，并将武将牌翻面。",
   liegong_info:
@@ -6108,7 +6123,7 @@ export const translate_shenhua = {
     " khi bạn sử dụng  hoặc 打出一张【闪】时， bạn 可令任意一名角色进行一次判定。若结果 là  ♠︎ ，其受到两点雷电 sát thương ",
   guidao_info: "一名角色的判定牌生效前， bạn 可以打出一张黑色牌替换之。",
   huangtian_info:
-    "Chủ công kỹ，其他群势力角色的1 lần trong giai đoạn hành động，其可以交给 bạn 一张【闪】 hoặc 【闪电】。",
+    "Chủ công kỹ，其他群势力角色的1 lần trong giai đoạn ra bài，其可以交给 bạn 一张【闪】 hoặc 【闪电】。",
   guhuo_info:
     "每名角色的回合限一次， bạn 可以扣置一张手牌 khi 一张基本牌 hoặc 普通锦囊牌使用 hoặc 打出。其他角色依次选择是否质疑。一旦有其他角色质疑则翻开此牌：若 là 假则此牌作废，若 là 真，则质疑角色获得技能“缠怨”（Tỏa định kỹ， bạn 不能质疑于吉，只要 bạn 的体力值 là 1， bạn 失去 bạn 的武将技能）",
   fenji_info:
@@ -6148,7 +6163,7 @@ export const translate_shenhua = {
 export const translate_sp = {
   xinfu_lingren: "凌人",
   xinfu_lingren_info:
-    "每回合限一次。 khi  bạn 于出牌阶段使用带有「 sát thương 」这一标签的基本牌 hoặc 普通锦囊牌指定目标后， bạn 可以猜测其中的一个目标的手牌中是否有基本牌，锦囊牌 hoặc 装备牌。若 bạn 猜中的项目数：≥1，此牌对该角色的 sát thương +1；≥2， bạn 摸两张牌；≥3， bạn 获得技能〖奸雄〗和〖行殇〗直到下回合开始。",
+    "每回合限一次。 khi  bạn 于  giai đoạn ra bài使用带有「 sát thương 」这一标签的基本牌 hoặc 普通锦囊牌指定目标后， bạn 可以猜测其中的一个目标的手牌中是否有基本牌，锦囊牌 hoặc 装备牌。若 bạn 猜中的项目数：≥1，此牌对该角色的 sát thương +1；≥2， bạn 摸两张牌；≥3， bạn 获得技能〖奸雄〗和〖行殇〗直到下回合开始。",
   lingren_adddamage: "凌人",
   lingren_adddamage_info: "",
   lingren_jianxiong: "奸雄",
@@ -6162,7 +6177,7 @@ export const translate_sp = {
     "Tỏa định kỹ， Giai đoạn kết thúc 开始时， bạn 观看一名随机的其他角色的随机X张手牌。(X là 场上手牌最少的角色的手牌数)",
   xinfu_xionghuo: "凶镬",
   xinfu_xionghuo_info:
-    "游戏开始时， bạn 获得3个“暴戾”标记。出牌阶段， bạn 可以交给一名其他角色一个“暴戾”标记， bạn 对有“暴戾”标记的角色造成 sát thương 时，此 sát thương +1。有“暴戾”的其他角色的Bắt đầu giai đoạn hành động，其移去所有“暴戾”标记并随机执行一项：1.受到1点火焰 sát thương 且本回合不能对 bạn 使用【杀】；2.失去1 sinh lực 且本回合手牌上限-1；3. bạn 随机获得其一张手牌和一张装备区的牌。",
+    "游戏开始时， bạn 获得3个“暴戾”标记。  giai đoạn ra bài， bạn 可以交给一名其他角色一个“暴戾”标记， bạn 对有“暴戾”标记的角色造成 sát thương 时，此 sát thương +1。有“暴戾”的其他角色的Bắt đầu giai đoạn ra bài，其移去所有“暴戾”标记并随机执行一项：1.受到1点火焰 sát thương 且本回合不能对 bạn 使用【杀】；2.失去1 sinh lực 且本回合手牌上限-1；3. bạn 随机获得其一张手牌和一张装备区的牌。",
   xionghuo: "凶镬",
   xionghuo_info: "",
   xionghuo_disable: "凶镬",
@@ -6174,7 +6189,7 @@ export const translate_sp = {
     "Tỏa định kỹ，其他角色进入濒死状态时，若其体力值小于0，则 bạn 获得一个“暴戾”标记，并获得使其进入濒死状态的牌。",
   xinfu_jianjie: "荐杰",
   xinfu_jianjie_info:
-    " bạn 的第一个准备阶段， bạn 令两名其他角色分别获得龙印与凤印；1 lần trong giai đoạn hành động（ bạn 的第一个回合除外）， hoặc  khi 拥有龙印、凤印的角色死亡时， bạn 可以转移龙印、凤印。",
+    " bạn 的第一个准备阶段， bạn 令两名其他角色分别获得龙印与凤印；1 lần trong giai đoạn ra bài（ bạn 的第一个回合除外）， hoặc  khi 拥有龙印、凤印的角色死亡时， bạn 可以转移龙印、凤印。",
   xinfu_jianjie1: "荐杰",
   xinfu_jianjie1_info: "",
   smh_huoji: "火计",
@@ -6334,21 +6349,21 @@ export const translate_sp = {
 
   xinfenyue: "奋钺",
   xinfenyue_info:
-    "出牌阶段限X次（X là 与 bạn 不同阵营的存活角色数）， bạn 可以与一名其他角色拼点，若 bạn 赢，根据 bạn 拼点牌的 điểm số 依次执行以下效果：不大于5， bạn 获得其一张牌；不大于9， bạn 获得牌堆里的一张【杀】; 不大于K，视 là  bạn 对其使用一张雷【杀】。",
+    "  giai đoạn ra bài限X次（X là 与 bạn 不同阵营的存活角色数）， bạn 可以与一名其他角色拼点，若 bạn 赢，根据 bạn 拼点牌的 điểm số 依次执行以下效果：不大于5， bạn 获得其一张牌；不大于9， bạn 获得牌堆里的一张【杀】; 不大于K，视 là  bạn 对其使用一张雷【杀】。",
   neifa: "内伐",
   neifa_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸两张牌 hoặc 获得场上的一张牌，然后弃置一张牌。若弃置的牌是基本牌，本回合 bạn 不能使用锦囊和装备牌，且【杀】的使用次数+X且目标+1；若弃置的不是基本牌，本回合 bạn 不能使用基本牌，且使用普通锦囊牌选择目标时可以增加 hoặc 减少一个目标，前两次使用装备牌时摸X张牌（X là  bạn 发动〖内伐〗弃牌后手牌中因〖内伐〗而不能使用的牌的数量且最多 là 5）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸两张牌 hoặc 获得场上的一张牌，然后弃置一张牌。若弃置的牌是基本牌，本回合 bạn 不能使用锦囊和装备牌，且【杀】的使用次数+X且目标+1；若弃置的不是基本牌，本回合 bạn 不能使用基本牌，且使用普通锦囊牌选择目标时可以增加 hoặc 减少一个目标，前两次使用装备牌时摸X张牌（X là  bạn 发动〖内伐〗弃牌后手牌中因〖内伐〗而不能使用的牌的数量且最多 là 5）。",
   neifa_use: "内伐",
   yuxu: "誉虚",
   yuxu_info:
-    " khi  bạn 于出牌阶段内使用的牌结算完成时， bạn 可以摸一张牌。若如此做， khi  bạn 于出牌阶段内使用的下一张牌结算完成时， bạn 不能发动〖誉虚〗，且需弃置一张牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用的牌结算完成时， bạn 可以摸一张牌。若如此做， khi  bạn 于  giai đoạn ra bài内使用的下一张牌结算完成时， bạn 不能发动〖誉虚〗，且需弃置一张牌。",
   yuxu2: "誉虚(弃牌)",
   xjshijian: "实荐",
   xjshijian_info:
     "一名其他角色于其回合内使用的第二张牌结算完成后， bạn 可弃置一张牌并令其获得技能〖誉虚〗直到回合结束。",
   mouzhu: "谋诛",
   mouzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名有牌的其他角色交给 bạn 一张牌。然后若 bạn 的手牌数大于其，其选择视 là 对 bạn 使用一张【杀】 hoặc 【决斗】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名有牌的其他角色交给 bạn 一张牌。然后若 bạn 的手牌数大于其，其选择视 là 对 bạn 使用一张【杀】 hoặc 【决斗】。",
   yanhuo: "延祸",
   yanhuo_info:
     " khi  bạn 死亡时， bạn 可以依次弃置一名其他角色的X张牌。（X là  bạn 的牌数）",
@@ -6368,20 +6383,20 @@ export const translate_sp = {
     " khi 其他角色获得 bạn 的手牌后，若 bạn 的手牌数小于体力值， bạn 可以摸一张牌。",
   daoshu: "盗书",
   daoshu_info:
-    "出牌阶段， bạn 可以选择一个花色并获得一名其他角色的一张手牌。若此牌花色与 bạn 选择的相同，则 bạn 对其造成1点 sát thương 。否则 bạn 须交给其一张与此牌花色不同的手牌（没有则展示手牌），且本阶段内不能再发动〖盗书〗",
+    "  giai đoạn ra bài， bạn 可以选择一个花色并获得一名其他角色的一张手牌。若此牌花色与 bạn 选择的相同，则 bạn 对其造成1点 sát thương 。否则 bạn 须交给其一张与此牌花色不同的手牌（没有则展示手牌），且本阶段内不能再发动〖盗书〗",
 
   xinshanjia: "缮甲",
   xinshanjia_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸三张牌，然后弃置3-X张牌(X là  bạn 本局游戏内不因使用而失去过的装备牌的数目且至多 là 3)。若 bạn 没有以此法弃置基本牌 hoặc 锦囊牌，则 bạn 可以视 là 使用了一张无距离限制且不计入出牌阶段使用次数的【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸三张牌，然后弃置3-X张牌(X là  bạn 本局游戏内不因使用而失去过的装备牌的数目且至多 là 3)。若 bạn 没有以此法弃置基本牌 hoặc 锦囊牌，则 bạn 可以视 là 使用了一张无距离限制且不计入  giai đoạn ra bài使用次数的【杀】。",
   new_meibu: "魅步",
   new_meibu_info:
-    "其他角色的Bắt đầu giai đoạn hành động，若 bạn 在其攻击范围内， bạn 可以弃置一张牌，令该角色于本回合内获得技能〖止息〗。若 bạn 以此法弃置的牌不是【杀】 hoặc 黑色锦囊牌，则本回合其与 bạn 的距离视 là 1。",
+    "其他角色的Bắt đầu giai đoạn ra bài，若 bạn 在其攻击范围内， bạn 可以弃置一张牌，令该角色于本回合内获得技能〖止息〗。若 bạn 以此法弃置的牌不是【杀】 hoặc 黑色锦囊牌，则本回合其与 bạn 的距离视 là 1。",
   new_mumu: "穆穆",
   new_mumu_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一项：1.弃置一名其他角色装备区里的一张牌；2.获得一名角色装备区里的一张防具牌，若如此做， bạn 本回合不能使用【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一项：1.弃置一名其他角色装备区里的一张牌；2.获得一名角色装备区里的一张防具牌，若如此做， bạn 本回合不能使用【杀】。",
   new_zhixi: "止息",
   new_zhixi_info:
-    "Tỏa định kỹ，出牌阶段， bạn 至多可使用X张牌， bạn 使用了锦囊牌后不能再使用牌（X là  bạn 的体力值）。",
+    "Tỏa định kỹ，  giai đoạn ra bài， bạn 至多可使用X张牌， bạn 使用了锦囊牌后不能再使用牌（X là  bạn 的体力值）。",
   new_mumu2: "穆穆",
   new_mumu2_info: "Tỏa định kỹ， bạn 不能使用【杀】。",
   new_xingwu: "星舞",
@@ -6440,24 +6455,24 @@ export const translate_sp = {
     " khi  bạn 于一回合内使用 hoặc 打出第X张牌时， bạn 可以摸X张牌（X là  bạn 的攻击范围）。",
   xiongsuan: "凶算",
   xiongsuan_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以弃置一张手牌并选择一名角色，对其造成1点 sát thương ，然后 bạn 摸三张牌。若该角色有已发动的Hạn định kỹ，则 bạn 选择其中一个Hạn định kỹ。此回合结束后，视 là 该Hạn định kỹ未发动过。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以弃置一张手牌并选择一名角色，对其造成1点 sát thương ，然后 bạn 摸三张牌。若该角色有已发动的Hạn định kỹ，则 bạn 选择其中一个Hạn định kỹ。此回合结束后，视 là 该Hạn định kỹ未发动过。",
   diaodu: "调度",
   diaodu_info:
-    " khi bạn sử dụng 装备牌时， bạn 可以摸一张牌；Bắt đầu giai đoạn hành động， bạn 可以获得一名其他角色装备区里的一张牌，然后 bạn 可以将此牌交给另一名角色。",
+    " khi bạn sử dụng 装备牌时， bạn 可以摸一张牌；Bắt đầu giai đoạn ra bài， bạn 可以获得一名其他角色装备区里的一张牌，然后 bạn 可以将此牌交给另一名角色。",
   diancai: "典财",
   diancai_info:
-    "其他角色的出牌阶段结束时，若 bạn 于此阶段失去了X张 hoặc 更多的牌，则 bạn 可以将手牌摸至体力上限。（X là  bạn 的体力值）",
+    "其他角色的  giai đoạn ra bài结束时，若 bạn 于此阶段失去了X张 hoặc 更多的牌，则 bạn 可以将手牌摸至体力上限。（X là  bạn 的体力值）",
   zhengbi: "征辟",
   zhengbi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一项：选择一名未受伤的其他角色， bạn 对其使用的牌无距离限制且不计入使用次数直到回合结束； hoặc 将一张基本牌交给一名其他角色，然后其交给 bạn 一张非基本牌 hoặc 两张基本牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一项：选择一名未受伤的其他角色， bạn 对其使用的牌无距离限制且不计入使用次数直到回合结束； hoặc 将一张基本牌交给一名其他角色，然后其交给 bạn 一张非基本牌 hoặc 两张基本牌。",
   fengying: "奉迎",
   fengying_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以弃置所有手牌。若如此做， bạn 可以令等量的角色将手牌摸至X张(X là 其体力上限且至多 là 5)。然后， bạn 结束出牌阶段，并在 khi 前回合结束后进行一个新的回合。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以弃置所有手牌。若如此做， bạn 可以令等量的角色将手牌摸至X张(X là 其体力上限且至多 là 5)。然后， bạn 结束  giai đoạn ra bài，并在 khi 前回合结束后进行一个新的回合。",
 
   qingzhong: "清忠",
   qingzhongx: "清忠",
   qingzhongx_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸两张牌，若如此做，此阶段结束时， bạn 与手牌数最少的角色交换手牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸两张牌，若如此做，此阶段结束时， bạn 与手牌数最少的角色交换手牌。",
   weijing: "卫境",
   weijing_info:
     "每轮限一次， khi  bạn 需要使用【杀】 hoặc 【闪】时， bạn 可以视 là 使用一张【杀】 hoặc 【闪】。",
@@ -6475,7 +6490,7 @@ export const translate_sp = {
     " khi  bạn 成 là 锦囊牌的目标后， bạn 可以将任意张手牌交给一名其他角色。",
   shuimeng: "说盟",
   shuimeng_info:
-    "出牌阶段结束时， bạn 可以与一名角色拼点，若 bạn 赢，视 là  bạn 使用【无中生有】；若 bạn 没赢，视 là 其对 bạn 使用【过河拆桥】。",
+    "  giai đoạn ra bài结束时， bạn 可以与一名角色拼点，若 bạn 赢，视 là  bạn 使用【无中生有】；若 bạn 没赢，视 là 其对 bạn 使用【过河拆桥】。",
   xianfu: "先辅",
   xianfu2: "先辅",
   xianfu2_bg: "辅",
@@ -6492,19 +6507,19 @@ export const translate_sp = {
     "Tỏa định kỹ，若 bạn 的手牌数 là 全场唯一最多，则 khi  bạn 造成 hoặc 受到 sát thương 时，此 sát thương +1。",
   wy_meirenji: "美人计",
   wy_meirenji_info:
-    "出牌阶段，对一名有手牌的其他男性角色使用。每名女性角色各获得其一张手牌并将一张手牌交给 bạn ，然后比较 bạn 与其的手牌数，手牌少的角色对手牌多的角色造成1点 sát thương 。",
+    "  giai đoạn ra bài，对一名有手牌的其他男性角色使用。每名女性角色各获得其一张手牌并将一张手牌交给 bạn ，然后比较 bạn 与其的手牌数，手牌少的角色对手牌多的角色造成1点 sát thương 。",
   wy_xiaolicangdao: "笑里藏刀",
   wy_xiaolicangdao_info:
-    "出牌阶段，对一名其他角色使用。该角色摸X张牌（X là 其已损失的体力值且至多 là 5），然后 bạn 对其造成1点 sát thương 。",
+    "  giai đoạn ra bài，对一名其他角色使用。该角色摸X张牌（X là 其已损失的体力值且至多 là 5），然后 bạn 对其造成1点 sát thương 。",
   weikui: "伪溃",
   weikui2: "伪溃",
   weikui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去1 sinh lực 并选择一名有手牌的其他角色， bạn 观看其手牌：若其手牌中有【闪】，则视 là  bạn 对其使用【杀】，且本回合 bạn 计算与其的距离视 là 1；若其手牌中没有【闪】， bạn 弃置其中一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去1 sinh lực 并选择一名有手牌的其他角色， bạn 观看其手牌：若其手牌中有【闪】，则视 là  bạn 对其使用【杀】，且本回合 bạn 计算与其的距离视 là 1；若其手牌中没有【闪】， bạn 弃置其中一张牌。",
   lizhan: "励战",
   lizhan_info: " Giai đoạn kết thúc ， bạn 可以令任意名已受伤的角色摸一张牌。",
   wylianji: "连计",
   wylianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一张【杀】 hoặc 黑色锦囊牌，并令一名其他角色将牌堆中的随机一张武器牌置入装备区（可替换原装备）。然后该角色选择一项：1.对除 bạn 以外的角色使用该牌，并将装备区里的武器牌交给该牌的一个目标角色；2.令 bạn 对其使用此牌，然后获得此牌，并将装备区内的武器牌交给 bạn 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一张【杀】 hoặc 黑色锦囊牌，并令一名其他角色将牌堆中的随机一张武器牌置入装备区（可替换原装备）。然后该角色选择一项：1.对除 bạn 以外的角色使用该牌，并将装备区里的武器牌交给该牌的一个目标角色；2.令 bạn 对其使用此牌，然后获得此牌，并将装备区内的武器牌交给 bạn 。",
   // from here
   moucheng: "谋逞",
   moucheng_info:
@@ -6513,21 +6528,21 @@ export const translate_sp = {
   jingong2: "矜功",
   jingong_backup: "矜功",
   jingong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张装备牌 hoặc 【杀】 khi 做一张随机锦囊牌使用（三选一，其中一张 là 【美人计】 hoặc 【笑里藏刀】），然后本回合的 Giai đoạn kết thúc ，若 bạn 于本回合内未造成过 sát thương ， bạn 失去1 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张装备牌 hoặc 【杀】 khi 做一张随机锦囊牌使用（三选一，其中一张 là 【美人计】 hoặc 【笑里藏刀】），然后本回合的 Giai đoạn kết thúc ，若 bạn 于本回合内未造成过 sát thương ， bạn 失去1 sinh lực ",
   fenyue: "奋钺",
   fenyue2: "奋钺",
   fenyue2_bg: "钺",
   fenyue_info:
-    "出牌阶段限X次， bạn 可以与一名角色拼点，若 bạn 赢， bạn 选择一项：1.令其不能使用 hoặc 打出手牌直到回合结束；2.视 là  bạn 对其使用了【杀】（不计入次数限制）。若 bạn 没赢， bạn 结束出牌阶段。（X là 存活的忠臣数）",
+    "  giai đoạn ra bài限X次， bạn 可以与一名角色拼点，若 bạn 赢， bạn 选择一项：1.令其不能使用 hoặc 打出手牌直到回合结束；2.视 là  bạn 对其使用了【杀】（不计入次数限制）。若 bạn 没赢， bạn 结束  giai đoạn ra bài。（X là 存活的忠臣数）",
 
   zfengshi: "锋矢",
   zfengshi_info:
     " khi bạn sử dụng 【杀】指定目标后， bạn 可以令目标弃置装备区内的一张牌。",
   chuanxin: "穿心",
   chuanxin_info:
-    " khi  bạn 于出牌阶段内使用【杀】 hoặc 【决斗】对目标角色造成 sát thương 时， bạn 可以防止此 sát thương 。若如此做，该角色选择一项：1.弃置装备区里的所有牌，若如此做，其失去1 sinh lực ；2.随机移除主武将牌上的一个技能。",
+    " khi  bạn 于  giai đoạn ra bài内使用【杀】 hoặc 【决斗】对目标角色造成 sát thương 时， bạn 可以防止此 sát thương 。若如此做，该角色选择一项：1.弃置装备区里的所有牌，若如此做，其失去1 sinh lực ；2.随机移除主武将牌上的一个技能。",
   chuanxin_info_guozhan:
-    " khi  bạn 于出牌阶段内使用【杀】 hoặc 【决斗】对目标角色造成 sát thương 时，若其与 bạn 势力不同且有副将， bạn 可以防止此 sát thương 。若如此做，该角色选择一项：1.弃置装备区里的所有牌，若如此做，其失去1 sinh lực ；2.移除副将。",
+    " khi  bạn 于  giai đoạn ra bài内使用【杀】 hoặc 【决斗】对目标角色造成 sát thương 时，若其与 bạn 势力不同且有副将， bạn 可以防止此 sát thương 。若如此做，该角色选择一项：1.弃置装备区里的所有牌，若如此做，其失去1 sinh lực ；2.移除副将。",
   hengjiang: "横江",
   hengjiang2: "横江",
   hengjiang_info:
@@ -6539,30 +6554,30 @@ export const translate_sp = {
     " khi  bạn 受到1点 sát thương 后， bạn 可以令 khi 前回合角色本回合的手牌上限-1。然后若其弃牌阶段内没有弃牌，则 bạn 摸X张牌（X là  bạn 本回合内对其发动过〖横江〗的次数）。",
   shuangren: "双刃",
   shuangren_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以与一名角色拼点。若 bạn 赢， bạn 视 là 对其 hoặc 与其势力相同的另一名角色使用一张【杀】（不计入出牌阶段的次数限制）；若 bạn 没赢， bạn 本回合内不能对其他角色使用牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以与一名角色拼点。若 bạn 赢， bạn 视 là 对其 hoặc 与其势力相同的另一名角色使用一张【杀】（不计入  giai đoạn ra bài的次数限制）；若 bạn 没赢， bạn 本回合内不能对其他角色使用牌。",
   xiashu: "下书",
   xiashu_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以将所有手牌交给一名其他角色，然后该角色亮出任意数量的手牌（至少一张）。 bạn 选择一项：1.获得其亮出的手牌；2.获得其未亮出的手牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以将所有手牌交给一名其他角色，然后该角色亮出任意数量的手牌（至少一张）。 bạn 选择一项：1.获得其亮出的手牌；2.获得其未亮出的手牌。",
   kuanshi: "宽释",
   kuanshi2: "宽释",
   kuanshi_info:
     " Giai đoạn kết thúc ， bạn 可以选择一名角色。直到 bạn 的下回合开始，该角色第一次受到大于1的 sát thương 时，防止此 sát thương ，然后 bạn 跳过下个回合的摸牌阶段。",
   bingzheng: "秉正",
   bingzheng_info:
-    "出牌阶段结束时， bạn 可以令手牌数不等于体力值的一名角色弃置一张手牌 hoặc 摸一张牌。然后若其手牌数等于体力值， bạn 摸一张牌，且可以交给该角色一张牌。",
+    "  giai đoạn ra bài结束时， bạn 可以令手牌数不等于体力值的一名角色弃置一张手牌 hoặc 摸一张牌。然后若其手牌数等于体力值， bạn 摸一张牌，且可以交给该角色一张牌。",
   sheyan: "舍宴",
   sheyan_info:
     " khi  bạn 成 là 普通锦囊牌的目标时（【借刀杀人】等带有指向目标的锦囊除外）， bạn 可以 là 此牌增加一个目标 hoặc 令其对其中一个目标无效。（有效目标数至少 là 一）",
   fuman: "抚蛮",
   fuman2: "抚蛮",
   fuman_info:
-    "出牌阶段每名角色限一次， bạn 可以将一张手牌交给一名其他角色并标记 là “抚蛮”且“抚蛮”牌的牌名视 là 【杀】。然后 khi 一名角色使用“抚蛮”牌结算结束后， bạn 摸一张牌。若此牌造成过 sát thương ，则改 là 摸两张牌。",
+    "  giai đoạn ra bài每名角色限一次， bạn 可以将一张手牌交给一名其他角色并标记 là “抚蛮”且“抚蛮”牌的牌名视 là 【杀】。然后 khi 一名角色使用“抚蛮”牌结算结束后， bạn 摸一张牌。若此牌造成过 sát thương ，则改 là 摸两张牌。",
   qizhou: "绮胄",
   qizhou_info:
     "Tỏa định kỹ， bạn 根据装备区里牌的花色数获得以下技能：1种 hoặc 以上：〖马术〗；2种 hoặc 以上：〖英姿〗；3种 hoặc 以上：〖短兵〗；4种：〖奋威〗。",
   shanxi: "闪袭",
   shanxi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色基本牌，然后弃置攻击范围内的一名其他角色的一张牌。若弃置的牌是【闪】， bạn 观看其手牌，若弃置的不是【闪】，其观看 bạn 的手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色基本牌，然后弃置攻击范围内的一名其他角色的一张牌。若弃置的牌是【闪】， bạn 观看其手牌，若弃置的不是【闪】，其观看 bạn 的手牌。",
   duanbing: "短兵",
   duanbing_info:
     " khi bạn sử dụng 【杀】选择目标后， bạn 可以令一名距离 là 1的其他角色也成 là 此牌的目标。",
@@ -6593,17 +6608,17 @@ export const translate_sp = {
     "Tỏa định kỹ， bạn 的黑色牌不计入手牌上限；其他角色获得 bạn 的黑色牌时，其不能使用、打出、弃置这些牌直到其体力值减少 là 止。",
   lianzhu: "连诛",
   lianzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示并交给一名其他角色一张牌，若此牌 là 黑色，其选择一项：1. bạn 摸两张牌；2.弃置两张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示并交给一名其他角色一张牌，若此牌 là 黑色，其选择一项：1. bạn 摸两张牌；2.弃置两张牌",
   shanjia: "缮甲",
   shanjia_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸X张牌，然后弃置等量的牌。若 bạn 以此法弃置了装备区内的牌，则 bạn 可以视 là 使用一张【杀】。（X là  bạn 于本局游戏内使用过的装备牌数且最大 là 7）",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸X张牌，然后弃置等量的牌。若 bạn 以此法弃置了装备区内的牌，则 bạn 可以视 là 使用一张【杀】。（X là  bạn 于本局游戏内使用过的装备牌数且最大 là 7）",
   tuifeng: "推锋",
   tuifeng2: "推锋",
   tuifeng_info:
-    "1. khi  bạn 受到1点 sát thương 后， bạn 可以将一张牌置于武将牌上，称 là “锋”。2.准备阶段开始时，若 bạn 的武将牌上有“锋”， bạn 移去所有“锋”，摸2X张牌，然后 bạn 于此回合的出牌阶段内使用【杀】的次数上限+X。（X là  bạn 此次移去的“锋”数）",
+    "1. khi  bạn 受到1点 sát thương 后， bạn 可以将一张牌置于武将牌上，称 là “锋”。2.准备阶段开始时，若 bạn 的武将牌上有“锋”， bạn 移去所有“锋”，摸2X张牌，然后 bạn 于此回合的  giai đoạn ra bài内使用【杀】的次数上限+X。（X là  bạn 此次移去的“锋”数）",
   ziyuan: "资援",
   ziyuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将任意张 điểm số 之和 là 13的手牌交给一名其他角色，然后该角色回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将任意张 điểm số 之和 là 13的手牌交给一名其他角色，然后该角色回复1 sinh lực 。",
   jugu: "巨贾",
   jugu_info:
     "Tỏa định kỹ，1. bạn 的手牌上限+X。2.游戏开始时， bạn 摸X张牌（X là  bạn 的体力上限）",
@@ -6612,28 +6627,28 @@ export const translate_sp = {
     " khi  bạn 一次获得 hoặc 失去至少两张牌后， bạn 可以令一名其他角色摸一张牌。",
   dingpan: "定叛",
   dingpan_info_identity:
-    "出牌阶段限X次， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。（X là 场上存活的反贼数）",
+    "  giai đoạn ra bài限X次， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。（X là 场上存活的反贼数）",
   dingpan_info_versus:
-    "出牌阶段限X次， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。（X là 场上存活的敌方角色数）",
+    "  giai đoạn ra bài限X次， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。（X là 场上存活的敌方角色数）",
   dingpan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名装备区里有牌的角色摸一张牌，然后其选择一项：1.令 bạn 弃置其装备区里的一张牌；2.获得其装备区里的所有牌，若如此做， bạn 对其造成1点 sát thương 。",
   weidi: "伪帝",
   weidi_info: "Tỏa định kỹ， bạn 视 là 拥有 khi 前主公的Chủ công kỹ。",
   juesi: "决死",
   juesi_info:
-    "出牌阶段， bạn 可以弃置一张【杀】并选择攻击范围内的一名有牌的其他角色，该角色弃置一张牌，然后若弃置的牌不是【杀】且 bạn 的体力值不大于该角色， bạn 视 là 对其使用【决斗】。",
+    "  giai đoạn ra bài， bạn 可以弃置一张【杀】并选择攻击范围内的一名有牌的其他角色，该角色弃置一张牌，然后若弃置的牌不是【杀】且 bạn 的体力值不大于该角色， bạn 视 là 对其使用【决斗】。",
   zhenlue: "缜略",
   zhenlue_info:
     "Tỏa định kỹ， bạn 使用的普通锦囊牌不能被【 Vô Giải Khả Kích 】响应； bạn 不能成 là 延时锦囊牌的目标。",
   jianshu: "间书",
   jianshu_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以将一张黑色手牌交给一名其他角色，并选择另一名其他角色，然后令这两名角色拼点。赢的角色弃置两张牌，没赢的角色失去一 sinh lực 。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以将一张黑色手牌交给一名其他角色，并选择另一名其他角色，然后令这两名角色拼点。赢的角色弃置两张牌，没赢的角色失去一 sinh lực 。",
   yongdi: "拥嫡",
   yongdi_info:
     "Hạn định kỹ，准备阶段开始时， bạn 可令一名其他男性角色增加一 sinh lực 上限并回复1 sinh lực ，然后若该角色的武将牌上有Chủ công kỹ且其不 là 主公，其获得此Chủ công kỹ。",
   regushe: "鼓舌",
   regushe_info:
-    "出牌阶段，若X小于7，则 bạn 可以用一张手牌与至多三名角色同时拼点，然后依次结算拼点结果，没赢的角色选择一项：1.弃置一张牌；2.令 bạn 摸一张牌。若 bạn 没赢， bạn 获得一个“饶舌”标记。 khi  bạn 获得第7个“饶舌”标记时， bạn 死亡。（X là  bạn 的“饶舌”标记数与本回合因“鼓舌”拼点而胜利的次数之和）",
+    "  giai đoạn ra bài，若X小于7，则 bạn 可以用一张手牌与至多三名角色同时拼点，然后依次结算拼点结果，没赢的角色选择一项：1.弃置一张牌；2.令 bạn 摸一张牌。若 bạn 没赢， bạn 获得一个“饶舌”标记。 khi  bạn 获得第7个“饶舌”标记时， bạn 死亡。（X là  bạn 的“饶舌”标记数与本回合因“鼓舌”拼点而胜利的次数之和）",
   rejici: "激词",
   rejici2: "激词",
   rejici_info:
@@ -6641,7 +6656,7 @@ export const translate_sp = {
   gushe: "鼓舌",
   gushe_bg: "舌",
   gushe_info:
-    "1 lần trong giai đoạn hành động， bạn 可以用一张手牌与至多三名角色同时拼点，然后依次结算拼点结果，没赢的角色选择一项：1.弃置一张牌；2.令 bạn 摸一张牌。若 bạn 没赢， bạn 获得一个“饶舌”标记。 khi  bạn 获得第7个“饶舌”标记时， bạn 死亡。",
+    "1 lần trong giai đoạn ra bài， bạn 可以用一张手牌与至多三名角色同时拼点，然后依次结算拼点结果，没赢的角色选择一项：1.弃置一张牌；2.令 bạn 摸一张牌。若 bạn 没赢， bạn 获得一个“饶舌”标记。 khi  bạn 获得第7个“饶舌”标记时， bạn 死亡。",
   jici: "激词",
   jici_info:
     " khi  bạn 因发动〖鼓舌〗而扣置的拼点牌亮出后，若 điểm số 小于X， bạn 可令 điểm số +X；若 điểm số 等于X， bạn 可令 bạn 本回合发动〖鼓舌〗的次数上限+1。（X là  bạn “饶舌”标记的数量）",
@@ -6680,7 +6695,7 @@ export const translate_sp = {
     " Giai đoạn kết thúc 开始时， bạn 可以摸两张牌，若如此做， bạn 将手牌弃置至X张。（X là  bạn 于此回合发动过〖奇制〗的次数）",
   jiqiao: "机巧",
   jiqiao_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置任意张装备牌，然后亮出牌堆顶两倍数量的牌并获得其中的非装备牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置任意张装备牌，然后亮出牌堆顶两倍数量的牌并获得其中的非装备牌。",
   linglong: "玲珑",
   linglong_info:
     "Tỏa định kỹ，若 bạn 的装备区没有武器牌，则 bạn 使用【杀】的次数上限+1；若 bạn 的装备区没有防具牌，视 là  bạn 装备着【八卦阵】；若 bạn 的装备区没有坐骑牌， bạn 的手牌上限+1；若 bạn 的装备区没有宝物牌，则 bạn 视 là 拥有技能〖奇才〗。",
@@ -6705,7 +6720,7 @@ export const translate_sp = {
     " khi bạn sử dụng 【杀】造成 sát thương 时， bạn 可以选择一项：弃置其装备区内的一张牌， hoặc 将其装备区内的一张牌移动到 bạn 的装备区内。",
   xintan: "心惔",
   xintan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以移去两张「焚」并选择一名角色，该角色失去一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以移去两张「焚」并选择一名角色，该角色失去一 sinh lực 。",
   fentian: "焚天",
   fentian_info:
     "Tỏa định kỹ， Giai đoạn kết thúc 开始时，若 bạn 的手牌数少于体力值， bạn 须选择一名攻击范围内的角色，将其一张牌置于 bạn 的武将牌上，称 là 「焚」。Tỏa định kỹ， bạn 的攻击范围+X（X là 「焚」的数量）",
@@ -6714,20 +6729,20 @@ export const translate_sp = {
     "觉醒技，准备阶段开始时，若 bạn 的「焚」的数量不小于3， bạn giảm 1 sinh lực 上限，然后获得技能〖心惔〗",
   meibu: "魅步",
   meibu_info:
-    "其他角色的Bắt đầu giai đoạn hành động，若 bạn 不在其攻击范围内， bạn 可以令该角色的锦囊牌均视 là 【杀】，直到该角色以此法使用了一张【杀】 hoặc 回合结束。若如此做，则直到回合结束，视 là  bạn 在其攻击范围内。",
+    "其他角色的Bắt đầu giai đoạn ra bài，若 bạn 不在其攻击范围内， bạn 可以令该角色的锦囊牌均视 là 【杀】，直到该角色以此法使用了一张【杀】 hoặc 回合结束。若如此做，则直到回合结束，视 là  bạn 在其攻击范围内。",
   mumu: "穆穆",
   mumu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张【杀】 hoặc 黑色锦囊牌，然后选择一项：弃置场上的一张武器牌，然后摸一张牌； hoặc 将场上的一张防具牌移动到 bạn 的装备区里（可替换原防具）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张【杀】 hoặc 黑色锦囊牌，然后选择一项：弃置场上的一张武器牌，然后摸一张牌； hoặc 将场上的一张防具牌移动到 bạn 的装备区里（可替换原防具）。",
   zhanyi: "战意",
   zhanyi_basic_sha: "战杀",
   zhanyi_basic_jiu: "战酒",
   zhanyi_basic_tao: "战桃",
   zhanyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并失去1 sinh lực ，然后根据 bạn 弃置的牌获得以下效果直到回合结束：基本牌， bạn 可以将一张基本牌 khi 作【杀】、【酒】 hoặc 【桃】使用；锦囊牌，摸两张牌且 bạn 使用的牌无距离限制；装备牌， bạn 使用【杀】指定目标角色后，其弃置两张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并失去1 sinh lực ，然后根据 bạn 弃置的牌获得以下效果直到回合结束：基本牌， bạn 可以将一张基本牌 khi 作【杀】、【酒】 hoặc 【桃】使用；锦囊牌，摸两张牌且 bạn 使用的牌无距离限制；装备牌， bạn 使用【杀】指定目标角色后，其弃置两张牌。",
   nuzhan: "怒斩",
   nuzhan2: "怒斩",
   nuzhan_info:
-    "Tỏa định kỹ， bạn 使用的由一张锦囊牌转化的【杀】不计入出牌阶段的次数限制；Tỏa định kỹ， bạn 使用的由一张装备牌转化的【杀】的 sát thương 值基数+1",
+    "Tỏa định kỹ， bạn 使用的由一张锦囊牌转化的【杀】不计入  giai đoạn ra bài的次数限制；Tỏa định kỹ， bạn 使用的由一张装备牌转化的【杀】的 sát thương 值基数+1",
   danji: "单骑",
   danji_info:
     "觉醒技，准备阶段开始时，若 bạn 的手牌数大于 bạn 的体力值且本局游戏的主公不 là 刘备， bạn giảm 1 sinh lực 上限，然后获得〖马术〗和〖怒斩〗",
@@ -6749,10 +6764,10 @@ export const translate_sp = {
     " bạn 可以跳过判定阶段和摸牌阶段。若如此做，视 là 对一名角色使用了一张无距离限制的【杀】。",
   xiandeng: "先登",
   xiandeng_info:
-    "Tỏa định kỹ，出牌阶段， bạn 使用的第一张【杀】不计入次数且无距离限制。",
+    "Tỏa định kỹ，  giai đoạn ra bài， bạn 使用的第一张【杀】不计入次数且无距离限制。",
   shulv: "熟虑",
   shulv_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的手牌数大于体力值，则 bạn 可以弃置一张牌并摸一张牌。",
+    "1 lần trong giai đoạn ra bài，若 bạn 的手牌数大于体力值，则 bạn 可以弃置一张牌并摸一张牌。",
   xisheng: "牺牲",
   xisheng_info:
     "每名其他角色的回合限一次， bạn 可以将两张牌 khi 做【桃】使用。",
@@ -6786,13 +6801,13 @@ export const translate_sp = {
   midao_info: "一名角色的判定牌生效前， bạn 可以打出一张「米」代替之。",
   fengpo: "凤魄",
   fengpo_info:
-    "每种牌名限一次， khi  bạn 于出牌阶段内第一次使用【杀】 hoặc 【决斗】指定目标后，若目标角色数 là 1， bạn 可以选择一项：1.摸X张牌；2.令此牌的 sát thương 值基数+X。（X là 其手牌中♦牌的数量）",
+    "每种牌名限一次， khi  bạn 于  giai đoạn ra bài内第一次使用【杀】 hoặc 【决斗】指定目标后，若目标角色数 là 1， bạn 可以选择一项：1.摸X张牌；2.令此牌的 sát thương 值基数+X。（X là 其手牌中♦牌的数量）",
   chenqing: "陈情",
   chenqing_info:
     "每轮限一次， khi 一名角色处于濒死状态时， bạn 可以令另一名其他角色摸四张牌，然后其弃置四张牌。若其以此法弃置的四张牌花色各不相同，则视 là 该角色对濒死的角色使用一张【桃】。",
   mozhi: "默识",
   mozhi_info:
-    " Giai đoạn kết thúc 开始时， bạn 可以将一张手牌 khi 作 bạn 本回合出牌阶段内使用的第一张基本 hoặc 普通锦囊牌使用。然后， bạn 可以将一张手牌 khi 做 bạn 本回合出牌阶段内使用的第二张基本 hoặc 普通锦囊牌使用。（ bạn 不能通过此技能使用【酒】）",
+    " Giai đoạn kết thúc 开始时， bạn 可以将一张手牌 khi 作 bạn 本回合  giai đoạn ra bài内使用的第一张基本 hoặc 普通锦囊牌使用。然后， bạn 可以将一张手牌 khi 做 bạn 本回合  giai đoạn ra bài内使用的第二张基本 hoặc 普通锦囊牌使用。（ bạn 不能通过此技能使用【酒】）",
   ranshang: "燃殇",
   ranshang2: "燃殇",
   ranshang_info:
@@ -6894,7 +6909,7 @@ export const translate_sp = {
   xunzhi_info:
     "准备阶段开始时，若 bạn 的上家和下家与 bạn 的体力值均不相等， bạn 可以失去1 sinh lực 。若如此做， bạn 本局内手牌上限+2。",
   yawang_info:
-    "Tỏa định kỹ，摸牌阶段开始时， bạn 改 là 摸X张牌，然后 bạn 于本回合的出牌阶段内至多使用X张牌（X là 与 bạn 体力值相等的角色数）",
+    "Tỏa định kỹ，摸牌阶段开始时， bạn 改 là 摸X张牌，然后 bạn 于本回合的  giai đoạn ra bài内至多使用X张牌（X là 与 bạn 体力值相等的角色数）",
   jilei_info:
     " khi  bạn 受到有来源的 sát thương 后， bạn 可以声明一种牌的类别。若如此做， bạn 令 sát thương 来源不能使用、打出 hoặc 弃置此类别的手牌直到其下个回合开始。",
   danlao: "啖酪",
@@ -6929,10 +6944,10 @@ export const translate_sp = {
   oldcihuai: "刺槐",
   oldcihuai2: "刺槐",
   oldcihuai_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示手牌。若其中没有【杀】，则 khi  bạn 于此阶段内手牌数变化之前/有角色死亡之前需要使用【杀】时， bạn 可以使用无对应实体牌的【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示手牌。若其中没有【杀】，则 khi  bạn 于此阶段内手牌数变化之前/有角色死亡之前需要使用【杀】时， bạn 可以使用无对应实体牌的【杀】。",
   cihuai: "刺槐",
   cihuai_info:
-    "Bắt đầu giai đoạn hành động，若 bạn 的手牌中没有【杀】，则 bạn 可以展示 bạn 的手牌，视 là 对一名角色使用一张【杀】。",
+    "Bắt đầu giai đoạn ra bài，若 bạn 的手牌中没有【杀】，则 bạn 可以展示 bạn 的手牌，视 là 对一名角色使用一张【杀】。",
   gongao_info:
     "Tỏa định kỹ， khi 一名角色死亡后， bạn 增加一 sinh lực 上限，回复一 sinh lực 。",
   juyi: "举义",
@@ -6942,25 +6957,25 @@ export const translate_sp = {
   weizhong_info:
     "Tỏa định kỹ， khi  bạn 的体力上限增加 hoặc 减少时， bạn 摸一张牌。若 bạn 的手牌数 là 全场最少，则 bạn 改 là 摸两张牌。",
   taichen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以失去1 sinh lực ，视 là 对一名角色使用一张【杀】。（不计入出牌阶段的使用次数限制）",
+    "1 lần trong giai đoạn ra bài， bạn 可以失去1 sinh lực ，视 là 对一名角色使用一张【杀】。（不计入  giai đoạn ra bài的使用次数限制）",
   naman_info:
     " khi 其他角色打出的【杀】结算结束后， bạn 可以获得此牌对应的所有实体牌。",
   xiemu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张【杀】并选择一个势力。若如此做，直到 bạn 的下回合开始时， khi  bạn 成 là 该势力的其他角色使用的黑色牌的目标后， bạn 摸两张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张【杀】并选择一个势力。若如此做，直到 bạn 的下回合开始时， khi  bạn 成 là 该势力的其他角色使用的黑色牌的目标后， bạn 摸两张牌。",
   oldxiemu_info:
     " khi  bạn 成 là 其他角色使用的黑色牌的目标后， bạn 可以弃置一张【杀】，然后摸两张牌。",
   spmengjin_info:
     " khi bạn sử dụng 【杀】指定目标后， bạn 可以弃置目标角色的一张牌。",
   fenxun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并选择一名其他角色， bạn 于本回合内至其的距离视 là 1。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并选择一名其他角色， bạn 于本回合内至其的距离视 là 1。",
   rezhoufu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以用一张牌对一名其他角色施“咒”。 khi 有“咒”的角色判定时，将“咒”作 là 判定牌；一名角色的回合结束时， bạn 令本回合移除过“咒”的角色各失去1 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以用一张牌对一名其他角色施“咒”。 khi 有“咒”的角色判定时，将“咒”作 là 判定牌；一名角色的回合结束时， bạn 令本回合移除过“咒”的角色各失去1 sinh lực ",
   reyingbing_info:
     'Tỏa định kỹ，有“咒”的角色使用与“咒”颜色相同的牌时， bạn 摸一张牌；若这是 bạn 第二次因该“咒”摸牌，则 bạn 获得该"咒"。',
   yingbin_info:
     "Tỏa định kỹ，有“咒”的角色使用与“咒”花色相同的牌时， bạn 摸一张牌； khi  bạn 因同一名角色的同一张“咒”的效果摸第二张牌时，移去该“咒”。",
   zhoufu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌置于一名没有“咒”的其他角色的武将牌旁，称 là “咒”。 khi 有“咒”的角色判定时，其改 là 将“咒”作 là 判定牌；一名角色的回合结束时，若有角色于此回合因判定而移除过“咒”，则 bạn 令这些角色各失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌置于一名没有“咒”的其他角色的武将牌旁，称 là “咒”。 khi 有“咒”的角色判定时，其改 là 将“咒”作 là 判定牌；一名角色的回合结束时，若有角色于此回合因判定而移除过“咒”，则 bạn 令这些角色各失去1 sinh lực 。",
   yanzheng_info:
     "若 bạn 的手牌数大于 bạn 的体力值，则 bạn 可以将 bạn 装备区内的牌 khi 作【 Vô Giải Khả Kích 】使用。",
   kuiwei_info:
@@ -6972,7 +6987,7 @@ export const translate_sp = {
   kaikang_info:
     " khi 一名角色成 là 【杀】的目标后，若 bạn 至该角色的距离 là 1， bạn 可以摸一张牌。若如此做， bạn 交给其一张牌并展示之。若 là 装备牌，该角色可以使用此牌。",
   liangzhu_info:
-    " khi 一名角色于其出牌阶段内回复体力时， bạn 可以选择一项：1、摸一张牌；2、令该角色摸两张牌。",
+    " khi 一名角色于其  giai đoạn ra bài内回复体力时， bạn 可以选择一项：1、摸一张牌；2、令该角色摸两张牌。",
   mingshi_info:
     " khi  bạn 受到 sát thương 时，若 sát thương 来源的体力值大于 bạn ， bạn 可以弃置一张黑色手牌，令 sát thương 值-1。",
   lirang_info:
@@ -6980,7 +6995,7 @@ export const translate_sp = {
   moukui_info:
     " khi bạn sử dụng 【杀】指定目标后， bạn 可以选择一项：摸一张牌， hoặc 弃置其一张牌。若如此做， khi 此【杀】被【闪】抵消时，目标角色弃置 bạn 的一张牌。 ",
   qiangwu_info:
-    "出牌阶段， bạn 可以进行判定。若如此做，直到回合结束， bạn 使用 điểm số 小于判定结果的【杀】时不受距离限制，且 bạn 使用 điểm số 大于判定结果的【杀】时无使用次数限制。",
+    "  giai đoạn ra bài， bạn 可以进行判定。若如此做，直到回合结束， bạn 使用 điểm số 小于判定结果的【杀】时不受距离限制，且 bạn 使用 điểm số 大于判定结果的【杀】时无使用次数限制。",
   shenxian_info:
     "每名角色的回合限一次， bạn 的回合外， khi 有其他角色因弃置而失去基本牌时， bạn 可以摸一张牌。",
   oldshenxian_info:
@@ -6989,10 +7004,10 @@ export const translate_sp = {
     "一名角色的回合结束时， bạn 可以摸3X+Y张牌。（X là  bạn 本回合内杀死过的角色数，Y là 本回合内其他角色杀死过的角色数）",
   //qiluan_info_guozhan:'一名角色的回合结束时，若 bạn 于回合内杀死过角色，则 bạn 可以摸三张牌。',
   zhendu_info:
-    "一名角色的Bắt đầu giai đoạn hành động， bạn 可以弃置一张手牌，视 là 该角色使用了一张【酒】。若该角色不是 bạn ， bạn 对其造成一点 sát thương 。",
-  //zhendu_info_guozhan:'其他角色的Bắt đầu giai đoạn hành động， bạn 可以弃置一张手牌，视 là 该角色使用了一张【酒】。若如此做， bạn 对其造成一点 sát thương 。',
+    "一名角色的Bắt đầu giai đoạn ra bài， bạn 可以弃置一张手牌，视 là 该角色使用了一张【酒】。若该角色不是 bạn ， bạn 对其造成一点 sát thương 。",
+  //zhendu_info_guozhan:'其他角色的Bắt đầu giai đoạn ra bài， bạn 可以弃置一张手牌，视 là 该角色使用了一张【酒】。若如此做， bạn 对其造成一点 sát thương 。',
   shangyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，然后弃置其中的一张黑色牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，然后弃置其中的一张黑色牌。",
   zniaoxiang_info:
     "Tỏa định kỹ， khi bạn sử dụng 【杀】指定目标后， bạn 令目标角色响应此【杀】所需要使用的【闪】的数目+1。",
   shoucheng_info:
@@ -7002,7 +7017,7 @@ export const translate_sp = {
   hengzheng_info:
     "摸牌阶段开始时，若 bạn 的体力值 là 1 hoặc  bạn 没有手牌，则 bạn 可以放弃摸牌，改 là 获得每名其他角色区域内的一张牌。",
   cunsi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以将所有手牌交给一名男性角色。该角色获得技能【勇决】，然后 bạn 将武将牌翻面。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以将所有手牌交给一名男性角色。该角色获得技能【勇决】，然后 bạn 将武将牌翻面。",
   yongjue_info:
     "每回合限一次。 khi 其他角色于回合内使用的【杀】结算完成后，若 bạn 不是此【杀】的目标角色，则 bạn 可以获得之。",
   guixiu_info:
@@ -7010,7 +7025,7 @@ export const translate_sp = {
   fenming_info:
     " Giai đoạn kết thúc 开始时，若 bạn 处于横置状态， bạn 可以弃置所有处于横置状态的角色的各一张牌。",
   duanxie_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令至多X名其他角色横置（X là  bạn 已损失的体力值且至少 là 1），然后 bạn 横置。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令至多X名其他角色横置（X là  bạn 已损失的体力值且至少 là 1），然后 bạn 横置。",
   xiaoguo_info:
     "其他角色的 Giai đoạn kết thúc 开始时， bạn 可以弃置一张基本牌，令该角色选择一项：1.弃置一张装备牌，然后 bạn 摸一张牌；2.受到 bạn 对其造成的1点 sát thương 。",
   sijian_info:
@@ -7018,13 +7033,13 @@ export const translate_sp = {
   suishi_info:
     " khi 其他角色进入濒死状态时， sát thương 来源可以令 bạn 摸一张牌； khi 其他角色死亡时， sát thương 来源可以令 bạn 失去1 sinh lực ",
   quji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置X张牌（X là  bạn 已损失的体力值），然后令至多X名已受伤的角色各回复1 sinh lực 。若 bạn 以此法弃置的牌中有黑色牌， bạn 失去一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置X张牌（X là  bạn 已损失的体力值），然后令至多X名已受伤的角色各回复1 sinh lực 。若 bạn 以此法弃置的牌中有黑色牌， bạn 失去一 sinh lực 。",
   junbing_info:
     "一名角色的 Giai đoạn kết thúc 开始时，若其手牌数不大于1，该角色可以摸一张牌。若如此做，该角色将所有手牌交给 bạn ，然后 bạn 交给其等量的牌。",
   xiongyi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择至多三名角色，这些角色各摸三张牌；若 bạn 选择的角色数不超过2， bạn 回复1 sinh lực ",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择至多三名角色，这些角色各摸三张牌；若 bạn 选择的角色数不超过2， bạn 回复1 sinh lực ",
   xiongyi_info_guozhan:
-    "Hạn định kỹ，出牌阶段， bạn 可以令与 bạn 势力相同的所有角色各摸三张牌，然后若 bạn 的势力是角色最少的势力（ hoặc 之一），则 bạn 回复1 sinh lực 。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以令与 bạn 势力相同的所有角色各摸三张牌，然后若 bạn 的势力是角色最少的势力（ hoặc 之一），则 bạn 回复1 sinh lực 。",
   shenzhi_info:
     "准备阶段开始时， bạn 可以弃置所有手牌。若 bạn 以此法弃置的牌数不小于X， bạn 回复1 sinh lực （X là  bạn 的体力值）。",
   shushen_info:
@@ -7032,7 +7047,7 @@ export const translate_sp = {
   wuji_info:
     "觉醒技， Giai đoạn kết thúc 开始时，若 bạn 于此回合内造成过3点 hoặc 更多 sát thương ， bạn 加1 sinh lực 上限并回复1 sinh lực ，失去〖虎啸〗，然后从场上、牌堆 hoặc 弃牌堆中获得【青龙偃月刀】",
   xueji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色牌，然后选择至多X名角色，横置这些角色并对其中一名角色造成1点火焰 sát thương 。（X là  bạn 已损失的体力值且至少 là 1）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色牌，然后选择至多X名角色，横置这些角色并对其中一名角色造成1点火焰 sát thương 。（X là  bạn 已损失的体力值且至少 là 1）",
   huxiao_info:
     "Tỏa định kỹ， khi  bạn 造成火属性 sát thương 时，该角色摸一张牌。然后， bạn 于此回合内对其使用牌没有次数限制。",
   aocai_info:
@@ -7048,21 +7063,21 @@ export const translate_sp = {
   mingzhe_info:
     " khi  bạn 于回合外使用 hoặc 打出红色牌， hoặc 因弃置失去一张红色牌后， bạn 可以摸一张牌。",
   duwu_info:
-    "出牌阶段， bạn 可以弃置X张牌对 bạn 攻击范围内的一名其他角色造成1点 sát thương （X là 该角色的体力值）。若该角色因此法进入濒死状态且存活，则 bạn 于濒死状态结算后失去1 sinh lực ，且本回合不能再发动〖黩武〗。",
+    "  giai đoạn ra bài， bạn 可以弃置X张牌对 bạn 攻击范围内的一名其他角色造成1点 sát thương （X là 该角色的体力值）。若该角色因此法进入濒死状态且存活，则 bạn 于濒死状态结算后失去1 sinh lực ，且本回合不能再发动〖黩武〗。",
   tianming_info:
     " khi  bạn 成 là 【杀】的目标时， bạn 可以弃置两张牌（不足则全弃，无牌则不弃），然后摸两张牌；若此时全场体力值最多的角色仅有一名且不是 bạn ，该角色也可以如此做。",
   mizhao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将所有手牌交给一名其他角色。若如此做， bạn 令该角色与 bạn 指定的另一名有手牌的角色拼点，视 là 拼点赢的角色对没赢的角色使用一张【杀】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将所有手牌交给一名其他角色。若如此做， bạn 令该角色与 bạn 指定的另一名有手牌的角色拼点，视 là 拼点赢的角色对没赢的角色使用一张【杀】。",
   yuanhu_info:
     " Giai đoạn kết thúc 开始时， bạn 可以将一张装备牌置于一名角色的装备区里，然后根据此装备牌的类型执行以下对应效果。武器牌：弃置该角色距离1以内的一名角色区域中的一张牌；防具牌：该角色摸一张牌；坐骑牌：该角色回复1 sinh lực 。",
   lihun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并选择一名其他男性角色。若如此做， bạn 将武将牌翻面并获得其所有手牌。出牌阶段结束时， bạn 交给其X张牌。（X là 该角色的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并选择一名其他男性角色。若如此做， bạn 将武将牌翻面并获得其所有手牌。  giai đoạn ra bài结束时， bạn 交给其X张牌。（X là 该角色的体力值）",
   chongzhen_info:
     " khi  bạn 因发动〖龙胆〗而使用 hoặc 打出【杀】 hoặc 【闪】时， bạn 可以获得对方的一张手牌。",
   bifa_info:
     " Giai đoạn kết thúc 开始时， bạn 可以将一张手牌移出游戏并指定一名其他角色。该角色的准备阶段开始时，其观看 bạn 移出游戏的牌并选择一项：交给 bạn 一张与此牌类型相同的手牌并获得此牌； hoặc 将此牌置入弃牌堆，然后失去1 sinh lực 。",
   songci_info:
-    "①出牌阶段， bạn 可以选择一名未以此法选择过的角色。若其手牌数：大于其体力值，其弃置两张牌；不大于其体力值，其摸两张牌。②弃牌阶段结束时，若 bạn 已对场上所有存活角色发动过〖颂词①〗，则 bạn 摸一张牌。",
+    "①  giai đoạn ra bài， bạn 可以选择一名未以此法选择过的角色。若其手牌数：大于其体力值，其弃置两张牌；不大于其体力值，其摸两张牌。②弃牌阶段结束时，若 bạn 已对场上所有存活角色发动过〖颂词①〗，则 bạn 摸一张牌。",
   yongsi_info:
     "Tỏa định kỹ，摸牌阶段， bạn 多摸X张牌。弃牌阶段开始时， bạn 弃置X张牌。（X là 场上势力数）",
   yicong_info:
@@ -7084,14 +7099,14 @@ export const translate_sp = {
     " khi bạn sử dụng 牌选择目标时，若弃牌堆中没有与此牌名称相同的牌，则 bạn 可以 là 此牌增加一个目标（无距离限制）。",
   xinlianji: "连计",
   xinlianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，令一名角色使用牌堆中的一张随机武器牌。然后其选择一项：对 bạn 指定的一名角色使用一张【杀】， hoặc 令 bạn 将其装备区里的武器牌交给任意角色。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，令一名角色使用牌堆中的一张随机武器牌。然后其选择一项：对 bạn 指定的一名角色使用一张【杀】， hoặc 令 bạn 将其装备区里的武器牌交给任意角色。",
   xinmoucheng: "谋逞",
   xinmoucheng_info:
     "觉醒技，准备阶段，若有角色因 bạn 发动〖连计〗使用【杀】而造成过 sát thương ，则 bạn 失去〖连计〗并获得〖矜功〗。",
   xinjingong: "矜功",
   xinjingong_backup: "矜功",
   xinjingong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张【杀】 hoặc 装备牌 khi 做三张随机锦囊牌中的一张使用。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张【杀】 hoặc 装备牌 khi 做三张随机锦囊牌中的一张使用。",
   caiyang: "蔡阳",
   yinka: "印卡",
   zhangling: "张陵",
@@ -7101,7 +7116,7 @@ export const translate_sp = {
   zlshoufu: "授符",
   zlshoufu2: "授符",
   zlshoufu_info:
-    "1 lần trong giai đoạn hành động， bạn 可摸一张牌，然后将一张手牌置于一名没有【箓】的角色的武将牌上，称 là 【箓】；其不能使用和打出与【箓】同类型的牌。该角色受到 sát thương 后， hoặc 于弃牌阶段弃置至少两张与【箓】同类型的牌后，将【箓】置入弃牌堆。",
+    "1 lần trong giai đoạn ra bài， bạn 可摸一张牌，然后将一张手牌置于一名没有【箓】的角色的武将牌上，称 là 【箓】；其不能使用和打出与【箓】同类型的牌。该角色受到 sát thương 后， hoặc 于弃牌阶段弃置至少两张与【箓】同类型的牌后，将【箓】置入弃牌堆。",
   ol_zhangchangpu: "OL张昌蒲",
   olxingshen: "省身",
   olxingshen_info:
@@ -7118,14 +7133,14 @@ export const translate_sp = {
     " khi  bạn 对其他角色造成 sát thương 后，若其判定区没有牌，则 bạn  bạn 可以将其的一张牌置于其的判定区。若此牌不 là 延时锦囊牌且此牌 là ：红色，此牌视 là 【乐不思蜀】；黑色，此牌视 là 【兵粮寸断】。回合结束时，若 bạn 本回合内未造成 sát thương ， bạn 可摸一张牌。",
   spniluan: "逆乱",
   spniluan_info:
-    "出牌阶段， bạn 可以将一张黑色牌 khi 做【杀】使用。此【杀】使用结算完成后，若 bạn 未因此【杀】造成过 sát thương ，则 bạn 令此【杀】不计入使用次数。",
+    "  giai đoạn ra bài， bạn 可以将一张黑色牌 khi 做【杀】使用。此【杀】使用结算完成后，若 bạn 未因此【杀】造成过 sát thương ，则 bạn 令此【杀】不计入使用次数。",
   spweiwu: "违忤",
   spweiwu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张红色牌 khi 做【顺手牵羊】对手牌数不小于 bạn 的角色使用。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张红色牌 khi 做【顺手牵羊】对手牌数不小于 bạn 的角色使用。",
   spmouzhu: "谋诛",
   spmouzhu_backup: "谋诛",
   spmouzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择任意名“距离 là 1” hoặc “体力值等于 bạn ”的其他角色，这些角色依次进行以下结算：交给 bạn 一张手牌，然后若其手牌数小于 bạn ，则其视 là 对 bạn 使用一张【杀】 hoặc 【决斗】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择任意名“距离 là 1” hoặc “体力值等于 bạn ”的其他角色，这些角色依次进行以下结算：交给 bạn 一张手牌，然后若其手牌数小于 bạn ，则其视 là 对 bạn 使用一张【杀】 hoặc 【决斗】。",
   spyanhuo: "延祸",
   spyanhuo_info:
     " khi  bạn 死亡时， bạn 可增加如下全局技能： khi 有角色使用【杀】时，此【杀】的 sát thương 值基数+1。",
@@ -7154,7 +7169,7 @@ export const translate_sp = {
   refenxun: "奋迅",
   refenxun2: "奋迅",
   refenxun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色，然后本回合 bạn 计算与其的距离视 là 1； Giai đoạn kết thúc 开始时，若 bạn 未对其造成过 sát thương ， bạn 弃一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色，然后本回合 bạn 计算与其的距离视 là 1； Giai đoạn kết thúc 开始时，若 bạn 未对其造成过 sát thương ， bạn 弃一张牌。",
   zongyu: "宗预",
   zyqiao: "气傲",
   zyqiao_info:
@@ -7163,13 +7178,13 @@ export const translate_sp = {
     "每回合限两次。 khi  bạn 成 là 其他势力的角色使用牌的目标后， bạn 可以弃置其一张牌，然后 bạn 弃置一张牌。",
   chengshang: "承赏",
   chengshang_info:
-    " khi  bạn 于出牌阶段内使用的牌结算完成后，若此牌未造成过 sát thương 且此牌的目标包含其他角色且 bạn 本阶段内未因〖承赏〗获得过牌，则 bạn 可以从牌堆中获得一张与此牌花色 điểm số 相同的牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用的牌结算完成后，若此牌未造成过 sát thương 且此牌的目标包含其他角色且 bạn 本阶段内未因〖承赏〗获得过牌，则 bạn 可以从牌堆中获得一张与此牌花色 điểm số 相同的牌。",
   chengshang_info_guozhan:
-    " khi  bạn 于出牌阶段内使用的牌结算完成后，若此牌未造成过 sát thương 且此牌的目标包含其他角色且 bạn 本阶段内未因〖承赏〗获得过牌，则 bạn 可以从牌堆中获得一张与此牌花色 điểm số 相同的牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用的牌结算完成后，若此牌未造成过 sát thương 且此牌的目标包含其他角色且 bạn 本阶段内未因〖承赏〗获得过牌，则 bạn 可以从牌堆中获得一张与此牌花色 điểm số 相同的牌。",
   sp_fuwan: "SP伏完",
   spfengyin: "奉印",
   spfengyin_info:
-    "其他角色的回合开始时，若其体力值不少于 bạn ， bạn 可以交给其一张【杀】，令其跳过出牌阶段和弃牌阶段。",
+    "其他角色的回合开始时，若其体力值不少于 bạn ， bạn 可以交给其一张【杀】，令其跳过  giai đoạn ra bài和弃牌阶段。",
   spchizhong: "持重",
   spchizhong_info:
     "Tỏa định kỹ， bạn 的手牌上限等于体力上限；其他角色死亡时， bạn 加1 sinh lực 上限。",
@@ -7179,7 +7194,7 @@ export const translate_sp = {
     "弃牌阶段开始时， bạn 可以回复1 sinh lực  hoặc 摸两张牌，然后将 bạn 的武将牌翻面；其他角色的回合内， khi  bạn 获得（每回合限一次）/失去一次牌时，若 bạn 的武将牌背面朝上， bạn 可以令该角色摸/弃置一张牌。",
   spmixin: "密信",
   spmixin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌交给一名其他角色，该角色须对 bạn 选择的另一名角色使用一张无距离限制的【杀】，否则 bạn 选择的角色观看其手牌并获得其中一张。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌交给一名其他角色，该角色须对 bạn 选择的另一名角色使用一张无距离限制的【杀】，否则 bạn 选择的角色观看其手牌并获得其中一张。",
   sp_jiben: "SP吉本",
   spduanzhi: "断指",
   spduanzhi_info:
@@ -7187,7 +7202,7 @@ export const translate_sp = {
   spduyi: "毒医",
   spduyi2: "毒医",
   spduyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以亮出牌堆顶的一张牌并交给一名角色，若此牌 là 黑色，该角色不能使用 hoặc 打出手牌，直到回到结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可以亮出牌堆顶的一张牌并交给一名角色，若此牌 là 黑色，该角色不能使用 hoặc 打出手牌，直到回到结束。",
   panshu: "潘淑",
   weiyi: "威仪",
   weiyi_info:
@@ -7207,7 +7222,7 @@ export const translate_sp = {
   huangchengyan: "黄承彦",
   guanxu: "观虚",
   guanxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，然后 bạn 可将其中一张手牌与牌堆顶5张牌中的一张交换。若如此做， bạn 弃置其手牌中3张花色相同的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，然后 bạn 可将其中一张手牌与牌堆顶5张牌中的一张交换。若如此做， bạn 弃置其手牌中3张花色相同的牌。",
   yashi: "雅士",
   yashi_info:
     " khi  bạn 受到一次 sát thương 后， bạn 可选择一项：1. 令 sát thương 来源的非Tỏa định kỹ无效直到其下个回合开始；2. 对一名其他角色发动〖观虚〗。",
@@ -7220,16 +7235,16 @@ export const translate_sp = {
   olzhennan: "镇南",
   olzhennan2: "镇南",
   olzhennan_info:
-    "【南蛮入侵】对 bạn 无效。1 lần trong giai đoạn hành động， bạn 可以将任意张手牌 khi 做【南蛮入侵】对等量的角色使用。",
+    "【南蛮入侵】对 bạn 无效。1 lần trong giai đoạn ra bài， bạn 可以将任意张手牌 khi 做【南蛮入侵】对等量的角色使用。",
   gaogan: "高干",
   juguan: "拒关",
   juguan_backup: "拒关",
   juguan_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张手牌 khi 【杀】 hoặc 【决斗】使用。若受到此牌 sát thương 的角色未在 bạn 的下回合开始前对 bạn 造成过 sát thương ， bạn 的下个摸牌阶段摸牌数+2。",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张手牌 khi 【杀】 hoặc 【决斗】使用。若受到此牌 sát thương 的角色未在 bạn 的下回合开始前对 bạn 造成过 sát thương ， bạn 的下个摸牌阶段摸牌数+2。",
   duxi: "杜袭",
   quxi: "驱徙",
   quxi_info:
-    "Hạn định kỹ。出牌阶段结束时， bạn 可跳过下个弃牌阶段并选择两名手牌数不同的其他角色。 bạn 将武将牌翻至背面，令这两名角色中手牌数较少的角色获得另一名角色的一张牌并获得一枚“丰”，另一名角色获得一枚“歉”。拥有“丰”/“歉”的角色的摸牌阶段额定摸牌数+1/-1。拥有“丰”/“歉”的角色死亡时， hoặc 一轮游戏开始时， bạn 可转移“丰”/“歉”。",
+    "Hạn định kỹ。  giai đoạn ra bài结束时， bạn 可跳过下个弃牌阶段并选择两名手牌数不同的其他角色。 bạn 将武将牌翻至背面，令这两名角色中手牌数较少的角色获得另一名角色的一张牌并获得一枚“丰”，另一名角色获得一枚“歉”。拥有“丰”/“歉”的角色的摸牌阶段额定摸牌数+1/-1。拥有“丰”/“歉”的角色死亡时， hoặc 一轮游戏开始时， bạn 可转移“丰”/“歉”。",
   bixiong: "避凶",
   bixiong2: "避凶",
   bixiong_info:
@@ -7251,7 +7266,7 @@ export const translate_sp = {
   ol_wangrong: "OL王荣",
   olfengzi: "丰姿",
   olfengzi_info:
-    "1 lần trong giai đoạn hành động。 khi bạn sử dụng 有目标的基本牌 hoặc 普通锦囊牌时， bạn 可弃置一张与此牌类型相同的牌，然后令此牌结算两次。",
+    "1 lần trong giai đoạn ra bài。 khi bạn sử dụng 有目标的基本牌 hoặc 普通锦囊牌时， bạn 可弃置一张与此牌类型相同的牌，然后令此牌结算两次。",
   oljizhan: "吉占",
   oljizhan_info:
     "摸牌阶段开始时， bạn 可以放弃摸牌。 bạn 展示牌堆顶的一张牌，并猜测牌堆顶的下一张牌 điểm số 大于 hoặc 小于此牌。若 bạn 猜对， bạn 可继续重复此流程。然后 bạn 获得以此法展示的所有牌。",
@@ -7261,7 +7276,7 @@ export const translate_sp = {
   zuofen: "左棻",
   zhaosong: "诏颂",
   zhaosong_info:
-    "一名其他角色的摸牌阶段结束时，若其没有因〖诏颂〗而获得的标记，则 bạn 可令其正面向上交给 bạn 一张手牌。根据此牌的类型，该角色获得对应的标记和效果：<br>锦囊牌：“诔”标记。 khi 拥有者进入濒死状态时，其可弃置所有“诔”，将体力回复至1点并摸1张牌。<br>装备牌：“赋”标记。拥有者的Bắt đầu giai đoạn hành động，其可弃置所有“赋”，弃置一名角色区域内的至多两张牌。<br>基本牌：“颂”标记。 khi 使用者使用仅指定一个目标的【杀】时，其可弃置“颂”， là 此【杀】增加至多两个目标。",
+    "一名其他角色的摸牌阶段结束时，若其没有因〖诏颂〗而获得的标记，则 bạn 可令其正面向上交给 bạn 一张手牌。根据此牌的类型，该角色获得对应的标记和效果：<br>锦囊牌：“诔”标记。 khi 拥有者进入濒死状态时，其可弃置所有“诔”，将体力回复至1点并摸1张牌。<br>装备牌：“赋”标记。拥有者的Bắt đầu giai đoạn ra bài，其可弃置所有“赋”，弃置一名角色区域内的至多两张牌。<br>基本牌：“颂”标记。 khi 使用者使用仅指定一个目标的【杀】时，其可弃置“颂”， là 此【杀】增加至多两个目标。",
   lisi: "离思",
   lisi_info:
     " khi  bạn 于回合外使用的牌结算结束后， bạn 可将其交给一名手牌数不大于 bạn 的其他角色。",
@@ -7290,7 +7305,7 @@ export const translate_sp = {
   zhuangshu_equip: "金梳",
   zhuangshu_equip_bg: "金",
   zhuangshu_equip_info:
-    "Tỏa định kỹ。出牌阶段结束时， bạn 将手牌摸至手牌上限（至多摸五张）。 khi 此牌不因交换装备 hoặc 移动至其他装备区而离开 bạn 的装备区后，销毁之。",
+    "Tỏa định kỹ。  giai đoạn ra bài结束时， bạn 将手牌摸至手牌上限（至多摸五张）。 khi 此牌不因交换装备 hoặc 移动至其他装备区而离开 bạn 的装备区后，销毁之。",
   ol_dongzhao: "董昭",
   olxianlve: "先略",
   olxianlve_info:
@@ -7298,11 +7313,11 @@ export const translate_sp = {
   olzaowang: "造王",
   olzaowang2: "造王",
   olzaowang_info:
-    "Hạn định kỹ。出牌阶段， bạn 可以令一名角色加1 sinh lực 上限，回复1 sinh lực 并摸三张牌，且获得如下效果：主公死亡时，若其身份 là 忠臣，则其和主公交换身份牌；其死亡时，若其身份 là 反贼且 sát thương 来源的身份 là 主公 hoặc 忠臣，则以主忠胜利结束本局游戏。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可以令一名角色加1 sinh lực 上限，回复1 sinh lực 并摸三张牌，且获得如下效果：主公死亡时，若其身份 là 忠臣，则其和主公交换身份牌；其死亡时，若其身份 là 反贼且 sát thương 来源的身份 là 主公 hoặc 忠臣，则以主忠胜利结束本局游戏。",
   sp_ol_zhanghe: "SP张郃",
   spolzhouxuan: "周旋",
   spolzhouxuan_info:
-    "①弃牌阶段开始时， bạn 可将至多五张置于武将牌上，称 là “旋”。② khi bạn sử dụng 牌时， bạn 摸一张牌并将一张“旋”置入弃牌堆（若 bạn 的手牌数不 là 全场唯一最多则改 là 摸X张牌，X là “旋”数）。③出牌阶段结束时， bạn 将所有“旋”置入弃牌堆。",
+    "①弃牌阶段开始时， bạn 可将至多五张置于武将牌上，称 là “旋”。② khi bạn sử dụng 牌时， bạn 摸一张牌并将一张“旋”置入弃牌堆（若 bạn 的手牌数不 là 全场唯一最多则改 là 摸X张牌，X là “旋”数）。③  giai đoạn ra bài结束时， bạn 将所有“旋”置入弃牌堆。",
   wuyan: "吾彦",
   lanjiang: "澜疆",
   lanjiang_info:
@@ -7329,7 +7344,7 @@ export const translate_sp = {
     "Tỏa định kỹ。 khi bạn sử dụng 黑色【杀】指定目标角色后 hoặc 成 là 黑色【杀】的目标角色后， bạn 令目标角色的防具技能无效直到此【杀】被抵消 hoặc 造成 sát thương 。",
   juesheng: "决生",
   juesheng_info:
-    "Hạn định kỹ。出牌阶段， bạn 可视 là 使用一张【决斗】。 khi  bạn 因此【决斗】造成 sát thương 时， bạn 将 sát thương 值改 là X（X là 目标角色本局游戏内使用过【杀】的数量）且令目标角色获得此技能直到其下回合结束。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可视 là 使用一张【决斗】。 khi  bạn 因此【决斗】造成 sát thương 时， bạn 将 sát thương 值改 là X（X là 目标角色本局游戏内使用过【杀】的数量）且令目标角色获得此技能直到其下回合结束。",
   qinghegongzhu: "清河公主",
   zengou: "谮构",
   zengou_info:
@@ -7340,10 +7355,10 @@ export const translate_sp = {
   sp_menghuo: "SP孟获",
   spmanwang: "蛮王",
   spmanwang_info:
-    "出牌阶段， bạn 可以弃置任意张牌。然后 bạn 依次执行以下选项中的前X项：⒈获得〖叛侵〗。⒉摸一张牌。⒊回复1 sinh lực 。⒋摸两张牌并失去〖叛侵〗。",
+    "  giai đoạn ra bài， bạn 可以弃置任意张牌。然后 bạn 依次执行以下选项中的前X项：⒈获得〖叛侵〗。⒉摸一张牌。⒊回复1 sinh lực 。⒋摸两张牌并失去〖叛侵〗。",
   sppanqin: "叛侵",
   sppanqin_info:
-    "出牌阶段 hoặc 弃牌阶段结束时， bạn 可将 bạn 于本阶段内弃置且位于弃牌堆的所有牌 khi 做【南蛮入侵】使用。然后若此牌对应的实体牌数不大于此牌的目标数，则 bạn 执行并移除〖蛮王〗中的最后一个选项。",
+    "  giai đoạn ra bài hoặc 弃牌阶段结束时， bạn 可将 bạn 于本阶段内弃置且位于弃牌堆的所有牌 khi 做【南蛮入侵】使用。然后若此牌对应的实体牌数不大于此牌的目标数，则 bạn 执行并移除〖蛮王〗中的最后一个选项。",
   tengfanglan: "滕芳兰",
   luochong: "落宠",
   luochong_info:
@@ -7402,14 +7417,14 @@ export const translate_sp = {
   zhaogujing: "照骨镜",
   zhaogujing_skill: "照骨镜",
   zhaogujing_info:
-    "出牌阶段结束时， bạn 可展示手牌中的一张基本牌 hoặc 普通锦囊牌，然后 bạn 视 là 使用一张牌名和属性与此牌相同的牌。",
+    "  giai đoạn ra bài结束时， bạn 可展示手牌中的一张基本牌 hoặc 普通锦囊牌，然后 bạn 视 là 使用一张牌名和属性与此牌相同的牌。",
   xuwangzhimian: "虚妄之冕",
   xuwangzhimian_info:
     "Tỏa định kỹ，摸牌阶段， bạn 令额定摸牌数+2； bạn 的手牌上限-1。",
   ol_puyuan: "OL蒲元",
   olshengong: "神工",
   olshengong_info:
-    "出牌阶段每项限一次。 bạn 可以弃置一张武器牌/防具牌/其他装备牌，并发起一次“锻造”。然后 bạn 从锻造结果中选择一张牌，置于一名角色的装备区内（可替换原装备）。 khi 有因 bạn 发动〖神工〗而加入游戏的牌进入弃牌堆后， bạn 将此牌移出游戏，然后 bạn 于 khi 前回合结束后摸一张牌。",
+    "  giai đoạn ra bài每项限一次。 bạn 可以弃置一张武器牌/防具牌/其他装备牌，并发起一次“锻造”。然后 bạn 从锻造结果中选择一张牌，置于一名角色的装备区内（可替换原装备）。 khi 有因 bạn 发动〖神工〗而加入游戏的牌进入弃牌堆后， bạn 将此牌移出游戏，然后 bạn 于 khi 前回合结束后摸一张牌。",
   olqisi: "奇思",
   olqisi_info:
     "①游戏开始时， bạn 获得两张副类别不同的牌，并将这些牌置入 bạn 的装备区。②摸牌阶段开始时， bạn 可以少摸一张牌并声明一种装备牌的副类别，然后从牌堆 hoặc 弃牌堆中获得一张该副类别的牌。",
@@ -7419,11 +7434,11 @@ export const translate_sp = {
   zhaoyǎn: "赵俨",
   tongxie: "同协",
   tongxie_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择至多两名其他角色（ bạn 与这些角色均称 là “同协角色”）。这些角色中手牌数唯一最少的角色摸一张牌，且 bạn 获得如下效果直到 bạn 下回合开始：① khi 有“同协角色”对唯一目标角色使用的【杀】结算结束后，其他“同协角色”可以依次对目标角色使用一张【杀】（无距离和次数限制，且不能再触发此效果）。② khi 有“同协角色”受到 sát thương 时，其他“同协角色”（本回合内失去过体力的角色除外）可以防止此 sát thương ，失去1 sinh lực 。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择至多两名其他角色（ bạn 与这些角色均称 là “同协角色”）。这些角色中手牌数唯一最少的角色摸一张牌，且 bạn 获得如下效果直到 bạn 下回合开始：① khi 有“同协角色”对唯一目标角色使用的【杀】结算结束后，其他“同协角色”可以依次对目标角色使用一张【杀】（无距离和次数限制，且不能再触发此效果）。② khi 有“同协角色”受到 sát thương 时，其他“同协角色”（本回合内失去过体力的角色除外）可以防止此 sát thương ，失去1 sinh lực 。",
   jin_zhouchu: "周处",
   shanduan: "善断",
   shanduan_info:
-    "①回合开始时， bạn 生成数组R=[1,2,3,4]。②摸牌阶段开始时， bạn 从数组R中选择并移除一个数字A。 bạn 本阶段的额定摸牌数改 là A。③Bắt đầu giai đoạn hành động， bạn 从数组R中选择并移除两个数字B和C。 bạn 将 bạn 本阶段内的攻击范围基数最小值和使用【杀】的次数上限基础值改 là B和C。④弃牌阶段开始时， bạn 从数组R中选择并移除一个数字D。 bạn 令 bạn 本回合的手牌上限基数改 là D。⑤ khi  bạn 于回合外受到 sát thương 后， bạn 令下回合生成的R中最小的一个数字+1。",
+    "①回合开始时， bạn 生成数组R=[1,2,3,4]。②摸牌阶段开始时， bạn 从数组R中选择并移除一个数字A。 bạn 本阶段的额定摸牌数改 là A。③Bắt đầu giai đoạn ra bài， bạn 从数组R中选择并移除两个数字B和C。 bạn 将 bạn 本阶段内的攻击范围基数最小值和使用【杀】的次数上限基础值改 là B和C。④弃牌阶段开始时， bạn 从数组R中选择并移除一个数字D。 bạn 令 bạn 本回合的手牌上限基数改 là D。⑤ khi  bạn 于回合外受到 sát thương 后， bạn 令下回合生成的R中最小的一个数字+1。",
   yilie: "义烈",
   yilie_info:
     "每轮每种牌名限一次。 bạn 可以将两张颜色相同的手牌 khi 做任意一种基本牌使用。",
@@ -7484,23 +7499,23 @@ export const translate_sp2 = {
     "准备阶段， bạn 可以对一名体力小于 hoặc 等于 bạn 的其他角色造成0～2点随机 sát thương 。",
   xinfu_yisuan: "亦算",
   xinfu_yisuan_info:
-    "每回合限一次。 khi  bạn 于出牌阶段使用的锦囊牌结算结束后， bạn 可以减1 sinh lực 上限并获得此牌对应的所有实体牌。",
+    "每回合限一次。 khi  bạn 于  giai đoạn ra bài使用的锦囊牌结算结束后， bạn 可以减1 sinh lực 上限并获得此牌对应的所有实体牌。",
   xinfu_xingluan: "兴乱",
   xinfu_xingluan_info:
-    "每回合限一次。 khi  bạn 于出牌阶段使用的仅指定一个目标的牌结算完成后， bạn 可以从牌堆中随机获得一张 điểm số  là 6的牌。",
+    "每回合限一次。 khi  bạn 于  giai đoạn ra bài使用的仅指定一个目标的牌结算完成后， bạn 可以从牌堆中随机获得一张 điểm số  là 6的牌。",
   xinfu_lveming: "掠命",
   xinfu_lveming_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名装备区装备比 bạn 少的角色，令其选择一个 điểm số ，然后 bạn 进行判定：<br>若 điểm số 相同， bạn 对其造成2点 sát thương ；<br>若 điểm số 不同，则 bạn 随机获得其区域内的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名装备区装备比 bạn 少的角色，令其选择一个 điểm số ，然后 bạn 进行判定：<br>若 điểm số 相同， bạn 对其造成2点 sát thương ；<br>若 điểm số 不同，则 bạn 随机获得其区域内的一张牌。",
   xinfu_tunjun: "屯军",
   xinfu_tunjun_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择一名角色，令其随机使用牌堆中的X张装备牌。(X là  bạn 发动过“掠命”的次数)",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名角色，令其随机使用牌堆中的X张装备牌。(X là  bạn 发动过“掠命”的次数)",
   xinfu_tanbei: "贪狈",
   xinfu_tanbei_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名其他角色选择一项：1.令 bạn 随机获得其区域内的一张牌，本回合内 bạn 不能对其使用牌。2.令 bạn 此回合内对其使用牌没有次数与距离限制。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名其他角色选择一项：1.令 bạn 随机获得其区域内的一张牌，本回合内 bạn 不能对其使用牌。2.令 bạn 此回合内对其使用牌没有次数与距离限制。",
   xinfu_sidao: "伺盗",
   xinfu_sidaox: "伺盗",
   xinfu_sidao_info:
-    "1 lần trong giai đoạn hành động， khi  bạn 对一名其他角色连续使用两张牌后， bạn 可以将一张手牌 khi 做【顺手牵羊】对其使用。",
+    "1 lần trong giai đoạn ra bài， khi  bạn 对一名其他角色连续使用两张牌后， bạn 可以将一张手牌 khi 做【顺手牵羊】对其使用。",
   tanbei_effect1: "贪狈",
   tanbei_effect1_info: "",
   tanbei_effect2: "贪狈",
@@ -7508,7 +7523,7 @@ export const translate_sp2 = {
 
   xinfu_tunan: "图南",
   xinfu_tunan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示牌堆顶的一张牌并选择一名其他角色，然后该角色选择一项：使用此牌（无距离限制）； hoặc 将此牌 khi 普通【杀】使用。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示牌堆顶的一张牌并选择一名其他角色，然后该角色选择一项：使用此牌（无距离限制）； hoặc 将此牌 khi 普通【杀】使用。",
   xinfu_bijing: "闭境",
   xinfu_bijing_info:
     " Giai đoạn kết thúc ， bạn 可以选择一张手牌并标记 là “闭境”。若 bạn 于回合外失去“闭境”牌，则 khi 前回合角色的弃牌阶段开始时，其需弃置两张牌。 bạn 的准备阶段，弃置手牌中的“闭境”牌。",
@@ -7517,7 +7532,7 @@ export const translate_sp2 = {
     " Giai đoạn kết thúc 开始时 hoặc  khi  bạn 受到 sát thương 后， bạn 可以观看牌堆顶的至多三张牌，然后 bạn 获得其中与其余牌花色均不相同的一张牌。",
   xinfu_qianxin: "遣信",
   xinfu_qianxin_info:
-    "1 lần trong giai đoạn hành động，若牌堆中没有“信”， bạn 可以选择一名角色并将任意张手牌放置于牌堆中X倍数的位置（X là 存活人数），称 là “信”。该角色的弃牌阶段开始时，若其手牌区内有于本回合内获得过的“信”，其选择一项：令 bạn 将手牌摸至四张；本回合手牌上限-2。",
+    "1 lần trong giai đoạn ra bài，若牌堆中没有“信”， bạn 可以选择一名角色并将任意张手牌放置于牌堆中X倍数的位置（X là 存活人数），称 là “信”。该角色的弃牌阶段开始时，若其手牌区内有于本回合内获得过的“信”，其选择一项：令 bạn 将手牌摸至四张；本回合手牌上限-2。",
   qianxin_effect: "遣信",
   qianxin_effect_info: "",
   xinfu_qianxin2: "遣信",
@@ -7525,7 +7540,7 @@ export const translate_sp2 = {
 
   xinfu_fuhai: "浮海",
   xinfu_fuhai_info:
-    "出牌阶段每个方向限一次， bạn 可以展示一张手牌并选择上家 hoặc 下家。该角色展示一张手牌，若 bạn 展示的牌 điểm số 大于等于其展示的牌 điểm số ， bạn 弃置 bạn 展示的牌，然后继续对其上家 hoặc 下家重复此流程；若 bạn 展示的牌 điểm số 小于该展示角色牌的 điểm số ，则该角色弃置其展示的牌，然后 bạn 与其各摸X张牌（X là  bạn 此回合内发动此技能选择的角色数），且 bạn 此阶段内不能再发动〖浮海〗。",
+    "  giai đoạn ra bài每个方向限一次， bạn 可以展示一张手牌并选择上家 hoặc 下家。该角色展示一张手牌，若 bạn 展示的牌 điểm số 大于等于其展示的牌 điểm số ， bạn 弃置 bạn 展示的牌，然后继续对其上家 hoặc 下家重复此流程；若 bạn 展示的牌 điểm số 小于该展示角色牌的 điểm số ，则该角色弃置其展示的牌，然后 bạn 与其各摸X张牌（X là  bạn 此回合内发动此技能选择的角色数），且 bạn 此阶段内不能再发动〖浮海〗。",
   fuhai_clear: "浮海",
   fuhai_clear_info: "",
 
@@ -7544,19 +7559,19 @@ export const translate_sp2 = {
   xinfu_dianhu2_info: "",
   xinfu_jianji: "谏计",
   xinfu_jianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名其他角色摸一张牌。然后该角色可以使用此牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名其他角色摸一张牌。然后该角色可以使用此牌。",
   xinfu_lianpian: "联翩",
   xinfu_lianpian_info:
-    "出牌阶段限三次。 khi  bạn 对一名角色连续使用牌时， bạn 可以摸一张牌，然后可以将一张牌交给该角色。",
+    "  giai đoạn ra bài限三次。 khi  bạn 对一名角色连续使用牌时， bạn 可以摸一张牌，然后可以将一张牌交给该角色。",
   spwenji: "问计",
   spwenji_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌名称相同的牌时不能被其他角色响应。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌名称相同的牌时不能被其他角色响应。",
   rewenji: "问计",
   rewenji_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌类型相同的牌时不能被其他角色响应。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以令一名其他角色交给 bạn 一张牌。 bạn 于本回合内使用与该牌类型相同的牌时不能被其他角色响应。",
   sptunjiang: "屯江",
   sptunjiang_info:
-    " Giai đoạn kết thúc ，若 bạn 未于本回合的出牌阶段内使用牌指定过其他角色 là 目标，则 bạn 可以摸X张牌（X là 全场势力数）。",
+    " Giai đoạn kết thúc ，若 bạn 未于本回合的  giai đoạn ra bài内使用牌指定过其他角色 là 目标，则 bạn 可以摸X张牌（X là 全场势力数）。",
   zongkui: "纵傀",
   zongkui_mark: "纵傀",
   zongkui_mark_bg: "傀",
@@ -7584,10 +7599,10 @@ export const translate_sp2 = {
   gexuan: "葛玄",
 
   tuiyan: "推演",
-  tuiyan_info: "Bắt đầu giai đoạn hành động， bạn 可以观看牌堆顶的三张牌。",
+  tuiyan_info: "Bắt đầu giai đoạn ra bài， bạn 可以观看牌堆顶的三张牌。",
   busuan: "卜算",
   busuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色，然后选择至多两张不同的卡牌名称（限基本牌 hoặc 锦囊牌）。该角色下次摸牌阶段摸牌时，改 là 从牌堆 hoặc 弃牌堆中获得 bạn 选择的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色，然后选择至多两张不同的卡牌名称（限基本牌 hoặc 锦囊牌）。该角色下次摸牌阶段摸牌时，改 là 从牌堆 hoặc 弃牌堆中获得 bạn 选择的牌。",
   busuan_angelbeats: "卜算",
   mingjie: "命戒",
   mingjie_info:
@@ -7597,18 +7612,18 @@ export const translate_sp2 = {
     " bạn 的回合外，每 khi 有其他角色受到 sát thương 后， bạn 获得一个“丹血”标记（该角色与 bạn 阵营一致时 là 红色，不一致 là 黑色，此颜色对所有玩家均不可见）直到 bạn 的准备阶段开始。准备阶段，根据 bạn 获得的“丹血”标记的数量和颜色， bạn 从牌堆/弃牌堆中获得相应的牌以及相应技能直到回合结束。3枚 hoặc 以下：〖英姿〗和【桃】；超过3枚且红色“丹血”较多：〖观星〗和【无中生有】；超过3枚且黑色“丹血”较多：〖直言〗和【顺手牵羊】；超过3枚且红色和黑色一样多：【杀】、【决斗】和〖攻心〗。",
   zhafu: "札符",
   zhafu_info:
-    "	Hạn định kỹ，出牌阶段， bạn 可以选择一名其他角色，令其获得一枚「札」。有「札」的角色弃牌阶段开始时，若其手牌数大于1，其移去「札」并选择保留一张手牌，然后将其余的手牌交给 bạn 。",
+    "	Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名其他角色，令其获得一枚「札」。有「札」的角色弃牌阶段开始时，若其手牌数大于1，其移去「札」并选择保留一张手牌，然后将其余的手牌交给 bạn 。",
   pingjian: "评荐",
   pingjian_info:
-    " Giai đoạn kết thúc 开始时/ khi  bạn 受到 sát thương 后/1 lần trong giai đoạn hành động， bạn 可以令系统随机从剩余武将牌堆中检索出三张拥有发动时机 là  Giai đoạn kết thúc 开始时/ khi  bạn 受到 sát thương 后/出牌阶段的技能的武将牌。然后 bạn 可以选择尝试发动其中一个技能。每个技能每局只能选择一次。",
+    " Giai đoạn kết thúc 开始时/ khi  bạn 受到 sát thương 后/1 lần trong giai đoạn ra bài， bạn 可以令系统随机从剩余武将牌堆中检索出三张拥有发动时机 là  Giai đoạn kết thúc 开始时/ khi  bạn 受到 sát thương 后/  giai đoạn ra bài的技能的武将牌。然后 bạn 可以选择尝试发动其中一个技能。每个技能每局只能选择一次。",
   pingjian_use: "评荐",
   pytianjiang: "天匠",
   pytianjiang_info:
-    "游戏开始时， bạn 随机获得两张不同副类别的装备牌，并置入 bạn 的装备区。出牌阶段， bạn 可以将装备区的牌移动至其他角色的装备区（可替换原装备）。若 bạn 以此法移动了〖铸刃〗的衍生装备， bạn 摸两张牌。",
+    "游戏开始时， bạn 随机获得两张不同副类别的装备牌，并置入 bạn 的装备区。  giai đoạn ra bài， bạn 可以将装备区的牌移动至其他角色的装备区（可替换原装备）。若 bạn 以此法移动了〖铸刃〗的衍生装备， bạn 摸两张牌。",
   pytianjiang_move: "天匠",
   pyzhuren: "铸刃",
   pyzhuren_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌。根据此牌的花色 điểm số ， bạn 有一定概率打造成功并获得一张武器牌（若打造失败 hoặc 武器已有则改 là 摸一张【杀】，花色决定武器名称， điểm số 决定成功率）。此武器牌进入弃牌堆时，将其移出游戏。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌。根据此牌的花色 điểm số ， bạn 有一定概率打造成功并获得一张武器牌（若打造失败 hoặc 武器已有则改 là 摸一张【杀】，花色决定武器名称， điểm số 决定成功率）。此武器牌进入弃牌堆时，将其移出游戏。",
   pyzhuren_destroy: "铸刃",
   pyzhuren_heart: "红缎枪",
   pyzhuren_heart_info:
@@ -7628,24 +7643,24 @@ export const translate_sp2 = {
 
   songshu: "颂蜀",
   songshu_info:
-    "出牌阶段， bạn 可以和其他角色拼点。若 bạn 没赢， bạn 与其各摸两张牌，且 bạn 本阶段内不能再发动〖颂蜀〗。",
+    "  giai đoạn ra bài， bạn 可以和其他角色拼点。若 bạn 没赢， bạn 与其各摸两张牌，且 bạn 本阶段内不能再发动〖颂蜀〗。",
   sibian: "思辩",
   sibian_info:
     "摸牌阶段， bạn 可以放弃摸牌，改 là 亮出牌堆顶的四张牌，然后获得其中所有 điểm số 最大与 điểm số 最小的牌，且可以将剩余的牌交给手牌数最少的角色。",
   lslixun: "利熏",
   lslixun_fate: "利熏",
   lslixun_info:
-    "Tỏa định kỹ， khi  bạn 受到 sát thương 时， bạn 防止此 sát thương ，然后获得等同于 sát thương 值的“珠”标记。Bắt đầu giai đoạn hành động， bạn 进行判定，若结果 điểm số 小于“珠”的数量， bạn 弃置等同于“珠”数量的手牌（若弃牌的牌数不够，则失去剩余数量的体力值）。",
+    "Tỏa định kỹ， khi  bạn 受到 sát thương 时， bạn 防止此 sát thương ，然后获得等同于 sát thương 值的“珠”标记。Bắt đầu giai đoạn ra bài， bạn 进行判定，若结果 điểm số 小于“珠”的数量， bạn 弃置等同于“珠”数量的手牌（若弃牌的牌数不够，则失去剩余数量的体力值）。",
   lskuizhu: "馈珠",
   lskuizhu_info:
-    "出牌阶段结束时， bạn 可以选择体力值 là 全场最多的一名其他角色，将手牌摸至与该角色相同（最多摸至五张），然后该角色观看 bạn 的手牌，弃置任意张手牌并从观看的牌中获得等量的牌。若其获得的牌大于一张，则 bạn 选择一项：移去一个“珠”； hoặc 令其对其攻击范围内的一名角色造成1点 sát thương 。",
+    "  giai đoạn ra bài结束时， bạn 可以选择体力值 là 全场最多的一名其他角色，将手牌摸至与该角色相同（最多摸至五张），然后该角色观看 bạn 的手牌，弃置任意张手牌并从观看的牌中获得等量的牌。若其获得的牌大于一张，则 bạn 选择一项：移去一个“珠”； hoặc 令其对其攻击范围内的一名角色造成1点 sát thương 。",
   xpchijie: "持节",
   xpchijie_info:
     "每回合限一次。① khi  bạn 受到其他角色使用的牌造成的 sát thương 时， bạn 可以令此牌对所有目标无效。②其他角色使用的牌结算完成时，若 bạn 是此牌的目标之一且此牌未造成过 sát thương ，则 bạn 可以获得此牌对应的所有实体牌。",
   xpchijie2: "持节",
   yinju: "引裾",
   yinju_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择一名其他角色。若如此做， khi  bạn 于此阶段内使用牌指定其 là 目标后， bạn 与其各摸一张牌； khi  bạn 即将对其造成 sát thương 时，防止此 sát thương ，然后其回复等量的体力。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名其他角色。若如此做， khi  bạn 于此阶段内使用牌指定其 là 目标后， bạn 与其各摸一张牌； khi  bạn 即将对其造成 sát thương 时，防止此 sát thương ，然后其回复等量的体力。",
   yinju2: "引裾",
 
   spjiedao: "截刀",
@@ -7665,7 +7680,7 @@ export const translate_sp2 = {
   yechou2_info: "",
   yanjiao: "严教",
   yanjiao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色并从牌堆顶亮出四张牌。该角色将这些牌分成 điểm số 之和相等的两组， bạn 与其各获得其中一组，然后将剩余未分组的牌置入弃牌堆。若未分组的牌超过一张，则 bạn 本回合手牌上限-1。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色并从牌堆顶亮出四张牌。该角色将这些牌分成 điểm số 之和相等的两组， bạn 与其各获得其中一组，然后将剩余未分组的牌置入弃牌堆。若未分组的牌超过一张，则 bạn 本回合手牌上限-1。",
   yanjiao2: "严教",
   yanjiao2_info: "",
   xingshen: "省身",
@@ -7675,16 +7690,16 @@ export const translate_sp2 = {
   sp_zhanghe: "SP张郃",
   yuanlve: "远略",
   yuanlve_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张非装备牌交给一名角色，然后该角色可以使用该牌并令 bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张非装备牌交给一名角色，然后该角色可以使用该牌并令 bạn 摸一张牌。",
   xunchen: "OL荀谌",
   fenglve: "锋略",
   fenglve2: "锋略",
   fenglve_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以与一名角色拼点，若 bạn 赢，该角色将其区域内的各一张牌交给 bạn ；若 bạn 没赢， bạn 交给其一张牌。 khi  bạn 的单人拼点结算后， bạn 可以令对方获得 bạn 拼点的牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以与一名角色拼点，若 bạn 赢，该角色将其区域内的各一张牌交给 bạn ；若 bạn 没赢， bạn 交给其一张牌。 khi  bạn 的单人拼点结算后， bạn 可以令对方获得 bạn 拼点的牌。",
   mouzhi: "谋识",
   mouzhi2: "谋识",
   mouzhi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌交给一名角色，若如此做， khi 其于其下回合的出牌阶段内对一名角色造成 sát thương 后，若是此阶段其第一次对该角色造成 sát thương ， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌交给一名角色，若如此做， khi 其于其下回合的  giai đoạn ra bài内对一名角色造成 sát thương 后，若是此阶段其第一次对该角色造成 sát thương ， bạn 摸一张牌。",
   sp_shenpei: "SP审配",
   gangzhi: "刚直",
   gangzhi_info:
@@ -7697,11 +7712,11 @@ export const translate_sp2 = {
   xiying: "袭营",
   xiying2: "袭营",
   xiying_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置一张非基本手牌，然后令所有其他角色依次选择一项：弃置一张牌， hoặc 本回合内不能使用 hoặc 打出牌；且 bạn 本回合内获得如下效果： Giai đoạn kết thúc ，若 bạn 于本回合的出牌阶段内造成过 sát thương ，则 bạn 从牌堆中获得一张 sát thương 性基本牌 hoặc 普通锦囊牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置一张非基本手牌，然后令所有其他角色依次选择一项：弃置一张牌， hoặc 本回合内不能使用 hoặc 打出牌；且 bạn 本回合内获得如下效果： Giai đoạn kết thúc ，若 bạn 于本回合的  giai đoạn ra bài内造成过 sát thương ，则 bạn 从牌堆中获得一张 sát thương 性基本牌 hoặc 普通锦囊牌。",
   lvkuanglvxiang: "吕旷吕翔",
   liehou: "列侯",
   liehou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名攻击范围内的角色交给 bạn 一张手牌，然后 bạn 将一张手牌交给攻击范围内的另一名角色。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名攻击范围内的角色交给 bạn 一张手牌，然后 bạn 将一张手牌交给攻击范围内的另一名角色。",
   qigong: "齐攻",
   qigong_info:
     " khi bạn sử dụng 的【杀】被【闪】抵消之后， bạn 可以令一名角色再对目标角色使用一张【杀】（不可被响应）。",
@@ -7719,39 +7734,39 @@ export const translate_sp2 = {
   spshicai: "恃才",
   spshicai2: "恃才",
   spshicai_info:
-    "出牌阶段，牌堆顶的一张牌对 bạn 可见。 bạn 可以弃置一张牌，然后获得牌堆顶的一张牌，且不能再发动〖恃才〗直到此牌离开 bạn 的手牌区。",
+    "  giai đoạn ra bài，牌堆顶的一张牌对 bạn 可见。 bạn 可以弃置一张牌，然后获得牌堆顶的一张牌，且不能再发动〖恃才〗直到此牌离开 bạn 的手牌区。",
   spfushi: "附势",
   spfushi_info:
     "Tỏa định kỹ，若己方存活角色数：大于敌方， bạn 视 là 拥有〖择主〗；小于敌方， bạn 视 là 拥有〖逞功〗。",
   zezhu: "择主",
   zezhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以获得双方主帅的各一张牌（若无牌则改 là  bạn 摸一张牌），然后交给双方主帅各一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以获得双方主帅的各一张牌（若无牌则改 là  bạn 摸一张牌），然后交给双方主帅各一张牌。",
   chenggong: "逞功",
   chenggong_info:
     " khi 有角色使用牌指定目标后，若此牌对目标数大于1，则 bạn 可令使用者摸一张牌。",
   leitong: "雷铜",
   kuiji: "溃击",
   kuiji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色基本牌 khi 作【兵粮寸断】置于 bạn 的判定区，然后摸一张牌。若如此做， bạn 可以对体力值最多的一名对手造成2点 sát thương 。对手因此进入濒死状态时， bạn  hoặc 队友体力值最少的一方回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色基本牌 khi 作【兵粮寸断】置于 bạn 的判定区，然后摸一张牌。若如此做， bạn 可以对体力值最多的一名对手造成2点 sát thương 。对手因此进入濒死状态时， bạn  hoặc 队友体力值最少的一方回复1 sinh lực 。",
   wulan: "吴兰",
   wlcuorui: "挫锐",
   wlcuorui_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置 bạn  hoặc 队友区域里的一张牌。若如此做， bạn 选择一项：1.弃置对手装备区里至多两张与此牌颜色相同的牌；2.展示对手的共计两张手牌，然后获得其中与此牌颜色相同的牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置 bạn  hoặc 队友区域里的一张牌。若如此做， bạn 选择一项：1.弃置对手装备区里至多两张与此牌颜色相同的牌；2.展示对手的共计两张手牌，然后获得其中与此牌颜色相同的牌。",
   re_panfeng: "潘凤",
   xinkuangfu: "狂斧",
   xinkuangfu_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择：1，弃置装备区里的一张牌， bạn 使用无对应实体牌的普【杀】。若此【杀】造成 sát thương ， bạn 摸两张牌。2，弃置一名其他角色装备区里的一张牌， bạn 使用无对应实体牌的普【杀】。若此【杀】未造成 sát thương ， bạn 弃置两张手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择：1，弃置装备区里的一张牌， bạn 使用无对应实体牌的普【杀】。若此【杀】造成 sát thương ， bạn 摸两张牌。2，弃置一名其他角色装备区里的一张牌， bạn 使用无对应实体牌的普【杀】。若此【杀】未造成 sát thương ， bạn 弃置两张手牌。",
   xingdaorong: "邢道荣",
   xuxie: "虚猲",
   xuxie_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以减1 sinh lực 上限并选择所有与 bạn 距离 là 1的角色，弃置这些角色的各一张牌 hoặc 令这些角色各摸一张牌。出牌阶段结束时，若 bạn 的体力上限不 là 全场最多，则 bạn 加1 sinh lực 上限，然后回复1 sinh lực  hoặc 摸两张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以减1 sinh lực 上限并选择所有与 bạn 距离 là 1的角色，弃置这些角色的各一张牌 hoặc 令这些角色各摸一张牌。  giai đoạn ra bài结束时，若 bạn 的体力上限不 là 全场最多，则 bạn 加1 sinh lực 上限，然后回复1 sinh lực  hoặc 摸两张牌。",
   huaman: "花鬘",
   hmmanyi: "蛮裔",
   hmmanyi_info: "Tỏa định kỹ，【南蛮入侵】对 bạn 无效。",
   mansi_viewas: "蛮嗣",
   mansi: "蛮嗣",
   mansi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将所有手牌 khi 做【南蛮入侵】使用； khi 有角色受到【南蛮入侵】的 sát thương 后， bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将所有手牌 khi 做【南蛮入侵】使用； khi 有角色受到【南蛮入侵】的 sát thương 后， bạn 摸一张牌。",
   souying: "薮影",
   souying_info:
     "每回合限一次， khi  bạn 对其他角色（ hoặc 其他角色对 bạn ）使用【杀】 hoặc 普通锦囊牌 sau khi chỉ định mục tiêu duy nhất ，若此牌不是本回合 bạn 对其（ hoặc 其对 bạn ）使用的第一张【杀】 hoặc 普通锦囊牌， bạn 可以弃置一张牌，获得此牌对应的所有实体牌（ hoặc 令此牌对 bạn 无效）。",
@@ -7783,29 +7798,29 @@ export const translate_sp2 = {
     "觉醒技，准备阶段，若 bạn 的手牌数 hoặc 体力值小于2， bạn giảm 1 sinh lực 上限并获得技能〖清剿〗，然后将〖膂力〗改 là 受到 sát thương 后也可以发动。",
   qingjiao: "清剿",
   qingjiao_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置所有手牌，然后从牌堆 hoặc 弃牌堆中随机获得八张牌名各不相同且副类别不同的牌。若如此做， Giai đoạn kết thúc ， bạn 弃置所有牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置所有手牌，然后从牌堆 hoặc 弃牌堆中随机获得八张牌名各不相同且副类别不同的牌。若如此做， Giai đoạn kết thúc ， bạn 弃置所有牌。",
   re_liuzan: "留赞",
   refenyin: "奋音",
   refenyin_info:
     "Tỏa định kỹ， bạn 的回合内， khi 一张牌进入弃牌堆后，若本回合内没有过与此牌花色相同的卡牌进入过弃牌堆，则 bạn 摸一张牌。",
   liji: "力激",
   liji_info:
-    "出牌阶段限X次， bạn 可以弃置一张牌并对一名其他角色造成1点 sát thương 。（X là 本回合内进入过弃牌堆的卡牌数除以8，若场上人数小于5则改 là 除以4，向下取整）",
+    "  giai đoạn ra bài限X次， bạn 可以弃置一张牌并对一名其他角色造成1点 sát thương 。（X là 本回合内进入过弃牌堆的卡牌数除以8，若场上人数小于5则改 là 除以4，向下取整）",
   re_sunluyu: "孙鲁育",
   remeibu: "魅步",
   remeibu_info:
-    "其他角色的Bắt đầu giai đoạn hành động，若 bạn 在其攻击范围内， bạn 可以弃置一张牌A，该角色于本阶段内拥有〖止息〗，且 khi 其因〖止息〗弃置与牌A花色相同的牌时， bạn 获得之。",
+    "其他角色的Bắt đầu giai đoạn ra bài，若 bạn 在其攻击范围内， bạn 可以弃置一张牌A，该角色于本阶段内拥有〖止息〗，且 khi 其因〖止息〗弃置与牌A花色相同的牌时， bạn 获得之。",
   rezhixi: "止息",
   rezhixi_info:
     "Tỏa định kỹ， khi bạn sử dụng 【杀】 hoặc 普通锦囊牌时， bạn 弃置一张手牌。",
   remumu: "穆穆",
   remumu_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择一项：1.弃置一名其他角色装备区里的一张牌，然后 bạn 本回合可使用【杀】的次数+1；2.获得一名角色装备区里的一张牌，然后 bạn 本回合可使用【杀】的次数-1。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择一项：1.弃置一名其他角色装备区里的一张牌，然后 bạn 本回合可使用【杀】的次数+1；2.获得一名角色装备区里的一张牌，然后 bạn 本回合可使用【杀】的次数-1。",
   sp_zhangliao: "SP张辽",
   //这仨技能给SP仲村由理毫无违和感好吗！！！
   mubing: "募兵",
   mubing_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示牌堆顶的三张牌。 bạn 可弃置任意张手牌，并可获得任意张 điểm số 之和不大于 bạn 弃置的牌 điểm số 之和的牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示牌堆顶的三张牌。 bạn 可弃置任意张手牌，并可获得任意张 điểm số 之和不大于 bạn 弃置的牌 điểm số 之和的牌。",
   ziqu: "资取",
   ziqu_info:
     "每名角色限一次， khi  bạn 对有牌的其他角色造成 sát thương 后， bạn 可以防止此 sát thương 。然后其将其 điểm số 最大的牌交给 bạn 。",
@@ -7814,7 +7829,7 @@ export const translate_sp2 = {
     "觉醒技，准备阶段，若 bạn 已因〖募兵〗获得了6张 hoặc 更多的【杀】 hoặc 武器牌 hoặc  sát thương 锦囊牌，则 bạn 回复1 sinh lực  hoặc 摸两张牌，然后修改〖募兵〗。",
   mubing_rewrite: "募兵·改",
   mubing_rewrite_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示牌堆顶的四张牌。 bạn 可弃置任意张手牌，并可获得任意张 điểm số 之和不大于 bạn 弃置的牌 điểm số 之和的牌。然后 bạn 可将以此法获得的牌以任意方式交给其他角色。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示牌堆顶的四张牌。 bạn 可弃置任意张手牌，并可获得任意张 điểm số 之和不大于 bạn 弃置的牌 điểm số 之和的牌。然后 bạn 可将以此法获得的牌以任意方式交给其他角色。",
   caobuxing: "曹不兴",
   moying: "墨影",
   moying_info:
@@ -7823,19 +7838,19 @@ export const translate_sp2 = {
   juanhui2: "绢绘",
   juanhui2_backup: "绢绘",
   juanhui_info:
-    ' Giai đoạn kết thúc ， bạn 可以选择一名其他角色。记录该角色下回合的出牌阶段里使用的基本牌和普通锦囊牌（每种牌名限记一次）， bạn 的下回合出牌阶段，可将一张手牌 khi 这些牌里的任意一张牌使用（每张限使用一次，且【杀】不计次数）。 khi "绢绘"的牌全部用完时， bạn 回复1 sinh lực 并将手牌摸至三张。',
+    ' Giai đoạn kết thúc ， bạn 可以选择一名其他角色。记录该角色下回合的  giai đoạn ra bài里使用的基本牌和普通锦囊牌（每种牌名限记一次）， bạn 的下回合  giai đoạn ra bài，可将一张手牌 khi 这些牌里的任意一张牌使用（每张限使用一次，且【杀】不计次数）。 khi "绢绘"的牌全部用完时， bạn 回复1 sinh lực 并将手牌摸至三张。',
   re_maliang: "马良",
   rexiemu: "协穆",
   rexiemu_info:
     " Giai đoạn kết thúc ，若全场没有“协穆”标记， bạn 可以选择一名角色获得“协穆”标记直到 bạn 的下回合开始。 bạn  hoặc 该角色在各自的回合外使用 hoặc 打出手牌时， bạn 与其各摸一张牌（每回合限一次）。",
   heli: "贺励",
   heli_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择手牌数比 bạn 少的一名其他角色。该角色展示所有手牌，然后每缺少一种类型的牌，便从牌堆中随机获得一张此类型的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择手牌数比 bạn 少的一名其他角色。该角色展示所有手牌，然后每缺少一种类型的牌，便从牌堆中随机获得一张此类型的牌。",
   caoxing: "曹性",
   cxliushi: "流矢",
   cxliushi2: "流矢",
   cxliushi_info:
-    "出牌阶段， bạn 可以将一张 ♥︎ 牌置于牌堆顶，视 là 对一名角色使用一张【杀】（无距离限制且不计入使用次数）。 khi 此【杀】造成 sát thương 后，受到 sát thương 的角色获得一个“流”。有“流”的角色手牌上限-X（X là 其“流”数）。",
+    "  giai đoạn ra bài， bạn 可以将一张 ♥︎ 牌置于牌堆顶，视 là 对一名角色使用一张【杀】（无距离限制且不计入使用次数）。 khi 此【杀】造成 sát thương 后，受到 sát thương 的角色获得一个“流”。有“流”的角色手牌上限-X（X là 其“流”数）。",
   zhanwan: "斩腕",
   zhanwan_info:
     "Tỏa định kỹ，有“流”的角色于弃牌阶段弃牌后， bạn 摸等量的牌，然后其移去所有的“流”。",
@@ -7850,7 +7865,7 @@ export const translate_sp2 = {
   yujue: "鬻爵",
   yujue_backup: "鬻爵",
   yujue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以废除一个装备栏，然后令一名有手牌的其他角色交给 bạn 一张手牌。其获得〖执笏〗直到 bạn 的下回合开始。",
+    "1 lần trong giai đoạn ra bài， bạn 可以废除一个装备栏，然后令一名有手牌的其他角色交给 bạn 一张手牌。其获得〖执笏〗直到 bạn 的下回合开始。",
   zhihu: "执笏",
   zhihu_mark: "执笏",
   zhihu_info:
@@ -7884,7 +7899,7 @@ export const translate_sp2 = {
     "准备阶段，若场上没有“义子”标记， bạn 可令一名其他角色获得一个“义子”标记；若场上有“义子”标记， bạn 可以弃置一张牌移动“义子”标记。拥有“义子”标记的角色获得技能“叛弑”。",
   panshi: "叛弑",
   panshi_info:
-    "Tỏa định kỹ，准备阶段， bạn 交给有“慈孝”技能的角色一张手牌； khi  bạn 于出牌阶段因使用【杀】对其他角色造成 sát thương 时，若其拥有技能“慈孝”，则此 sát thương +1，且 bạn 结束出牌阶段。",
+    "Tỏa định kỹ，准备阶段， bạn 交给有“慈孝”技能的角色一张手牌； khi  bạn 于  giai đoạn ra bài因使用【杀】对其他角色造成 sát thương 时，若其拥有技能“慈孝”，则此 sát thương +1，且 bạn 结束  giai đoạn ra bài。",
   xianshuai: "先率",
   xianshuai_info:
     "Tỏa định kỹ，有角色造成 sát thương 后，若此 sát thương 是本轮第一次造成 sát thương ： bạn 摸一张牌；若 sát thương 来源是 bạn ，则 bạn 对受伤角色再造成1点 sát thương 。",
@@ -7892,7 +7907,7 @@ export const translate_sp2 = {
   minsi: "敏思",
   minsi2: "敏思",
   minsi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张 điểm số 之和 là 13的牌，然后摸两倍数量的牌。以此法获得的牌中，黑色牌本回合无距离限制，红色牌本回合不计入手牌上限。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张 điểm số 之和 là 13的牌，然后摸两倍数量的牌。以此法获得的牌中，黑色牌本回合无距离限制，红色牌本回合不计入手牌上限。",
   jijing: "吉境",
   jijing_info:
     " khi  bạn 受到 sát thương 后， bạn 可以进行一次判定，然后若 bạn 弃置任意张 điểm số 之和与判定结果 điểm số 相同的牌， bạn 回复1 sinh lực 。",
@@ -7903,11 +7918,11 @@ export const translate_sp2 = {
   rezhongjian: "忠鉴",
   rezhongjian2: "忠鉴",
   rezhongjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名本回合内未选择过的角色。 bạn 令其获得一项效果直至 bạn 的下回合开始：①其下次造成 sát thương 后弃置两张牌，然后 bạn 摸一张牌。②其下次受到 sát thương 后摸两张牌，然后 bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名本回合内未选择过的角色。 bạn 令其获得一项效果直至 bạn 的下回合开始：①其下次造成 sát thương 后弃置两张牌，然后 bạn 摸一张牌。②其下次受到 sát thương 后摸两张牌，然后 bạn 摸一张牌。",
   recaishi: "才识",
   recaishi3: "才识",
   recaishi_info:
-    "摸牌阶段结束时，若 bạn 于本阶段内因摸牌而获得的所有的牌：花色均相同， bạn 将〖忠鉴〗于本回合内改 là “出牌阶段限两次”。不均相同， bạn 可回复1 sinh lực 。若如此做， bạn 本回合内不能对自己使用牌。",
+    "摸牌阶段结束时，若 bạn 于本阶段内因摸牌而获得的所有的牌：花色均相同， bạn 将〖忠鉴〗于本回合内改 là “  giai đoạn ra bài限两次”。不均相同， bạn 可回复1 sinh lực 。若如此做， bạn 本回合内不能对自己使用牌。",
   decadewuniang: "武娘",
   decadewuniang_info:
     " khi bạn sử dụng  hoặc 打出【杀】时， bạn 可以获得一名其他角色的一张牌。若如此做，其摸一张牌。（若 bạn 已发动许身，则关索也摸一张牌）",
@@ -7923,14 +7938,14 @@ export const translate_sp2 = {
     "隐匿技， bạn 于其他角色的回合登场时，可获得 khi 前回合角色的一张牌。",
   smyyingshi: "鹰视",
   smyyingshi_info:
-    "Tỏa định kỹ，出牌阶段， bạn 可观看牌堆顶的X张牌（X là  bạn 的体力上限）。",
+    "Tỏa định kỹ，  giai đoạn ra bài， bạn 可观看牌堆顶的X张牌（X là  bạn 的体力上限）。",
   xiongzhi: "雄志",
   xiongzhi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可展示牌堆顶的一张牌并使用之。若如此做， bạn 重复此流程，直到 bạn 以此法展示的牌无法使用。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可展示牌堆顶的一张牌并使用之。若如此做， bạn 重复此流程，直到 bạn 以此法展示的牌无法使用。",
   quanbian: "权变",
   quanbian2: "权变",
   quanbian_info:
-    " khi  bạn 于出牌阶段内使用/打出手牌时，若此牌有花色且 bạn 本回合内未使用/打出过该花色的其他手牌，则 bạn 可以选择一项：①摸一张牌。②将牌堆顶X张牌中的一张置于牌堆底（X là  bạn 的体力上限）。若 bạn 发动此技能，则 bạn 本回合内不能再使用与此牌花色相同的手牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用/打出手牌时，若此牌有花色且 bạn 本回合内未使用/打出过该花色的其他手牌，则 bạn 可以选择一项：①摸一张牌。②将牌堆顶X张牌中的一张置于牌堆底（X là  bạn 的体力上限）。若 bạn 发动此技能，则 bạn 本回合内不能再使用与此牌花色相同的手牌。",
   re_hansui: "韩遂",
   re_quyi: "麴义",
   refuqi: "伏骑",
@@ -7953,7 +7968,7 @@ export const translate_sp2 = {
   zunwei: "尊位",
   zunwei_backup: "尊位",
   zunwei_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择本局游戏内未选择过的一项：①若 bạn 已受伤，则 bạn 可以选择一名体力值大于 bạn 的其他角色， bạn 将体力值回复至X（X là  bạn 的体力上限与其体力值中的较小值）②选择一名手牌数大于 bạn 的其他角色， bạn 将手牌数摸至与其相同（至多摸五张）③选择一名装备区内牌数大于 bạn 的其他角色。 bạn 令X=1。若 bạn 装备区内的('equip'+X)栏 là 空，则 bạn 使用牌堆中的一张副类别 là ('equip'+X)，且能对自己使用的装备牌。 bạn 令X+1。若X不大于5，且 bạn 装备区内的牌数仍小于目标角色，则 bạn 重复此流程。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择本局游戏内未选择过的一项：①若 bạn 已受伤，则 bạn 可以选择一名体力值大于 bạn 的其他角色， bạn 将体力值回复至X（X là  bạn 的体力上限与其体力值中的较小值）②选择一名手牌数大于 bạn 的其他角色， bạn 将手牌数摸至与其相同（至多摸五张）③选择一名装备区内牌数大于 bạn 的其他角色。 bạn 令X=1。若 bạn 装备区内的('equip'+X)栏 là 空，则 bạn 使用牌堆中的一张副类别 là ('equip'+X)，且能对自己使用的装备牌。 bạn 令X+1。若X不大于5，且 bạn 装备区内的牌数仍小于目标角色，则 bạn 重复此流程。",
   re_chunyuqiong: "淳于琼",
   recangchu: "仓储",
   recangchu2: "仓储",
@@ -7973,11 +7988,11 @@ export const translate_sp2 = {
     "Tỏa định kỹ， khi  bạn 于回合外受到其他角色造成的 sát thương 时，若 bạn ：有“珠”，则 bạn 令 sát thương 来源获得“珠”；没有“珠”，则 bạn 防止此 sát thương ，然后摸一张牌，并将一张牌正面朝上置于武将牌上，称 là “珠”。",
   xianzhu: "献珠",
   xianzhu_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 令一名角色A获得“珠”。若A不 là  bạn 自己，则 bạn 选择A攻击范围内的一名角色B，视 là A对B使用一张【杀】。",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 令一名角色A获得“珠”。若A不 là  bạn 自己，则 bạn 选择A攻击范围内的一名角色B，视 là A对B使用一张【杀】。",
   fanyufeng: "樊玉凤",
   bazhan: "把盏",
   bazhan_info:
-    "Chuyển hoán kỹ，1 lần trong giai đoạn hành động，阴： bạn 可以将至多两张手牌交给一名其他角色。阳： bạn 可以获得一名其他角色的至多两张手牌。若以此法移动的牌包含【酒】 hoặc ♥牌，则 bạn 可令得到牌的角色执行一项：①回复1 sinh lực 。②复原武将牌。",
+    "Chuyển hoán kỹ，1 lần trong giai đoạn ra bài，阴： bạn 可以将至多两张手牌交给一名其他角色。阳： bạn 可以获得一名其他角色的至多两张手牌。若以此法移动的牌包含【酒】 hoặc ♥牌，则 bạn 可令得到牌的角色执行一项：①回复1 sinh lực 。②复原武将牌。",
   jiaoying: "醮影",
   jiaoying2: "醮影",
   jiaoying3: "醮影",
@@ -7994,7 +8009,7 @@ export const translate_sp2 = {
   re_taoqian: "陶谦",
   reyixiang: "义襄",
   reyixiang_info:
-    "Tỏa định kỹ，其他角色于其出牌阶段内使用的第一张牌对 bạn 的 sát thương -1；其使用的第二张牌若 là 黑色，则对 bạn 无效。",
+    "Tỏa định kỹ，其他角色于其  giai đoạn ra bài内使用的第一张牌对 bạn 的 sát thương -1；其使用的第二张牌若 là 黑色，则对 bạn 无效。",
   caosong: "曹嵩",
   cslilu: "礼赂",
   cslilu_info:
@@ -8005,7 +8020,7 @@ export const translate_sp2 = {
     " Giai đoạn kết thúc 开始时， bạn 可以选择一名其他角色。 bạn 的下回合开始前， khi 该角色造成 sát thương  hoặc 回复体力时，若其体力上限小于 bạn ，则 bạn giảm 1 sinh lực 上限，且令此 sát thương 值/回复值+1。",
   reyirang: "揖让",
   reyirang_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以将所有非基本牌交给一名其他角色。若其体力上限大于 bạn ，则 bạn 将体力上限调整至与其相同。然后 bạn 回复X sinh lực （X là  bạn 以此法交给其的牌数）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以将所有非基本牌交给一名其他角色。若其体力上限大于 bạn ，则 bạn 将体力上限调整至与其相同。然后 bạn 回复X sinh lực （X là  bạn 以此法交给其的牌数）。",
   xiahoujie: "夏侯杰",
   liedan: "裂胆",
   liedan_info:
@@ -8018,31 +8033,31 @@ export const translate_sp2 = {
   xingzuo: "兴作",
   xingzuo2: "兴作",
   xingzuo_info:
-    "Bắt đầu giai đoạn hành động， bạn 可观看牌堆底的三张牌并用任意张手牌替换其中等量的牌。若如此做， Giai đoạn kết thúc ， bạn 可令一名有手牌的角色用所有手牌替换牌堆底的三张牌。若其因此法失去的牌多于三张，则 bạn 失去1 sinh lực 。",
+    "Bắt đầu giai đoạn ra bài， bạn 可观看牌堆底的三张牌并用任意张手牌替换其中等量的牌。若如此做， Giai đoạn kết thúc ， bạn 可令一名有手牌的角色用所有手牌替换牌堆底的三张牌。若其因此法失去的牌多于三张，则 bạn 失去1 sinh lực 。",
   miaoxian: "妙弦",
   miaoxian_info:
     "若 bạn 的手牌中仅有一张黑色牌， bạn 可将此牌 khi 作任意一张普通锦囊牌使用（每种牌名每回合限一次）；若 bạn 的手牌中仅有一张红色牌， bạn 使用此牌时摸一张牌。",
   liangxing: "梁兴",
   lulve: "掳掠",
   lulve_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择一名有手牌且手牌数少于 bạn 的角色。其选择一项：①将所有手牌交给 bạn ，然后 bạn 将武将牌翻面。②将武将牌翻面，然后其视 là 对 bạn 使用一张【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择一名有手牌且手牌数少于 bạn 的角色。其选择一项：①将所有手牌交给 bạn ，然后 bạn 将武将牌翻面。②将武将牌翻面，然后其视 là 对 bạn 使用一张【杀】。",
   lxzhuixi: "追袭",
   lxzhuixi_info:
     "Tỏa định kỹ， khi  bạn 造成 sát thương  hoặc 受到 sát thương 时，若受伤角色的翻面状态和 sát thương 来源的翻面状态不同，则此 sát thương +1。",
   zhangmiao: "张邈",
   mouni: "谋逆",
   mouni_info:
-    "准备阶段， bạn 可对一名其他角色依次使用 bạn 手牌中所有的【杀】（若其进入了濒死状态，则终止此流程）。然后若这些【杀】中有未造成 sát thương 的【杀】，则 bạn 跳过本回合的出牌阶段和弃牌阶段。",
+    "准备阶段， bạn 可对一名其他角色依次使用 bạn 手牌中所有的【杀】（若其进入了濒死状态，则终止此流程）。然后若这些【杀】中有未造成 sát thương 的【杀】，则 bạn 跳过本回合的  giai đoạn ra bài和弃牌阶段。",
   zongfan: "纵反",
   zongfan_info:
-    "觉醒技。 Giai đoạn kết thúc ，若 bạn 本回合内因〖谋逆〗使用过【杀】且未跳过本回合的出牌阶段，则 bạn 将任意张牌交给一名其他角色，然后加X sinh lực 上限并回复X sinh lực （X là  bạn 以此法给出的牌数且至多 là 5）。最后失去〖谋逆〗并获得〖战孤〗。",
+    "觉醒技。 Giai đoạn kết thúc ，若 bạn 本回合内因〖谋逆〗使用过【杀】且未跳过本回合的  giai đoạn ra bài，则 bạn 将任意张牌交给一名其他角色，然后加X sinh lực 上限并回复X sinh lực （X là  bạn 以此法给出的牌数且至多 là 5）。最后失去〖谋逆〗并获得〖战孤〗。",
   zhangu: "战孤",
   zhangu_info:
     "Tỏa định kỹ，准备阶段，若 bạn 的体力上限大于1且没有手牌/装备区内没有牌，则 bạn giảm 1 sinh lực 上限，然后从牌堆中获得三张类型不同的牌。",
   re_niujin: "牛金",
   recuorui: "摧锐",
   recuorui_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以依次获得至多X名角色的各一张手牌（X là  bạn 的体力值）。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以依次获得至多X名角色的各一张手牌（X là  bạn 的体力值）。",
   reliewei: "裂围",
   reliewei_info:
     " khi 有角色于 bạn 的回合内进入濒死状态时， bạn 可以摸一张牌。",
@@ -8050,11 +8065,11 @@ export const translate_sp2 = {
   langmie: "狼灭",
   langmie_damage: "狼灭",
   langmie_info:
-    "其他角色的出牌阶段结束时，若其本阶段内使用过的牌中有类型相同的牌，则 bạn 可以弃置一张牌并摸两张牌；其他角色的 Giai đoạn kết thúc 开始时，若其本回合内造成的 sát thương 大于1，则 bạn 可以弃置一张牌并对其造成1点 sát thương 。",
+    "其他角色的  giai đoạn ra bài结束时，若其本阶段内使用过的牌中有类型相同的牌，则 bạn 可以弃置一张牌并摸两张牌；其他角色的 Giai đoạn kết thúc 开始时，若其本回合内造成的 sát thương 大于1，则 bạn 可以弃置一张牌并对其造成1点 sát thương 。",
   zhangheng: "张横",
   dangzai: "挡灾",
   dangzai_info:
-    "Bắt đầu giai đoạn hành động， bạn 可将一名其他角色判定区内的一张牌移动至 bạn 的判定区内。",
+    "Bắt đầu giai đoạn ra bài， bạn 可将一名其他角色判定区内的一张牌移动至 bạn 的判定区内。",
   liangjue: "粮绝",
   liangjue_info:
     "Tỏa định kỹ， khi 有黑色牌进入 hoặc 者离开 bạn 的判定区 hoặc 装备区后，若 bạn 的体力值大于1， bạn 失去1 sinh lực ，然后摸两张牌。",
@@ -8068,7 +8083,7 @@ export const translate_sp2 = {
   yangwan: "杨婉",
   youyan: "诱言",
   youyan_info:
-    "出牌阶段/弃牌阶段各限一次， khi  bạn 的牌因弃置进入弃牌堆后， bạn 可以从牌堆中获得本次弃牌中没有的花色的牌各一张。",
+    "  giai đoạn ra bài/弃牌阶段各限一次， khi  bạn 的牌因弃置进入弃牌堆后， bạn 可以从牌堆中获得本次弃牌中没有的花色的牌各一张。",
   zhuihuan: "追还",
   zhuihuan2: "追还",
   zhuihuan2_new: "追还",
@@ -8077,7 +8092,7 @@ export const translate_sp2 = {
   re_dongcheng: "董承",
   xuezhao: "血诏",
   xuezhao_info:
-    "1 lần trong giai đoạn hành động， bạn 可弃置一张手牌并选择至多X名其他角色(X là  bạn 的体力上限）。这些角色依次选择是否交给 bạn 一张牌，若选择是，该角色摸一张牌且 bạn 本回合可多使用一张【杀】；若选择否，该角色本回合无法响应 bạn 使用的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可弃置一张手牌并选择至多X名其他角色(X là  bạn 的体力上限）。这些角色依次选择是否交给 bạn 一张牌，若选择是，该角色摸一张牌且 bạn 本回合可多使用一张【杀】；若选择否，该角色本回合无法响应 bạn 使用的牌。",
   re_hucheer: "胡车儿",
   redaoji: "盗戟",
   redaoji2: "盗戟",
@@ -8092,18 +8107,18 @@ export const translate_sp2 = {
     " khi  bạn 受到 sát thương 后， bạn 可令 sát thương 来源选择一项：①其本回合不能再使用手牌，然后 bạn 摸两张牌；②其展示所有手牌，然后将其手牌中一种花色的所有牌交给 bạn ；③弃置一半数量的手牌（向上取整）。",
   qingtan: "清谈",
   qingtan_info:
-    "1 lần trong giai đoạn hành động， bạn 可令所有有手牌的角色同时选择一张手牌并同时展示。 bạn 可以获得其中一种花色的牌，然后展示此花色牌的角色各摸一张牌。若如此做，弃置其他的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可令所有有手牌的角色同时选择一张手牌并同时展示。 bạn 可以获得其中一种花色的牌，然后展示此花色牌的角色各摸一张牌。若如此做，弃置其他的牌。",
   qiuliju: "丘力居",
   koulve: "寇略",
   koulve_info:
-    " khi  bạn 于出牌阶段内对其他角色造成 sát thương 后， bạn 可以展示其X张手牌（X là 其已损失的体力值）。若这些牌中：有带有 sát thương 标签的基本牌 hoặc 锦囊牌，则 bạn 获得之；有红色牌，则 bạn 失去1 sinh lực （若已受伤则改 là 减1 sinh lực 上限），然后摸两张牌。",
+    " khi  bạn 于  giai đoạn ra bài内对其他角色造成 sát thương 后， bạn 可以展示其X张手牌（X là 其已损失的体力值）。若这些牌中：有带有 sát thương 标签的基本牌 hoặc 锦囊牌，则 bạn 获得之；有红色牌，则 bạn 失去1 sinh lực （若已受伤则改 là 减1 sinh lực 上限），然后摸两张牌。",
   qljsuiren: "随认",
   qljsuiren_info:
     " khi  bạn 死亡时， bạn 可以将手牌中所有的带有 sát thương 标签的基本牌 hoặc 锦囊牌交给一名其他角色。",
   re_dongbai: "董白",
   relianzhu: "连诛",
   relianzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张牌正面朝上交给一名其他角色。若此牌 là ：红色， bạn 摸一张牌；黑色，对方弃置两张牌 hoặc 令 bạn 摸两张牌。’",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张牌正面朝上交给一名其他角色。若此牌 là ：红色， bạn 摸一张牌；黑色，对方弃置两张牌 hoặc 令 bạn 摸两张牌。’",
   rexiahui: "黠慧",
   rexiahui_info:
     "Tỏa định kỹ，① bạn 的黑色牌不计入手牌上限。② khi 有其他角色获得 bạn 的黑色牌后，其于下次扣减体力前不能使用，打出，弃置这些牌。③一名其他角色的回合结束时，若其本回合失去过其所有“黠慧”牌，则其失去1 sinh lực 。",
@@ -8116,9 +8131,9 @@ export const translate_sp2 = {
     "① khi  bạn 受到 sát thương 后， bạn 可以摸一张牌， hoặc 和一名势力相同的其他角色各摸一张牌；②每回合限一次， khi  bạn 造成 sát thương 后， bạn 可以对一名与 bạn 势力不同的角色造成1点 sát thương 。",
   xibing: "息兵",
   xibing_info:
-    " khi 一名其他角色在其出牌阶段内使用黑色【杀】 hoặc 黑色普通锦囊牌指定唯一角色 là 目标后， bạn 可令该角色将手牌摸至 khi 前体力值(至多摸五张)且本回合不能再使用手牌。",
+    " khi 一名其他角色在其  giai đoạn ra bài内使用黑色【杀】 hoặc 黑色普通锦囊牌指定唯一角色 là 目标后， bạn 可令该角色将手牌摸至 khi 前体力值(至多摸五张)且本回合不能再使用手牌。",
   xibing_info_guozhan:
-    " khi 一名其他角色在其出牌阶段内使用第一张黑色【杀】 hoặc 黑色普通锦囊牌指定唯一角色 là 目标后， bạn 可令该角色将手牌摸至 khi 前体力(至多摸五张)值且本回合不能再使用手牌。若 bạn 与其均明置了所有武将牌，则 bạn 可以暗置 bạn 与其各一张武将牌且本回合不能再明置此武将牌。",
+    " khi 一名其他角色在其  giai đoạn ra bài内使用第一张黑色【杀】 hoặc 黑色普通锦囊牌指定唯一角色 là 目标后， bạn 可令该角色将手牌摸至 khi 前体力(至多摸五张)值且本回合不能再使用手牌。若 bạn 与其均明置了所有武将牌，则 bạn 可以暗置 bạn 与其各一张武将牌且本回合不能再明置此武将牌。",
   luyusheng: "陆郁生",
   zhente: "贞特",
   zhente2: "贞特",
@@ -8138,14 +8153,14 @@ export const translate_sp2 = {
     "准备阶段， bạn 可以选择至多X名角色（X là  bạn 已损失的体力值且至少 là 1）。 bạn 令这些角色中第一名角色的非Tỏa định kỹ失效直到回合结束；第二名角色交给 bạn 一张手牌；第三名及之后角色弃置装备区内的所有牌。",
   reqingcheng: "倾城",
   reqingcheng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名手牌数小于 bạn 的男性角色交换手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名手牌数小于 bạn 的男性角色交换手牌。",
   re_panshu: "潘淑",
   zhiren: "织纴",
   zhiren_info:
     " khi  bạn 于 bạn 的回合内使用第一张非转化牌时， bạn 可依次执行以下选项中的前X项：①卜算X。②可弃置场上的一张装备牌和延时锦囊牌。③回复1 sinh lực 。④摸三张牌。（X là 此牌的名称的字数）",
   yaner: "燕尔",
   yaner_info:
-    "每回合限一次。 khi 有其他角色于其出牌阶段内失去手牌后，若其没有手牌，则 bạn 可以与其各摸两张牌。若其以此法摸得的两张牌类型相同，则其回复1 sinh lực 。若 bạn 以此法摸得的两张牌类型相同，则 bạn 将〖织纴〗中的“ bạn 的回合内”改 là “一回合内”直至 bạn 下回合开始。",
+    "每回合限一次。 khi 有其他角色于其  giai đoạn ra bài内失去手牌后，若其没有手牌，则 bạn 可以与其各摸两张牌。若其以此法摸得的两张牌类型相同，则其回复1 sinh lực 。若 bạn 以此法摸得的两张牌类型相同，则 bạn 将〖织纴〗中的“ bạn 的回合内”改 là “一回合内”直至 bạn 下回合开始。",
   caoanmin: "曹安民",
   xianwei: "险卫",
   xianwei_info:
@@ -8153,7 +8168,7 @@ export const translate_sp2 = {
   zhanghu: "张虎",
   cuijian: "摧坚",
   cuijian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名有手牌的其他角色。若其手牌中有【闪】，则其将所有【闪】和防具牌交给 bạn ，然后 bạn 交给其等量的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名有手牌的其他角色。若其手牌中有【闪】，则其将所有【闪】和防具牌交给 bạn ，然后 bạn 交给其等量的牌。",
   zhtongyuan: "同援",
   zhtongyuan_info:
     "Tỏa định kỹ。① khi bạn sử dụng 红色锦囊牌后， bạn 于〖摧坚〗后增加“若其手牌中没有【闪】，则 bạn 摸两张牌”；② khi bạn sử dụng  hoặc 打出红色基本牌后， bạn 删除〖摧坚〗中的“，然后 bạn 交给其等量的牌”。③ khi bạn sử dụng 红色的普通锦囊牌/基本牌时，若 bạn 已发动过〖摧坚①〗和〖摧坚②〗，则此牌不可被响应/可额外增加一个目标。",
@@ -8167,9 +8182,9 @@ export const translate_sp2 = {
   lvlingqi: "吕玲绮",
   guowu: "帼舞",
   guowu_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示全部手牌，根据 bạn 展示的类型数， bạn 获得对应效果：至少一类，从弃牌堆获得一张【杀】；至少两类，此阶段使用牌无距离限制；至少三类，此阶段使用【杀】 hoặc 普通锦囊牌可以多指定两个目标。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示全部手牌，根据 bạn 展示的类型数， bạn 获得对应效果：至少一类，从弃牌堆获得一张【杀】；至少两类，此阶段使用牌无距离限制；至少三类，此阶段使用【杀】 hoặc 普通锦囊牌可以多指定两个目标。",
   guowu_info_guozhan:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示全部手牌，根据 bạn 展示的类型数， bạn 获得对应效果：至少一类，从弃牌堆获得一张【杀】；至少两类，此阶段使用牌无距离限制；至少三类，此阶段使用【杀】 hoặc 普通锦囊牌可以多指定两个目标（限一次）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示全部手牌，根据 bạn 展示的类型数， bạn 获得对应效果：至少一类，从弃牌堆获得一张【杀】；至少两类，此阶段使用牌无距离限制；至少三类，此阶段使用【杀】 hoặc 普通锦囊牌可以多指定两个目标（限一次）。",
   zhuangrong: "妆戎",
   zhuangrong_info:
     "觉醒技，一名角色的回合结束时，若 bạn 的体力值 hoặc 手牌数 là 1， bạn giảm 1 sinh lực 上限并回复体力至上限，将手牌摸至体力上限，然后获得〖神威〗和〖无双〗。",
@@ -8178,38 +8193,38 @@ export const translate_sp2 = {
     "Tỏa định kỹ，摸牌阶段开始时， bạn 令额定摸牌数+2； bạn 的手牌上限+2。",
   rexingluan: "兴乱",
   rexingluan_info:
-    "1 lần trong giai đoạn hành động， khi bạn sử dụng 的仅指定一个目标的牌结算完成后， bạn 可以获得场上一张与此牌 điểm số 相同的牌， hoặc 获得牌堆中随机一张 điểm số 与此牌相同的牌。",
+    "1 lần trong giai đoạn ra bài， khi bạn sử dụng 的仅指定一个目标的牌结算完成后， bạn 可以获得场上一张与此牌 điểm số 相同的牌， hoặc 获得牌堆中随机一张 điểm số 与此牌相同的牌。",
   xinxingluan: "兴乱",
   xinxingluan_info:
-    "每回合限一次。 khi  bạn 于出牌阶段使用牌结算结束后， bạn 可选择一项：①观看牌堆中的两张 điểm số  là 6的牌并获得其中一张（没有则改 là 摸六张牌）；②令一名其他角色弃置一张 điểm số  là 6的牌 hoặc 交给 bạn 一张牌；③获得场上的一张 điểm số  là 6的牌。",
+    "每回合限一次。 khi  bạn 于  giai đoạn ra bài使用牌结算结束后， bạn 可选择一项：①观看牌堆中的两张 điểm số  là 6的牌并获得其中一张（没有则改 là 摸六张牌）；②令一名其他角色弃置一张 điểm số  là 6的牌 hoặc 交给 bạn 一张牌；③获得场上的一张 điểm số  là 6的牌。",
   zhouyi: "周夷",
   zhukou: "逐寇",
   zhukou_info:
-    "① khi  bạn 于一名角色的出牌阶段第一次造成 sát thương 后， bạn 可以摸X张牌（X là 本回合 bạn 已使用的牌数）。② bạn 的 Giai đoạn kết thúc ，若 bạn 本回合没有造成 sát thương ， bạn 可以对两名其他角色各造成1点 sát thương 。",
+    "① khi  bạn 于一名角色的  giai đoạn ra bài第一次造成 sát thương 后， bạn 可以摸X张牌（X là 本回合 bạn 已使用的牌数）。② bạn 的 Giai đoạn kết thúc ，若 bạn 本回合没有造成 sát thương ， bạn 可以对两名其他角色各造成1点 sát thương 。",
   mengqing: "氓情",
   mengqing_info:
     "觉醒技。准备阶段，若场上已受伤的角色数大于 bạn 的体力值， bạn 加3 sinh lực 上限并回复3 sinh lực ，失去〖逐寇〗，获得〖玉殒〗。",
   yuyun: "玉殒",
   yuyun_info:
-    "Tỏa định kỹ，Bắt đầu giai đoạn hành động， bạn 失去1 sinh lực  hoặc 体力上限（不能减至1以下），然后选择X+1项（X là  bạn 已损失的体力值）：①摸两张牌；②对一名其他角色造成1点 sát thương ，然后本回合对其使用【杀】无距离和次数限制；③本回合的手牌上限视 là 无限；④获得一名其他角色区域内的一张牌；⑤令一名其他角色将手牌摸至体力上限（最多摸至5）。",
+    "Tỏa định kỹ，Bắt đầu giai đoạn ra bài， bạn 失去1 sinh lực  hoặc 体力上限（不能减至1以下），然后选择X+1项（X là  bạn 已损失的体力值）：①摸两张牌；②对一名其他角色造成1点 sát thương ，然后本回合对其使用【杀】无距离和次数限制；③本回合的手牌上限视 là 无限；④获得一名其他角色区域内的一张牌；⑤令一名其他角色将手牌摸至体力上限（最多摸至5）。",
   re_nanhualaoxian: "南华老仙",
   gongxiu: "共修",
   gongxiu_info:
     " Giai đoạn kết thúc ，若 bạn 本回合内发动过〖经合〗，则 bạn 选择一项：①令所有本回合内成 là 过〖经合〗目标的角色各摸一张牌；②令所有本回合内未成 là 过〖经合〗目标的角色各弃置一张手牌。",
   jinghe: "经合",
   jinghe_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示四张牌名各不相同的牌并选择等量的角色。系统从“写满技能的天书”中随机选择等量的技能，然后这些角色依次选择获得其中的一个。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示四张牌名各不相同的牌并选择等量的角色。系统从“写满技能的天书”中随机选择等量的技能，然后这些角色依次选择获得其中的一个。",
   nhyinbing: "阴兵",
   nhyinbing_info:
     "Tỏa định kỹ， bạn 使用的【杀】造成 sát thương 改 là 失去体力。其他角色失去体力后， bạn 摸一张牌。",
   nhhuoqi: "活气",
   nhhuoqi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后令体力值最少的一名角色回复1 sinh lực 并摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后令体力值最少的一名角色回复1 sinh lực 并摸一张牌。",
   nhguizhu: "鬼助",
   nhguizhu_info: "一名角色进入濒死状态时， bạn 可以摸两张牌（每回合限一次）。",
   nhxianshou: "仙授",
   nhxianshou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名角色令其摸一张牌。若其未受伤，则多摸一张。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名角色令其摸一张牌。若其未受伤，则多摸一张。",
   nhlundao: "论道",
   nhlundao_info:
     " khi  bạn 受到 sát thương 后，若 sát thương 来源比 bạn 手牌多， bạn 可以弃置其一张牌；若 sát thương 来源比 bạn 手牌少， bạn 摸一张牌。",
@@ -8230,7 +8245,7 @@ export const translate_sp2 = {
   tongyuan: "童渊",
   chaofeng: "朝凤",
   chaofeng_info:
-    "1 lần trong giai đoạn hành động。 khi  bạn 造成 sát thương 时， bạn 可以弃置一张牌，然后摸一张牌。若此 sát thương 的渠道 là 牌且 bạn 弃置的牌：与此牌颜色相同，则 bạn 改 là 摸两张牌；与此牌类型相同，则此 sát thương +1。",
+    "1 lần trong giai đoạn ra bài。 khi  bạn 造成 sát thương 时， bạn 可以弃置一张牌，然后摸一张牌。若此 sát thương 的渠道 là 牌且 bạn 弃置的牌：与此牌颜色相同，则 bạn 改 là 摸两张牌；与此牌类型相同，则此 sát thương +1。",
   chuanshu: "传术",
   chuanshu_info:
     "Hạn định kỹ。准备阶段，若 bạn 已受伤； hoặc  khi  bạn 死亡时， bạn 可令一名其他角色获得〖朝凤〗。然后 bạn 获得〖龙胆〗、〖从谏〗和〖穿云〗。",
@@ -8240,7 +8255,7 @@ export const translate_sp2 = {
   liuyong: "刘永",
   zhuning: "诛佞",
   zhuning_info:
-    "1 lần trong giai đoạn hành động。 bạn 可将任意张牌交给一名其他角色（称 là “隙”），然后可视 là 使用一张具有 sát thương 标签的基本牌/锦囊牌（不计入次数限制）。若 bạn 以此法使用的牌未造成 sát thương ，则 bạn 将〖诛佞〗于本回合内改 là “限两次”。",
+    "1 lần trong giai đoạn ra bài。 bạn 可将任意张牌交给一名其他角色（称 là “隙”），然后可视 là 使用一张具有 sát thương 标签的基本牌/锦囊牌（不计入次数限制）。若 bạn 以此法使用的牌未造成 sát thương ，则 bạn 将〖诛佞〗于本回合内改 là “限两次”。",
   fengxiang: "封乡",
   fengxiang_info:
     "Tỏa định kỹ。① khi  bạn 受到 sát thương 后，若场上：存在“隙”唯一最多的角色，则其回复1 sinh lực ；不存在，则 bạn 摸一张牌。② khi 有角色的手牌移动后，若场上“隙”最多的角色因此发生变化，则 bạn 摸一张牌。",
@@ -8248,14 +8263,14 @@ export const translate_sp2 = {
   zhangning: "张宁",
   tianze: "天则",
   tianze_info:
-    "①每回合限触发一次。其他角色于其出牌阶段内使用的黑色手牌结算结束后， bạn 可以弃置一张黑色牌，并对其造成1点 sát thương 。②其他角色的判定生效后，若结果 là 黑色，则 bạn 摸一张牌。",
+    "①每回合限触发一次。其他角色于其  giai đoạn ra bài内使用的黑色手牌结算结束后， bạn 可以弃置一张黑色牌，并对其造成1点 sát thương 。②其他角色的判定生效后，若结果 là 黑色，则 bạn 摸一张牌。",
   difa: "地法",
   difa_info:
     "每回合限一次。 khi  bạn 于回合内因摸牌而获得红色牌时， bạn 可以弃置之。然后 bạn 选择一个锦囊牌的牌名，并从牌堆中获得一张此牌名的牌。",
   re_xunchen: "荀谌",
   refenglve: "锋略",
   refenglve_info:
-    "1 lần trong giai đoạn hành động， bạn 可以和一名其他角色进行拼点。若 bạn 赢，其将区域内的两张牌交给 bạn ；若平局，则 bạn 令此技能于本阶段内的发动次数上限+1；若 bạn 输，其获得 bạn 的拼点牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以和一名其他角色进行拼点。若 bạn 赢，其将区域内的两张牌交给 bạn ；若平局，则 bạn 令此技能于本阶段内的发动次数上限+1；若 bạn 输，其获得 bạn 的拼点牌。",
   anyong: "暗涌",
   anyong_info:
     " khi 一名角色于其回合内第一次对其他角色造成 sát thương 后，若 sát thương 值 là 1，则 bạn 可弃置一张牌，并对受伤角色造成1点 sát thương 。",
@@ -8296,7 +8311,7 @@ export const translate_sp2 = {
     "一名角色成 là 【杀】的目标后，若其本回合内没有成 là 过其他红色牌的目标，则 bạn 可以令其摸一张牌。",
   reyingshui: "营说",
   reyingshui_info:
-    "1 lần trong giai đoạn hành động， bạn 可将一张牌交给攻击范围内的一名其他角色，然后其选择一项：①交给 bạn 至少两张装备牌。②受到1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可将一张牌交给攻击范围内的一名其他角色，然后其选择一项：①交给 bạn 至少两张装备牌。②受到1点 sát thương 。",
   rewangzu: "望族",
   rewangzu_info:
     "每回合限一次。 khi  bạn 受到其他角色造成的 sát thương 时， bạn 可随机弃置一张手牌，令此 sát thương -1。若 bạn 所在阵营的存活角色数是全场最多的，则 bạn 可以自行选择弃置的牌。",
@@ -8304,7 +8319,7 @@ export const translate_sp2 = {
   wangyue: "王悦",
   huguan: "护关",
   huguan_info:
-    "一名角色于出牌阶段内使用第一张牌时，若此牌 là 红色，则 bạn 可以声明一种花色。该花色的牌不计入其本回合的手牌上限。",
+    "一名角色于  giai đoạn ra bài内使用第一张牌时，若此牌 là 红色，则 bạn 可以声明一种花色。该花色的牌不计入其本回合的手牌上限。",
   yaopei: "摇佩",
   yaopei_info:
     "其他角色的弃牌阶段结束时，若其于本阶段内弃置过的牌的集合A不 là 空集，则 bạn 可以弃置一张与A中的牌花色均不相同的牌。然后 bạn 选择一项：①其摸两张牌， bạn 回复1 sinh lực 。②其回复1 sinh lực ， bạn 摸两张牌。",
@@ -8314,21 +8329,21 @@ export const translate_sp2 = {
   re_pangdegong: "庞德公",
   heqia: "和洽",
   heqia_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择一项：①将任意张牌交给一名其他角色。②令一名有手牌的其他角色交给 bạn 任意张牌。然后以此法获得牌的角色可以视 là 使用一张基本牌，且 khi 其声明使用此牌时，可以 là 此牌增加至至多X个目标（X là 以此法移动的牌数）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择一项：①将任意张牌交给一名其他角色。②令一名有手牌的其他角色交给 bạn 任意张牌。然后以此法获得牌的角色可以视 là 使用一张基本牌，且 khi 其声明使用此牌时，可以 là 此牌增加至至多X个目标（X là 以此法移动的牌数）。",
   yinyi: "隐逸",
   yinyi_info:
     "Tỏa định kỹ。每回合限一次， khi  bạn 受到非属性 sát thương 时，若 bạn 的手牌数和体力值与 sát thương 来源均不相同，则 bạn 防止此 sát thương 。",
   re_sunyi: "孙翊",
   syjiqiao: "激峭",
   syjiqiao_info:
-    "Bắt đầu giai đoạn hành động， bạn 可将牌堆顶的X张牌置于 bạn 的武将牌上（X là  bạn 的体力上限）。 khi  bạn 于此出牌阶段内使用的牌结算结束后， bạn 可以获得其中的一张牌，然后若剩余牌中红色牌和黑色牌的数量：不相等， bạn 失去1 sinh lực ；相等， bạn 回复1 sinh lực 。出牌阶段结束时， bạn 将这些牌置入弃牌堆。",
+    "Bắt đầu giai đoạn ra bài， bạn 可将牌堆顶的X张牌置于 bạn 的武将牌上（X là  bạn 的体力上限）。 khi  bạn 于此  giai đoạn ra bài内使用的牌结算结束后， bạn 可以获得其中的一张牌，然后若剩余牌中红色牌和黑色牌的数量：不相等， bạn 失去1 sinh lực ；相等， bạn 回复1 sinh lực 。  giai đoạn ra bài结束时， bạn 将这些牌置入弃牌堆。",
   syxiongyi: "凶疑",
   syxiongyi_info:
     "Hạn định kỹ。 khi  bạn 处于濒死状态时，若剩余武将牌堆中：有“徐氏”，则 bạn 将体力值回复至3点，并将此武将牌替换 là “徐氏”；没有“徐氏”，则 bạn 将体力值回复至1点并获得〖魂姿〗。",
   zhaoyan: "赵嫣",
   jinhui: "锦绘",
   jinhui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以随机展示牌堆中的三张不具有“ sát thương ”标签且使用目标范围 là “自己” hoặc “一名角色”的牌，然后选择一名其他角色。该角色选择并按如下“锦绘”规则使用其中一张，然后 bạn 可以按如下“锦绘”规则使用剩余的任意张牌：若此牌的使用目标 là “自己”，则对自己使用该牌，否则对对方使用该牌（无距离限制且不计入次数限制）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以随机展示牌堆中的三张不具有“ sát thương ”标签且使用目标范围 là “自己” hoặc “一名角色”的牌，然后选择一名其他角色。该角色选择并按如下“锦绘”规则使用其中一张，然后 bạn 可以按如下“锦绘”规则使用剩余的任意张牌：若此牌的使用目标 là “自己”，则对自己使用该牌，否则对对方使用该牌（无距离限制且不计入次数限制）。",
   qingman: "轻幔",
   qingman_info:
     "Tỏa định kỹ。一名角色的回合结束时， bạn 将手牌摸至X张（X là 其装备区中空栏的数量）。",
@@ -8336,7 +8351,7 @@ export const translate_sp2 = {
   xinzhoufu: "咒缚",
   xinzhoufu2: "咒缚",
   xinzhoufu_info:
-    "①1 lần trong giai đoạn hành động， bạn 可以将一张手牌置于一名其他角色的武将牌上并称 là “咒”。②一名有“咒”的角色判定时， bạn 令其以“咒”作 là 判定牌。",
+    "①1 lần trong giai đoạn ra bài， bạn 可以将一张手牌置于一名其他角色的武将牌上并称 là “咒”。②一名有“咒”的角色判定时， bạn 令其以“咒”作 là 判定牌。",
   xinyingbing: "影兵",
   xinyingbing_info:
     "Tỏa định kỹ。每回合每名角色限一次， khi bạn sử dụng 牌指定有“咒”的角色 là 目标后， bạn 摸两张牌。",
@@ -8353,14 +8368,14 @@ export const translate_sp2 = {
     " khi  bạn 成 là 其他角色使用黑色牌的目标后， bạn 可以失去1 sinh lực ，然后选择一项：⒈令其将手牌数弃置至与 bạn 相同；⒉令其失去Y sinh lực （Y là 其的体力值减去 bạn 的体力值，不 là 正时不可选择）",
   boyan: "驳言",
   boyan_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择一名其他角色。其将手牌摸至体力上限（至多摸至五张），然后其本回合不能使用 hoặc 打出手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择一名其他角色。其将手牌摸至体力上限（至多摸至五张），然后其本回合不能使用 hoặc 打出手牌。",
   re_dengzhi: "邓芝",
   jianliang: "简亮",
   jianliang_info:
     "摸牌阶段开始时，若 bạn 的手牌数不 là 全场最多，则 bạn 可以令至多两名角色各摸一张牌。",
   weimeng: "危盟",
   weimeng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以获得一名其他角色的至多X张手牌，然后交给其等量的牌（X là  bạn 的体力值）。若 bạn 给出的牌 điểm số 之和：大于获得的牌，则 bạn 摸一张牌；小于获得的牌，弃置该角色区域内的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以获得一名其他角色的至多X张手牌，然后交给其等量的牌（X là  bạn 的体力值）。若 bạn 给出的牌 điểm số 之和：大于获得的牌，则 bạn 摸一张牌；小于获得的牌，弃置该角色区域内的一张牌。",
   haomeng: "郝萌",
   xiongmang: "雄莽",
   xiongmang_info:
@@ -8368,7 +8383,7 @@ export const translate_sp2 = {
   yanfuren: "严夫人",
   channi: "谗逆",
   channi_info:
-    "1 lần trong giai đoạn hành động。 bạn 可将任意张手牌交给一名其他角色，然后其可以将等量的手牌 khi 做【决斗】使用。若其因此【决斗】造成了 sát thương ，则其摸X张牌（X là 此【决斗】对应的实体牌数）。若其因此【决斗】受到过 sát thương ，则 bạn 弃置所有手牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可将任意张手牌交给一名其他角色，然后其可以将等量的手牌 khi 做【决斗】使用。若其因此【决斗】造成了 sát thương ，则其摸X张牌（X là 此【决斗】对应的实体牌数）。若其因此【决斗】受到过 sát thương ，则 bạn 弃置所有手牌。",
   nifu: "匿伏",
   nifu_info: "Tỏa định kỹ。一名角色的回合结束时， bạn 将手牌摸至三张。",
   wufan: "吴范",
@@ -8388,27 +8403,27 @@ export const translate_sp2 = {
   mamidi: "马日磾",
   bingjie: "秉节",
   bingjie_info:
-    "Bắt đầu giai đoạn hành động， bạn 可减1 sinh lực 上限，然后 khi  bạn 于本阶段内使用【杀】 hoặc 普通锦囊牌指定其他角色 là 目标后，其弃置一张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可减1 sinh lực 上限，然后 khi  bạn 于本阶段内使用【杀】 hoặc 普通锦囊牌指定其他角色 là 目标后，其弃置一张牌。",
   zhengding: "正订",
   zhengding_info:
     "Tỏa định kỹ。 khi  bạn 于回合外使用 hoặc 打出牌响应其他角色使用的牌时，若这两张牌花色相同，则 bạn 加1 sinh lực 上限。",
   licaiwei: "李采薇",
   yijiao: "异教",
   yijiao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名没有“异”标记的其他角色并声明一个整数X（X∈[1,4]），该角色获得10X个“异”标记。有“异”标记的角色的 Giai đoạn kết thúc ，其移去“异”标记，且若其本回合使用牌的 điểm số 之和：1.小于“异”标记数，其随机弃置一张手牌；2.等于“异”标记数，该角色本回合结束后进行一个额外的回合；3.大于“异”标记数， bạn 摸两张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名没有“异”标记的其他角色并声明一个整数X（X∈[1,4]），该角色获得10X个“异”标记。有“异”标记的角色的 Giai đoạn kết thúc ，其移去“异”标记，且若其本回合使用牌的 điểm số 之和：1.小于“异”标记数，其随机弃置一张手牌；2.等于“异”标记数，该角色本回合结束后进行一个额外的回合；3.大于“异”标记数， bạn 摸两张牌。",
   qibie: "泣别",
   qibie_info:
     "一名角色死亡后，若 bạn 有手牌且这些手牌均可被弃置，则 bạn 可以弃置所有手牌，然后回复1 sinh lực 并摸X+1张牌（X là  bạn 弃置的牌数）。",
   dc_jiben: "吉本",
   xunli: "寻疠",
   xunli_info:
-    "Tỏa định kỹ。① khi 有黑色牌因弃置而进入弃牌堆后，若X大于0，则 bạn 将其中的X张牌置于武将牌上作 là “疠”（X=min(这些牌的数量，9-Y)，Y= bạn 的“疠”数）。②Bắt đầu giai đoạn hành động， bạn 可以用任意张黑色手牌交换等量的“疠”。",
+    "Tỏa định kỹ。① khi 有黑色牌因弃置而进入弃牌堆后，若X大于0，则 bạn 将其中的X张牌置于武将牌上作 là “疠”（X=min(这些牌的数量，9-Y)，Y= bạn 的“疠”数）。②Bắt đầu giai đoạn ra bài， bạn 可以用任意张黑色手牌交换等量的“疠”。",
   zhishi: "指誓",
   zhishi_info:
     " Giai đoạn kết thúc ， bạn 可选择一名角色。 khi 该角色于 bạn 的下回合开始前{成 là 【杀】的目标后 hoặc 进入濒死状态时}， bạn 可移去任意张“疠”，然后其摸等量的牌。",
   lieyi: "烈医",
   lieyi_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以展示所有“疠”并选择一名其他角色，对其使用其中的一张可对其使用的牌（无距离和次数限制）并重复此流程，并将其余的牌置于弃牌堆。然后若其存活且未于此流程中因受到 sát thương 而进入过濒死状态，则 bạn 失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以展示所有“疠”并选择一名其他角色，对其使用其中的一张可对其使用的牌（无距离和次数限制）并重复此流程，并将其余的牌置于弃牌堆。然后若其存活且未于此流程中因受到 sát thương 而进入过濒死状态，则 bạn 失去1 sinh lực 。",
   dc_luotong: "骆统",
   renzheng: "仁政",
   renzheng_info:
@@ -8419,7 +8434,7 @@ export const translate_sp2 = {
   dc_zhuling: "朱灵",
   dczhanyi: "战意",
   dczhanyi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以弃置所有基本牌/锦囊牌/装备牌，然后获得另外两种类型的牌对应的效果直到回合结束：基本牌、 bạn 使用基本牌无距离限制，且 sát thương 值和回复值基数+1；锦囊牌、 bạn 使用锦囊牌时摸一张牌，且锦囊牌不计入手牌上限；装备牌， khi bạn sử dụng 装备牌时， bạn 可弃置一名其他角色的一张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以弃置所有基本牌/锦囊牌/装备牌，然后获得另外两种类型的牌对应的效果直到回合结束：基本牌、 bạn 使用基本牌无距离限制，且 sát thương 值和回复值基数+1；锦囊牌、 bạn 使用锦囊牌时摸一张牌，且锦囊牌不计入手牌上限；装备牌， khi bạn sử dụng 装备牌时， bạn 可弃置一名其他角色的一张牌。",
   tengyin: "滕胤",
   chenjian: "陈见",
   chenjian_info:
@@ -8434,7 +8449,7 @@ export const translate_sp2 = {
   dc_gaolan: "高览",
   xizhen: "袭阵",
   xizhen_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择一名其他角色，视 là 对其使用【杀】 hoặc 【决斗】。然后 khi 有角色于本阶段内使用 hoặc 打出牌响应 bạn 时，该角色回复1 sinh lực ， bạn 摸一张牌（若其满体力，改 là 两张）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择一名其他角色，视 là 对其使用【杀】 hoặc 【决斗】。然后 khi 有角色于本阶段内使用 hoặc 打出牌响应 bạn 时，该角色回复1 sinh lực ， bạn 摸一张牌（若其满体力，改 là 两张）。",
   caomao: "曹髦",
   qianlong: "潜龙",
   qianlong_info:
@@ -8444,14 +8459,14 @@ export const translate_sp2 = {
     "Tỏa định kỹ。准备阶段， bạn 须选择一名体力值不小于 bạn 的角色并对其造成1点 sát thương ，然后若 bạn 选择的角色不 là  bạn 自己，则其视 là 对 bạn 使用一张【杀】。",
   juetao: "决讨",
   juetao_info:
-    "Hạn định kỹ。Bắt đầu giai đoạn hành động，若 bạn 的体力值 là 1，则 bạn 可以选择一名其他角色。 bạn 展示牌堆底的一张牌，若此牌能被 bạn 使用，则 bạn 使用此牌并重复此流程直到出现不可使用的牌 hoặc 其死亡（ bạn 与其以外的角色不是此牌的合法目标）。",
+    "Hạn định kỹ。Bắt đầu giai đoạn ra bài，若 bạn 的体力值 là 1，则 bạn 可以选择一名其他角色。 bạn 展示牌堆底的一张牌，若此牌能被 bạn 使用，则 bạn 使用此牌并重复此流程直到出现不可使用的牌 hoặc 其死亡（ bạn 与其以外的角色不是此牌的合法目标）。",
   zhushi: "助势",
   zhushi_info:
     "Chủ công kỹ。每回合限一次，其他魏势力角色于回合内回复体力时，其可令 bạn 摸一张牌。",
   laiyinger: "来莺儿",
   xiaowu: "绡舞",
   xiaowu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择任意名座位连续且包含 bạn 的上家/下家的角色。这些角色依次选择一项：⒈令 bạn 摸一张牌；⒉其摸一张牌。然后若选择选项一的角色数大于选项二的角色数，则 bạn 获得一枚“沙”；若选择选项二的角色数大于选项一的角色数，则 bạn 对这次角色依次造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择任意名座位连续且包含 bạn 的上家/下家的角色。这些角色依次选择一项：⒈令 bạn 摸一张牌；⒉其摸一张牌。然后若选择选项一的角色数大于选项二的角色数，则 bạn 获得一枚“沙”；若选择选项二的角色数大于选项一的角色数，则 bạn 对这次角色依次造成1点 sát thương 。",
   huaping: "化萍",
   huaping_info:
     "Hạn định kỹ。①一名其他角色死亡时， bạn 可获得其 khi 前拥有的所有不带有「Charlotte」标签的技能，然后 bạn 失去〖绡舞〗，移去所有“沙”并摸等量的牌。② khi  bạn 死亡时， bạn 可令一名其他角色获得〖沙舞〗和 bạn 的所有“沙”。",
@@ -8461,7 +8476,7 @@ export const translate_sp2 = {
   dc_huangchengyan: "黄承彦",
   dcjiezhen: "解阵",
   dcjiezhen_info:
-    "1 lần trong giai đoạn hành động， bạn 可选择一名其他角色。该角色获得〖八阵〗，且其所有不 là {Tỏa định kỹ、Hạn định kỹ、觉醒技、Chủ công kỹ、带有Charlotte标签}的技能失效。 bạn 的下回合开始时， hoặc 其因〖八卦阵〗发起的判定结算结束后， bạn 令其恢复其以此法失效的所有技能并失去以此法获得的〖八阵〗，然后获得其区域内的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可选择一名其他角色。该角色获得〖八阵〗，且其所有不 là {Tỏa định kỹ、Hạn định kỹ、觉醒技、Chủ công kỹ、带有Charlotte标签}的技能失效。 bạn 的下回合开始时， hoặc 其因〖八卦阵〗发起的判定结算结束后， bạn 令其恢复其以此法失效的所有技能并失去以此法获得的〖八阵〗，然后获得其区域内的一张牌。",
   dczecai: "择才",
   dczecai_info:
     "Hạn định kỹ。一轮游戏开始时，若游戏轮数大于1，则 bạn 可令一名其他角色获得〖集智〗直到下一轮游戏开始；若其是上一轮内使用过锦囊牌数量唯一最多的角色，则其获得一个额外的回合。",
@@ -8478,7 +8493,7 @@ export const translate_sp2 = {
   zhangyao: "张媱",
   yuanyu: "怨语",
   yuanyu_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以摸一张牌，然后选择一张手牌和一名其他角色。该角色获得如下效果直到 bạn 发动〖夕颜〗：{ khi 该角色造成1点 sát thương 后，其须将一张手牌作 là “怨”置于 bạn 的武将牌上}。然后 bạn 将 bạn 选择的手牌作 là “怨”置于 bạn 的武将牌上。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以摸一张牌，然后选择一张手牌和一名其他角色。该角色获得如下效果直到 bạn 发动〖夕颜〗：{ khi 该角色造成1点 sát thương 后，其须将一张手牌作 là “怨”置于 bạn 的武将牌上}。然后 bạn 将 bạn 选择的手牌作 là “怨”置于 bạn 的武将牌上。",
   xiyan: "夕颜",
   xiyan_info:
     "Tỏa định kỹ。 khi 有牌作 là “怨”移动到 bạn 的武将牌上后，若“怨”中的花色数达到4种，则 bạn 获得所有“怨”。然后若 khi 前回合角色：是 bạn ， bạn 本回合手牌上限+4且使用牌无次数限制；不是 bạn ， khi 前回合角色本回合手牌上限-4且不能使用基本牌。",
@@ -8509,11 +8524,11 @@ export const translate_sp2 = {
     "每回合限两次。 khi  bạn 成 là 其他角色使用的黑色牌的目标后， bạn 可以摸一张牌，然后若其手牌数不小于 bạn ，则 bạn 弃置其一张牌。",
   dcmingfa: "明伐",
   dcmingfa_info:
-    "①1 lần trong giai đoạn hành động。 khi bạn sử dụng 【杀】 hoặc 普通锦囊牌结算结束后，若 bạn 的武将牌上没有“明伐”牌，则 bạn 可以将此牌作 là “明伐”牌置于武将牌上并选择一名其他角色，记录该角色和此牌的名称。②一名角色的回合结束时，若其是 bạn 〖明伐①〗记录的角色，则 bạn 视 là 对其依次使用X张〖明伐①〗记录的牌，然后移去“明伐”牌（X là 其手牌数且至少 là 1，至多 là 5）。③一名角色死亡时，若其是 bạn 〖明伐①〗记录的角色，则 bạn 移去“明伐”牌。",
+    "①1 lần trong giai đoạn ra bài。 khi bạn sử dụng 【杀】 hoặc 普通锦囊牌结算结束后，若 bạn 的武将牌上没有“明伐”牌，则 bạn 可以将此牌作 là “明伐”牌置于武将牌上并选择一名其他角色，记录该角色和此牌的名称。②一名角色的回合结束时，若其是 bạn 〖明伐①〗记录的角色，则 bạn 视 là 对其依次使用X张〖明伐①〗记录的牌，然后移去“明伐”牌（X là 其手牌数且至少 là 1，至多 là 5）。③一名角色死亡时，若其是 bạn 〖明伐①〗记录的角色，则 bạn 移去“明伐”牌。",
   zhangxuan: "张嫙",
   tongli: "同礼",
   tongli_info:
-    " khi  bạn 于出牌阶段不因〖同礼〗而使用基本牌 hoặc 普通锦囊牌指定第一个目标后，若 bạn 手牌中的花色数和 bạn 于本阶段内不因〖同礼〗而使用过的牌数相等，则 bạn 可以于此牌结算结束后依次视 là 对此牌的所有目标使用X张名称和属性相同的牌（X là  bạn 手牌中的花色数）。",
+    " khi  bạn 于  giai đoạn ra bài不因〖同礼〗而使用基本牌 hoặc 普通锦囊牌指定第一个目标后，若 bạn 手牌中的花色数和 bạn 于本阶段内不因〖同礼〗而使用过的牌数相等，则 bạn 可以于此牌结算结束后依次视 là 对此牌的所有目标使用X张名称和属性相同的牌（X là  bạn 手牌中的花色数）。",
   shezang: "奢葬",
   shezang_info:
     "每轮限一次。 khi  bạn  hoặc  bạn 回合内的其他角色进入濒死状态时， bạn 可以从牌堆中获得每种花色的牌各一张。",
@@ -8547,7 +8562,7 @@ export const translate_sp2 = {
   dc_jiling: "纪灵",
   dcshuangren: "双刃",
   dcshuangren_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以和一名其他角色A进行拼点。若 bạn 赢， bạn 选择一名角色B， hoặc 选择包含A在内的两名角色A和B（B的势力需与A相同），然后视 là 对被选择的角色使用一张【杀】（不计入次数限制）；若 bạn 没赢，则 bạn 本阶段内不能使用【杀】。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以和一名其他角色A进行拼点。若 bạn 赢， bạn 选择一名角色B， hoặc 选择包含A在内的两名角色A和B（B的势力需与A相同），然后视 là 对被选择的角色使用一张【杀】（不计入次数限制）；若 bạn 没赢，则 bạn 本阶段内不能使用【杀】。",
   dc_sunru: "孙茹",
   xiecui: "撷翠",
   xiecui_info:
@@ -8562,25 +8577,25 @@ export const translate_sp2 = {
   dcsushou: "夙守",
   dcsushou_tag: "对方手牌",
   dcsushou_info:
-    "一名角色的Bắt đầu giai đoạn hành động，若其手牌数 là 全场唯一最多，则 bạn 可以失去1 sinh lực 并摸X张牌。然后若该角色不是 bạn ，则 bạn 可以观看其一半的手牌（向下取整），且用至多X张手牌替换其中等量的牌。（X là  bạn 已损失的体力值）",
+    "一名角色的Bắt đầu giai đoạn ra bài，若其手牌数 là 全场唯一最多，则 bạn 可以失去1 sinh lực 并摸X张牌。然后若该角色不是 bạn ，则 bạn 可以观看其一半的手牌（向下取整），且用至多X张手牌替换其中等量的牌。（X là  bạn 已损失的体力值）",
   dc_wangchang: "王昶",
   dckaiji: "开济",
   dckaiji_info:
-    "Chuyển hoán kỹ。1 lần trong giai đoạn hành động， bạn 可以：阴：摸X张牌；阳：弃置至多X张牌（X là  bạn 的体力上限且至多 là 5）。",
+    "Chuyển hoán kỹ。1 lần trong giai đoạn ra bài， bạn 可以：阴：摸X张牌；阳：弃置至多X张牌（X là  bạn 的体力上限且至多 là 5）。",
   dcpingxi: "平袭",
   dcpingxi_info:
     " Giai đoạn kết thúc ，若X大于0，则 bạn 可以选择至多X名其他角色（X là 本回合内因弃置而进入弃牌堆的牌数）。 bạn 依次弃置这些角色的各一张牌，然后视 là 对这些角色使用一张【杀】。",
   fengfang: "冯方",
   dcditing: "谛听",
   dcditing_info:
-    "其他角色的Bắt đầu giai đoạn hành động，若 bạn 在该角色的攻击范围内，则 bạn 可以观看其的X张手牌（X là  bạn 的体力值）并选择其中一张，且获得如下效果：① khi 其使用对应实体牌包含此牌的牌指定 bạn  là 目标后， bạn 令此牌对 bạn 无效。② khi 其使用对应实体牌包含此牌的牌结算结束后，若 bạn 不是此牌的目标，则 bạn 摸两张牌。③其出牌阶段结束时，若此牌位于其的手牌区，则 bạn 获得此牌。",
+    "其他角色的Bắt đầu giai đoạn ra bài，若 bạn 在该角色的攻击范围内，则 bạn 可以观看其的X张手牌（X là  bạn 的体力值）并选择其中一张，且获得如下效果：① khi 其使用对应实体牌包含此牌的牌指定 bạn  là 目标后， bạn 令此牌对 bạn 无效。② khi 其使用对应实体牌包含此牌的牌结算结束后，若 bạn 不是此牌的目标，则 bạn 摸两张牌。③其  giai đoạn ra bài结束时，若此牌位于其的手牌区，则 bạn 获得此牌。",
   dcbihuo: "避祸",
   dcbihuo_info:
     "① khi  bạn 受到其他角色造成的 sát thương 后， bạn 可令一名角色下回合摸牌阶段的额定摸牌数+1。② khi  bạn 对其他角色造成 sát thương 后， bạn 可令一名角色下回合摸牌阶段的额定摸牌数-1。",
   zhangxun: "张勋",
   suizheng: "随征",
   suizheng_info:
-    " Giai đoạn kết thúc ， bạn 可以选择一名角色Ａ，获得如下效果直到其下回合结束：①Ａ于下回合出牌阶段内使用【杀】的次数上限+1且无距离限制；②Ａ下回合的出牌阶段结束时， bạn 可以选择一名此阶段内受到过Ａ造成的 sát thương 的角色Ｂ，视 là 对Ｂ使用一张【杀】。",
+    " Giai đoạn kết thúc ， bạn 可以选择一名角色Ａ，获得如下效果直到其下回合结束：①Ａ于下回合  giai đoạn ra bài内使用【杀】的次数上限+1且无距离限制；②Ａ下回合的  giai đoạn ra bài结束时， bạn 可以选择一名此阶段内受到过Ａ造成的 sát thương 的角色Ｂ，视 là 对Ｂ使用一张【杀】。",
   dc_liuba: "刘巴",
   dczhubi: "铸币",
   dczhubi_info:
@@ -8595,22 +8610,22 @@ export const translate_sp2 = {
     "①其他角色对 bạn 使用的结算结束后，若 bạn 未因此技能记录过此牌的名称且 bạn 有未废除的装备栏，则 bạn 可以废除一个装备栏，记录此牌的名称。②每回合每种牌名限一次。 bạn 可以将一张非基本牌 khi 做〖浮萍①〗记录过的基本牌 hoặc 锦囊牌使用 hoặc 打出。③若 bạn 的所有装备栏均已被废除，则 bạn 使用牌无距离限制。",
   weilie: "炜烈",
   weilie_info:
-    "每局游戏限X次。出牌阶段， bạn 可以弃置一张牌并选择一名已受伤的角色，令该角色回复1 sinh lực 。然后若其体力值小于体力上限，则其摸一张牌（X là  bạn 〖浮萍①〗中的记录数+1）。",
+    "每局游戏限X次。  giai đoạn ra bài， bạn 可以弃置一张牌并选择一名已受伤的角色，令该角色回复1 sinh lực 。然后若其体力值小于体力上限，则其摸一张牌（X là  bạn 〖浮萍①〗中的记录数+1）。",
   bianxi: "卞喜",
   dunxi: "钝袭",
   dunxi_info:
-    "① khi bạn sử dụng 具有 sát thương 标签的牌结算结束后， bạn 可以令一名不 là  bạn 的目标角色获得一枚“钝”。②有“钝”的角色使用基本牌 hoặc 锦囊牌指定唯一目标时， bạn 令其移去一枚“钝”。系统随机选择一名角色，并将此牌的目标改 là 该角色。若该角色和原目标相同，则其移去所有“钝”，失去1 sinh lực 。若其正处于出牌阶段内，则结束此阶段。",
+    "① khi bạn sử dụng 具有 sát thương 标签的牌结算结束后， bạn 可以令一名不 là  bạn 的目标角色获得一枚“钝”。②有“钝”的角色使用基本牌 hoặc 锦囊牌指定唯一目标时， bạn 令其移去一枚“钝”。系统随机选择一名角色，并将此牌的目标改 là 该角色。若该角色和原目标相同，则其移去所有“钝”，失去1 sinh lực 。若其正处于  giai đoạn ra bài内，则结束此阶段。",
   niufu: "牛辅",
   dcxiaoxi: "宵袭",
   dcxiaoxi_info:
-    "Tỏa định kỹ。Bắt đầu giai đoạn hành động， bạn 声明X并减X sinh lực 上限（X∈[1,2]）。然后 bạn 选择一名攻击范围内的其他角色并选择一项：⒈获得该角色的X张牌。⒉视 là 对其使用X张【杀】。",
+    "Tỏa định kỹ。Bắt đầu giai đoạn ra bài， bạn 声明X并减X sinh lực 上限（X∈[1,2]）。然后 bạn 选择一名攻击范围内的其他角色并选择一项：⒈获得该角色的X张牌。⒉视 là 对其使用X张【杀】。",
   xiongrao: "熊扰",
   xiongrao_info:
     "Hạn định kỹ。准备阶段开始时， bạn 可以选择所有其他角色。这些角色本回合内所有不 là Tỏa định kỹ、Hạn định kỹ、觉醒技的普通技能失效。然后 bạn 将体力上限增加至7点并摸X张牌（X là  bạn 以此法增加的体力上限数）。",
   huzhao: "胡昭",
   midu: "弥笃",
   midu_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以选择一项：⒈废除任意个装备栏，并令一名角色摸等量的牌。⒉恢复一个已经被废除的装备栏，然后 bạn 获得〖活墨〗直到下回合开始。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以选择一项：⒈废除任意个装备栏，并令一名角色摸等量的牌。⒉恢复一个已经被废除的装备栏，然后 bạn 获得〖活墨〗直到下回合开始。",
   xianwang: "贤望",
   xianwang_info:
     "Tỏa định kỹ。若 bạn 有被废除的装备栏，则其他角色至 bạn 的距离+1；若废除的装备栏数大于2，则改 là 距离+2。",
@@ -8765,11 +8780,12 @@ export const translate_standard = {
     "准备阶段， bạn 可以判定，若 là 黑色则可以继续判定，直到出现红色。然后 bạn 获得所有黑色的判定牌。 bạn 通过洛神获得的牌，不计入 khi 前回合的手牌上限",
   qingguo_info: " bạn 可以将一张黑色手牌 khi 做【闪】使用 hoặc 打出。",
   rende_info:
-    "出牌阶段， bạn 可以将任意张手牌交给其他角色。 khi  bạn 以此法于一回合内给出第二张牌时， bạn 回复1 sinh lực 。",
+    "  giai đoạn ra bài， bạn 可以将任意张手牌交给其他角色。 khi  bạn 以此法于一回合内给出第二张牌时， bạn 回复1 sinh lực 。",
   jijiang_info:
     "Chủ công kỹ， khi  bạn 需要使用 hoặc 打出【杀】时， bạn 可以令其他蜀势力角色依次选择是否打出一张【杀】。若有角色响应，则 bạn 视 là 使用 hoặc 打出了此【杀】。",
   wusheng_info: " bạn 可以将一张红色牌 khi 做【杀】使用 hoặc 打出。",
-  paoxiao_info: "Tỏa định kỹ，出牌阶段， bạn 使用【杀】没有数量限制。",
+  paoxiao_info:
+    "Tỏa định kỹ，  giai đoạn ra bài， bạn 使用【杀】没有数量限制。",
   guanxing_info:
     "准备阶段， bạn 可以观看牌堆顶的X张牌，并将其以任意顺序置于牌堆项 hoặc 牌堆底。（X là 存活角色数且至多 là 5）",
   kongcheng_info:
@@ -8791,11 +8807,12 @@ export const translate_standard = {
   xinqicai_info_alter:
     "Tỏa định kỹ， bạn 使用的锦囊牌无距离限制， bạn 装备区内的牌不能被弃置",
   qicai_info: "Tỏa định kỹ， bạn 使用锦囊牌无距离限制。",
-  zhiheng_info: "出牌阶段一次， bạn 可以弃置任意张牌，然后摸等量的牌。",
+  zhiheng_info:
+    "  giai đoạn ra bài一次， bạn 可以弃置任意张牌，然后摸等量的牌。",
   xinzhiheng: "制衡",
-  xinzhiheng_info: "出牌阶段限1次， bạn 可以弃置任意张牌并摸等量的牌",
+  xinzhiheng_info: "  giai đoạn ra bài限1次， bạn 可以弃置任意张牌并摸等量的牌",
   xinzhiheng_info_alter:
-    "出牌阶段限1次， bạn 可以弃置任意张牌并摸等量的牌，如果在发动制衡时弃置了所有手牌， bạn 额外摸一张牌",
+    "  giai đoạn ra bài限1次， bạn 可以弃置任意张牌并摸等量的牌，如果在发动制衡时弃置了所有手牌， bạn 额外摸一张牌",
   jiuyuan_info:
     "Chủ công kỹ，Tỏa định kỹ，其他吴势力角色对 bạn 使用的【桃】的回复值+1。",
   xinjiuyuan: "救援",
@@ -8805,11 +8822,11 @@ export const translate_standard = {
     "Chủ công kỹ，其他吴国角色对自己使用【桃】时，如果他的体力值大于 bạn ，他可以选择让 bạn 回复1 sinh lực ，然后他摸1张牌",
   qixi_info: " bạn 可以将一张黑色牌 khi 做【过河拆桥】使用。",
   keji_info:
-    "弃牌阶段开始时，若 bạn 于本回合的出牌阶段内没有过使用 hoặc 打出过【杀】，则 bạn 可以跳过此阶段。",
-  kurou_info: "出牌阶段， bạn 可以失去一 sinh lực ，然后摸两张牌。",
+    "弃牌阶段开始时，若 bạn 于本回合的  giai đoạn ra bài内没有过使用 hoặc 打出过【杀】，则 bạn 可以跳过此阶段。",
+  kurou_info: "  giai đoạn ra bài， bạn 可以失去一 sinh lực ，然后摸两张牌。",
   yingzi_info: "摸牌阶段， bạn 可以多摸一张牌。",
   fanjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名角色选择一种花色并展示 bạn 的一张手牌，若选择的花色与展示的不同，该角色受到来自 bạn 的一点 sát thương 。然后该角色获得展示的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名角色选择一种花色并展示 bạn 的一张手牌，若选择的花色与展示的不同，该角色受到来自 bạn 的一点 sát thương 。然后该角色获得展示的牌。",
   guose_info: " bạn 可以将一张方片手牌 khi 做【乐不思蜀】使用。",
   liuli_info:
     " khi  bạn 成 là 【杀】的目标时， bạn 可以弃置一张牌并将此【杀】转移给攻击范围内的一名其他角色（不能是此【杀】的使用者）。",
@@ -8818,22 +8835,22 @@ export const translate_standard = {
   lianying_info: " khi  bạn 失去最后的手牌时， bạn 可以摸一张牌。",
   xiaoji_info: " khi  bạn 失去一张装备区内的牌后， bạn 可以摸两张牌。",
   jieyin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张手牌并选择一名已经受伤的男性角色。 bạn 与其各回复一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张手牌并选择一名已经受伤的男性角色。 bạn 与其各回复一 sinh lực 。",
   xinjieyin_info:
-    "出牌阶段， bạn 可以弃置两张牌并选择1名已经受伤的男性角色， bạn 与其各回复一 sinh lực ，每阶段限一次",
+    "  giai đoạn ra bài， bạn 可以弃置两张牌并选择1名已经受伤的男性角色， bạn 与其各回复一 sinh lực ，每阶段限一次",
   xinjieyin_old_info:
-    "出牌阶段， bạn 可以弃置两张牌并选择1名已经受伤的男性角色， bạn 与其各回复一 sinh lực 。每阶段限一次。",
+    "  giai đoạn ra bài， bạn 可以弃置两张牌并选择1名已经受伤的男性角色， bạn 与其各回复一 sinh lực 。每阶段限一次。",
   xinjieyin_new_info:
-    "出牌阶段限1次， bạn 可以选择一名男性角色，弃置一张手牌 hoặc 将一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực ",
+    "  giai đoạn ra bài限1次， bạn 可以选择一名男性角色，弃置一张手牌 hoặc 将一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực ",
   xinjieyin_info_alter:
-    "出牌阶段限1次， bạn 可以选择一名男性角色，弃置一张手牌 hoặc 将一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực ",
+    "  giai đoạn ra bài限1次， bạn 可以选择一名男性角色，弃置一张手牌 hoặc 将一张装备牌置于其装备区， bạn 与其体力较高的角色摸一张牌，体力值较低的角色回复1 sinh lực ",
   qingnang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌并令一名角色回复一 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌并令一名角色回复一 sinh lực 。",
   jijiu_info: " bạn 的回合外， bạn 可以将一张红色牌 khi 做【桃】使用。",
   wushuang_info:
     "Tỏa định kỹ， khi bạn sử dụng 【杀】 hoặc 【决斗】指定目标后， bạn 令此牌需要依次使用 hoặc 打出两张【闪】 hoặc 【杀】响应。",
   lijian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，视 là 一名男性角色对另一名男性角色使用一张【决斗】（不可被【 Vô Giải Khả Kích 】响应）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，视 là 一名男性角色对另一名男性角色使用一张【决斗】（不可被【 Vô Giải Khả Kích 】响应）。",
   biyue_info: " Giai đoạn kết thúc ， bạn 可以摸一张牌。",
   xinbiyue_info: " Giai đoạn kết thúc ， bạn 可以摸一张牌",
   xinbiyue_info_alter:
@@ -8843,10 +8860,10 @@ export const translate_standard = {
     "Tỏa định kỹ，一名角色使用红色【杀】对 bạn 造成 sát thương 时，该角色回复1 sinh lực  hoặc 摸一张牌。",
   new_jiangchi: "将驰",
   new_jiangchi_info:
-    "摸牌阶段结束时， bạn 可以选择一项：1、摸一张牌，若如此做， bạn 本回合内不能使用 hoặc 打出【杀】且【杀】不计入手牌上限。 2、弃置一张牌，若如此做，出牌阶段 bạn 使用【杀】无距离限制且 bạn 可以额外使用一张【杀】，直到回合结束。",
+    "摸牌阶段结束时， bạn 可以选择一项：1、摸一张牌，若如此做， bạn 本回合内不能使用 hoặc 打出【杀】且【杀】不计入手牌上限。 2、弃置一张牌，若如此做，  giai đoạn ra bài bạn 使用【杀】无距离限制且 bạn 可以额外使用一张【杀】，直到回合结束。",
   xinfu_jijie: "机捷",
   xinfu_jijie_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以观看牌堆底的一张牌，然后将其交给一名角色。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以观看牌堆底的一张牌，然后将其交给一名角色。",
   xinfu_jiyuan: "急援",
   xinfu_jiyuan_info:
     " khi 一名角色进入濒死状态时， hoặc  bạn 交给一名其他角色牌时， bạn 可以令其摸一张牌。",
@@ -8856,7 +8873,7 @@ export const translate_standard = {
   zhongyi: "忠义",
   zhongyi2: "忠义",
   zhongyi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以将一张牌置于武将牌上。 bạn 的武将牌上有〖忠义〗牌时，己方角色使用【杀】造成的 sát thương +1。下轮游戏开始时， bạn 将〖忠义〗牌置入弃牌堆。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以将一张牌置于武将牌上。 bạn 的武将牌上有〖忠义〗牌时，己方角色使用【杀】造成的 sát thương +1。下轮游戏开始时， bạn 将〖忠义〗牌置入弃牌堆。",
   zhanshen: "战神",
   zhanshen_info:
     "觉醒技，准备阶段，若场上有已死亡的其他己方角色且 bạn 已受伤，则 bạn 弃置装备区的武器牌，减1 sinh lực 上限，获得技能〖马术〗和〖神戟〗。",
@@ -8982,7 +8999,7 @@ export const translate_swd = {
     "摸牌阶段， bạn 可以额外摸一张牌；每 khi  bạn 失去此技能， bạn 可以摸一张牌",
   cyyijin: "异金",
   cyyijin_info:
-    "出牌阶段， bạn 可以对一名体力值 là 全场最多的角色造成一点 sát thương ；每 khi  bạn 失去此技能， bạn 可以对一名体力值 là 全场最多的角色造成一点 sát thương ",
+    "  giai đoạn ra bài， bạn 可以对一名体力值 là 全场最多的角色造成一点 sát thương ；每 khi  bạn 失去此技能， bạn 可以对一名体力值 là 全场最多的角色造成一点 sát thương ",
   cyqingling: "青凌",
   cyqingling_info:
     "弃牌阶段，若 bạn 弃置了至少一张牌， bạn 可以获得一点护甲；每 khi  bạn 失去此技能， bạn 可以获得一点护甲",
@@ -8991,7 +9008,7 @@ export const translate_swd = {
     " Giai đoạn kết thúc ， bạn 可以视 là 使用一张惊雷闪；每 khi  bạn 失去此技能， bạn 可以视 là 使用一张惊雷闪",
   gxianyin: "仙音",
   gxianyin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一种花色，将 bạn 的手牌中该花色的牌移至弃牌堆，然后选择另一种花色，从牌堆中获得等量的该花色的牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一种花色，将 bạn 的手牌中该花色的牌移至弃牌堆，然后选择另一种花色，从牌堆中获得等量的该花色的牌",
   // gxianyin_info_alter:'',
   cyxianjiang: "仙匠",
   cyxianjiang_info:
@@ -9003,46 +9020,46 @@ export const translate_swd = {
     "每 khi  bạn 装备一件装备，若 bạn 的手牌数不大于体力值， bạn 可以摸一张牌；每 khi  bạn 失去一件装备牌， bạn 可以随机观看2张机关牌，并使用其中一张",
   cyzhencha: "侦察",
   cyzhencha_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的装备区内的可强化装备， bạn 可以弃置一张基本牌并观看一名其他角色的手牌，若其中有与 bạn 弃置的牌颜色相同的牌， bạn 随机升级装备区内的一件装备，否则 bạn 摸一张牌； bạn 根据装备区内升级的装备数获得额外技能",
+    "1 lần trong giai đoạn ra bài，若 bạn 的装备区内的可强化装备， bạn 可以弃置一张基本牌并观看一名其他角色的手牌，若其中有与 bạn 弃置的牌颜色相同的牌， bạn 随机升级装备区内的一件装备，否则 bạn 摸一张牌； bạn 根据装备区内升级的装备数获得额外技能",
   cylingjia: "灵甲",
   cylingjia_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张装备牌，然后令云狐随机装备一件装备（不替换现有装备）并将其强化",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张装备牌，然后令云狐随机装备一件装备（不替换现有装备）并将其强化",
   cyqiaobo: "巧补",
   cyqiaobo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张锦囊牌，然后令云狐回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张锦囊牌，然后令云狐回复一 sinh lực ",
   cqiaoxie: "巧械",
   cqiaoxie_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张锦囊牌 khi 作零件袋使用；每 khi bạn sử dụng 一张零件牌， bạn 获得一点技能 điểm số ",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张锦囊牌 khi 作零件袋使用；每 khi bạn sử dụng 一张零件牌， bạn 获得一点技能 điểm số ",
   xiufu: "修复",
   xiufu_info:
-    "出牌阶段， bạn 可以弃置一张装备牌 hoặc 机关牌，令云狐回复一 sinh lực ",
+    "  giai đoạn ra bài， bạn 可以弃置一张装备牌 hoặc 机关牌，令云狐回复一 sinh lực ",
   yhshengong: "神工",
   yhshengong_info:
-    "游戏开始时， bạn 获得3点技能 điểm số ；每 khi  bạn 造成一点 sát thương ， bạn 获得一点技能 điểm số ；出牌阶段， bạn 可以通过消耗技能点令云狐获得新的技能（云狐体力 là 0时无法学习 hoặc 发动技能）",
+    "游戏开始时， bạn 获得3点技能 điểm số ；每 khi  bạn 造成一点 sát thương ， bạn 获得一点技能 điểm số ；  giai đoạn ra bài， bạn 可以通过消耗技能点令云狐获得新的技能（云狐体力 là 0时无法学习 hoặc 发动技能）",
   juxi: "聚息",
   juxi_info:
-    "Tỏa định kỹ，每 khi 一名角色于其回合外弃置牌， bạn 获得一枚聚息标记；1 lần trong giai đoạn hành động， bạn 可以移去X枚聚息标记，然后选择一项：对一名角造成一点 sát thương ， hoặc 令一名角色回复一 sinh lực ，X là 存活角色数",
+    "Tỏa định kỹ，每 khi 一名角色于其回合外弃置牌， bạn 获得一枚聚息标记；1 lần trong giai đoạn ra bài， bạn 可以移去X枚聚息标记，然后选择一项：对一名角造成一点 sát thương ， hoặc 令一名角色回复一 sinh lực ，X là 存活角色数",
   yeying: "曳影",
   yeying_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色牌 khi 作乾坤镖使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色牌 khi 作乾坤镖使用",
   jiefen: "解纷",
   jiefen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名手牌数多于 bạn 的角色交给 bạn 一张牌，然后 bạn 交给一名手牌数少于 bạn 的角色一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名手牌数多于 bạn 的角色交给 bạn 一张牌，然后 bạn 交给一名手牌数少于 bạn 的角色一张牌",
   datong: "大同",
   datong_info:
     "任意一名角色的 Giai đoạn kết thúc ，若全场手牌数最多和最少的角色手牌数之差不超过1， bạn 摸两张牌",
   huodan: "火丹",
   huodan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色牌并失去一 sinh lực ，然后将两点火属性 sát thương 分配给1~2名角色",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色牌并失去一 sinh lực ，然后将两点火属性 sát thương 分配给1~2名角色",
   huodan_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色牌并失去一 sinh lực ，然后将两点火属性 sát thương 分配给1~2名角色；若 bạn 只分配了一名角色，该角色在结算后摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色牌并失去一 sinh lực ，然后将两点火属性 sát thương 分配给1~2名角色；若 bạn 只分配了一名角色，该角色在结算后摸一张牌",
   sxianjing: "陷阱",
   sxianjing_bg: "阱",
   sxianjing_info:
-    "出牌阶段， bạn 可以将一张手牌背面朝上置于 bạn 的武将牌上（不能与已有花色相同）。 khi 一名其他角色使用与一张“陷阱”牌花色相同的牌指定 bạn  là 目标时， bạn 移去对应的“陷阱”牌，然后随机获得该角色的一张牌。每 khi  bạn 受到一次 sát thương ， bạn 随机将一张“陷阱”牌返回手牌",
+    "  giai đoạn ra bài， bạn 可以将一张手牌背面朝上置于 bạn 的武将牌上（不能与已有花色相同）。 khi 一名其他角色使用与一张“陷阱”牌花色相同的牌指定 bạn  là 目标时， bạn 移去对应的“陷阱”牌，然后随机获得该角色的一张牌。每 khi  bạn 受到一次 sát thương ， bạn 随机将一张“陷阱”牌返回手牌",
   zhanxing: "占星",
   zhanxing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张牌，并亮出牌堆顶的等量的牌，并根据亮出的牌包含的花色执行以下效果：♦︎摸两张牌；♥回复一 sinh lực （若未损失体力改 là 获得一点护甲）；♣令所有敌人随机弃置一张牌；♠令一名角色受到一点无来源的雷属性 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张牌，并亮出牌堆顶的等量的牌，并根据亮出的牌包含的花色执行以下效果：♦︎摸两张牌；♥回复一 sinh lực （若未损失体力改 là 获得一点护甲）；♣令所有敌人随机弃置一张牌；♠令一名角色受到一点无来源的雷属性 sát thương ",
   kbolan: "博览",
   kbolan_info:
     "每 khi  bạn 摸牌时， bạn 可以额外摸一张牌，然后摸牌结束时将一张手牌置于牌堆顶",
@@ -9070,13 +9087,13 @@ export const translate_swd = {
     " Giai đoạn kết thúc ，若 bạn 本回合内使用了至少X张牌， bạn 可以选择一项：获得一点护甲， hoặc 对攻击范围内的一名角色造成一点 sát thương （X là  bạn  khi 前的体力值且最多 là 3）",
   hxunzhi: "殉志",
   hxunzhi_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以视 là 使用一张万箭齐发并获得技能武圣、咆哮，若如此做， bạn 在此阶段结束时死亡",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以视 là 使用一张万箭齐发并获得技能武圣、咆哮，若如此做， bạn 在此阶段结束时死亡",
   hxunzhi_info_alter:
-    "Hạn định kỹ，出牌阶段， bạn 可以获得技能武圣、咆哮，若如此做， bạn 在此阶段结束时死亡",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以获得技能武圣、咆哮，若如此做， bạn 在此阶段结束时死亡",
   lmazui: "麻醉",
   lmazui2: "麻醉",
   lmazui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色手牌置于一名角色的武将牌上，该角色造成的下一次 sát thương -1，然后获得此牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色手牌置于一名角色的武将牌上，该角色造成的下一次 sát thương -1，然后获得此牌",
   hyunshen: "云身",
   hyunshen2: "云身",
   hyunshen_info:
@@ -9087,22 +9104,22 @@ export const translate_swd = {
   gtiandao_info: "任意一名角色的判定生效前， bạn 可以打出一张牌替换之",
   nlianji: "连计",
   nlianji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一张手牌并指定两名角色进行拼点。若拼点结果不 là 平局，拼点赢的角色获得此牌，并对没赢的角色造成一点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一张手牌并指定两名角色进行拼点。若拼点结果不 là 平局，拼点赢的角色获得此牌，并对没赢的角色造成一点 sát thương 。",
   fengze: "风泽",
   fengze_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张黑色牌 khi 作桃园结义使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张黑色牌 khi 作桃园结义使用",
   lingyue: "凌月",
   lingyue_info: "每 khi bạn sử dụng 一张杀， bạn 可以令目标弃置一张牌",
   jinlin: "金鳞",
   jinlin_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以令任意名角色各获得3点护甲，获得护甲的角色于每个准备阶段失去1点护甲，直到首次失去所有护甲 hoặc 累计以此法失去3点护甲",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以令任意名角色各获得3点护甲，获得护甲的角色于每个准备阶段失去1点护甲，直到首次失去所有护甲 hoặc 累计以此法失去3点护甲",
   huanxia: "幻霞",
   huanxia_info:
     " bạn 可以将一张红色牌 khi 作杀使用，若此杀未造成 sát thương ， bạn 在 Giai đoạn kết thúc 收回此牌",
   jingjie: "幻镜",
   jingjie_info: "准备阶段， bạn 可以流失一 sinh lực ，并",
   jingjie_old_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以令所有角色弃置所有牌，然后摸两张牌（不触发任何技能）",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以令所有角色弃置所有牌，然后摸两张牌（不触发任何技能）",
   kongmo: "恐魔",
   kongmo_info:
     "Tỏa định kỹ， bạn 使用基本牌 hoặc 普通锦囊牌后将额外结算一次卡牌效果",
@@ -9121,7 +9138,7 @@ export const translate_swd = {
   bingfeng2: "冰封",
   bingfeng2_info: "不能使用 hoặc 打出手牌",
   bingfeng_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以指定至多三个目标与其一同翻面，且处于翻面状态时不能使用 hoặc 打出手牌；若如此做， bạn 失去技能玄咒并减少一 sinh lực 上限",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以指定至多三个目标与其一同翻面，且处于翻面状态时不能使用 hoặc 打出手牌；若如此做， bạn 失去技能玄咒并减少一 sinh lực 上限",
   guozao: "聒噪",
   guozao_info:
     "Tỏa định kỹ，每 khi 距离 bạn 1以内的角色受到一次 sát thương ，若 sát thương 来源不 bạn ， bạn 须观看牌堆顶的三张牌，然后指定距离2以内的一名有手牌角色将手牌与这些牌交换",
@@ -9129,7 +9146,7 @@ export const translate_swd = {
     "Tỏa định kỹ，每 khi 距离 bạn 1以内的角色受到一次 sát thương ，若 sát thương 来源不 bạn ， bạn 须观看牌堆顶的三张牌，然后指定距离1以内的一名有手牌角色将手牌与这些牌交换",
   heihuo: "黑火",
   heihuo_info:
-    "出牌阶段， bạn 可以弃置一张装备牌，令 bạn 的手牌数加倍；若 bạn 的手牌因此达到8张 hoặc 更多， bạn 立即受到3点火焰 sát thương 且本回合内不能再次发动黑火",
+    "  giai đoạn ra bài， bạn 可以弃置一张装备牌，令 bạn 的手牌数加倍；若 bạn 的手牌因此达到8张 hoặc 更多， bạn 立即受到3点火焰 sát thương 且本回合内不能再次发动黑火",
   yaotong: "妖瞳",
   yaotong1: "妖瞳",
   yaotong2: "妖瞳",
@@ -9145,7 +9162,7 @@ export const translate_swd = {
   huajin: "化金",
   huajin2: "化金",
   huajin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌令 bạn 造成的 sát thương +1，直到 bạn 的下一回合开始",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌令 bạn 造成的 sát thương +1，直到 bạn 的下一回合开始",
   poxiao: "破霄",
   poxiao_info:
     " bạn 可以将一张装备牌 khi 杀使用； khi  bạn 没有武器牌时， bạn 的攻击范围+1，杀可以额外指定一个目标",
@@ -9157,25 +9174,25 @@ export const translate_swd = {
     "每 khi  bạn 于回合外使用 hoặc 打出一张黑色牌， bạn 可以弃置一名角色的一张牌",
   huangyu: "凰羽",
   huangyu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将两张红色牌 khi 炽羽袭使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将两张红色牌 khi 炽羽袭使用",
   bingjian: "冰箭",
   bingjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色的杀，令一名有手牌的其他角色展示手牌并弃置其中的所有闪，若其没有闪则受到一点雷电 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色的杀，令一名有手牌的其他角色展示手牌并弃置其中的所有闪，若其没有闪则受到一点雷电 sát thương ",
   rumeng: "入梦",
   rumeng_info:
-    "其他角色的出牌阶段前， bạn 可以弃置一张非基本牌，并令其选择一项：弃置一张基本牌， hoặc 跳过出牌及弃牌阶段",
+    "其他角色的  giai đoạn ra bài前， bạn 可以弃置一张非基本牌，并令其选择一项：弃置一张基本牌， hoặc 跳过出牌及弃牌阶段",
   lianda: "连打",
   lianda_info:
     " khi bạn sử dụng 一杀结算完毕后，可以弃置一张牌视 là 对目标再使用一张杀",
   xianghui: "祥晖",
   xianghui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色手牌，然后令场上体力值最少的角色各回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色手牌，然后令场上体力值最少的角色各回复一 sinh lực ",
   huiqi: "回气",
   huiqi_info:
     "每 khi  bạn 受到一次 sát thương ，可令一名其他角色摸X张牌，X là  bạn 已损失的体力值",
   toudan: "投弹",
   toudan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张 ♠︎ 牌对一名其他角色造成一点火焰 sát thương ，然后 bạn 与距离该角色1以内的所有角色各弃置一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 牌对一名其他角色造成一点火焰 sát thương ，然后 bạn 与距离该角色1以内的所有角色各弃置一张牌",
   shending: "神丁",
   shending_info: "Tỏa định kỹ，若 bạn 没有宝物牌，视 là 装备了蓝格怪衣",
   hzhenwei: "镇卫",
@@ -9192,7 +9209,7 @@ export const translate_swd = {
   zhenjiu: "针灸",
   zhenjiu2: "针灸",
   zhenjiu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张红色手牌置于一名角色的武将牌上，该角色于下一个准备阶段回复一 sinh lực ，然后获得此牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张红色手牌置于一名角色的武将牌上，该角色于下一个准备阶段回复一 sinh lực ，然后获得此牌",
   ljifeng: "疾风",
   ljifeng_info:
     "Tỏa định kỹ， bạn 的攻击范围+X，杀可以额外指定X个目标，X là  bạn 已损失的体力值",
@@ -9217,7 +9234,7 @@ export const translate_swd = {
     "Tỏa định kỹ，受到过 bạn 的 sát thương 的角色可在回合内对 bạn 发动一次【离魂】（每局限发动一次）",
   xingzhui: "星坠",
   xingzhui_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，并令一名有牌的其他角色弃置一张类别相同的牌，若则受到一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，并令一名有牌的其他角色弃置一张类别相同的牌，若则受到一点 sát thương ",
   lingxian: "凌仙",
   lingxian_info:
     "每 khi  bạn 于回合外使用 hoặc 打出一张手牌， bạn 可以选择攻击范围外的一名其他角色与 bạn 各摸一张牌",
@@ -9257,7 +9274,7 @@ export const translate_swd = {
   guisi_info: "每 khi  bạn 成 là 杀的目标， bạn 可以交给对方一张手牌并取消之",
   duishi: "对诗",
   duishi_info:
-    "出牌阶段， bạn 可以弃置一张手牌，并指定一名有手牌的角色选择一项：1)弃置一张与之花色相同的手牌，本回合内对诗不能再次指定其 là 目标，2)令 bạn 获得其一张牌，对诗失效直到回合结束",
+    "  giai đoạn ra bài， bạn 可以弃置一张手牌，并指定一名有手牌的角色选择一项：1)弃置一张与之花色相同的手牌，本回合内对诗不能再次指定其 là 目标，2)令 bạn 获得其一张牌，对诗失效直到回合结束",
   anlianying: "连营",
   anlianying_info: "每 khi  bạn 失去最后一张手牌，可摸两张牌",
   lianwu: "连舞",
@@ -9280,7 +9297,7 @@ export const translate_swd = {
   rexue_info: "任意一名角色的准备阶段， bạn 可以对其使用一张杀，并摸一张牌",
   huopu: "火瀑",
   huopu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♥︎ 牌 khi 作流星火羽使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♥︎ 牌 khi 作流星火羽使用",
   benlei: "奔雷",
   benlei2: "奔雷",
   benlei_info:
@@ -9327,15 +9344,15 @@ export const translate_swd = {
     "Tỏa định kỹ， bạn 摸牌阶段额外摸X张牌，X là  bạn 已损失的体力值",
   moyan: "血焰",
   moyan_info:
-    "出牌阶段， bạn 可以弃置X张红色手牌，然后对至多X名角色各造成一点火焰 sát thương ，X là  bạn 已损失的体力值。每阶段限一次",
+    "  giai đoạn ra bài， bạn 可以弃置X张红色手牌，然后对至多X名角色各造成一点火焰 sát thương ，X là  bạn 已损失的体力值。每阶段限一次",
   aojian: "傲剑",
   aojian_info:
-    "出牌阶段， bạn 可以弃置X张手牌，然后对攻击范围内至多X名角色各造成一点 sát thương ，X là  bạn 已损失的体力值。每阶段限一次",
+    "  giai đoạn ra bài， bạn 可以弃置X张手牌，然后对攻击范围内至多X名角色各造成一点 sát thương ，X là  bạn 已损失的体力值。每阶段限一次",
   milesxiehun: "邪魂",
   milesxiehun_info:
-    "Tỏa định kỹ，出牌阶段结束后， bạn 令随机Ｘ名角色各弃置一张牌，Ｘ là  bạn 已损失的体力值且至少 là 1 ",
+    "Tỏa định kỹ，  giai đoạn ra bài结束后， bạn 令随机Ｘ名角色各弃置一张牌，Ｘ là  bạn 已损失的体力值且至少 là 1 ",
   liaochen: "撩尘",
-  liaochen_info: "Tỏa định kỹ，出牌阶段结束后，所有角色需弃置一张牌",
+  liaochen_info: "Tỏa định kỹ，  giai đoạn ra bài结束后，所有角色需弃置一张牌",
   yinmo: "引魔",
   yinmo_info:
     "Tỏa định kỹ， khi  bạn 对场上所有角色发动「连计」后， bạn 立即变身 là 魔化宁珂，然后对所有其他角色造成一点雷电 sát thương ",
@@ -9365,7 +9382,7 @@ export const translate_swd = {
     "在一名角色的 Giai đoạn kết thúc ，若 bạn 的手牌数比其少， bạn 可以将手牌补至与该角色相同（最多补至5），每轮限一次",
   hjifeng: "祭风",
   hjifeng_info:
-    "1 lần trong giai đoạn hành động，若 bạn 手牌中没有祭器牌， bạn 可以将一张手牌置于牌堆顶，并根据其花色获得对应祭器： ♠︎ -青龙之圭； ♣︎ -白兽之琥；方片-朱雀之璋； ♥︎ -玄武之璜",
+    "1 lần trong giai đoạn ra bài，若 bạn 手牌中没有祭器牌， bạn 可以将一张手牌置于牌堆顶，并根据其花色获得对应祭器： ♠︎ -青龙之圭； ♣︎ -白兽之琥；方片-朱雀之璋； ♥︎ -玄武之璜",
   mufeng_old_info:
     "Tỏa định kỹ，每 khi  bạn 于回合外失去牌， bạn 的防御距离+1；若防御距离的变化值超过了存活角色数的一半，则降至0",
   lexue: "乐学",
@@ -9373,10 +9390,10 @@ export const translate_swd = {
     "回合内， bạn 随机获得制衡、集智、缔盟、驱虎中的一个技能；回合外， bạn 随机获得遗计、急救、鬼道、反馈中的一个技能",
   mingfu: "冥缚",
   mingfu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♣︎ 牌 khi 鬼幽结使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♣︎ 牌 khi 鬼幽结使用",
   chuanyue: "穿月",
   chuanyue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将两张手牌 khi 决斗使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将两张手牌 khi 决斗使用",
 
   miedao: "灭道",
   miedao1: "灭道",
@@ -9386,7 +9403,7 @@ export const translate_swd = {
 
   senluo: "森罗",
   senluo_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的手牌数 là 全场最少 hoặc 之一， bạn 可以令所有有手牌的其他角色弃置两张手牌然后摸一张牌",
+    "1 lần trong giai đoạn ra bài，若 bạn 的手牌数 là 全场最少 hoặc 之一， bạn 可以令所有有手牌的其他角色弃置两张手牌然后摸一张牌",
   polang: "破浪",
   polang_info: "每 khi  bạn 造成一次 sát thương ，可以一张对方的装备牌",
   jikong: "亟空",
@@ -9400,7 +9417,8 @@ export const translate_swd = {
   hujing_info:
     "Tỏa định kỹ，准备阶段，若弃牌堆中有炼妖壶， bạn 装备之； khi  bạn 的装备区内有炼妖壶时， bạn 的手牌上限+2",
   huajian: "化剑",
-  huajian_info: "出牌阶段结束时， bạn 可以将一张牌 khi 作杀对任意一名角色使用",
+  huajian_info:
+    "  giai đoạn ra bài结束时， bạn 可以将一张牌 khi 作杀对任意一名角色使用",
   xuanyuan: "轩辕",
   xuanyuan_info:
     "Tỏa định kỹ， bạn 无视【轩辕剑】的装备条件及流失体力的效果； Giai đoạn kết thúc ， bạn 可以弃置一张 ♠︎ 牌从弃牌堆中获得【轩辕剑】并装备之",
@@ -9408,9 +9426,9 @@ export const translate_swd = {
   jilve_backup: "极略",
   jilve2: "极略",
   jilve_info:
-    "出牌阶段， bạn 可以观看牌堆顶的三张牌，然后使用其中的非装备牌。每回合最多发动三次",
+    "  giai đoạn ra bài， bạn 可以观看牌堆顶的三张牌，然后使用其中的非装备牌。每回合最多发动三次",
   jilve_info_alter:
-    "出牌阶段， bạn 可以观看牌堆顶的两张牌，然后使用其中的非装备牌。每回合最多发动三次",
+    "  giai đoạn ra bài， bạn 可以观看牌堆顶的两张牌，然后使用其中的非装备牌。每回合最多发动三次",
   gongshen: "工神",
   gongshen_info:
     "任意一名其他角色使用一张基本牌 hoặc 锦囊牌指定目标后， bạn 可以弃置一张装备牌令其失效",
@@ -9426,7 +9444,7 @@ export const translate_swd = {
     "每 khi bạn sử dụng 杀并指定目标后， bạn 可以令其摸一张牌，然后 bạn 回复一 sinh lực ",
   duanyue: "断月",
   duanyue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张装备牌，对一名其他角色造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张装备牌，对一名其他角色造成一点 sát thương ",
   tuzhen: "突阵",
   tuzhen_info:
     " khi  bạn 造成一次 sát thương 后， bạn 可以弃置对方手牌中的非基本牌",
@@ -9434,15 +9452,15 @@ export const translate_swd = {
     " khi  bạn 造成一次 sát thương 后， bạn 可以弃置对方手牌中的一张非基本牌",
   fengmo: "封魔",
   fengmo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置场所有武器牌（至少两张），然后令一名未翻面的角色摸等量的牌并翻面",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置场所有武器牌（至少两张），然后令一名未翻面的角色摸等量的牌并翻面",
   pozhou: "破咒",
   pozhou_bg: "破",
   pozhou2: "破咒",
   pozhou_info:
-    "每 khi  bạn 受到一次 sát thương ， bạn 获得一枚破咒标记。出牌阶段， bạn 可以指定任意名其他角色并弃置等量的破咒标记，令目标的非Tỏa định kỹ失效直到其下一回合结束",
+    "每 khi  bạn 受到一次 sát thương ， bạn 获得一枚破咒标记。  giai đoạn ra bài， bạn 可以指定任意名其他角色并弃置等量的破咒标记，令目标的非Tỏa định kỹ失效直到其下一回合结束",
   xuanzhou: "玄咒",
   xuanzhou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张普通锦囊牌 khi 作任意一张延时锦囊，对任意一名角色使用（无视锦囊使用范围限制）",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张普通锦囊牌 khi 作任意一张延时锦囊，对任意一名角色使用（无视锦囊使用范围限制）",
   ningxian: "凝霰",
   ningxian_info:
     "每 khi  bạn 受到一次 sát thương ， bạn 可以弃置任意张黑色牌并选择等量其他角色对其各造成一点 sát thương ",
@@ -9454,7 +9472,7 @@ export const translate_swd = {
     "每 khi bạn sử dụng 一张杀，若 bạn 不在目标的攻击范围， bạn 可以令此杀不可闪避",
   fengming: "凤鸣",
   fengming_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张装备牌，令一名角色恢复一 sinh lực 并摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张装备牌，令一名角色恢复一 sinh lực 并摸一张牌",
   duanxing: "锻星",
   duanxing_info:
     "每 khi  bạn 装备一张未强化的装备牌，可以视 là 一名角色使用一张杀",
@@ -9467,7 +9485,7 @@ export const translate_swd = {
   guiying_info: " bạn 可以将一张黑色牌 khi 偷梁换柱使用",
   shehun: "摄魂",
   shehun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张花色不同的牌，另一名其他角色弃置等量的牌，若其弃置的牌中有牌的花色与 bạn 弃置的牌相同， bạn 对其造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张花色不同的牌，另一名其他角色弃置等量的牌，若其弃置的牌中有牌的花色与 bạn 弃置的牌相同， bạn 对其造成一点 sát thương ",
 
   zhanlu: "沾露",
   luomu: "落木",
@@ -9552,14 +9570,14 @@ export const translate_swd = {
   susheng: "苏生",
   shengshou: "圣手",
   huanjian: "幻箭",
-  huanjian_info: "出牌阶段， bạn 可以将一张黑色牌 khi 作冰魄针使用",
+  huanjian_info: "  giai đoạn ra bài， bạn 可以将一张黑色牌 khi 作冰魄针使用",
   shengshou_info: " bạn 可以将一张黑色手牌 khi 作草药使用",
   susheng_info:
     "在任意一名角色即将死亡时， bạn 可以弃置一张手牌防止其死亡，并将其体力回复至1，每回合限发动一次",
   susheng_info_alter:
     "在任意一名角色即将死亡时， bạn 可以弃置一张红色手牌防止其死亡，并将其体力回复至1，每回合限发动一次",
   zhanlu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张 ♠︎ 牌令至多3名角色各回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张 ♠︎ 牌令至多3名角色各回复一 sinh lực ",
   kunlunjing_info:
     "准备阶段，若 bạn 的体力值小于上回合结束时的体力值， bạn 可以将场上所有牌还原到 bạn 上一回合结束时的位置",
   kunlunjing_info_alter:
@@ -9567,12 +9585,12 @@ export const translate_swd = {
   swd_xiuluo_info:
     "准备阶段， bạn 可以弃一张手牌来弃置 bạn 判断区里的一张延时类锦囊（必须花色相同）",
   xianyin_info:
-    "出牌阶段， bạn 可以令所有判定区内有牌的角色弃置判定区内的牌，然后交给 bạn 一张手牌",
+    "  giai đoạn ra bài， bạn 可以令所有判定区内有牌的角色弃置判定区内的牌，然后交给 bạn 一张手牌",
   qiaoxie_info:
     "每 khi  bạn 装备一张牌，可摸一张牌；每 khi  bạn 失去一张装备牌（不含替换）， bạn 可以弃置其他角色的一张牌",
   mailun_info: "准备阶段， bạn 可以选择一个脉轮效果直到下一回合开始",
   guiyan_info:
-    "出牌阶段， bạn 可以观看一名角色的手牌，并获得其中一张 ♣︎ 牌，每阶段限一次。 khi  bạn 首次进入濒死状态时， bạn 须回复一 sinh lực 并失去技能鬼眼",
+    "  giai đoạn ra bài， bạn 可以观看一名角色的手牌，并获得其中一张 ♣︎ 牌，每阶段限一次。 khi  bạn 首次进入濒死状态时， bạn 须回复一 sinh lực 并失去技能鬼眼",
   busi_info:
     "Tỏa định kỹ， khi  bạn 进入濒死状态时， bạn 进行一次判定，若结果不 là  ♠︎ ， bạn 将体力回复至1并将武将牌翻至背面",
   xuying_info:
@@ -9582,7 +9600,7 @@ export const translate_swd = {
   yueren_info:
     "每 khi bạn sử dụng 一张杀，可以进行一次判定，若结果 là 黑色， bạn 弃置目标一张牌，若结果 là 红色， bạn 将此杀收回，每回合限发动一次",
   duijue_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以指定一名体力值大于1的其他角色， bạn 结束出牌阶段，并在回合结束后将所有其他角色移出游戏，然后该角色与 bạn 轮流进行回合，直到有一方死亡 hoặc 一共进行六个回合 là 止",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以指定一名体力值大于1的其他角色， bạn 结束  giai đoạn ra bài，并在回合结束后将所有其他角色移出游戏，然后该角色与 bạn 轮流进行回合，直到有一方死亡 hoặc 一共进行六个回合 là 止",
   wuying_info: "Tỏa định kỹ， bạn 的杀和单体x锦囊目标锁定 là 范围内的所有角色",
   xiehun_info:
     "Tỏa định kỹ，受到来自 bạn  sát thương 的角色进入混乱状态，行 là 不受控制，且会攻击队友，直到 bạn 的下一回合开始",
@@ -9595,21 +9613,21 @@ export const translate_swd = {
   miles_xueyi_info:
     "Tỏa định kỹ， bạn 防止即将受到的 sát thương ，然后流失一 sinh lực ",
   duanyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张杀，对一名角色造成一点 sát thương ，然后其随机弃置X张牌，X là 其已损失的体力值",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张杀，对一名角色造成一点 sát thương ，然后其随机弃置X张牌，X là 其已损失的体力值",
   duanyi_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张杀，并对一名角色造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张杀，并对一名角色造成一点 sát thương ",
   guxing_info:
-    "出牌阶段， bạn 可以将最后至多X张手牌 khi 杀使用，此杀无视距离且可以指定至多3个目标，每造成一次 sát thương ， bạn 摸一张牌，Ｘ là  bạn 已损失的体力值且至少 là １。",
+    "  giai đoạn ra bài， bạn 可以将最后至多X张手牌 khi 杀使用，此杀无视距离且可以指定至多3个目标，每造成一次 sát thương ， bạn 摸一张牌，Ｘ là  bạn 已损失的体力值且至少 là １。",
   tianlun_info:
     "任意一名角色的判定牌生效前， bạn 可以弃置一张场上角色的判定牌代替之",
   hlongyin_info:
-    "出牌阶段， bạn 可以弃置任意张颜色相同且 điểm số 不同的牌，并获得逆时针座位距离与卡牌 điểm số 相同的角色区域内的一张牌。每阶段限一次",
+    "  giai đoạn ra bài， bạn 可以弃置任意张颜色相同且 điểm số 不同的牌，并获得逆时针座位距离与卡牌 điểm số 相同的角色区域内的一张牌。每阶段限一次",
   lanzhi_info:
     "每 khi bạn sử dụng 一张 ♣︎ 牌， bạn 可以令所有体力值不大于 bạn 的角色回复一 sinh lực ",
   lanzhi_old_info:
     "每 khi  bạn 即将造成 sát thương ，可以防止此 sát thương ，然后摸两张牌。每回合限发动一次。",
   tianhuo_info:
-    "出牌阶段， bạn 可以令所有角色弃置其判定区域内的牌，并受到没有来源的等量火焰 sát thương ，每阶段限一次",
+    "  giai đoạn ra bài， bạn 可以令所有角色弃置其判定区域内的牌，并受到没有来源的等量火焰 sát thương ，每阶段限一次",
   huanyin_info:
     "Tỏa định kỹ，每 khi  bạn 成 là 其他角色的卡牌的目标时， bạn 进行一次判定，若 là  ♠︎ 则取消之，若 là  ♥︎  bạn 摸一张牌",
   luomu_info:
@@ -9632,11 +9650,11 @@ export const translate_swd = {
   lqingcheng_info:
     " Giai đoạn kết thúc ， bạn 可以进行判定，若 là 红色则可以继续判定，最多判定3次，判定结束后将判定成功的牌收入手牌",
   xianjiang_old_info:
-    "出牌阶段， bạn 可以将一张装备牌永久转化 là 任意一张其它装备牌，一张牌在一个阶段只能转化一次",
+    "  giai đoạn ra bài， bạn 可以将一张装备牌永久转化 là 任意一张其它装备牌，一张牌在一个阶段只能转化一次",
   xianjiang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张锦囊牌并随机装备一件装备",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张锦囊牌并随机装备一件装备",
   xianjiang_info_alter:
-    "1 lần trong giai đoạn hành động，若 bạn 装备内没有牌， bạn 可以弃置一张锦囊牌并随机装备一件装备",
+    "1 lần trong giai đoạn ra bài，若 bạn 装备内没有牌， bạn 可以弃置一张锦囊牌并随机装备一件装备",
   shengong_info:
     "每 khi  bạn 需要打出一张杀 hoặc 闪时， bạn 可以弃置一名其他角色装备区内的一张武器牌 hoặc 防具牌，视 là 打出一张杀 hoặc 闪，然后该角色摸一张牌， bạn 弃一张牌",
   ningjian_info: " bạn 可以将一张红色牌 khi 闪、黑色牌 khi 杀使用 hoặc 打出",
@@ -9644,41 +9662,41 @@ export const translate_swd = {
     "Hạn định kỹ， bạn 可以弃置 bạn 的所有牌（至少1张），并对一名体力值大于1 là 其他角色造成X点火焰 sát thương ，X là  bạn 已损失的体力值且至少 là 1",
   duoren_info: "每 khi  bạn 闪避一张杀， bạn 可以立即获得来源的武器牌",
   tanlin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色进行拼点，若 bạn 赢， bạn 获得双方拼点牌、对该角色使用卡牌无视距离且可以额外使用一张杀直到回合结束，若 bạn 没赢， bạn 受到该角色的一点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色进行拼点，若 bạn 赢， bạn 获得双方拼点牌、对该角色使用卡牌无视距离且可以额外使用一张杀直到回合结束，若 bạn 没赢， bạn 受到该角色的一点 sát thương 。",
   tanlin_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色进行拼点，若 bạn 赢， bạn 获得对方拼点牌、对该角色使用卡牌无视距离且可以额外使用一张杀直到回合结束，若 bạn 没赢， bạn 受到该角色的一点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色进行拼点，若 bạn 赢， bạn 获得对方拼点牌、对该角色使用卡牌无视距离且可以额外使用一张杀直到回合结束，若 bạn 没赢， bạn 受到该角色的一点 sát thương 。",
   pozhen_info:
     "每 khi  bạn 受到一次 sát thương ，若 bạn 的手牌数大于 sát thương 来源， bạn 可以弃置X张手牌对其造成一点 sát thương ；若 bạn 的手牌数小于 sát thương 来源， bạn 可以弃置其X张手牌。X là  bạn 与 sát thương 来源的手牌数之差。",
   pozhen_info_alter:
     "每 khi  bạn 受到一次 sát thương ，若 bạn 的手牌数小于 sát thương 来源， bạn 可以弃置其X张手牌。X là  bạn 与 sát thương 来源的手牌数之差。",
   yunchou_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，并弃置一名其他角色的一张手牌，若两张牌颜色相同， bạn 摸一张牌，否则对方摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，并弃置一名其他角色的一张手牌，若两张牌颜色相同， bạn 摸一张牌，否则对方摸一张牌",
   yunchou_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张非基本手牌，并弃置一名其他角色的一张手牌，若两张牌颜色相同， bạn 摸一张牌，否则对方摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张非基本手牌，并弃置一名其他角色的一张手牌，若两张牌颜色相同， bạn 摸一张牌，否则对方摸一张牌",
   swdtianshu_old_info:
-    " Giai đoạn kết thúc ， bạn 可以弃置一张牌并从三名随机武将中选择一个，在2X回合后 bạn 将其所有技能加入 bạn 的天书列表，X là 其技能数；在技能加入天书列表时， hoặc 于出牌阶段， bạn 可以装备一项天书列表中的技能",
+    " Giai đoạn kết thúc ， bạn 可以弃置一张牌并从三名随机武将中选择一个，在2X回合后 bạn 将其所有技能加入 bạn 的天书列表，X là 其技能数；在技能加入天书列表时， hoặc 于  giai đoạn ra bài， bạn 可以装备一项天书列表中的技能",
   swdtianshu_info:
-    "出牌阶段， bạn 可以弃置一张锦囊牌，然后获得一名其他角色的一项技能直到该角色死亡（替换以此法获得的前一个技能）",
+    "  giai đoạn ra bài， bạn 可以弃置一张锦囊牌，然后获得一名其他角色的一项技能直到该角色死亡（替换以此法获得的前一个技能）",
   zaowu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♠︎  hoặc  ♥︎ 手牌 khi 作封印之蛋使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♠︎  hoặc  ♥︎ 手牌 khi 作封印之蛋使用",
   luomei_info:
     "每 khi bạn sử dụng  hoặc 打出一张 ♣︎ 花色的牌， bạn 可以摸一张牌",
   xingdian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，然后随机弃置两名敌人各一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，然后随机弃置两名敌人各一张牌",
   yulin_info:
     "每 khi  bạn 即将受到 sát thương ， bạn 可以弃置一张装备牌抵消此 sát thương ",
   funiao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌交给一名其他角色，然后摸一张牌并观看其手牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌交给一名其他角色，然后摸一张牌并观看其手牌",
   funiao_old_info:
-    "出牌阶段， bạn 可以交给一名角色一张手牌，然后观看其手牌，每个阶段对一名角色只能发动一次",
+    "  giai đoạn ra bài， bạn 可以交给一名角色一张手牌，然后观看其手牌，每个阶段对一名角色只能发动一次",
   xuehuang_info:
-    "Hạn định kỹ，出牌阶段，若 bạn 没有黑色手牌， bạn 可以展示并弃置所有手牌，每弃置一张牌视 là 使用一张火杀，随机指定两名敌人 là 目标",
+    "Hạn định kỹ，  giai đoạn ra bài，若 bạn 没有黑色手牌， bạn 可以展示并弃置所有手牌，每弃置一张牌视 là 使用一张火杀，随机指定两名敌人 là 目标",
   zhuyu_info:
     "每 khi 一名横置的角色即将受到 sát thương 时， bạn 可以弃置一张红色牌令此 sát thương +1并变 là 火属性",
   ningshuang_info:
     "每 khi  bạn 成 là 黑色牌的目标， bạn 可以弃置一张黑色牌将其横置，并摸一张牌，若其已经模置则改 là 将其翻面",
   zaowu_old_info:
-    "出牌阶段， bạn 可以弃置三张不同类型的牌，创造任意两张牌并获得之",
+    "  giai đoạn ra bài， bạn 可以弃置三张不同类型的牌，创造任意两张牌并获得之",
   xielv_info:
     "弃牌阶段结束后，若 bạn 的所有手牌（至少两张）颜色均相同， bạn 可以展示所有手牌，然后回复一 sinh lực 并弃置场上的所有判定牌",
 };
@@ -9705,20 +9723,20 @@ export const translate_tw = {
     " khi 一名其他角色使用【杀】指定另一名其他角色 là 目标时， bạn 可以将此【杀】的目标改 là  bạn 。若如此做， khi  bạn 受到此【杀】的 sát thương 后， bạn 可以将一张牌放在此【杀】原目标的武将牌旁，称之 là “马”。Tỏa định kỹ，场上的一名角色每有一张“马”，其他角色计算与其的距离便+1。",
   twqijia: "弃甲",
   twqijia_info:
-    "出牌阶段， bạn 可以弃置一张装备区内的牌（每种类型的装备牌限一次），然后视 là 对攻击范围内的一名其他角色使用了一张【杀】。",
+    "  giai đoạn ra bài， bạn 可以弃置一张装备区内的牌（每种类型的装备牌限一次），然后视 là 对攻击范围内的一名其他角色使用了一张【杀】。",
   twzhuchen: "诛綝",
   twzhuchen_info:
-    "出牌阶段， bạn 可以弃置一张【桃】 hoặc 【酒】并选择一名其他角色。 bạn 与其的距离视 là 1直到此阶段结束。",
+    "  giai đoạn ra bài， bạn 可以弃置一张【桃】 hoặc 【酒】并选择一名其他角色。 bạn 与其的距离视 là 1直到此阶段结束。",
   twhuzhu: "护主",
   twhuzhu_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的装备区内有牌，则 bạn 可以令一名其他角色交给 bạn 一张手牌，然后获得 bạn 装备区内的一张牌。若其体力值不大于 bạn ，则 bạn 可以令其回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài，若 bạn 的装备区内有牌，则 bạn 可以令一名其他角色交给 bạn 一张手牌，然后获得 bạn 装备区内的一张牌。若其体力值不大于 bạn ，则 bạn 可以令其回复1 sinh lực 。",
   twliancai: "敛财",
   twliancai_info:
     " Giai đoạn kết thúc ， bạn 可以将武将牌翻面，然后获得一名其他角色装备区内的一张牌。 khi  bạn 的武将牌翻面时， bạn 可以将手牌补至与体力值相同。",
   twrangyi: "攘夷",
   twrangyi2: "攘夷",
   twrangyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将所有手牌交给一名其他角色，然后令其选择一项：1.使用其中的一张牌，并于此牌被使用时将其余的牌交还给 bạn 。2.受到来自 bạn 的1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将所有手牌交给一名其他角色，然后令其选择一项：1.使用其中的一张牌，并于此牌被使用时将其余的牌交还给 bạn 。2.受到来自 bạn 的1点 sát thương 。",
   twbaimei: "白眉",
   twbaimei_info:
     "Tỏa định kỹ，若 bạn 没有手牌，则防止 bạn 受到的所有属性 sát thương 和锦囊牌造成的 sát thương 。",
@@ -9727,17 +9745,17 @@ export const translate_tw = {
     " 游戏开始时， bạn 可以选择一个现存势力， bạn 的势力视 là 该势力。 ",
   waishi: "外使",
   waishi_info:
-    " 1 lần trong giai đoạn hành động， bạn 可以用至多X张牌交换一名其他角色等量的手牌（X là 现存势力数），然后若其与 bạn 势力相同 hoặc 手牌多于 bạn ， bạn 摸一张牌。",
+    " 1 lần trong giai đoạn ra bài， bạn 可以用至多X张牌交换一名其他角色等量的手牌（X là 现存势力数），然后若其与 bạn 势力相同 hoặc 手牌多于 bạn ， bạn 摸一张牌。",
   renshe: "忍涉",
   renshe_info:
-    " khi  bạn 受到 sát thương 后， bạn 可以选择一项：将势力改 là 现存的另一个势力； hoặc 可以额外发动一次“外使”直到 bạn 的下个出牌阶段结束； hoặc 与另一名其他角色各摸一张牌。",
+    " khi  bạn 受到 sát thương 后， bạn 可以选择一项：将势力改 là 现存的另一个势力； hoặc 可以额外发动一次“外使”直到 bạn 的下个  giai đoạn ra bài结束； hoặc 与另一名其他角色各摸一张牌。",
   tw_gexuan: "TW葛玄",
   twdanfa: "丹法",
   twdanfa_info:
     "准备阶段 hoặc  Giai đoạn kết thúc 开始时， bạn 可将一张牌置于武将牌上，称 là “丹”。每回合每种花色限一次， khi bạn sử dụng 牌时，若“丹”中有与此牌花色相同的牌，则 bạn 摸一张牌。",
   twlingbao: "灵宝",
   twlingbao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将两张花色不同的“丹”置入弃牌堆。若这两张牌：均 là 红色， bạn 令一名其他角色回复1 sinh lực ；均 là 黑色， bạn 弃置一名其他角色区域内至多两张区域不同牌；颜色不同，则 bạn 令一名角色摸一张牌，并令另一名角色弃置一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将两张花色不同的“丹”置入弃牌堆。若这两张牌：均 là 红色， bạn 令一名其他角色回复1 sinh lực ；均 là 黑色， bạn 弃置一名其他角色区域内至多两张区域不同牌；颜色不同，则 bạn 令一名角色摸一张牌，并令另一名角色弃置一张牌。",
   twsidao: "司道",
   twsidao_info:
     "游戏开始时， bạn 选择一张“法宝”置入装备区。准备阶段，若 bạn 以此法选择的法宝在牌堆/弃牌堆中，则 bạn 使用之。",
@@ -9759,11 +9777,11 @@ export const translate_tw = {
     "一名角色的回合结束时，若 bạn 本回合内使用过两张 hoặc 更多的同名锦囊牌，则 bạn 可弃置一张手牌并令一名角色进行一个额外回合。",
   dz_mantianguohai: "瞒天过海",
   dz_mantianguohai_info:
-    "此牌不计入拥有者的手牌上限。出牌阶段，对一至两名区域内有牌的其他角色使用。 bạn 获得目标角色一张牌，然后依次交给每名目标角色各一张牌。",
+    "此牌不计入拥有者的手牌上限。  giai đoạn ra bài，对一至两名区域内有牌的其他角色使用。 bạn 获得目标角色一张牌，然后依次交给每名目标角色各一张牌。",
   jiachong: "TW贾充",
   beini: "悖逆",
   beini_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名体力值不小于 bạn 的角色，令 bạn  hoặc 其摸两张牌，然后未摸牌的角色视 là 对摸牌的角色使用一张【杀】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名体力值不小于 bạn 的角色，令 bạn  hoặc 其摸两张牌，然后未摸牌的角色视 là 对摸牌的角色使用一张【杀】。",
   dingfa: "定法",
   dingfa_info:
     "弃牌阶段结束时，若本回合 bạn 失去的牌数不小于 bạn 的体力值， bạn 可以选择一项：1、回复1 sinh lực ；2、对一名其他角色造成1点 sát thương 。 ",
@@ -9777,7 +9795,7 @@ export const translate_tw = {
   wuban: "吴班",
   jintao: "进讨",
   jintao_info:
-    "Tỏa định kỹ， bạn 使用【杀】无距离限制且次数上限+1。 bạn 于出牌阶段内使用的第一张【杀】 sát thương +1，第二张【杀】不可被响应。",
+    "Tỏa định kỹ， bạn 使用【杀】无距离限制且次数上限+1。 bạn 于  giai đoạn ra bài内使用的第一张【杀】 sát thương +1，第二张【杀】不可被响应。",
   yuejiu: "乐就",
   cuijin: "催进",
   cuijin_info:
@@ -9798,18 +9816,18 @@ export const translate_tw = {
   tw_yujin: "SP于禁",
   xinzhenjun: "镇军",
   xinzhenjun_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以将一张牌交给一名其他角色，令其选择是否使用一张不 là 黑色的【杀】。若其选择是，则 bạn 于此【杀】结算完成后摸1+X张牌(X là 此【杀】造成的 sát thương 总 điểm số )。若其选择否，则 bạn 对其 hoặc 其攻击范围内的一名其他角色造成1点 sát thương 。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以将一张牌交给一名其他角色，令其选择是否使用一张不 là 黑色的【杀】。若其选择是，则 bạn 于此【杀】结算完成后摸1+X张牌(X là 此【杀】造成的 sát thương 总 điểm số )。若其选择否，则 bạn 对其 hoặc 其攻击范围内的一名其他角色造成1点 sát thương 。",
   tw_hucheer: "TW胡车儿",
   twshenxing: "神行",
   twshenxing_info:
     "Tỏa định kỹ。若 bạn 的装备区内没有坐骑牌，则 bạn 至其他角色的距离-1且手牌上限+1。",
   twdaoji: "盗戟",
   twdaoji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张非基本牌并选择一名攻击范围内的角色，获得其一张牌。若 bạn 以此法获得的牌 là ：基本牌， bạn 摸一张牌；装备牌， bạn 使用此牌并对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张非基本牌并选择一名攻击范围内的角色，获得其一张牌。若 bạn 以此法获得的牌 là ：基本牌， bạn 摸一张牌；装备牌， bạn 使用此牌并对其造成1点 sát thương 。",
   tw_hejin: "TW何进",
   twmouzhu: "谋诛",
   twmouzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色A。 bạn 令除A外所有体力值小于等于 bạn 的其他角色依次选择是否交给 bạn 一张牌。若 bạn 以此法获得的牌数X：等于0， bạn 和所有进行选择的角色依次失去1 sinh lực 。大于0， bạn 令A选择由 bạn 视 là 对其使用一张 sát thương 值基数 là X的【杀】 hoặc 【决斗】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色A。 bạn 令除A外所有体力值小于等于 bạn 的其他角色依次选择是否交给 bạn 一张牌。若 bạn 以此法获得的牌数X：等于0， bạn 和所有进行选择的角色依次失去1 sinh lực 。大于0， bạn 令A选择由 bạn 视 là 对其使用一张 sát thương 值基数 là X的【杀】 hoặc 【决斗】。",
   twyanhuo: "延祸",
   twyanhuo_info:
     " khi  bạn 死亡时， bạn 可以选择一项：①令一名其他角色弃置X张牌。②令X名其他角色依次弃置一张牌。（X là  bạn 的牌数）",
@@ -9821,7 +9839,7 @@ export const translate_tw = {
   tw_re_caohong_ab: "曹洪",
   twyuanhu: "援护",
   twyuanhu_info:
-    "1 lần trong giai đoạn hành động。 bạn 可将一张装备牌置入一名角色的装备区内。若此牌 là ：武器牌， bạn 弃置与其距离 là 1的另一名角色区域的一张牌；防具牌，其摸一张牌；坐骑牌，其回复1 sinh lực 。若其的体力值 hoặc 手牌数不大于 bạn ，则 bạn 可摸一张牌，且可以于本回合的 Giai đoạn kết thúc 再发动一次〖援护〗。",
+    "1 lần trong giai đoạn ra bài。 bạn 可将一张装备牌置入一名角色的装备区内。若此牌 là ：武器牌， bạn 弃置与其距离 là 1的另一名角色区域的一张牌；防具牌，其摸一张牌；坐骑牌，其回复1 sinh lực 。若其的体力值 hoặc 手牌数不大于 bạn ，则 bạn 可摸一张牌，且可以于本回合的 Giai đoạn kết thúc 再发动一次〖援护〗。",
   twjuezhu: "决助",
   twjuezhu_info:
     "Hạn định kỹ。准备阶段， bạn 可废除一个坐骑栏，令一名角色获得〖飞影〗并废除判定区。该角色死亡后， bạn 恢复以此法废除的装备栏。",
@@ -9831,11 +9849,11 @@ export const translate_tw = {
     "Tỏa định kỹ。游戏开始时， bạn 获得牌堆中的基本牌，锦囊牌，装备牌各一张。",
   twhengjiang: "横江",
   twhengjiang_info:
-    "1 lần trong giai đoạn hành động， khi bạn sử dụng 基本牌 hoặc 普通锦囊牌 sau khi chỉ định mục tiêu duy nhất ， bạn 可将此牌的目标改 là 攻击范围内的所有合法目标，然后 bạn 于此牌结算结束后摸X张牌（X là 因响应此牌而使用 hoặc 打出过牌的角色数）。",
+    "1 lần trong giai đoạn ra bài， khi bạn sử dụng 基本牌 hoặc 普通锦囊牌 sau khi chỉ định mục tiêu duy nhất ， bạn 可将此牌的目标改 là 攻击范围内的所有合法目标，然后 bạn 于此牌结算结束后摸X张牌（X là 因响应此牌而使用 hoặc 打出过牌的角色数）。",
   tw_huojun: "霍峻",
   twsidai: "伺怠",
   twsidai_info:
-    "Hạn định kỹ。出牌阶段， bạn 可以将手牌区内的所有基本牌 khi 做【杀】使用（无距离和次数限制）。若此牌对应的实体牌中：包含【闪】，则目标角色成 là 此牌的目标后，需弃置一张基本牌，否则不可响应此牌；包含【桃】，则 khi 目标角色受到此牌的 sát thương 后，其减1 sinh lực 上限；包含【酒】，则 khi 目标角色受到此牌的 sát thương 时，此 sát thương ×2。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可以将手牌区内的所有基本牌 khi 做【杀】使用（无距离和次数限制）。若此牌对应的实体牌中：包含【闪】，则目标角色成 là 此牌的目标后，需弃置一张基本牌，否则不可响应此牌；包含【桃】，则 khi 目标角色受到此牌的 sát thương 后，其减1 sinh lực 上限；包含【酒】，则 khi 目标角色受到此牌的 sát thương 时，此 sát thương ×2。",
   twjieyu: "竭御",
   twjieyu_info:
     "每轮限一次。 Giai đoạn kết thúc 开始时， hoặc  khi  bạn 于一轮内第一次受到 sát thương 后， bạn 可以弃置所有手牌，然后从弃牌堆中获得不同牌名的基本牌各一张。",
@@ -9843,10 +9861,10 @@ export const translate_tw = {
   twyujue: "鬻爵",
   twyujue_give: "鬻爵",
   twyujue_info:
-    "①其他角色的出牌阶段内，可以交给 bạn 任意张牌（每阶段上限 là 两张）。② khi  bạn 于回合外获得其他角色的一张牌后， bạn 可令其选择本回合内未选择过的一项：⒈弃置攻击范围内一名角色的一张牌。⒉下一次使用牌时，从牌堆中获得一张同类别的牌。",
+    "①其他角色的  giai đoạn ra bài内，可以交给 bạn 任意张牌（每阶段上限 là 两张）。② khi  bạn 于回合外获得其他角色的一张牌后， bạn 可令其选择本回合内未选择过的一项：⒈弃置攻击范围内一名角色的一张牌。⒉下一次使用牌时，从牌堆中获得一张同类别的牌。",
   twgezhi: "革制",
   twgezhi_info:
-    "① khi  bạn 于出牌阶段内首次使用某种类别的牌时， bạn 可以重铸一张手牌。②出牌阶段结束时，若 bạn 本阶段内因〖革制①〗失去过至少两张牌，则 bạn 可以令一名角色选择获得一个其未获得过的效果：⒈攻击范围+2；⒉手牌上限+2；⒊加1 sinh lực 上限。",
+    "① khi  bạn 于  giai đoạn ra bài内首次使用某种类别的牌时， bạn 可以重铸一张手牌。②  giai đoạn ra bài结束时，若 bạn 本阶段内因〖革制①〗失去过至少两张牌，则 bạn 可以令一名角色选择获得一个其未获得过的效果：⒈攻击范围+2；⒉手牌上限+2；⒊加1 sinh lực 上限。",
   twfengqi: "烽起",
   twfengqi_info:
     "Chủ công kỹ，Tỏa định kỹ。①其他群势力角色发动〖鬻爵①〗时，将每阶段上限改 là 四张。②以其他角色 là 目标的〖革制②〗结算结束后，目标角色可以激活其武将牌上的Chủ công kỹ。",
@@ -9860,7 +9878,7 @@ export const translate_tw = {
   tw_zhangmancheng: "张曼成",
   twfengji: "蜂集",
   twfengji_info:
-    "Bắt đầu giai đoạn hành động，若 bạn 没有“示”，则 bạn 可以将一张牌作 là “示”置于武将牌上并施法：从牌堆中获得X张与“示”牌名相同的牌，然后移去“示”。",
+    "Bắt đầu giai đoạn ra bài，若 bạn 没有“示”，则 bạn 可以将一张牌作 là “示”置于武将牌上并施法：从牌堆中获得X张与“示”牌名相同的牌，然后移去“示”。",
   twyiju: "蚁聚",
   twyiju_info:
     "非Tỏa định kỹ。若 bạn 的武将牌上有“示”，则：① bạn 使用【杀】的次数上限和攻击范围的基数改 là  bạn 的体力值。② khi  bạn 受到 sát thương 时， bạn 移去“示”，且令此 sát thương +1。",
@@ -9869,13 +9887,13 @@ export const translate_tw = {
     "Hạn định kỹ。准备阶段， bạn 可减1 sinh lực 上限，回复1 sinh lực 并选择获得一个“施法”技能。然后 bạn 可以令一名其他角色也获得此技能并交给 bạn 一张牌。",
   twzhouhu: "咒护",
   twzhouhu_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以弃置一张红色手牌并施法：回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以弃置一张红色手牌并施法：回复1 sinh lực 。",
   twharvestinori: "丰祈",
   twharvestinori_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以弃置一张黑色手牌并施法：摸2X张牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以弃置一张黑色手牌并施法：摸2X张牌。",
   twzuhuo: "阻祸",
   twzuhuo_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以弃置一张非基本牌并施法：防止 bạn 受到的下X次 sát thương 。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以弃置一张非基本牌并施法：防止 bạn 受到的下X次 sát thương 。",
   tw_chengpu: "程普",
   twlihuo: "疠火",
   twlihuo2: "疠火",
@@ -9888,14 +9906,14 @@ export const translate_tw = {
   tw_guohuai: "TW郭淮",
   twjingce: "精策",
   twjingce_info:
-    " khi  bạn 于出牌阶段使用第X张牌时， bạn 可以摸X张牌（X là  bạn 的体力值）。若此阶段 bạn 此前摸过牌 hoặc 本回合造成过 sát thương ， bạn 获得一枚“策”标记。",
+    " khi  bạn 于  giai đoạn ra bài使用第X张牌时， bạn 可以摸X张牌（X là  bạn 的体力值）。若此阶段 bạn 此前摸过牌 hoặc 本回合造成过 sát thương ， bạn 获得一枚“策”标记。",
   yuzhang: "御嶂",
   yuzhang_info:
     " bạn 可以弃置一枚“策”标记，然后跳过一个阶段。 khi  bạn 受到 sát thương 后， bạn 可弃置一枚“策”标记，然后选择一项：⒈令 sát thương 来源弃置X张牌（X là 其体力值）；⒉令 sát thương 来源本回合不能再使用 hoặc 打出牌。",
   tw_caozhao: "曹肇",
   twfuzuan: "复纂",
   twfuzuan_info:
-    "1 lần trong giai đoạn hành động/ khi  bạn 受到 sát thương 后/ khi  bạn 对其他角色造成 sát thương 后， bạn 可选择一名拥有Chuyển hoán kỹ的角色，变更其的一个Chuyển hoán kỹ的的状态。",
+    "1 lần trong giai đoạn ra bài/ khi  bạn 受到 sát thương 后/ khi  bạn 对其他角色造成 sát thương 后， bạn 可选择一名拥有Chuyển hoán kỹ的角色，变更其的一个Chuyển hoán kỹ的的状态。",
   twchongqi: "宠齐",
   twchongqi_info:
     "Tỏa định kỹ。游戏开始时， bạn 令所有角色获得〖非服〗。然后 bạn 可减1 sinh lực 上限，令一名其他角色获得〖复纂〗。",
@@ -9941,7 +9959,7 @@ export const translate_tw = {
   tw_puyangxing: "TW濮阳兴",
   twzhengjian: "征建",
   twzhengjian_info:
-    "游戏开始时， bạn 可选择获得一项效果：⒈其他角色的出牌阶段结束时，若其本阶段内未使用过非基本牌，则其须交给 bạn 一张牌，然后 bạn 可失去此效果并获得〖征建〗的效果二。⒉其他角色的出牌阶段结束时，若其本阶段内未获得过牌，则其须交给 bạn 一张牌，然后 bạn 可失去此效果并获得〖征建〗的效果二。",
+    "游戏开始时， bạn 可选择获得一项效果：⒈其他角色的  giai đoạn ra bài结束时，若其本阶段内未使用过非基本牌，则其须交给 bạn 一张牌，然后 bạn 可失去此效果并获得〖征建〗的效果二。⒉其他角色的  giai đoạn ra bài结束时，若其本阶段内未获得过牌，则其须交给 bạn 一张牌，然后 bạn 可失去此效果并获得〖征建〗的效果二。",
   twzhongchi: "众斥",
   twzhongchi_info:
     "Tỏa định kỹ，Hạn định kỹ。 khi  bạn 因〖征建〗而获得牌后，若已经有至少X名角色因〖征建〗而交给 bạn 过牌（X là 游戏人数的一半且向上取整），则 bạn 于本局游戏内受到渠道 là 【杀】的 sát thương +1，且 bạn 将〖征建〗中的“其须交给 bạn 一张牌”改 là “ bạn 可对其造成1点 sát thương ”。",
@@ -10016,7 +10034,7 @@ export const translate_xianjian = {
 
   xyufeng: "御蜂",
   xyufeng_info:
-    "1 lần trong giai đoạn hành động，可以将一张 ♠︎ 牌 khi 作机关蜂使用",
+    "1 lần trong giai đoạn ra bài，可以将一张 ♠︎ 牌 khi 作机关蜂使用",
   lingquan: "灵泉",
   lingquan_info:
     "觉醒技， Giai đoạn kết thúc ，若游戏轮数不小于3且 bạn 本回合使用的牌数大于 bạn 的体力值， bạn 摸三张牌，然后获得技能【水蕴】",
@@ -10025,7 +10043,7 @@ export const translate_xianjian = {
     "觉醒技，在一名角色的 Giai đoạn kết thúc ，若 bạn 本局至少发动过3次【水蕴】， bạn 增加一 sinh lực 和体力上限并获得两点护甲，然后获得技能【回梦】",
   txianqu: "仙音",
   txianqu_info:
-    "1 lần trong giai đoạn hành động， khi  bạn 即将造成 sát thương 时， bạn 可以防止之，然后摸两张牌并回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， khi  bạn 即将造成 sát thương 时， bạn 可以防止之，然后摸两张牌并回复一 sinh lực ",
   qiongguang: "穹光",
   qiongguang_info:
     "弃牌阶段结束时，若 bạn 弃置了至少两张牌， bạn 可以对所有敌方角色施加一个随机的负面效果",
@@ -10038,16 +10056,16 @@ export const translate_xianjian = {
   yuexing: "越行",
   yuexing2: "越行",
   yuexing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名角色，本阶段内将 bạn 与该角色到其他角色的距离基数互换",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名角色，本阶段内将 bạn 与该角色到其他角色的距离基数互换",
   lingdi: "灵笛",
   lingdi_info:
-    "出牌阶段， bạn 可以弃置一张本回合与此法弃置的牌花色均不同的手牌，然后选择一名与 bạn 距离 là X的角色与其各摸一张牌，X là 本回合发动灵笛的次数（含此次）",
+    "  giai đoạn ra bài， bạn 可以弃置一张本回合与此法弃置的牌花色均不同的手牌，然后选择一名与 bạn 距离 là X的角色与其各摸一张牌，X là 本回合发动灵笛的次数（含此次）",
   xiaoyue: "啸月",
   xiaoyue_info:
     "Tỏa định kỹ，每轮开始时，若 bạn 手牌中有杀， bạn 将手牌中的一张随机杀对一名随机敌方角色使用，然后获得一点护甲",
   minsha: "冥煞",
   minsha_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张牌，对一名体力值大于1的其他角色造成一点雷属性 sát thương ，然后距离目标1以内的所有其他角色随机弃置一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张牌，对一名体力值大于1的其他角色造成一点雷属性 sát thương ，然后距离目标1以内的所有其他角色随机弃置一张牌",
   xhuanlei: "唤雷",
   xhuanlei_info:
     "每 khi  bạn 受到一次 sát thương ，若 sát thương 来源体力值大于 bạn ， bạn 可以对其造成一点雷属性 sát thương ，然后其摸一张牌",
@@ -10057,7 +10075,7 @@ export const translate_xianjian = {
     "每 khi  bạn 对其他角色造成一次 sát thương ， bạn 可以令目标获得三枚蛊标记；拥有蛊标记的角色手牌上限-1，每回合最多使用X张牌（X là 蛊标记数），每个 Giai đoạn kết thúc 失去一枚蛊标记",
   xtanxi: "探息",
   xtanxi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌，然后随机选择一名手牌中有与之同名的牌的敌方角色，观看其手牌并获得任意一张",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌，然后随机选择一名手牌中有与之同名的牌的敌方角色，观看其手牌并获得任意一张",
   linghuo: "灵火",
   linghuo_info:
     "每两轮限一次，在一名其他角色的 Giai đoạn kết thúc ，若其本回合内造成过 sát thương ， bạn 可以对其造成一点火属性 sát thương ",
@@ -10065,7 +10083,7 @@ export const translate_xianjian = {
   guijin2: "归烬",
   guijin2_bg: "烬",
   guijin_info:
-    "每三轮限一次，出牌阶段， bạn 可以观看牌堆顶的4张牌，然后可以将其中任意张牌分配给任意角色，被分到牌的角色跳过下一摸牌阶段，然后将剩余牌以原顺序放回牌堆顶",
+    "每三轮限一次，  giai đoạn ra bài， bạn 可以观看牌堆顶的4张牌，然后可以将其中任意张牌分配给任意角色，被分到牌的角色跳过下一摸牌阶段，然后将剩余牌以原顺序放回牌堆顶",
   chengxin: "澄心",
   chengxin2: "澄心",
   chengxin2_bg: "心",
@@ -10106,10 +10124,10 @@ export const translate_xianjian = {
     "Tỏa định kỹ，每 khi bạn sử dụng 一张杀结算完毕后， bạn 随机对一名不是此杀目标的敌方角色使用一张杀",
   fenglue: "风掠",
   fenglue_info:
-    " bạn 可以放弃出牌阶段，改 là 指定一名其他角色并选择任意张手牌，依次对该角色使用，若如此做，此阶段内该角色每受到一点 sát thương ， bạn 在结算后摸一张牌",
+    " bạn 可以放弃  giai đoạn ra bài，改 là 指定一名其他角色并选择任意张手牌，依次对该角色使用，若如此做，此阶段内该角色每受到一点 sát thương ， bạn 在结算后摸一张牌",
   xjzongyu: "纵雨",
   xjzongyu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色手牌，视 là 使用一张飞镖，随机指定两名敌方角色 là 目标",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色手牌，视 là 使用一张飞镖，随机指定两名敌方角色 là 目标",
   fanling: "返灵",
   fanling_info:
     "Tỏa định kỹ，每 khi 一名角色失去体力， bạn 回复一 sinh lực ，每回合只能发动一次",
@@ -10122,7 +10140,7 @@ export const translate_xianjian = {
     "每回合限一次， khi bạn sử dụng 卡牌造成一次 sát thương 后， bạn 可以进行一次判定，若结果 là 黑色， bạn 收回此牌",
   dujiang: "毒降",
   dujiang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色牌令一名随机敌人获得一张毒",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色牌令一名随机敌人获得一张毒",
   binxin: "冰心",
   binxin_info:
     "在一名角色的 Giai đoạn kết thúc ，若其体力值 là 1， bạn 可以令其获得一点护甲",
@@ -10135,7 +10153,7 @@ export const translate_xianjian = {
   husha: "虎煞",
   husha_bg: "煞",
   husha_info:
-    "每 khi  bạn 于出牌阶段造成一点 sát thương ， bạn 获得一枚虎煞标记（标记数不超过3）； Giai đoạn kết thúc ， bạn 可以选择一项：1. 移去一枚虎煞标记，视 là 对任意角色使用一张杀；2. 移去两枚虎煞标记，视 là 使用一张南蛮入侵；3. 移去三枚虎煞标记，视 là 对除 bạn 之外的角色使用一张元素毁灭",
+    "每 khi  bạn 于  giai đoạn ra bài造成一点 sát thương ， bạn 获得一枚虎煞标记（标记数不超过3）； Giai đoạn kết thúc ， bạn 可以选择一项：1. 移去一枚虎煞标记，视 là 对任意角色使用一张杀；2. 移去两枚虎煞标记，视 là 使用一张南蛮入侵；3. 移去三枚虎煞标记，视 là 对除 bạn 之外的角色使用一张元素毁灭",
   longhuo: "龙火",
   longhuo_info:
     " Giai đoạn kết thúc ， bạn 可以对所有角色各造成一点火焰 sát thương ",
@@ -10144,10 +10162,10 @@ export const translate_xianjian = {
     "觉醒技， khi  bạn 解除濒死状态时， bạn 获得两点护甲，摸两张牌，然后获得技能龙火",
   yanzhan: "炎斩",
   yanzhan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张红色牌 khi 作火杀使用，此杀只能用与之花色相同的闪响应；若此杀造成了 sát thương ， bạn 本回合可以额外使用一张杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张红色牌 khi 作火杀使用，此杀只能用与之花色相同的闪响应；若此杀造成了 sát thương ， bạn 本回合可以额外使用一张杀",
   feixia: "飞霞",
   feixia_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色牌视 là 对一名随机敌人使用一张不计入出杀次数的杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色牌视 là 对一名随机敌人使用一张不计入出杀次数的杀",
   lueying: "掠影",
   lueying_info:
     "每 khi bạn sử dụng 一张杀， bạn 可以随机获得目标的一张牌，然后目标可以指定一名其他角色， bạn 弃置该角色一张牌（每回合限发动一次，没有弃牌目标时无法发动）",
@@ -10166,7 +10184,7 @@ export const translate_xianjian = {
   huxi_info: " bạn 可以失去一 sinh lực 并获得一点护甲，视 là 使用一张杀",
   xuanmo: "玄墨",
   xuanmo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌置于牌堆顶并随机获得两张与之类别相同的牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌置于牌堆顶并随机获得两张与之类别相同的牌",
   danqing: "丹青",
   danqing_info:
     " Giai đoạn kết thúc ，若 bạn 累计使用了4张花色不同的牌， bạn 可以选择至多4名角色随机获得一个正面效果",
@@ -10194,7 +10212,7 @@ export const translate_xianjian = {
   guijiang: "鬼降",
   guijiang2: "鬼降",
   guijiang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色牌，令一名其他角色无法成 là 回复牌的目标直到 bạn 下一回合开始",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色牌，令一名其他角色无法成 là 回复牌的目标直到 bạn 下一回合开始",
   diesha: "叠杀",
   diesha_info:
     "Tỏa định kỹ，每 khi bạn sử dụng 杀造成 sát thương ，受 sát thương 角色失去一 sinh lực ， bạn 回复一 sinh lực ",
@@ -10202,10 +10220,10 @@ export const translate_xianjian = {
   lingyu_info: " Giai đoạn kết thúc ， bạn 可以令一名其他角色回复一 sinh lực ",
   diewu: "蝶舞",
   diewu_info:
-    "出牌阶段， bạn 可以将一张【杀】交给一名角色，若 bạn 于此阶段内首次如此做， bạn 摸一张牌",
+    "  giai đoạn ra bài， bạn 可以将一张【杀】交给一名角色，若 bạn 于此阶段内首次如此做， bạn 摸一张牌",
   duxinshu: "读心",
   duxinshu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看一名其他角色的手牌，然后可以用一张手牌替换其中的一张",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看一名其他角色的手牌，然后可以用一张手牌替换其中的一张",
   feixu: "飞絮",
   feixu_info: "每 khi 一名角色使用 hoặc 打出一张闪， bạn 可以令其摸一张牌",
   xuanyan: "玄炎",
@@ -10223,12 +10241,12 @@ export const translate_xianjian = {
     "Tỏa định kỹ，每 khi  bạn 的体力值发生改变， bạn 摸一张牌",
   luanjian: "乱剑",
   luanjian_info:
-    "出牌阶段， bạn 可以将两张杀 khi 杀使用，此杀无视距离，可以指定任意名目标且有50%的机率 sát thương +1",
+    "  giai đoạn ra bài， bạn 可以将两张杀 khi 杀使用，此杀无视距离，可以指定任意名目标且有50%的机率 sát thương +1",
   ctianfu: "天符",
   ctianfu2: "天符",
   ctianfu3: "天符",
   ctianfu_info:
-    "出牌阶段， bạn 可以将一张闪置于一名其他角色的武将牌上，该角色在下一次造成 sát thương 时受到来自 bạn 的一点雷属性 sát thương 并随机弃置一张牌，然后移去此牌",
+    "  giai đoạn ra bài， bạn 可以将一张闪置于一名其他角色的武将牌上，该角色在下一次造成 sát thương 时受到来自 bạn 的一点雷属性 sát thương 并随机弃置一张牌，然后移去此牌",
   shuiyun: "水蕴",
   shuiyun_bg: "蕴",
   shuiyun2: "水蕴",
@@ -10248,13 +10266,13 @@ export const translate_xianjian = {
     " bạn 死亡时，可以将所有牌交给一名其他角色，令其获得技能【追思】",
   sajin: "洒金",
   sajin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张手牌并指定任意名角色进行判定，若判定颜色与 bạn 弃置的牌相同，该角色回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张手牌并指定任意名角色进行判定，若判定颜色与 bạn 弃置的牌相同，该角色回复一 sinh lực ",
   jtjubao: "聚宝",
   jtjubao_info:
     " khi 其他角色于 bạn 的回合外首次弃置非基本牌时， bạn 可以获得其中的随机一张",
   guiyuan: "归元",
   guiyuan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张杀，然后回复一 sinh lực 并摸一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张杀，然后回复一 sinh lực 并摸一张牌",
   xshuangren: "双刃",
   xshuangren_info:
     " khi  bạn 的武器牌被替换时， bạn 可以将其置于 bạn 的武将牌上，并获得此装备的武器效果（不含距离）",
@@ -10283,9 +10301,9 @@ export const translate_xianjian = {
     "Tỏa định kỹ，在回合外每 khi  bạn 需要使用 hoặc 打出一张卡牌时，若牌堆顶的前两张中有可使用 hoặc 打出的牌， bạn 立即获得之",
   zhuyue: "逐月",
   zhuyue_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张非基本牌并指定至多两个目标各随机弃置一张牌，若如此做， bạn 本回使用的杀须指定选中角色 là 目标",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张非基本牌并指定至多两个目标各随机弃置一张牌，若如此做， bạn 本回使用的杀须指定选中角色 là 目标",
   zhuyue_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色非基本牌并指定至多两个目标各随机弃置一张牌，若如此做， bạn 本回使用的杀须指定选中角色 là 目标",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色非基本牌并指定至多两个目标各随机弃置一张牌，若如此做， bạn 本回使用的杀须指定选中角色 là 目标",
   guanri: "贯日",
   guanri_info:
     "限制技， bạn 可以弃置两张红色手牌并流失一 sinh lực ，然后对一名体力值不少于 bạn 的其他角色造成两点火焰 sát thương 并弃置其所有装备牌",
@@ -10303,7 +10321,7 @@ export const translate_xianjian = {
     "每 khi bạn sử dụng  hoặc 打出一张 ♥︎ 牌， bạn 可以令一名角色回复一 sinh lực ",
   tannang: "探囊",
   tannang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♣︎ 手牌 khi 顺手牵羊使用； bạn 的顺手牵羊无距离限制",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♣︎ 手牌 khi 顺手牵羊使用； bạn 的顺手牵羊无距离限制",
   tuoqiao: "烟瘴",
   tuoqiao_info: " bạn 可以将一张黑色牌 khi 作石灰粉使用",
   xiaoyao: "逍遥",
@@ -10311,9 +10329,9 @@ export const translate_xianjian = {
     "每 khi  bạn 成 là 其他角色的卡牌目标， bạn 可以弃置一张与之花色相同的手牌取消之",
   tianjian: "天剑",
   tianjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张杀 khi 作万箭齐发使用，受到 sát thương 的角色随机弃置一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张杀 khi 作万箭齐发使用，受到 sát thương 的角色随机弃置一张牌",
   tianjian_info_alter:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张杀 khi 作万箭齐发使用",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张杀 khi 作万箭齐发使用",
   xjyufeng: "御风",
   xjyufeng_info:
     "Tỏa định kỹ， khi  bạn 失去手牌后，若手牌数少于2， bạn 将手牌数补至2（每回合最多发动两次）",
@@ -10340,16 +10358,16 @@ export const translate_xinghuoliaoyuan = {
   liuyan: "刘焉",
   xinfu_guolun: "过论",
   xinfu_guolun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一名其他角色的手牌，然后展示 bạn 的一张牌。 bạn 与其交换这两张牌，然后展示的牌 điểm số 较小的角色摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一名其他角色的手牌，然后展示 bạn 的一张牌。 bạn 与其交换这两张牌，然后展示的牌 điểm số 较小的角色摸一张牌。",
   xinfu_zhanji: "展骥",
   xinfu_zhanji_info:
-    "Tỏa định kỹ， bạn 的出牌阶段内， khi  bạn 因摸牌且不是因 là 此技能效果而获得牌时， bạn 额外摸一张牌。",
+    "Tỏa định kỹ， bạn 的  giai đoạn ra bài内， khi  bạn 因摸牌且不是因 là 此技能效果而获得牌时， bạn 额外摸一张牌。",
   xinfu_songsang: "送丧",
   xinfu_songsang_info:
     "Hạn định kỹ，其他角色死亡时， bạn 可以回复一 sinh lực （若 bạn 未受伤，则改 là 加一 sinh lực 上限）；然后获得技能〖展骥〗。",
   xinfu_jixu: "击虚",
   xinfu_jixu_info:
-    "1 lần trong giai đoạn hành động，若 bạn 有手牌， bạn 可以令任意名体力值相等的其他角色猜测 bạn 的手牌中是否有【杀】。然后， bạn 摸X张牌（X là 猜错的角色数）。若 bạn 有【杀】，则 bạn 本回合内使用【杀】时，所有这些角色均成 là 【杀】的目标；若 bạn 没有【杀】，则 bạn 弃置所有这些角色的各一张牌。若X là 零， bạn 结束出牌阶段。",
+    "1 lần trong giai đoạn ra bài，若 bạn 有手牌， bạn 可以令任意名体力值相等的其他角色猜测 bạn 的手牌中是否有【杀】。然后， bạn 摸X张牌（X là 猜错的角色数）。若 bạn 有【杀】，则 bạn 本回合内使用【杀】时，所有这些角色均成 là 【杀】的目标；若 bạn 没有【杀】，则 bạn 弃置所有这些角色的各一张牌。若X là 零， bạn 结束  giai đoạn ra bài。",
   jixu_sha: "击虚",
   jixu_sha_info: "",
   xinfu_sanwen: "散文",
@@ -10376,19 +10394,19 @@ export const translate_xinghuoliaoyuan = {
     " Giai đoạn kết thúc ， bạn 可以弃置总 điểm số 之和 là 36的一张牌与任意张「方」，并对一名其他角色造成3点雷电 sát thương 。",
   xinfu_weilu: "威虏",
   xinfu_weilu_info:
-    "Tỏa định kỹ， khi  bạn 受到 sát thương 后， sát thương 来源获得一枚「虏」。 bạn 的下个Bắt đầu giai đoạn hành động，所有有「虏」的角色将体力失去至1点。此阶段结束后，这些角色回复以此法失去的体力。",
+    "Tỏa định kỹ， khi  bạn 受到 sát thương 后， sát thương 来源获得一枚「虏」。 bạn 的下个Bắt đầu giai đoạn ra bài，所有有「虏」的角色将体力失去至1点。此阶段结束后，这些角色回复以此法失去的体力。",
   weilu_effect: "威虏",
   weilu_effect_info: "",
   weilu_effect2: "威虏",
   weilu_effect2_info: "",
   xinfu_zengdao: "赠刀",
   xinfu_zengdao_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以将装备牌内的任意张牌置于一名其他角色的武将牌旁，称之 là 「刀」。该角色造成 sát thương 时，其须移去一张「刀」，然后此 sát thương +1。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以将装备牌内的任意张牌置于一名其他角色的武将牌旁，称之 là 「刀」。该角色造成 sát thương 时，其须移去一张「刀」，然后此 sát thương +1。",
   xinfu_zengdao2: "赠刀",
   xinfu_zengdao2_info: "",
   xinfu_guanwei: "观微",
   xinfu_guanwei_info:
-    "每回合限一次。一名角色的出牌阶段结束时，若其于出牌阶段内使用过两张以上的牌且花色均相同，则 bạn 可以弃置一张牌，令其摸两张牌并进行一个额外的出牌阶段。",
+    "每回合限一次。一名角色的  giai đoạn ra bài结束时，若其于  giai đoạn ra bài内使用过两张以上的牌且花色均相同，则 bạn 可以弃置一张牌，令其摸两张牌并进行一个额外的  giai đoạn ra bài。",
   xinfu_gongqing: "公清",
   xinfu_gongqing_info:
     "Tỏa định kỹ。 khi  bạn 受到 sát thương 时，若 sát thương 来源的攻击范围：<3，则 bạn 令此 sát thương 的数值减 là 1。>3， bạn 令此 sát thương +1。",
@@ -10397,26 +10415,26 @@ export const translate_xinghuoliaoyuan = {
     " khi  bạn 受到 sát thương 时， bạn 可以令 sát thương 来源选择一项：1.令 bạn 观看其的手牌并获得其中的所有 ♥︎ 牌；2.防止此 sát thương ，然后其本回合内的 ♥︎ 手牌不计入手牌上限。",
   xinfu_yingshi: "应势",
   xinfu_yingshi_info:
-    "Bắt đầu giai đoạn hành động，若场上的所有角色均没有「酬」，则 bạn 可以将所有的 ♥︎ 牌置于一名其他角色的武将牌旁，称之 là 「酬」。有「酬」的角色受到「杀」的 sát thương /死亡时， sát thương 来源/ bạn 获得其中的一张/所有的「酬」。",
+    "Bắt đầu giai đoạn ra bài，若场上的所有角色均没有「酬」，则 bạn 可以将所有的 ♥︎ 牌置于一名其他角色的武将牌旁，称之 là 「酬」。有「酬」的角色受到「杀」的 sát thương /死亡时， sát thương 来源/ bạn 获得其中的一张/所有的「酬」。",
   yingshi_heart: "应势",
   yingshi_heart_info: "",
   yingshi_die: "应势",
   yingshi_die_info: "",
   xinfu_duanfa: "断发",
   xinfu_duanfa_info:
-    "出牌阶段， bạn 可以弃置任意张黑色牌，然后摸等量的牌。（每回合内限X张，X là  bạn 的体力上限）",
+    "  giai đoạn ra bài， bạn 可以弃置任意张黑色牌，然后摸等量的牌。（每回合内限X张，X là  bạn 的体力上限）",
   xinfu_youdi: "诱敌",
   xinfu_youdi_info:
     " Giai đoạn kết thúc 开始时， bạn 可以令一名其他角色弃置 bạn 的一张手牌，若此牌：不 là 黑色， bạn 摸一张牌。不 là 【杀】， bạn 获得该角色的一张牌。",
   xinfu_guanchao: "观潮",
   xinfu_guanchao_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以选择获得一项效果直到回合结束：1. khi bạn sử dụng 牌时，若 bạn 此阶段使用过的所有牌的 điểm số  là 递增， bạn 摸一张牌；2. khi bạn sử dụng 牌时，若 bạn 此阶段使用过的所有牌的 điểm số  là 递减， bạn 摸一张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以选择获得一项效果直到回合结束：1. khi bạn sử dụng 牌时，若 bạn 此阶段使用过的所有牌的 điểm số  là 递增， bạn 摸一张牌；2. khi bạn sử dụng 牌时，若 bạn 此阶段使用过的所有牌的 điểm số  là 递减， bạn 摸一张牌。",
   xinfu_xunxian: "逊贤",
   xinfu_xunxian_info:
     "每名其他角色的回合限一次， khi bạn sử dụng  hoặc 打出的牌结算完成后， bạn 可以将其对应的所有实体牌交给一名手牌数大于 bạn 的角色。",
   xinfu_kannan: "戡难",
   xinfu_kannan_info:
-    "出牌阶段限X次， bạn 可以与一名本回合内未成 là 过〖戡难〗目标的角色拼点。若 bạn 赢， bạn 使用的下一张【杀】的 sát thương 值基数+1，且 bạn 本回合内不能再发动〖戡难〗。若 bạn 没赢，其使用的下一张【杀】的 sát thương 值基数+1。（X là  bạn 的体力值）。",
+    "  giai đoạn ra bài限X次， bạn 可以与一名本回合内未成 là 过〖戡难〗目标的角色拼点。若 bạn 赢， bạn 使用的下一张【杀】的 sát thương 值基数+1，且 bạn 本回合内不能再发动〖戡难〗。若 bạn 没赢，其使用的下一张【杀】的 sát thương 值基数+1。（X là  bạn 的体力值）。",
   kannan_eff: "戡难",
   kannan_eff_info: "",
   xinfu_tushe: "图射",
@@ -10424,10 +10442,10 @@ export const translate_xinghuoliaoyuan = {
     " khi bạn sử dụng 非装备牌指定目标后，若 bạn 没有基本牌，则 bạn 可以摸X张牌。（X là 此牌指定的目标数）",
   xinfu_limu: "立牧",
   xinfu_limu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张♦牌 khi 做【乐不思蜀】对自己使用，然后回复1 sinh lực 。只要 bạn 的判定区内有牌， bạn 对攻击范围内的其他角色使用牌便没有次数和距离限制。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张♦牌 khi 做【乐不思蜀】对自己使用，然后回复1 sinh lực 。只要 bạn 的判定区内有牌， bạn 对攻击范围内的其他角色使用牌便没有次数和距离限制。",
   xinyingshi: "应势",
   xinyingshi_info:
-    "Bắt đầu giai đoạn hành động，若场上所有角色的武将牌上均没有“酬”，则 bạn 可以将任意张牌置于一名角色的武将牌上，称 là “酬”。若如此做： khi 有角色使用牌对有“酬”的角色造成 sát thương 后，其可以获得一张“酬”，并获得牌堆中所有与“酬”花色 điểm số 均相同的牌；有“酬”的角色死亡时， bạn 获得其所有“酬”。",
+    "Bắt đầu giai đoạn ra bài，若场上所有角色的武将牌上均没有“酬”，则 bạn 可以将任意张牌置于一名角色的武将牌上，称 là “酬”。若如此做： khi 有角色使用牌对有“酬”的角色造成 sát thương 后，其可以获得一张“酬”，并获得牌堆中所有与“酬”花色 điểm số 均相同的牌；有“酬”的角色死亡时， bạn 获得其所有“酬”。",
 };
 export const translate_yijiang = {
   old_huaxiong: "华雄",
@@ -10509,13 +10527,13 @@ export const translate_yijiang = {
 
   new_qingxian: "清弦",
   new_qingxian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置至多X张牌并选择等量的其他角色。这些角色中，装备区内牌数少于 bạn 的回复1 sinh lực ，等于 bạn 的摸一张牌，多于 bạn 的失去1 sinh lực 。若 bạn 以此法指定的角色数等于X，则 bạn 摸一张牌。（X là  bạn 的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置至多X张牌并选择等量的其他角色。这些角色中，装备区内牌数少于 bạn 的回复1 sinh lực ，等于 bạn 的摸一张牌，多于 bạn 的失去1 sinh lực 。若 bạn 以此法指定的角色数等于X，则 bạn 摸一张牌。（X là  bạn 的体力值）",
   new_juexiang: "绝响",
   new_juexiang_info:
     "Tỏa định kỹ， khi  bạn 死亡后，杀死 bạn 的角色弃置装备区内的所有牌并失去1 sinh lực 。然后， bạn 可以令一名其他角色获得技能〖残韵〗。若该角色区域内有 ♣︎ 牌，则其可以弃置其中的一张，然后其获得技能〖绝响〗。",
   new_canyun: "残韵",
   new_canyun_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置至多X张牌并选择等量的其他角色（不能选择已经成 là 过〖残韵〗目标的角色）。这些角色中，装备区内牌数少于 bạn 的回复1 sinh lực ，等于 bạn 的摸一张牌，多于 bạn 的失去1 sinh lực 。若 bạn 以此法指定的角色数等于X，则 bạn 摸一张牌。（X là  bạn 的体力值）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置至多X张牌并选择等量的其他角色（不能选择已经成 là 过〖残韵〗目标的角色）。这些角色中，装备区内牌数少于 bạn 的回复1 sinh lực ，等于 bạn 的摸一张牌，多于 bạn 的失去1 sinh lực 。若 bạn 以此法指定的角色数等于X，则 bạn 摸一张牌。（X là  bạn 的体力值）",
   qingxian_draw: "清弦",
   qingxian_draw_info: "",
   zhenjun: "镇军",
@@ -10526,16 +10544,16 @@ export const translate_yijiang = {
     "准备阶段， bạn 可以弃置一名角色的X张牌（X là 其手牌数和体力值之差且至少 là 1），然后选择一项：1. bạn 弃置X张牌；2.其摸X张牌。（X là 其弃置的牌中非装备牌的数量）",
   fenli: "奋励",
   fenli_info:
-    "若 bạn 的手牌数 là 全场最多， bạn 可以跳过摸牌阶段；若 bạn 的体力值 là 全场最多， bạn 可以跳过出牌阶段；若 bạn 的装备区里有牌且数量 là 全场最多， bạn 可以跳过弃牌阶段。",
+    "若 bạn 的手牌数 là 全场最多， bạn 可以跳过摸牌阶段；若 bạn 的体力值 là 全场最多， bạn 可以跳过  giai đoạn ra bài；若 bạn 的装备区里有牌且数量 là 全场最多， bạn 可以跳过弃牌阶段。",
   pingkou: "平寇",
   pingkou_info:
     "回合结束时， bạn 可以对至多X名其他角色各造成1点 sát thương （X là  bạn 本回合跳过的阶段数）。",
   xinanguo: "安国",
   xinanguo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色，若其手牌数 là 全场最少，其摸一张牌；体力值 là 全场最低，回复1 sinh lực ；装备区内牌数 là 全场最少，随机使用一张装备牌。然后若该角色有未执行的效果且 bạn 满足条件， bạn 执行之。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色，若其手牌数 là 全场最少，其摸一张牌；体力值 là 全场最低，回复1 sinh lực ；装备区内牌数 là 全场最少，随机使用一张装备牌。然后若该角色有未执行的效果且 bạn 满足条件， bạn 执行之。",
   pindi: "品第",
   pindi_info:
-    "出牌阶段， bạn 可以弃置一张牌并选择一名其他角色（不能弃置相同类型牌且不能指定相同的角色），然后令其执行一项：摸X张牌；弃置X张牌（X là 本回合此技能发动次数）。若其已受伤， bạn 横置。",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌并选择一名其他角色（不能弃置相同类型牌且不能指定相同的角色），然后令其执行一项：摸X张牌；弃置X张牌（X là 本回合此技能发动次数）。若其已受伤， bạn 横置。",
   funan_jiexun: "诫训",
   bizhuan: "辟撰",
   bizhuan_bg: "书",
@@ -10596,7 +10614,7 @@ export const translate_yijiang = {
   wengua: "问卦",
   wengua2: "问卦",
   wengua_info:
-    "其他角色/ bạn 的1 lần trong giai đoạn hành động，其可以交给 bạn 一张牌，(若 khi 前回合角色 là  bạn ，则跳过此步骤)， bạn 可以将此牌/一张牌置于牌堆顶 hoặc 牌堆底，然后 bạn 与其/ bạn 从另一端摸一张牌",
+    "其他角色/ bạn 的1 lần trong giai đoạn ra bài，其可以交给 bạn 一张牌，(若 khi 前回合角色 là  bạn ，则跳过此步骤)， bạn 可以将此牌/一张牌置于牌堆顶 hoặc 牌堆底，然后 bạn 与其/ bạn 从另一端摸一张牌",
   fuzhu: "伏诛",
   fuzhu_info:
     "一名男性角色的 Giai đoạn kết thúc ，若牌堆剩余牌数不大于 bạn 体力值的十倍，则 bạn 可以依次对其使用牌堆中所有的【杀】（不能超过游戏人数），然后洗牌",
@@ -10608,13 +10626,13 @@ export const translate_yijiang = {
     " Giai đoạn kết thúc ， bạn 可以令一名其他角色从牌堆中获得一张 ♥︎ 基本牌，然后若其于上回合成 là 过该技能目标，则其失去1 sinh lực ",
   xinzhongjian: "忠鉴",
   xinzhongjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示自己的一张手牌，然后展示一名其他角色的至多三张手牌。其展示的牌中：每有一张花色相同， bạn 摸一张牌； điểm số 相同， bạn 对其造成1点 sát thương ；均不同， bạn 弃置一张手牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示自己的一张手牌，然后展示一名其他角色的至多三张手牌。其展示的牌中：每有一张花色相同， bạn 摸一张牌； điểm số 相同， bạn 对其造成1点 sát thương ；均不同， bạn 弃置一张手牌。",
   zhongjian: "忠鉴",
   zhongjian_bg: "鉴",
   zhongjian3: "忠鉴",
   zhongjian3_bg: "鉴",
   zhongjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一张手牌，然后展示一名其他角色的X张手牌（X là 其体力值）。若以此法展示的牌与 bạn 展示的牌：有颜色相同的， bạn 选择：①摸一张牌。②弃置一名其他角色的一张牌；有 điểm số 相同的，本回合此技能改 là “出牌阶段限两次”；均不同， bạn 的手牌上限-1。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一张手牌，然后展示一名其他角色的X张手牌（X là 其体力值）。若以此法展示的牌与 bạn 展示的牌：有颜色相同的， bạn 选择：①摸一张牌。②弃置一名其他角色的一张牌；有 điểm số 相同的，本回合此技能改 là “  giai đoạn ra bài限两次”；均不同， bạn 的手牌上限-1。",
   caishi: "才识",
   caishix: "才识/忠鉴",
   caishi_info:
@@ -10627,7 +10645,7 @@ export const translate_yijiang = {
     "弃牌阶段结束时，若 bạn 于此阶段弃置牌的数量不小于2且它们的花色各不相同， bạn 可以回复1 sinh lực  hoặc 摸一张牌",
   jiyu: "讥谀",
   jiyu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名角色弃置一张手牌。若如此做， bạn 不能使用与之相同花色的牌，直到回合结束。若其以此法弃置的牌 là  ♠︎ ， bạn 翻面并令其失去1 sinh lực 。若 bạn 有未被〖讥谀〗限制的手牌，则 bạn 可以继续发动此技能，但不能选择本回合已经选择过的目标。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名角色弃置一张手牌。若如此做， bạn 不能使用与之相同花色的牌，直到回合结束。若其以此法弃置的牌 là  ♠︎ ， bạn 翻面并令其失去1 sinh lực 。若 bạn 有未被〖讥谀〗限制的手牌，则 bạn 可以继续发动此技能，但不能选择本回合已经选择过的目标。",
   qinqing: "寝情",
   qinqing_info:
     " Giai đoạn kết thúc ， bạn 可以选择任意名攻击范围内含有主公的角色，然后弃置这些角色各一张牌并令其摸一张牌（无牌则不弃），若如此做， bạn 摸X张牌（X là 其中手牌比主公多的角色数）",
@@ -10636,7 +10654,7 @@ export const translate_yijiang = {
     " khi  bạn 受到其他角色对 bạn 造成的 sát thương 时， bạn 可以令其观看 bạn 任意数量的牌并令其选择一项：1.获得这些牌中的一张，防止此 sát thương ，然后 bạn 不能再对其发动〖贿生〗；2.弃置等量的牌",
   jishe: "极奢",
   jishe_info:
-    "出牌阶段限20次，若 bạn 的手牌上限大于0， bạn 可以摸一张牌，然后 bạn 本回合的手牌上限-1。 Giai đoạn kết thúc 开始时，若 bạn 没有手牌，则 bạn 可以横置至多X名角色的武将牌（X là  bạn 的体力值）",
+    "  giai đoạn ra bài限20次，若 bạn 的手牌上限大于0， bạn 可以摸一张牌，然后 bạn 本回合的手牌上限-1。 Giai đoạn kết thúc 开始时，若 bạn 没有手牌，则 bạn 可以横置至多X名角色的武将牌（X là  bạn 的体力值）",
   lianhuo: "链祸",
   lianhuo_info:
     "Tỏa định kỹ， khi  bạn 受到火焰 sát thương 时，若 bạn 的武将牌处于横置状态且此 sát thương 不 là 连环 sát thương ，则此 sát thương +1",
@@ -10657,28 +10675,28 @@ export const translate_yijiang = {
   jiaozhao3_backup: "矫诏",
   jiaozhao2: "矫诏",
   jiaozhao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一张手牌，然后选择距离最近的一名其他角色，该角色声明一张基本牌的牌名。在此出牌阶段内， bạn 可以将此手牌 khi 声明的牌使用（ bạn 不能对自己使用此牌）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一张手牌，然后选择距离最近的一名其他角色，该角色声明一张基本牌的牌名。在此  giai đoạn ra bài内， bạn 可以将此手牌 khi 声明的牌使用（ bạn 不能对自己使用此牌）。",
   danxin: "殚心",
   danxin_info:
     " khi  bạn 受到 sát thương 后， bạn 可以摸一张牌， hoặc 对“矫诏”的描述依次执行下列一项修改：1.将“基本牌”改 là “基本牌 hoặc 普通锦囊牌”；2.将“选择距离最近的一名其他角色，该角色”改 là “ bạn ”。",
   xindanxin: "殚心",
   xindanxin_info:
-    " khi  bạn 受到 sát thương 后， bạn 可以摸一张牌，并对“矫诏”的描述依次执行下列一项修改：1.将“基本牌”改 là “基本牌 hoặc 普通锦囊牌”；2.将“选择距离最近的一名其他角色，该角色”改 là “ bạn ”。3.将“1 lần trong giai đoạn hành động”改 là “出牌阶段限两次”",
+    " khi  bạn 受到 sát thương 后， bạn 可以摸一张牌，并对“矫诏”的描述依次执行下列一项修改：1.将“基本牌”改 là “基本牌 hoặc 普通锦囊牌”；2.将“选择距离最近的一名其他角色，该角色”改 là “ bạn ”。3.将“1 lần trong giai đoạn ra bài”改 là “  giai đoạn ra bài限两次”",
   duliang: "督粮",
   duliang2: "督粮",
   duliang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以获得一名其他角色的一张手牌，然后选择一项：1.令其观看牌堆顶的两张牌，然后获得其中的基本牌；2.令其于下个摸牌阶段额外摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以获得一名其他角色的一张手牌，然后选择一项：1.令其观看牌堆顶的两张牌，然后获得其中的基本牌；2.令其于下个摸牌阶段额外摸一张牌。",
   fulin: "腹鳞",
   fulin_info: "Tỏa định kỹ， bạn 于回合内获得的牌不计入 bạn 本回合的手牌上限。",
   kuangbi: "匡弼",
   kuangbi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名有牌的其他角色，该角色将其的一至三张牌置于 bạn 的武将牌上。若如此做， bạn 的下个准备阶段， bạn 获得武将牌上的所有牌，然后其摸等量的牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名有牌的其他角色，该角色将其的一至三张牌置于 bạn 的武将牌上。若如此做， bạn 的下个准备阶段， bạn 获得武将牌上的所有牌，然后其摸等量的牌。",
   xinzhige: "止戈",
   xinzhige_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名攻击范围内含有 bạn 的其他角色交给 bạn 一张【杀】 hoặc 武器牌，否则其视 là 对 bạn 指定的另一名其攻击范围内的角色使用了一张【杀】。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名攻击范围内含有 bạn 的其他角色交给 bạn 一张【杀】 hoặc 武器牌，否则其视 là 对 bạn 指定的另一名其攻击范围内的角色使用了一张【杀】。",
   zhige: "止戈",
   zhige_info:
-    "1 lần trong giai đoạn hành động，若 bạn 的手牌数大于 bạn 的体力值， bạn 可以选择攻击范围内含有 bạn 的一名其他角色，除非该角色使用一张【杀】，否则其将其装备区里的一张牌交给 bạn ",
+    "1 lần trong giai đoạn ra bài，若 bạn 的手牌数大于 bạn 的体力值， bạn 可以选择攻击范围内含有 bạn 的一名其他角色，除非该角色使用一张【杀】，否则其将其装备区里的一张牌交给 bạn ",
   xinzongzuo: "宗祚",
   xinzongzuo_info:
     "Tỏa định kỹ，游戏的第一个回合开始前， bạn 加X sinh lực 上限并回复X sinh lực （X là 全场势力数）； khi 一名角色死亡后，若没有与其势力相同的角色， bạn giảm 1 sinh lực 上限并摸两张牌。",
@@ -10690,10 +10708,10 @@ export const translate_yijiang = {
     " Giai đoạn kết thúc ， bạn 可以对一名没有手牌的角色造成1点 sát thương 。",
   xinmieji: "灭计",
   xinmieji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示一张黑色锦囊牌并将之置于牌堆顶，然后令有手牌的一名其他角色选择一项：弃置一张锦囊牌； hoặc 依次弃置两张非锦囊牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示一张黑色锦囊牌并将之置于牌堆顶，然后令有手牌的一名其他角色选择一项：弃置一张锦囊牌； hoặc 依次弃置两张非锦囊牌。",
   xinfencheng: "焚城",
   xinfencheng_info:
-    "Hạn định kỹ。出牌阶段， bạn 可以令所有其他角色各选择一项：弃置至少X张牌(X là 该角色的上家以此法弃置牌的数量+1)； hoặc 受到 bạn 对其造成的2点火焰 sát thương 。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可以令所有其他角色各选择一项：弃置至少X张牌(X là 该角色的上家以此法弃置牌的数量+1)； hoặc 受到 bạn 对其造成的2点火焰 sát thương 。",
   qianju: "千驹",
   qianju_info:
     "Tỏa định kỹ，若 bạn 已受伤， bạn 计算与其他角色的距离时-X（X là  bạn 已损失的体力值）。",
@@ -10715,10 +10733,10 @@ export const translate_yijiang = {
     " Giai đoạn kết thúc 开始时， bạn 可以弃置一张手牌，然后令一名其他角色选择一项：将一张牌置于 bạn 的武将牌上（称之 là “节”）； hoặc 令 bạn 弃置其一张牌。 khi  bạn  bạn 武将牌上有“节”时， bạn 可以将红色手牌 khi 作【闪】、黑色的手牌 khi 作【 Vô Giải Khả Kích 】使用 hoặc 打出。准备阶段开始时， bạn 获得 bạn 武将牌上的“节”。",
   xianzhen: "陷阵",
   xianzhen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束：无视与该角色的距离；无视该角色的防具且对其使用【杀】没有次数限制。若 bạn 没赢， bạn 不能使用【杀】直到回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束：无视与该角色的距离；无视该角色的防具且对其使用【杀】没有次数限制。若 bạn 没赢， bạn 不能使用【杀】直到回合结束。",
   xinxianzhen: "陷阵",
   xinxianzhen_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束：无视该角色的防具且对其使用牌没有次数和距离限制，且 khi bạn sử dụng 【杀】 hoặc 普通锦囊牌指定其他角色 là 唯一目标时可以令该角色也成 là 此牌的目标。若 bạn 没赢， bạn 不能使用【杀】且 bạn 的【杀】不计入手牌上限直到回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名角色拼点。若 bạn 赢， bạn 获得以下效果直到回合结束：无视该角色的防具且对其使用牌没有次数和距离限制，且 khi bạn sử dụng 【杀】 hoặc 普通锦囊牌指定其他角色 là 唯一目标时可以令该角色也成 là 此牌的目标。若 bạn 没赢， bạn 不能使用【杀】且 bạn 的【杀】不计入手牌上限直到回合结束。",
   xinxianzhen2: "陷阵",
   jinjiu: "禁酒",
   jinjiu_info: "Tỏa định kỹ， bạn 的【酒】均视 là 【杀】。",
@@ -10751,34 +10769,34 @@ export const translate_yijiang = {
   sidi2: "司敌",
   sidi3: "司敌",
   sidi_info:
-    " khi bạn sử dụng  hoặc 其他角色在 bạn 的回合内使用【闪】时， bạn 可以将牌堆顶的一张牌正面向上置于 bạn 的武将牌上；一名其他角色的Bắt đầu giai đoạn hành động， bạn 可以移去一张“司敌”牌，然后该角色本阶段可使用杀的次数上限-1",
+    " khi bạn sử dụng  hoặc 其他角色在 bạn 的回合内使用【闪】时， bạn 可以将牌堆顶的一张牌正面向上置于 bạn 的武将牌上；一名其他角色的Bắt đầu giai đoạn ra bài， bạn 可以移去一张“司敌”牌，然后该角色本阶段可使用杀的次数上限-1",
   xinsidi: "司敌",
   xinsidi2: "司敌",
   xinsidi_info:
-    "其他角色Bắt đầu giai đoạn hành động， bạn 可以弃置一张与 bạn 装备区里的牌颜色相同的非基本牌，然后该角色于此阶段内不能使用和打出与此牌颜色相同的牌。此阶段结束时，若其此阶段没有使用【杀】，视 là  bạn 对其使用了【杀】",
+    "其他角色Bắt đầu giai đoạn ra bài， bạn 可以弃置一张与 bạn 装备区里的牌颜色相同的非基本牌，然后该角色于此阶段内不能使用和打出与此牌颜色相同的牌。此阶段结束时，若其此阶段没有使用【杀】，视 là  bạn 对其使用了【杀】",
   dangxian: " khi 先",
-  dangxian_info: "Tỏa định kỹ，准备阶段， bạn 执行一个额外的出牌阶段",
+  dangxian_info: "Tỏa định kỹ，准备阶段， bạn 执行一个额外的  giai đoạn ra bài",
   xindangxian: " khi 先",
   xindangxian_info:
-    "Tỏa định kỹ，准备阶段， bạn 执行一个额外的出牌阶段。此阶段开始时， bạn 失去1 sinh lực 并从牌堆/弃牌堆中获得一张【杀】（若 bạn 已发动过〖伏枥〗，则可以不发动此效果）。",
+    "Tỏa định kỹ，准备阶段， bạn 执行一个额外的  giai đoạn ra bài。此阶段开始时， bạn 失去1 sinh lực 并从牌堆/弃牌堆中获得一张【杀】（若 bạn 已发动过〖伏枥〗，则可以不发动此效果）。",
   longyin: "龙吟",
   longyin_info:
-    " khi 一名角色于其出牌阶段使用【杀】时， bạn 可弃置一张牌令此【杀】不计入出牌阶段使用次数，若此【杀】 là 红色， bạn 摸一张牌。",
+    " khi 一名角色于其  giai đoạn ra bài使用【杀】时， bạn 可弃置一张牌令此【杀】不计入  giai đoạn ra bài使用次数，若此【杀】 là 红色， bạn 摸一张牌。",
   zhongyong: "忠勇",
   zhongyong_info:
-    " khi  bạn 于出牌阶段内使用的【杀】被目标角色使用的【闪】抵消时， bạn 可以将此【闪】交给除该角色外的一名角色。若获得此【闪】的角色不是 bạn ， bạn 可以对相同的目标再使用一张【杀】。",
+    " khi  bạn 于  giai đoạn ra bài内使用的【杀】被目标角色使用的【闪】抵消时， bạn 可以将此【闪】交给除该角色外的一名角色。若获得此【闪】的角色不是 bạn ， bạn 可以对相同的目标再使用一张【杀】。",
   xinzhongyong: "忠勇",
   xinzhongyong_info:
     " khi bạn sử dụng 的【杀】结算完毕后， bạn 可以将此【杀】 hoặc 目标角色使用的【闪】交给一名该角色以外的其他角色，以此法获得红色牌的角色可以对 bạn 攻击范围内的角色使用一张【杀】",
   jigong: "急攻",
   jigong_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以摸两张牌。若如此做， bạn 本回合的手牌上限改 là X（X là  bạn 此阶段造成的 sát thương  điểm số 之和）。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以摸两张牌。若如此做， bạn 本回合的手牌上限改 là X（X là  bạn 此阶段造成的 sát thương  điểm số 之和）。",
   shifei: "饰非",
   shifei_info:
     " khi  bạn 需要使用 hoặc 打出【闪】时， bạn 可以令 khi 前回合角色摸一张牌。然后若其手牌数不 là 全场唯一最多，则 bạn 弃置全场手牌数最多（ hoặc 之一）角色的一张牌，视 là  bạn 使用 hoặc 打出了一张【闪】。",
   huaiyi: "怀异",
   huaiyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以展示所有手牌，若这些牌的颜色不全部相同，则 bạn 选择一种颜色并弃置该颜色的所有手牌，然后 bạn 可以获得至多X名角色的各一张牌（X là  bạn 以此法弃置的手牌数）。若 bạn 以此法获得的牌不少于两张，则 bạn 失去1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以展示所有手牌，若这些牌的颜色不全部相同，则 bạn 选择一种颜色并弃置该颜色的所有手牌，然后 bạn 可以获得至多X名角色的各一张牌（X là  bạn 以此法弃置的手牌数）。若 bạn 以此法获得的牌不少于两张，则 bạn 失去1 sinh lực 。",
   yaoming: "邀名",
   yaoming_info:
     "每回合限一次， khi  bạn 造成 hoặc 受到 sát thương 后， bạn 可以选择一项：1. 弃置手牌数大于 bạn 的一名角色的一张手牌；2. 令手牌数小于 bạn 的一名角色摸一张牌",
@@ -10787,10 +10805,10 @@ export const translate_yijiang = {
     "每回合每个选项限一次， khi  bạn 造成 hoặc 受到 sát thương 后， bạn 可以选择一项：1. 弃置手牌数大于 bạn 的一名角色的一张手牌；2. 令手牌数小于 bạn 的一名角色摸一张牌；3.令手牌数等于 bạn 的角色弃置至多两张牌，然后摸等量的牌。",
   anguo: "安国",
   anguo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色装备区里的一张牌，令其将此牌收回手牌。然后若该角色攻击范围内的角色数因此减少，则 bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色装备区里的一张牌，令其将此牌收回手牌。然后若该角色攻击范围内的角色数因此减少，则 bạn 摸一张牌。",
   yanzhu: "宴诛",
   yanzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名有牌的其他角色选择一项：令 bạn 获得其装备区里所有的牌，然后 bạn 失去技能〖宴诛〗； hoặc 弃置一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名有牌的其他角色选择一项：令 bạn 获得其装备区里所有的牌，然后 bạn 失去技能〖宴诛〗； hoặc 弃置一张牌",
   xingxue: "兴学",
   xingxue_info:
     " Giai đoạn kết thúc 开始时， bạn 可以令至多X名角色依次摸一张牌并将一张牌置于牌堆顶（X là  bạn 的体力值，若 bạn 已失去技能〖宴诛〗，则将X改 là  bạn 的体力上限）。",
@@ -10800,10 +10818,10 @@ export const translate_yijiang = {
   reyanzhu: "宴诛",
   reyanzhu2: "宴诛",
   reyanzhu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名其他角色选择一项：将装备区里的所有牌交给 bạn 并令 bạn 修改〖宴诛〗和〖兴学〗， hoặc 弃置一张牌并令下一次受到的 sát thương +1直到其下回合开始。",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名其他角色选择一项：将装备区里的所有牌交给 bạn 并令 bạn 修改〖宴诛〗和〖兴学〗， hoặc 弃置一张牌并令下一次受到的 sát thương +1直到其下回合开始。",
   reyanzhu_rewrite: "宴诛·改",
   reyanzhu_rewrite_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择一名其他角色。该角色下一次受到的 sát thương +1直到其下回合开始。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择一名其他角色。该角色下一次受到的 sát thương +1直到其下回合开始。",
   rexingxue: "兴学",
   rexingxue_info:
     " Giai đoạn kết thúc 开始时， bạn 可以令至多X名角色各摸一张牌。然后若有手牌数大于体力值的目标角色，则这些角色各将一张牌置于牌堆顶。（X là  bạn 的体力值）。",
@@ -10815,13 +10833,13 @@ export const translate_yijiang = {
     "Chủ công kỹ，Tỏa định kỹ， bạn 攻击范围内的角色视 là 在其他吴势力角色的攻击范围内。",
   wurong: "怃戎",
   wurong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以令一名其他角色与 bạn 同时展示一张手牌：若 bạn 展示的是【杀】且该角色展示的不是【闪】，则 bạn 弃置此【杀】并对其造成1点 sát thương ；若 bạn 展示的不是【杀】且该角色展示的是【闪】，则 bạn 弃置 bạn 展示的牌并获得其一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以令一名其他角色与 bạn 同时展示一张手牌：若 bạn 展示的是【杀】且该角色展示的不是【闪】，则 bạn 弃置此【杀】并对其造成1点 sát thương ；若 bạn 展示的不是【杀】且该角色展示的是【闪】，则 bạn 弃置 bạn 展示的牌并获得其一张牌",
   shizhi: "矢志",
   shizhi_info:
     "Tỏa định kỹ， khi  bạn 的体力值 là 1时， bạn 的【闪】均视 là 【杀】",
   zhanjue: "战绝",
   zhanjue_info:
-    "出牌阶段， bạn 可以将所有手牌 khi 作【决斗】使用。此【决斗】结算后， bạn 与以此法受到 sát thương 的角色各摸一张牌。若 bạn 在同一阶段内以此法摸了两张 hoặc 更多的牌，则此技能失效直到回合结束",
+    "  giai đoạn ra bài， bạn 可以将所有手牌 khi 作【决斗】使用。此【决斗】结算后， bạn 与以此法受到 sát thương 的角色各摸一张牌。若 bạn 在同一阶段内以此法摸了两张 hoặc 更多的牌，则此技能失效直到回合结束",
   qinwang: "勤王",
   qinwang1: "勤王",
   qinwang2: "勤王",
@@ -10837,14 +10855,14 @@ export const translate_yijiang = {
   taoxi2: "讨袭",
   taoxi3: "讨袭",
   taoxi_info:
-    "1 lần trong giai đoạn hành động， khi bạn sử dụng 牌指定一名其他角色 là 唯一目标后， bạn 可以亮出其一张手牌直到回合结束，并且 bạn 可以于此回合内将此牌如手牌般使用。 Giai đoạn kết thúc ，若该角色未失去此手牌，则 bạn 失去1 sinh lực ",
+    "1 lần trong giai đoạn ra bài， khi bạn sử dụng 牌指定一名其他角色 là 唯一目标后， bạn 可以亮出其一张手牌直到回合结束，并且 bạn 可以于此回合内将此牌如手牌般使用。 Giai đoạn kết thúc ，若该角色未失去此手牌，则 bạn 失去1 sinh lực ",
   huituo: "恢拓",
   huituo_info:
     " khi  bạn 受到 sát thương 后， bạn 可以令一名角色进行一次判定，若结果 là 红色，该角色回复1 sinh lực ；若结果 là 黑色，该角色摸X张牌（X là 此次 sát thương 的 sát thương  điểm số ）",
   mingjian: "明鉴",
   mingjian2: "明鉴",
   mingjian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将所有手牌交给一名其他角色，若如此做，该角色于其下个回合的手牌上限+1，且使用【杀】的次数上限+1",
+    "1 lần trong giai đoạn ra bài， bạn 可以将所有手牌交给一名其他角色，若如此做，该角色于其下个回合的手牌上限+1，且使用【杀】的次数上限+1",
   xingshuai: "兴衰",
   xingshuai_info:
     "Chủ công kỹ，Hạn định kỹ， khi  bạn 进入濒死状态时，其他魏势力角色可依次令 bạn 回复1 sinh lực ，然后这些角色依次受到1点 sát thương 。",
@@ -10863,7 +10881,7 @@ export const translate_yijiang = {
   xinpojun: "破军",
   xinpojun2: "破军",
   xinpojun_info:
-    " khi  bạn 于出牌阶段内使用【杀】指定一个目标后， bạn 可以将其至多X张牌扣置于该角色的武将牌旁（X là 其体力值）。若如此做， khi 前回合结束后，该角色获得其武将牌旁的所有牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用【杀】指定一个目标后， bạn 可以将其至多X张牌扣置于该角色的武将牌旁（X là 其体力值）。若如此做， khi 前回合结束后，该角色获得其武将牌旁的所有牌。",
 
   qiaoshi: "樵拾",
   qiaoshi_info:
@@ -10871,7 +10889,7 @@ export const translate_yijiang = {
   yanyu: "燕语",
   yanyu2: "燕语",
   yanyu_info:
-    "出牌阶段， bạn 可以重铸【杀】。出牌阶段结束时，若 bạn 于此阶段以此法重铸了至少两张【杀】，则 bạn 可以令一名男性角色摸两张牌。",
+    "  giai đoạn ra bài， bạn 可以重铸【杀】。  giai đoạn ra bài结束时，若 bạn 于此阶段以此法重铸了至少两张【杀】，则 bạn 可以令一名男性角色摸两张牌。",
 
   zzhenggong: "争功",
   zzhenggong_info:
@@ -10885,7 +10903,7 @@ export const translate_yijiang = {
   zyexin: "野心",
   zyexin2: "野心",
   zyexin_info:
-    " khi  bạn 造成 hoặc 受到 sát thương 后， bạn 可以将牌堆顶的一张牌置于 bạn 的武将牌上，称 là “权”。1 lần trong giai đoạn hành động， bạn 可以用任意数量的手牌与等量的“权”交换。",
+    " khi  bạn 造成 hoặc 受到 sát thương 后， bạn 可以将牌堆顶的一张牌置于 bạn 的武将牌上，称 là “权”。1 lần trong giai đoạn ra bài， bạn 可以用任意数量的手牌与等量的“权”交换。",
   zzili: "自立",
   zzili_info:
     "觉醒技，准备阶段，若 bạn 的“权” là 四张 hoặc 更多， bạn giảm 1 sinh lực 上限，并获得技能〖排异〗。",
@@ -10897,7 +10915,7 @@ export const translate_yijiang = {
     "Tỏa định kỹ， khi  bạn 受到 sát thương 后：若此 sát thương 是 bạn 本回合第一次受到的 sát thương ，则 bạn 回复1 sinh lực ；否则 bạn 失去1 sinh lực 。",
   jianying: "渐营",
   jianying_info:
-    " khi  bạn 于出牌阶段内使用与此阶段 bạn 使用的上一张牌 điểm số  hoặc 花色相同的牌时， bạn 可以摸一张牌。",
+    " khi  bạn 于  giai đoạn ra bài内使用与此阶段 bạn 使用的上一张牌 điểm số  hoặc 花色相同的牌时， bạn 可以摸一张牌。",
   xinenyuan: "恩怨",
   xinenyuan2: "恩怨",
   xinenyuan_info:
@@ -10908,7 +10926,7 @@ export const translate_yijiang = {
   fuhun: "父魂",
   fuhun2: "父魂",
   fuhun_info:
-    " bạn 可以将两张手牌 khi 做【杀】使用 hoặc 打出；出牌阶段，若 bạn 以此法使用的【杀】造成了 sát thương ， bạn 获得技能〖武圣〗和〖咆哮〗直到回合结束。",
+    " bạn 可以将两张手牌 khi 做【杀】使用 hoặc 打出；  giai đoạn ra bài，若 bạn 以此法使用的【杀】造成了 sát thương ， bạn 获得技能〖武圣〗和〖咆哮〗直到回合结束。",
   yuce: "御策",
   yuce_info:
     " khi  bạn 受到 sát thương 后， bạn 可以展示一张手牌，并令 sát thương 来源选择一项：弃置一张与此牌类型不同的手牌， hoặc 令 bạn 回复一 sinh lực 。",
@@ -10920,7 +10938,7 @@ export const translate_yijiang = {
     "准备阶段开始时， bạn 可以将一至两名角色的各一张牌置于 bạn 的武将牌上，称 là “逆”； khi 一名角色需要对 bạn 使用【杀】时，其可以移去两张“逆”，然后视 là 对 bạn 使用了一张【杀】。",
   chanhui: "谮毁",
   chanhui_info:
-    "1 lần trong giai đoạn hành động， khi bạn sử dụng 【杀】 hoặc 黑色普通锦囊牌指定唯一目标时， bạn 可令可以成 là 此牌目标的另一名其他角色选择一项：交给 bạn 一张牌并成 là 此牌的使用者； hoặc 成 là 此牌的额外目标。",
+    "1 lần trong giai đoạn ra bài， khi bạn sử dụng 【杀】 hoặc 黑色普通锦囊牌指定唯一目标时， bạn 可令可以成 là 此牌目标的另一名其他角色选择一项：交给 bạn 一张牌并成 là 此牌的使用者； hoặc 成 là 此牌的额外目标。",
   rechanhui: "谮毁",
   rechanhui_info:
     " khi bạn sử dụng 【杀】 hoặc 普通锦囊牌指定唯一目标时， bạn 可令可以成 là 此牌目标（无距离限制）的另一名其他角色选择一项：交给 bạn 一张牌并成 là 此牌的使用者； hoặc 成 là 此牌的额外目标且 bạn 本回合内不能再次发动〖谮毁〗。",
@@ -10931,22 +10949,22 @@ export const translate_yijiang = {
   rejiaojin_info:
     " khi  bạn 成 là 其他角色使用【杀】 hoặc 普通锦囊牌的目标后， bạn 可以弃置一张装备牌，令此牌对 bạn 无效并获得此牌对应的所有实体牌。若此牌的使用者 là 女性角色，则 bạn 令〖骄矜〗失效直到回合结束。",
   shenxing: "慎行",
-  shenxing_info: "出牌阶段， bạn 可以弃置两张牌，然后摸一张牌。",
+  shenxing_info: "  giai đoạn ra bài， bạn 可以弃置两张牌，然后摸一张牌。",
   bingyi: "秉壹",
   bingyi_info:
     " Giai đoạn kết thúc 开始时， bạn 可以展示所有手牌，若这些牌颜色均相同，则 bạn 令至多X名角色各摸一张牌(X là  bạn 的手牌数)。",
   qiangzhi: "强识",
   qiangzhi_draw: "强识",
   qiangzhi_info:
-    "Bắt đầu giai đoạn hành động， bạn 可以展示一名其他角色的一张手牌。若如此做， khi  bạn 于此阶段内使用与此牌类别相同的牌时， bạn 可以摸一张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可以展示一名其他角色的一张手牌。若如此做， khi  bạn 于此阶段内使用与此牌类别相同的牌时， bạn 可以摸一张牌。",
   xiantu: "献图",
   xiantu2: "献图",
   xiantu3: "献图",
   xiantu_info:
-    "一名其他角色的Bắt đầu giai đoạn hành động， bạn 可以摸两张牌，然后交给其两张牌。若如此做，此阶段结束时，若该角色未于此阶段内杀死过角色，则 bạn 失去1 sinh lực 。",
+    "一名其他角色的Bắt đầu giai đoạn ra bài， bạn 可以摸两张牌，然后交给其两张牌。若如此做，此阶段结束时，若该角色未于此阶段内杀死过角色，则 bạn 失去1 sinh lực 。",
   dingpin: "定品",
   dingpin_info:
-    "出牌阶段， bạn 可以弃置一张手牌，然后令一名已受伤的角色进行一次判定，若结果 là 黑色，该角色摸X张牌(X là 该角色已损失的体力值)，然后 bạn 本回合不能再对其发动〖定品〗；若结果 là 红色，将 bạn 的武将牌翻面。（ bạn 不能弃置本回合已弃置 hoặc 使用过的类型的牌）",
+    "  giai đoạn ra bài， bạn 可以弃置一张手牌，然后令一名已受伤的角色进行一次判定，若结果 là 黑色，该角色摸X张牌(X là 该角色已损失的体力值)，然后 bạn 本回合不能再对其发动〖定品〗；若结果 là 红色，将 bạn 的武将牌翻面。（ bạn 不能弃置本回合已弃置 hoặc 使用过的类型的牌）",
   faen: "法恩",
   faen_info: " khi 一名角色翻至正面 hoặc 横置后， bạn 可以令其摸一张牌。",
   jyzongshi: "纵适",
@@ -10954,16 +10972,16 @@ export const translate_yijiang = {
     " khi  bạn 拼点赢时， bạn 可以获得对方此次拼点的牌； khi  bạn 拼点没赢时， bạn 可以收回 bạn 此次拼点的牌。",
   qiaoshui: "巧说",
   qiaoshui_info:
-    "Bắt đầu giai đoạn hành động， bạn 可与一名其他角色拼点。若 bạn 赢， bạn 使用的下一张基本牌 hoặc 普通锦囊牌可以额外指定任意一名其他角色 là 目标 hoặc 减少指定一个目标；若 bạn 没赢， bạn 不能使用锦囊牌直到回合结束",
+    "Bắt đầu giai đoạn ra bài， bạn 可与一名其他角色拼点。若 bạn 赢， bạn 使用的下一张基本牌 hoặc 普通锦囊牌可以额外指定任意一名其他角色 là 目标 hoặc 减少指定一个目标；若 bạn 没赢， bạn 不能使用锦囊牌直到回合结束",
   reqiaoshui: "巧说",
   reqiaoshui_info:
-    "出牌阶段， bạn 可与一名其他角色拼点。若 bạn 赢， bạn 使用的下一张基本牌 hoặc 普通锦囊牌可以额外指定任意一名其他角色 là 目标 hoặc 减少指定一个目标；若 bạn 没赢， bạn 结束出牌阶段且本回合内锦囊牌不计入手牌上限。",
+    "  giai đoạn ra bài， bạn 可与一名其他角色拼点。若 bạn 赢， bạn 使用的下一张基本牌 hoặc 普通锦囊牌可以额外指定任意一名其他角色 là 目标 hoặc 减少指定一个目标；若 bạn 没赢， bạn 结束  giai đoạn ra bài且本回合内锦囊牌不计入手牌上限。",
   junxing: "峻刑",
   junxing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置至少一张手牌并选择一名其他角色，该角色需弃置一张与 bạn 弃置的牌类别均不同的手牌，否则其先将其武将牌翻面再摸X张牌（X là  bạn 以此法弃置的手牌数量）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置至少一张手牌并选择一名其他角色，该角色需弃置一张与 bạn 弃置的牌类别均不同的手牌，否则其先将其武将牌翻面再摸X张牌（X là  bạn 以此法弃置的手牌数量）。",
   xinjunxing: "峻刑",
   xinjunxing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置至少一张手牌并选择一名其他角色，该角色需弃置一张与 bạn 弃置的牌类别均不同的手牌，否则其先将其武将牌翻面，然后将手牌摸至四张。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置至少一张手牌并选择一名其他角色，该角色需弃置一张与 bạn 弃置的牌类别均不同的手牌，否则其先将其武将牌翻面，然后将手牌摸至四张。",
 
   xswuyan: "无言",
   xinwuyan: "无言",
@@ -11049,13 +11067,13 @@ export const translate_yijiang = {
   youdi_info:
     " Giai đoạn kết thúc 开始时， bạn 可以令一名其他角色弃置 bạn 的一张牌，若此牌不 là 【杀】， bạn 获得该角色的一张牌。",
   fencheng_info:
-    "Hạn định kỹ。出牌阶段， bạn 可令所有其他角色依次选择一项：弃置X张牌； hoặc 受到1点火焰 sát thương 。(X là 该角色装备区里牌的数量且至少 là 1)",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可令所有其他角色依次选择一项：弃置X张牌； hoặc 受到1点火焰 sát thương 。(X là 该角色装备区里牌的数量且至少 là 1)",
   mieji_info:
     " khi bạn sử dụng 黑色普通锦囊牌选择目标后，若目标数 là 1，则 bạn 可以额外指定一个目标。",
   juece_info:
     " khi 其他角色在 bạn 回合内失去最后一张手牌时， bạn 可以对其造成一点 sát thương 。",
   jiefan_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以选择一名角色，令攻击范围内含有该角色的所有角色依次选择一项：1.弃置一张武器牌；2.令其摸一张牌。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以选择一名角色，令攻击范围内含有该角色的所有角色依次选择一项：1.弃置一张武器牌；2.令其摸一张牌。",
   fuli_info:
     "Hạn định kỹ， khi  bạn 处于濒死状态时， bạn 可以将体力回复至与场上势力数相同，然后翻面",
   xinfuli_info:
@@ -11065,39 +11083,39 @@ export const translate_yijiang = {
   zhiman_info:
     " khi  bạn 对一名其他角色造成 sát thương 时， bạn 可以防止此 sát thương ，然后获得其装备区 hoặc 判定区的一张牌。",
   sanyao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌并指定一名体力值最多( hoặc 之一)的角色， bạn 对其造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌并指定一名体力值最多( hoặc 之一)的角色， bạn 对其造成1点 sát thương 。",
   olsanyao_info:
-    "出牌阶段每项各限一次， bạn 可以弃置一张牌并指定一名体力值 hoặc 手牌数最多( hoặc 之一)的角色，并对其造成1点 sát thương 。",
+    "  giai đoạn ra bài每项各限一次， bạn 可以弃置一张牌并指定一名体力值 hoặc 手牌数最多( hoặc 之一)的角色，并对其造成1点 sát thương 。",
   rezhiman_info:
     " khi  bạn 对一名其他角色造成 sát thương 时， bạn 可以防止此 sát thương ，然后获得其区域内的一张牌。",
   resanyao_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置任意张牌并指定等量除 bạn 外体力值最多( hoặc 之一)的其他角色。 bạn 对这些角色依次造成1点 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置任意张牌并指定等量除 bạn 外体力值最多( hoặc 之一)的其他角色。 bạn 对这些角色依次造成1点 sát thương 。",
   paiyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以移去一张“权”并选择一名角色，令其摸两张牌，然后若其手牌数大于 bạn ， bạn 对其造成1 sát thương 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以移去一张“权”并选择一名角色，令其摸两张牌，然后若其手牌数大于 bạn ， bạn 对其造成1 sát thương 。",
   zili_info:
     "觉醒技，准备阶段开始时，若“权”的数量不小于3， bạn giảm 1 sinh lực 上限，然后选择一项：1、回复1 sinh lực ；2、摸两张牌。然后 bạn 获得技能“排异”。",
   quanji_info:
     " khi  bạn 受到1点 sát thương 后， bạn 可以摸一张牌，然后将一张手牌置于武将牌上，称 là “权”； bạn 的手牌上限+X（X là “权”的数量）。",
   xianzhou_info:
-    "Hạn định kỹ。出牌阶段， bạn 可以将装备区内的所有牌交给一名其他角色，然后该角色选择一项：令 bạn 回复X sinh lực ； hoặc 对其攻击范围内的X名角色各造成1点 sát thương (X là  bạn 以此法交给该角色的牌的数量)。",
+    "Hạn định kỹ。  giai đoạn ra bài， bạn 可以将装备区内的所有牌交给一名其他角色，然后该角色选择一项：令 bạn 回复X sinh lực ； hoặc 对其攻击范围内的X名角色各造成1点 sát thương (X là  bạn 以此法交给该角色的牌的数量)。",
   qieting_info:
     "其他角色的 Giai đoạn kết thúc ，若其未于此回合内使用过指定其他角色 là 目标的牌， bạn 可以选择一项：将其装备区里的一张牌移动至 bạn 装备区里的相应位置； hoặc 摸一张牌。",
   zhuikong_info:
     "其他角色的准备阶段，若 bạn 已受伤， bạn 可以与该角色拼点。若 bạn 赢，该角色本回合使用的牌不能指定除该角色外的角色 là 目标。若 bạn 没赢，其本回合至 bạn 的距离视 là 1。",
   oldzhuikong_info:
-    "其他角色的准备阶段，若 bạn 已受伤， bạn 可以与该角色拼点。若 bạn 赢，该角色跳过本回合的出牌阶段。若 bạn 没赢，其本回合至 bạn 的距离视 là 1。",
+    "其他角色的准备阶段，若 bạn 已受伤， bạn 可以与该角色拼点。若 bạn 赢，该角色跳过本回合的  giai đoạn ra bài。若 bạn 没赢，其本回合至 bạn 的距离视 là 1。",
   qiuyuan_info:
     " khi  bạn 成 là 【杀】的目标时， bạn 可以令一名其他角色选择一项：①、交给 bạn 一张【闪】；②、成 là 此【杀】的额外目标。",
   oldqiuyuan_info:
     " khi  bạn 成 là 【杀】的目标时， bạn 可以令一名有手牌的其他角色正面朝上交给 bạn 一张牌。若此牌不 là 【闪】，则该角色也成 là 此【杀】的额外目标。",
   gongji_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，然后 bạn 的攻击范围视 là 无限直到回合结束。若 bạn 以此法弃置的牌 là 装备牌，则 bạn 可以弃置一名其他角色的一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，然后 bạn 的攻击范围视 là 无限直到回合结束。若 bạn 以此法弃置的牌 là 装备牌，则 bạn 可以弃置一名其他角色的一张牌。",
   zhuiyi_info:
     " khi  bạn 死亡时， bạn 可以令一名其他角色（杀死 bạn 的角色除外）摸三张牌，然后其回复1 sinh lực 。",
   anxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名手牌数不同的其他角色，令其中手牌多的角色将一张手牌交给手牌少的角色，然后若这两名角色手牌数相等， bạn 摸一张牌 hoặc 回复1 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名手牌数不同的其他角色，令其中手牌多的角色将一张手牌交给手牌少的角色，然后若这两名角色手牌数相等， bạn 摸一张牌 hoặc 回复1 sinh lực ",
   old_anxu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名手牌数不同的其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之。然后若此牌不 là  ♠︎ ，则 bạn 摸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名手牌数不同的其他角色，令其中手牌少的角色获得手牌多的角色的一张手牌并展示之。然后若此牌不 là  ♠︎ ，则 bạn 摸一张牌。",
   zongxuan_info:
     " khi  bạn 的牌因弃置而进入弃牌堆后， bạn 可以将其按任意顺序置于牌堆顶",
   zhiyan_info:
@@ -11115,7 +11133,7 @@ export const translate_yijiang = {
   oldrenxin_info:
     "其他角色进入濒死状态时， bạn 可以将所有手牌交给该角色并翻面，然后该角色回复1 sinh lực 。",
   jingce_info:
-    "出牌阶段结束时，若 bạn 本回合使用的牌数量大于 hoặc 等于 bạn 的 khi 前体力值， bạn 可以摸两张牌。",
+    "  giai đoạn ra bài结束时，若 bạn 本回合使用的牌数量大于 hoặc 等于 bạn 的 khi 前体力值， bạn 可以摸两张牌。",
   xinjingce_info:
     " Giai đoạn kết thúc ，若 bạn 本回合使用的牌数量大于 hoặc 等于 bạn 的 khi 前体力值， bạn 可以摸两张牌。",
   xswuyan_info:
@@ -11123,7 +11141,7 @@ export const translate_yijiang = {
   xinwuyan_info:
     "Tỏa định kỹ， khi bạn sử dụng 锦囊牌造成 sát thương 时， bạn 防止此 sát thương ；Tỏa định kỹ， khi  bạn 受到锦囊牌对 bạn 造成的 sát thương 时， bạn 防止此 sát thương 。",
   jujian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃至多三张牌，然后令一名其他角色摸等量的牌。若 bạn 以此法弃牌不少于三张且均 là 同一类别， bạn 回复1 sinh lực 。",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃至多三张牌，然后令一名其他角色摸等量的牌。若 bạn 以此法弃牌不少于三张且均 là 同一类别， bạn 回复1 sinh lực 。",
   xinjujian_info:
     " Giai đoạn kết thúc 开始时， bạn 可以弃置一张非基本牌并选择一名其他角色，令其选择一项：1.摸两张牌；2.回复1 sinh lực ；3.将其武将牌翻转至正面朝上并重置之。",
   luoying_info:
@@ -11138,32 +11156,32 @@ export const translate_yijiang = {
   zhiyu_info:
     " khi  bạn 受到 sát thương 后， bạn 可以摸一张牌，然后展示所有手牌。若颜色均相同， bạn 令 sát thương 来源弃置一张手牌。",
   qice_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将所有的手牌（至少一张） khi 做任意一张普通锦囊牌使用。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将所有的手牌（至少一张） khi 做任意一张普通锦囊牌使用。",
   jiangchi_info:
     "摸牌阶段摸牌时， bạn 可以选择一项：1、额外摸一张牌，若如此做， bạn 不能使用 hoặc 打出【杀】直到回合结束。 2、少摸一张牌，若如此做， bạn 使用【杀】无距离限制且可以多使用一张【杀】直到回合结束。",
   zishou_info:
-    "摸牌阶段， bạn 可以额外摸X张牌（X là 场上现存势力数）。若如此做， bạn 于本回合出牌阶段内使用的牌不能指定其他角色 là 目标。",
+    "摸牌阶段， bạn 可以额外摸X张牌（X là 场上现存势力数）。若如此做， bạn 于本回合  giai đoạn ra bài内使用的牌不能指定其他角色 là 目标。",
   zongshi_info: "Tỏa định kỹ， bạn 的手牌上限+X（X là 场上现存势力数）。",
   danshou_info:
-    "出牌阶段， bạn 可以选择 bạn 攻击范围内的一名其他角色，然后弃置X张牌（X là 此前 bạn 于此阶段 bạn 发动“胆守”的次数+1）。若X： là 1， bạn 弃置该角色的一张牌； là 2，令该角色交给 bạn 一张牌； là 3， bạn 对该角色造成1点 sát thương ；不小于4， bạn 与该角色各摸两张牌。",
+    "  giai đoạn ra bài， bạn 可以选择 bạn 攻击范围内的一名其他角色，然后弃置X张牌（X là 此前 bạn 于此阶段 bạn 发动“胆守”的次数+1）。若X： là 1， bạn 弃置该角色的一张牌； là 2，令该角色交给 bạn 一张牌； là 3， bạn 对该角色造成1点 sát thương ；不小于4， bạn 与该角色各摸两张牌。",
   olddanshou_info:
     " khi  bạn 造成 sát thương 后， bạn 可以摸一张牌。若如此做，终止一切结算， khi 前回合结束。",
   xindanshou_info:
     "①每回合限一次， khi  bạn 成 là 基本牌 hoặc 锦囊牌的目标后， bạn 可以摸X张牌（X là  bạn 本回合内成 là 过基本牌 hoặc 锦囊牌的目标的次数）。②一名其他角色的 Giai đoạn kết thúc ，若 bạn 本回合内没有发动过〖胆守①〗，则 bạn 可以弃置X张牌并对其造成1点 sát thương （X là 其手牌数，无牌则不弃）。",
   yizhong_info: "Tỏa định kỹ， khi  bạn 的防具栏 là 空时，黑色的杀对 bạn 无效",
   xinzhan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以观看牌堆顶的3张牌，然后展示其中任意数量♥的牌并获得之。",
+    "1 lần trong giai đoạn ra bài， bạn 可以观看牌堆顶的3张牌，然后展示其中任意数量♥的牌并获得之。",
   huilei_info: "Tỏa định kỹ， khi  bạn 死亡时，杀死 bạn 的角色弃置所有的牌。",
   enyuan_info:
     "Tỏa định kỹ， khi 有其他角色令 bạn 回复一 sinh lực 后，该角色摸一张牌；其他角色对 bạn 造成 sát thương 后，须交给 bạn 一张♥手牌，否则该角色失去1 sinh lực 。",
   xuanhuo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张 ♥︎ 手牌交给一名其他角色，获得该角色的一张牌，然后交给除该角色外的一名其他角色",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张 ♥︎ 手牌交给一名其他角色，获得该角色的一张牌，然后交给除该角色外的一名其他角色",
   ganlu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选择两名装备区内装备数之差不大于X的角色，令其交换装备区内的牌（X là  bạn 已损失的体力值）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以选择两名装备区内装备数之差不大于X的角色，令其交换装备区内的牌（X là  bạn 已损失的体力值）。",
   buyi_info:
     " khi 有角色进入濒死状态时， bạn 可以展示该角色的一张手牌：若此牌不 là 基本牌，则该角色弃置此牌并回复1 sinh lực 。",
   mingce_info:
-    "出牌阶段， bạn 可以交给一名其他角色一张装备牌 hoặc 【杀】，然后令该角色选择一项：1. 视 là 对其攻击范围内的另一名由 bạn 指定的角色使用一张【杀】。2. 摸一张牌。每回合限一次。",
+    "  giai đoạn ra bài， bạn 可以交给一名其他角色一张装备牌 hoặc 【杀】，然后令该角色选择一项：1. 视 là 对其攻击范围内的另一名由 bạn 指定的角色使用一张【杀】。2. 摸一张牌。每回合限一次。",
   zhichi_info:
     "Tỏa định kỹ， khi  bạn 于回合外受到 sát thương 后，所有【杀】 hoặc 普通锦囊牌对 bạn 无效直到回合结束。",
   zhichi2_info: "智迟已发动",
@@ -11200,13 +11218,13 @@ export const translate_yijiang = {
   rejingce2: "精策",
   rejingce_add: "精策",
   rejingce_info:
-    " khi  bạn 于一回合内首次使用某种花色的手牌时， bạn 的手牌上限+1。出牌阶段结束时， bạn 可以摸X张牌（X là  bạn 本阶段内使用过的牌的类型数）。",
+    " khi  bạn 于一回合内首次使用某种花色的手牌时， bạn 的手牌上限+1。  giai đoạn ra bài结束时， bạn 可以摸X张牌（X là  bạn 本阶段内使用过的牌的类型数）。",
   xinkuangbi: "匡弼",
   xinkuangbi_info:
-    "1 lần trong giai đoạn hành động。 bạn 可以令一名其他角色交给 bạn 至多三张牌（不计入 bạn 本回合的手牌上限）。然后其于其的下回合开始时摸等量的牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可以令一名其他角色交给 bạn 至多三张牌（不计入 bạn 本回合的手牌上限）。然后其于其的下回合开始时摸等量的牌。",
   xinzhaofu: "诏缚",
   xinzhaofu_info:
-    "Chủ công kỹ，Hạn định kỹ。出牌阶段， bạn 可选择至多两名其他角色。这两名角色视 là 在所有其他吴势力角色的攻击范围内。",
+    "Chủ công kỹ，Hạn định kỹ。  giai đoạn ra bài， bạn 可选择至多两名其他角色。这两名角色视 là 在所有其他吴势力角色的攻击范围内。",
   olbingyi: "秉壹",
   olbingyi_info:
     "每阶段限一次。 khi  bạn 因弃置而失去牌后， bạn 可以展示所有手牌。若这些牌的颜色均相同，则 bạn 可以与至多X名其他角色各摸一张牌（X là  bạn 的手牌数）。",
@@ -11270,17 +11288,17 @@ export const translate_yingbian = {
   duyu: "杜预",
   sanchen: "三陈",
   sanchen_info:
-    "出牌阶段， bạn 可选择一名本回合内未选择过的角色。其摸三张牌，然后弃置三张牌。若其未以此法弃置牌 hoặc 以此法弃置的牌的类别均不相同，则其摸一张牌。否则 bạn 本阶段内不能再发动〖三陈〗。",
+    "  giai đoạn ra bài， bạn 可选择一名本回合内未选择过的角色。其摸三张牌，然后弃置三张牌。若其未以此法弃置牌 hoặc 以此法弃置的牌的类别均不相同，则其摸一张牌。否则 bạn 本阶段内不能再发动〖三陈〗。",
   sanchen_info_guozhan:
-    "出牌阶段， bạn 可选择一名本回合内未选择过的角色。其摸三张牌，然后弃置三张牌。若其未以此法弃置牌 hoặc 以此法弃置的牌的类别均不相同，则其摸一张牌且 bạn 获得技能〖破竹〗直到回合结束。否则 bạn 本阶段内不能再发动〖三陈〗。",
+    "  giai đoạn ra bài， bạn 可选择一名本回合内未选择过的角色。其摸三张牌，然后弃置三张牌。若其未以此法弃置牌 hoặc 以此法弃置的牌的类别均不相同，则其摸一张牌且 bạn 获得技能〖破竹〗直到回合结束。否则 bạn 本阶段内不能再发动〖三陈〗。",
   zhaotao: "诏讨",
   zhaotao_info:
     "觉醒技，准备阶段，若 bạn 本局游戏内发动〖三陈〗的次数大于2，则 bạn giảm 1 sinh lực 上限并获得〖破竹〗。",
   pozhu: "破竹",
   pozhu_info:
-    "出牌阶段， bạn 可以将一张手牌 khi 做【出其不意】使用。若 bạn 未因此牌造成过 sát thương ，则 bạn 不能再发动〖破竹〗直到回合结束。",
+    "  giai đoạn ra bài， bạn 可以将一张手牌 khi 做【出其不意】使用。若 bạn 未因此牌造成过 sát thương ，则 bạn 不能再发动〖破竹〗直到回合结束。",
   pozhu_info_guozhan:
-    "1 lần trong giai đoạn hành động， bạn 可以将一张手牌 khi 做【出其不意】使用。",
+    "1 lần trong giai đoạn ra bài， bạn 可以将一张手牌 khi 做【出其不意】使用。",
   jin_wangyuanji: "晋王元姬",
   jin_wangyuanji_ab: "王元姬",
   shiren: "识人",
@@ -11289,9 +11307,9 @@ export const translate_yingbian = {
   yanxi: "宴戏",
   yanxi2: "宴戏",
   yanxi_info:
-    "出牌阶段， bạn 可选择一名有手牌的角色。 bạn 将该角色的一张随机手牌与牌堆顶的两张牌混合后展示，并选择其中一张。若 bạn 以此法选择的是该角色的手牌，则 bạn 获得这三张牌。否则 bạn 获得选择的牌。 bạn 通过〖宴戏〗获得的牌，不计入 khi 前回合的手牌上限。",
+    "  giai đoạn ra bài， bạn 可选择一名有手牌的角色。 bạn 将该角色的一张随机手牌与牌堆顶的两张牌混合后展示，并选择其中一张。若 bạn 以此法选择的是该角色的手牌，则 bạn 获得这三张牌。否则 bạn 获得选择的牌。 bạn 通过〖宴戏〗获得的牌，不计入 khi 前回合的手牌上限。",
   yanxi_info_guozhan:
-    "出牌阶段， bạn 可选择一名有手牌的角色。 bạn 将该角色的一张随机手牌与牌堆中的两张随机牌混合后展示，并选择其中一张。若 bạn 以此法选择的是该角色的手牌，则 bạn 获得这三张牌。否则 bạn 获得选择的牌。 bạn 通过〖宴戏〗获得的牌，不计入 khi 前回合的手牌上限。",
+    "  giai đoạn ra bài， bạn 可选择一名有手牌的角色。 bạn 将该角色的一张随机手牌与牌堆中的两张随机牌混合后展示，并选择其中一张。若 bạn 以此法选择的是该角色的手牌，则 bạn 获得这三张牌。否则 bạn 获得选择的牌。 bạn 通过〖宴戏〗获得的牌，不计入 khi 前回合的手牌上限。",
   jin_simazhao: "晋司马昭",
   jin_simazhao_ab: "司马昭",
   tuishi: "推弑",
@@ -11300,14 +11318,14 @@ export const translate_yingbian = {
   choufa: "筹伐",
   choufa2: "筹伐",
   choufa_info:
-    "1 lần trong giai đoạn hành động， bạn 可展示一名其他角色的一张手牌并记录其类型A。 bạn 令其原类型不 là A的手牌的牌名均视 là 【杀】且均视 là 无属性，直到其回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可展示一名其他角色的一张手牌并记录其类型A。 bạn 令其原类型不 là A的手牌的牌名均视 là 【杀】且均视 là 无属性，直到其回合结束。",
   xinchoufa: "筹伐",
   xinchoufa_info:
-    "1 lần trong giai đoạn hành động， bạn 可展示一名其他角色的一张手牌A。 bạn 令其所有类型与A不同的手牌的牌名均视 là 【杀】且均视 là 无属性，直到其回合结束。",
+    "1 lần trong giai đoạn ra bài， bạn 可展示一名其他角色的一张手牌A。 bạn 令其所有类型与A不同的手牌的牌名均视 là 【杀】且均视 là 无属性，直到其回合结束。",
   zhaoran: "昭然",
   zhaoran2: "昭然",
   zhaoran_info:
-    "Bắt đầu giai đoạn hành động， bạn 可令 bạn 的手牌对其他角色可见直到出牌阶段结束。若如此做， khi  bạn 于此阶段内失去一张手牌后，若 bạn 的手牌里没有与此牌花色相同的牌且 bạn 本回合内未因该花色的牌触发过此效果，则 bạn 选择一项：①摸一张牌。②弃置一名其他角色的一张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可令 bạn 的手牌对其他角色可见直到  giai đoạn ra bài结束。若如此做， khi  bạn 于此阶段内失去一张手牌后，若 bạn 的手牌里没有与此牌花色相同的牌且 bạn 本回合内未因该花色的牌触发过此效果，则 bạn 选择一项：①摸一张牌。②弃置一名其他角色的一张牌。",
   chengwu: "成务",
   chengwu_info:
     "Chủ công kỹ，Tỏa định kỹ，其他晋势力角色攻击范围内的角色视 là 在 bạn 的攻击范围内。",
@@ -11318,10 +11336,10 @@ export const translate_yingbian = {
     "隐匿技，Tỏa định kỹ。 bạn 登场后，从牌堆中获得一张不 là 赠物的宝物牌。若此牌在 bạn 的手牌区内 là 宝物牌，则 bạn 可以使用此牌。",
   jyishi: "宜室",
   jyishi_info:
-    "每回合限一次， khi 有其他角色于其出牌阶段内因弃置而失去手牌后， bạn 可令其获得这些牌中位于弃牌堆的一张，然后 bạn 获得其余位于弃牌堆的牌。",
+    "每回合限一次， khi 有其他角色于其  giai đoạn ra bài内因弃置而失去手牌后， bạn 可令其获得这些牌中位于弃牌堆的一张，然后 bạn 获得其余位于弃牌堆的牌。",
   shiduo: "识度",
   shiduo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色拼点。若 bạn 赢， bạn 获得其所有手牌。然后 bạn 交给其X张手牌（X là  bạn 手牌数的一半，向下取整）。",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色拼点。若 bạn 赢， bạn 获得其所有手牌。然后 bạn 交给其X张手牌（X là  bạn 手牌数的一半，向下取整）。",
   jin_simashi: "晋司马师",
   jin_simashi_ab: "司马师",
   taoyin: "韬隐",
@@ -11335,11 +11353,11 @@ export const translate_yingbian = {
   ruilve: "睿略",
   ruilve2: "睿略",
   ruilve_info:
-    "Chủ công kỹ，其他晋势力角色的1 lần trong giai đoạn hành động，该角色可以将一张带有 sát thương 标签的基本牌 hoặc 锦囊牌交给 bạn 。",
+    "Chủ công kỹ，其他晋势力角色的1 lần trong giai đoạn ra bài，该角色可以将一张带有 sát thương 标签的基本牌 hoặc 锦囊牌交给 bạn 。",
   tairan: "泰然",
   tairan2: "泰然",
   tairan_info:
-    "Tỏa định kỹ，回合结束时， bạn 回复Y sinh lực ，并将手牌摸至X张。Bắt đầu giai đoạn hành động， bạn 失去Y sinh lực ，弃置上次以此法获得的牌。（X là  bạn 的体力上限；Y=(X- bạn 的体力值)且至多 là 5）；摸牌至多摸五张",
+    "Tỏa định kỹ，回合结束时， bạn 回复Y sinh lực ，并将手牌摸至X张。Bắt đầu giai đoạn ra bài， bạn 失去Y sinh lực ，弃置上次以此法获得的牌。（X là  bạn 的体力上限；Y=(X- bạn 的体力值)且至多 là 5）；摸牌至多摸五张",
   gz_jin_simayi: "司马懿",
   gz_jin_zhangchunhua: "张春华",
   gz_jin_simazhao: "司马昭",
@@ -11348,13 +11366,13 @@ export const translate_yingbian = {
   gz_jin_xiahouhui: "夏侯徽",
   xinquanbian: "权变",
   xinquanbian_info:
-    "出牌阶段，每 khi  bạn 首次使用/打出一种花色的手牌时， bạn 可以从牌堆顶的X张牌中获得一张与此牌花色不同的牌，并将其余牌以任意顺序置于牌堆顶。出牌阶段， bạn 至多可使用X张非装备手牌。（X là  bạn 的体力上限）",
+    "  giai đoạn ra bài，每 khi  bạn 首次使用/打出一种花色的手牌时， bạn 可以从牌堆顶的X张牌中获得一张与此牌花色不同的牌，并将其余牌以任意顺序置于牌堆顶。  giai đoạn ra bài， bạn 至多可使用X张非装备手牌。（X là  bạn 的体力上限）",
   shibao: "石苞",
   zhuosheng: "擢升",
   zhuosheng_info:
-    "出牌阶段，① bạn 使用本轮内获得的基本牌时无次数和距离限制。② bạn 使用本轮内获得的普通锦囊牌选择目标后，可令此牌的目标数+1 hoặc -1。③ bạn 使用本轮内获得的装备牌时可以摸一张牌（以此法获得的牌不能触发〖擢升〗）。",
+    "  giai đoạn ra bài，① bạn 使用本轮内获得的基本牌时无次数和距离限制。② bạn 使用本轮内获得的普通锦囊牌选择目标后，可令此牌的目标数+1 hoặc -1。③ bạn 使用本轮内获得的装备牌时可以摸一张牌（以此法获得的牌不能触发〖擢升〗）。",
   zhuosheng_info_guozhan:
-    "出牌阶段，① bạn 使用本轮内获得的基本牌时无距离限制。② bạn 使用本轮内获得的普通锦囊牌选择目标后，可令此牌的目标数+1 hoặc -1。③ bạn 使用本轮内获得的装备牌时可以摸一张牌（以此法获得的牌不能触发〖擢升〗）。",
+    "  giai đoạn ra bài，① bạn 使用本轮内获得的基本牌时无距离限制。② bạn 使用本轮内获得的普通锦囊牌选择目标后，可令此牌的目标数+1 hoặc -1。③ bạn 使用本轮内获得的装备牌时可以摸一张牌（以此法获得的牌不能触发〖擢升〗）。",
   jin_yanghuiyu: "晋羊徽瑜",
   jin_yanghuiyu_ab: "羊徽瑜",
   gz_jin_yanghuiyu: "羊徽瑜",
@@ -11378,7 +11396,7 @@ export const translate_yingbian = {
   cheliji: "彻里吉",
   chexuan: "车悬",
   chexuan_info:
-    "出牌阶段，若 bạn 的装备区里没有宝物牌， bạn 可弃置一张黑色牌，选择一张【舆】置入 bạn 的装备区； khi  bạn 失去装备区里的宝物牌后， bạn 可进行判定，若结果 là 黑色，将一张随机的【舆】置入 bạn 的装备区。",
+    "  giai đoạn ra bài，若 bạn 的装备区里没有宝物牌， bạn 可弃置一张黑色牌，选择一张【舆】置入 bạn 的装备区； khi  bạn 失去装备区里的宝物牌后， bạn 可进行判定，若结果 là 黑色，将一张随机的【舆】置入 bạn 的装备区。",
   qiangshou: "羌首",
   qiangshou_info:
     "Tỏa định kỹ，若 bạn 的装备区内有宝物牌， bạn 与其他角色的距离-1。",
@@ -11405,7 +11423,7 @@ export const translate_yingbian = {
   zhongyan: "钟琰",
   bolan: "博览",
   bolan_info:
-    "Bắt đầu giai đoạn hành động， bạn 可从三个描述中包含“1 lần trong giai đoạn hành động”的技能中选择一个获得直到此阶段结束；其他角色的Bắt đầu giai đoạn hành động，其可以失去1 sinh lực ，令 bạn 从三个描述中包含“1 lần trong giai đoạn hành động”的技能中选择一个，其获得此技能直到此阶段结束。",
+    "Bắt đầu giai đoạn ra bài， bạn 可从三个描述中包含“1 lần trong giai đoạn ra bài”的技能中选择一个获得直到此阶段结束；其他角色的Bắt đầu giai đoạn ra bài，其可以失去1 sinh lực ，令 bạn 从三个描述中包含“1 lần trong giai đoạn ra bài”的技能中选择一个，其获得此技能直到此阶段结束。",
   yifa: "仪法",
   yifa2: "仪法",
   yifa_info:
@@ -11414,7 +11432,7 @@ export const translate_yingbian = {
   caozhao: "草诏",
   caozhao_backup: "草诏",
   caozhao_info:
-    "1 lần trong giai đoạn hành động， bạn 可展示一张手牌并声明一种未以此法声明过的基本牌 hoặc 普通锦囊牌，令一名体力不大于 bạn 的其他角色选择一项：令此牌视 là  bạn 声明的牌， hoặc 其失去1 sinh lực 。然后若此牌声明成功，然后 bạn 可将其交给一名其他角色。",
+    "1 lần trong giai đoạn ra bài， bạn 可展示一张手牌并声明一种未以此法声明过的基本牌 hoặc 普通锦囊牌，令一名体力不大于 bạn 的其他角色选择一项：令此牌视 là  bạn 声明的牌， hoặc 其失去1 sinh lực 。然后若此牌声明成功，然后 bạn 可将其交给一名其他角色。",
   olxibing: "息兵",
   olxibing_info:
     "每 khi  bạn 受到其他角色造成的 sát thương 后/对其他角色造成 sát thương 后， bạn 可弃置 bạn  hoặc 该角色两张牌，然后 bạn 们中手牌少的角色摸两张牌，以此法摸牌的角色不能使用牌指定 bạn  là 目标直到回合结束。",
@@ -11434,10 +11452,10 @@ export const translate_yingbian = {
   yangzhi: "杨芷",
   wanyi: "婉嫕",
   wanyi_info:
-    "每回合每项限一次。出牌阶段， bạn 可以将一张具有应变效果的牌 khi 做【逐近弃远】/【出其不意】/【水淹七军】/【洞烛先机】使用。",
+    "每回合每项限一次。  giai đoạn ra bài， bạn 可以将一张具有应变效果的牌 khi 做【逐近弃远】/【出其不意】/【水淹七军】/【洞烛先机】使用。",
   maihuo: "埋祸",
   maihuo_info:
-    "① khi  bạn 成 là 其他角色使用【杀】的目标后，若此【杀】不 là 转化牌且有对应的实体牌且其武将牌上没有“祸”且 bạn 是此牌的唯一目标，则 bạn 可以令此牌对 bạn 无效，并将此【杀】置于其武将牌上，称 là “祸”。②一名其他角色的Bắt đầu giai đoạn hành động，若其武将牌上有“祸”，则其对 bạn 使用此“祸”（有距离限制且计入次数限制，若 bạn 不是此牌的合法目标，则改 là 将此“祸”置入弃牌堆）。③ khi  bạn 对有“祸”的其他角色造成 sát thương 后， bạn 移去其“祸”。",
+    "① khi  bạn 成 là 其他角色使用【杀】的目标后，若此【杀】不 là 转化牌且有对应的实体牌且其武将牌上没有“祸”且 bạn 是此牌的唯一目标，则 bạn 可以令此牌对 bạn 无效，并将此【杀】置于其武将牌上，称 là “祸”。②一名其他角色的Bắt đầu giai đoạn ra bài，若其武将牌上有“祸”，则其对 bạn 使用此“祸”（有距离限制且计入次数限制，若 bạn 不是此牌的合法目标，则改 là 将此“祸”置入弃牌堆）。③ khi  bạn 对有“祸”的其他角色造成 sát thương 后， bạn 移去其“祸”。",
   xinchang: "辛敞",
   canmou: "参谋",
   canmou_info:
@@ -11454,7 +11472,7 @@ export const translate_yingbian = {
     "准备阶段， bạn 可以选择一名其他角色。 bạn 获得如下效果直到下回合开始：①每回合限一次， khi  bạn  hoặc 其获得牌/失去手牌后，若 bạn 与其手牌数相等，则另一名角色摸一张牌。②每回合限一次， khi  bạn  hoặc 其的体力值变化后，若 bạn 与其体力值相等，则另一名角色摸一张牌。",
   ybzhuiji: "追姬",
   ybzhuiji_info:
-    "Bắt đầu giai đoạn hành động， bạn 可选择一项：①摸两张牌，并于出牌阶段结束时失去1 sinh lực ；②回复1 sinh lực ，并于出牌阶段结束时弃置两张牌。",
+    "Bắt đầu giai đoạn ra bài， bạn 可选择一项：①摸两张牌，并于  giai đoạn ra bài结束时失去1 sinh lực ；②回复1 sinh lực ，并于  giai đoạn ra bài结束时弃置两张牌。",
   jin_yanghu: "羊祜",
   huaiyuan: "怀远",
   huaiyuanx: "绥",
@@ -11462,7 +11480,7 @@ export const translate_yingbian = {
     "①游戏开始时， bạn 将 bạn 的手牌标记 là “绥”。② khi  bạn 失去一张“绥”后， bạn 令一名角色执行一项：⒈其的手牌上限+1。⒉其的攻击范围+1。⒊其摸一张牌。③ khi  bạn 死亡时， bạn 可令一名其他角色的手牌上限+X，且攻击范围+Y（X和Y là  bạn 自己被执行过〖怀远②〗的选项一和选项二的次数）。",
   chongxin: "崇信",
   chongxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可重铸一张牌，且令一名有手牌的其他角色也重铸一张牌。",
+    "1 lần trong giai đoạn ra bài， bạn 可重铸一张牌，且令一名有手牌的其他角色也重铸一张牌。",
   dezhang: "德彰",
   dezhang_info:
     "觉醒技。准备阶段，若 bạn 没有“绥”，则 bạn giảm 1 sinh lực 上限并获得〖卫戍〗。",
@@ -11472,13 +11490,13 @@ export const translate_yingbian = {
   jin_jiachong: "贾充",
   xiongshu: "凶竖",
   xiongshu_info:
-    "其他角色的Bắt đầu giai đoạn hành động， bạn 可弃置X张牌（X là  bạn 本轮内此前已发动过此技能的次数， là 0则不弃）并展示其一张牌，然后 bạn 预测“其本阶段内是否会使用与展示牌牌名相同的牌”。此阶段结束时，若 bạn 的预测正确，则 bạn 对其造成1点 sát thương ；否则 bạn 获得展示牌。",
+    "其他角色的Bắt đầu giai đoạn ra bài， bạn 可弃置X张牌（X là  bạn 本轮内此前已发动过此技能的次数， là 0则不弃）并展示其一张牌，然后 bạn 预测“其本阶段内是否会使用与展示牌牌名相同的牌”。此阶段结束时，若 bạn 的预测正确，则 bạn 对其造成1点 sát thương ；否则 bạn 获得展示牌。",
   jianhui: "奸回",
   jianhui_info:
     "Tỏa định kỹ。 khi  bạn 造成 sát thương 后，若受伤角色 là A，则 bạn 摸一张牌； khi  bạn 受到 sát thương 后，若 sát thương 来源 là A，则A弃置一张牌。（A là 除本次 sát thương 外最近一次对 bạn 造成过 sát thương 的角色）",
   xinxuanbei: "选备",
   xinxuanbei_info:
-    "1 lần trong giai đoạn hành động。 bạn 可选择一名其他角色区域内的一张牌。然后其对 bạn 使用对应实体牌 là 此牌的【杀】。然后若此【杀】，未对 bạn 造成过 sát thương ， bạn 摸一张牌；对 bạn 造成过 sát thương ， bạn 摸两张牌。",
+    "1 lần trong giai đoạn ra bài。 bạn 可选择一名其他角色区域内的一张牌。然后其对 bạn 使用对应实体牌 là 此牌的【杀】。然后若此【杀】，未对 bạn 造成过 sát thương ， bạn 摸一张牌；对 bạn 造成过 sát thương ， bạn 摸两张牌。",
   xinwanyi: "婉嫕",
   xinwanyi_info:
     "① khi bạn sử dụng 【杀】 hoặc 普通锦囊牌指定其他角色 là 唯一目标后， bạn 可将其的一张牌置于 bạn 的武将牌上作 là “嫕”。② bạn 不能使用/打出/弃置与“嫕”花色相同的牌。③ Giai đoạn kết thúc  hoặc  khi  bạn 受到 sát thương 后， bạn 令一名角色获得 bạn 的一张“嫕”。",
@@ -11558,25 +11576,26 @@ export const translate_yxs = {
     "回合 Giai đoạn kết thúc ， bạn 可选择一名其他角色，若如此做，直到 bạn 的下回合开始，所有角色对该角色使用的【杀】 hoặc 【决斗】均视 là 对 bạn 使用",
   zhuxin: "诛心",
   zhuxin_info:
-    "1 lần trong giai đoạn hành động， bạn 可以与一名其他角色拼点，若 bạn 赢， bạn 对其造成一点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以与一名其他角色拼点，若 bạn 赢， bạn 对其造成一点 sát thương ",
   wlianhuan: "连环",
   wlianhuan_info:
     " bạn 使用杀造成 sát thương 时，可以弃置一张装备区内的牌并令 sát thương +1",
   liebo: "裂帛",
   liebo_info:
-    "1 lần trong giai đoạn hành động， bạn 可以将 bạn 的手牌与一名其他角色交换（手牌数之差不能多于1）",
+    "1 lần trong giai đoạn ra bài， bạn 可以将 bạn 的手牌与一名其他角色交换（手牌数之差不能多于1）",
   yaoji: "妖姬",
   yaoji_info:
     "每 khi  bạn 受到一次 sát thương ， bạn 可以将一张乐不思蜀置入 sát thương 来源的判定区",
   guimian: "鬼面",
   guimian_info:
-    "Tỏa định kỹ，每 khi  bạn 在出牌阶段使用杀造成 sát thương ，本阶段内出杀次数上限+1",
+    "Tỏa định kỹ，每 khi  bạn 在  giai đoạn ra bài使用杀造成 sát thương ，本阶段内出杀次数上限+1",
   lyuxue: "浴血",
   lyuxue2: "浴血",
   lyuxue_info:
     "Tỏa định kỹ，每 khi  bạn 造成一次 sát thương ，若目标没有浴血标记， bạn 令其获得一个浴血标记； khi 一名角色失去浴血标记时，其流失一 sinh lực ；准备阶段，若场上浴血标记的数量不少于存活角色数的一半（向下取整）， bạn 清空浴血标记； khi  bạn 即将死亡时， bạn 清空浴血标记",
   huli: "护理",
-  huli_info: "出牌阶段， bạn 可以将一张 ♥︎ 手牌 khi 作桃对距离1以内的角色使用",
+  huli_info:
+    "  giai đoạn ra bài， bạn 可以将一张 ♥︎ 手牌 khi 作桃对距离1以内的角色使用",
   yixin: "医心",
   yixin_info:
     "Hạn định kỹ， bạn 可以弃置两张牌，然后令一名已受伤角色回复X sinh lực 并摸4-X张牌（X là 该角色已损失的体力值且不超过4）",
@@ -11597,7 +11616,7 @@ export const translate_yxs = {
   shiqin_info: "Tỏa định kỹ，其他群势力角色濒死时， bạn 令其立即死亡",
   yjujian: "拒谏",
   yjujian_info:
-    "1 lần trong giai đoạn hành động， bạn 可以交给一名其他角色一张牌，该角色的锦囊牌不能指定 bạn  là 目标直到 bạn 的下一回合开始",
+    "1 lần trong giai đoạn ra bài， bạn 可以交给一名其他角色一张牌，该角色的锦囊牌不能指定 bạn  là 目标直到 bạn 的下一回合开始",
   yaoyi: "徭役",
   yaoyi_info:
     "每 khi  bạn 受到一次 sát thương ， bạn 可以令至多2名非群势力角色交给 bạn 一张手牌",
@@ -11614,22 +11633,23 @@ export const translate_yxs = {
     "Tỏa định kỹ，摸牌阶段， bạn 额外摸X张牌，X là  bạn 已损失的体力值的一半，向上取整且最多 là 2",
   chujia: "初嫁",
   chujia_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张相同颜色的手牌，指定任意一名角色摸X张牌。(X là 该角色已损失的体力值) ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张相同颜色的手牌，指定任意一名角色摸X张牌。(X là 该角色已损失的体力值) ",
   zhijie: "知节",
   zhijie_info:
-    "1 lần trong giai đoạn hành động， bạn 的 ♥︎ 手牌可以 khi 做无中生有使用",
+    "1 lần trong giai đoạn ra bài， bạn 的 ♥︎ 手牌可以 khi 做无中生有使用",
   baihe: "捭阖",
   baihe_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，选择以下1项执行：(1)横置1名未横置角色，该角色摸一张牌；(2)重置一名已横置角色，该角色弃置一张手牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，选择以下1项执行：(1)横置1名未横置角色，该角色摸一张牌；(2)重置一名已横置角色，该角色弃置一张手牌",
   yinyang: "阴阳",
   yinyang_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张手牌并选择3名角色，分别横置 hoặc 重置这些角色",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张手牌并选择3名角色，分别横置 hoặc 重置这些角色",
   xiushen: "修身",
   // xiushen_info:'Tỏa định kỹ， Giai đoạn kết thúc ，若场上有横置角色， bạn 摸两张牌',
-  xiushen_info: "Tỏa định kỹ，出牌阶段结束时，若场上有横置角色， bạn 摸两张牌",
+  xiushen_info:
+    "Tỏa định kỹ，  giai đoạn ra bài结束时，若场上有横置角色， bạn 摸两张牌",
   yanyi: "演绎",
   yanyi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张黑色牌，指定1名角色和1种花色，若被指定角色的手牌中含有此花色，则受到1点 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张黑色牌，指定1名角色和1种花色，若被指定角色的手牌中含有此花色，则受到1点 sát thương ",
   jiean: "结案",
   jiean_info:
     "每 khi 【演绎】造成 sát thương 时， bạn 可以摸X张牌，并以任意数量分配给任意角色（X là 被【演绎】造成 sát thương 角色的已损失体力值）。",
@@ -11643,12 +11663,12 @@ export const translate_yxs = {
     " khi  bạn 对其他角色使用杀时， bạn 可以使此杀有如下效果：若对方没有出闪，其受到2点 sát thương ；若对方打出了一张闪， bạn 与其各受到1点 sát thương ；若对方打出了两张闪， bạn 受到一点 sát thương ",
   bingsheng: "兵圣",
   bingsheng_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置两张花色不同的手牌，指定一名其他角色使其体力值与 bạn 相同（体力最多变化2点）",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置两张花色不同的手牌，指定一名其他角色使其体力值与 bạn 相同（体力最多变化2点）",
   taolue: "韬略",
   taolue_info: "Tỏa định kỹ， bạn 的手牌上限+1",
   shentan: "神探",
   shentan_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，获得距离2以内的一名角色的手牌，并可以将其交给任意一名角色",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，获得距离2以内的一名角色的手牌，并可以将其交给任意一名角色",
   hanqiang: "寒枪",
   hanqiang_info: "Tỏa định kỹ， khi  bạn 没装备武器时，攻击范围+1",
   biaoqi: "骠骑",
@@ -11683,10 +11703,10 @@ export const translate_yxs = {
     "Tỏa định kỹ， bạn 的杀无视距离；体力值不小于3的角色不能闪避 bạn 的杀",
   tongyu: "统御",
   tongyu_info:
-    "出牌阶段， bạn 可以弃置一张牌，并转变 là 罗宾汉（每回合只能转变一次）",
+    "  giai đoạn ra bài， bạn 可以弃置一张牌，并转变 là 罗宾汉（每回合只能转变一次）",
   lguiyin: "归隐",
   lguiyin_info:
-    "出牌阶段，若 bạn 本回合内未造成 sát thương ， bạn 可以摸一张牌，并转变 là 汉丁顿伯爵（每回合只能转变一次）",
+    "  giai đoạn ra bài，若 bạn 本回合内未造成 sát thương ， bạn 可以摸一张牌，并转变 là 汉丁顿伯爵（每回合只能转变一次）",
   lzhangyi: "仗义",
   lzhangyi_info: " bạn 可以将 bạn 弃置的卡牌交给一名其他角色",
   yizhuang: "易装",
@@ -11705,16 +11725,16 @@ export const translate_yxs = {
   xumou_info: " Giai đoạn kết thúc ， bạn 可以将武将牌翻面并摸3张牌",
   guifu: "鬼斧",
   guifu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以指定一名角色装备区内的一张牌，将其弃掉，自己和对方同时摸取一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以指定一名角色装备区内的一张牌，将其弃掉，自己和对方同时摸取一张牌",
   lshengong: "神工",
   lshengong_info:
-    "1 lần trong giai đoạn hành động， bạn 可以选定场上任意一名角色的装备区的非特殊牌，出自己的一张手牌复制该装备，然后可以选择装备上自己 hoặc 者别的角色的装备区",
+    "1 lần trong giai đoạn ra bài， bạn 可以选定场上任意一名角色的装备区的非特殊牌，出自己的一张手牌复制该装备，然后可以选择装备上自己 hoặc 者别的角色的装备区",
   zhexian: "谪仙",
   zhexian_info:
     " khi  bạn 于一名其他角色的回合内首次失去牌时， bạn 可以摸一张牌",
   miaobi: "妙笔",
   miaobi_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一名其他角色的一张牌，若此牌是基本牌 hoặc 普通锦囊， bạn 可以将一张手牌 khi 此牌使用；否则 bạn 须弃置一张牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一名其他角色的一张牌，若此牌是基本牌 hoặc 普通锦囊， bạn 可以将一张手牌 khi 此牌使用；否则 bạn 须弃置一张牌",
   cike: "刺客",
   cike_info:
     " bạn 对别的角色出【杀】时可以选择做一次判定：若判定牌 là 红色花色，则此【杀】不可回避，直接命中；若判定牌 là 黑色花色， bạn 可以选择弃掉对方一张牌。",
@@ -11724,13 +11744,13 @@ export const translate_yxs = {
   ducai2: "独裁",
   ducai3: "独裁",
   ducai_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张牌，则本轮内除 bạn 外的角色不能使用 hoặc 打出与该手牌花色相同的手牌",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张牌，则本轮内除 bạn 外的角色不能使用 hoặc 打出与该手牌花色相同的手牌",
   tongling: "统领",
   tongling_info:
     "Tỏa định kỹ，每 khi 一名友方角色造成一次 sát thương ， bạn 获得1个统领标记（标记上限 là 3）",
   fanpu: "反扑",
   fanpu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以移去3枚统领标记并视 là 对攻击范围内的至多3名角色使用一张杀",
+    "1 lần trong giai đoạn ra bài， bạn 可以移去3枚统领标记并视 là 对攻击范围内的至多3名角色使用一张杀",
   fenghuo: "烽火",
   fenghuo_info: " bạn 可以将一张装备区内的牌 khi 作南蛮入侵使用",
   yxsweiyi: "威仪",
@@ -11738,10 +11758,10 @@ export const translate_yxs = {
     "每 khi  bạn 受到一次 sát thương ，可以令 sát thương 来源弃置两张牌",
   xieling: "挟令",
   xieling_info:
-    "出牌阶段，弃掉两张手牌，将任意一名角色装备区 hoặc 判定区的牌移动到另一名角色对应的区域",
+    "  giai đoạn ra bài，弃掉两张手牌，将任意一名角色装备区 hoặc 判定区的牌移动到另一名角色对应的区域",
   baye: "霸业",
   baye_info:
-    "出牌阶段， bạn 可以将一张牌 khi 做本回合内前一张使用的牌来使用。每回合限用一次。",
+    "  giai đoạn ra bài， bạn 可以将一张牌 khi 做本回合内前一张使用的牌来使用。每回合限用一次。",
   nvquan: "女权",
   nvquan1: "女权",
   nvquan2: "女权",
@@ -11749,7 +11769,7 @@ export const translate_yxs = {
     " bạn 对男性角色使用【杀】 hoặc 【决斗】时，对方需连续打出两张【闪】 hoặc 【杀】响应； bạn 不能成 là 男性角色的决斗目标",
   qiandu: "迁都",
   qiandu_info:
-    "出牌阶段， bạn 可以弃一张黑色手牌，和一名存活的玩家与其交换位置。每回合限一次。",
+    "  giai đoạn ra bài， bạn 可以弃一张黑色手牌，和一名存活的玩家与其交换位置。每回合限一次。",
   budao: "补刀",
   budao_info:
     " bạn 的回合外， bạn 的攻击范围的一名角色受到【杀】的 sát thương 时， bạn 可以对其使用一张【杀】，只要 bạn 的【杀】对目标角色造成了 sát thương ， bạn 就可以继续对其使用【杀】。",
@@ -11766,14 +11786,14 @@ export const translate_yxs = {
     "Tỏa định kỹ，只要 bạn 的体力值大于2点， bạn 的进攻距离+1；只要 bạn 的体力值 là 2点 hoặc 更低， bạn 的防御距离+1",
   seyou: "色诱",
   seyou_info:
-    "Hạn định kỹ，出牌阶段， bạn 可以指定任意1名角色，其他所有男性角色需选择1项执行：（1）对 bạn 指定的角色出【杀】；（2）令 bạn 获得其一张牌。",
+    "Hạn định kỹ，  giai đoạn ra bài， bạn 可以指定任意1名角色，其他所有男性角色需选择1项执行：（1）对 bạn 指定的角色出【杀】；（2）令 bạn 获得其一张牌。",
   sheshi: "蛇噬",
   sheshi_info:
     "每受到1次 sát thương ，可以指定1种花色，依次展示牌堆顶的牌，直到出现指定花色的牌 là 止， bạn 获得与指定花色不同花色的所有牌（最多展示4张牌）。",
 
   fengyi: "凤仪",
   fengyi_info:
-    "出牌阶段， bạn 可以弃一张手牌，指定任意目标摸两张牌。（每回合限用一次）",
+    "  giai đoạn ra bài， bạn 可以弃一张手牌，指定任意目标摸两张牌。（每回合限用一次）",
   wange: "婉歌",
   wange_info:
     "摸牌时， bạn 可以少摸一张牌，则 Giai đoạn kết thúc  bạn 可以抽取一名其他角色的手牌，至少1张，至多X张（X là  bạn  khi 前的掉血量）。",
@@ -11798,18 +11818,18 @@ export const translate_yxs = {
     "其他角色对 bạn 造成 sát thương 时， bạn 可以令该角色须选择1项执行：1，将1张 ♥︎ 花色手牌交给 bạn ；2，流失1点血量",
   yxsrenwang: "人望",
   yxsrenwang_info:
-    "出牌阶段， bạn 可以弃掉2张牌并指定一名手牌数大于 bạn 的角色， bạn 摸牌至与该角色手牌数相等，每阶段限一次。",
+    "  giai đoạn ra bài， bạn 可以弃掉2张牌并指定一名手牌数大于 bạn 的角色， bạn 摸牌至与该角色手牌数相等，每阶段限一次。",
   shiwei: "施威",
   shiwei_info:
-    " khi 其他角色失去最后一张手牌时， bạn 可以将牌堆顶的一张牌背面朝上置于该角色面前，该角色回合，跳过出牌阶段并弃掉这张牌。",
+    " khi 其他角色失去最后一张手牌时， bạn 可以将牌堆顶的一张牌背面朝上置于该角色面前，该角色回合，跳过  giai đoạn ra bài并弃掉这张牌。",
   yxswushuang: "无双",
   yxswushuang_info:
-    "出牌阶段， bạn 使用【杀】时可同时打出两张【杀】，则该【杀】具有以下效果之一：1， sát thương +1；2，额外指定两个目标",
+    "  giai đoạn ra bài， bạn 使用【杀】时可同时打出两张【杀】，则该【杀】具有以下效果之一：1， sát thương +1；2，额外指定两个目标",
   xiaoyong: "骁勇",
   xiaoyong_info: " bạn 可以将黑色手牌 khi 作【杀】来使用",
   yxsqinzheng: "亲征",
   yxsqinzheng_info:
-    "出牌阶段， bạn 对其他角色造成 sát thương 时，可以令场上任意角色摸一张牌。",
+    "  giai đoạn ra bài， bạn 对其他角色造成 sát thương 时，可以令场上任意角色摸一张牌。",
   juma: "拒马",
   juma_info: " bạn 与其他角色的距离始终视 là 1。",
 };
@@ -11827,7 +11847,7 @@ export const translate_zhuogui = {
   mamian: "马面",
   lianyu: "炼狱",
   lianyu_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置一张红色手牌令场上所有角色受到一点火焰 sát thương ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置一张红色手牌令场上所有角色受到一点火焰 sát thương ",
 
   niutou: "牛头",
   manjia: "蛮甲",
@@ -11856,7 +11876,7 @@ export const translate_zhuogui = {
     "Tỏa định kỹ， Giai đoạn kết thúc ， bạn 解除横置状态，除 bạn 之外的所有角色进入横置状态",
   xixing: "吸星",
   xixing_info:
-    "1 lần trong giai đoạn hành động， bạn 可以弃置三张不同类别的牌，对一名其他角色造成一点 sát thương ，然后回复一 sinh lực ",
+    "1 lần trong giai đoạn ra bài， bạn 可以弃置三张不同类别的牌，对一名其他角色造成一点 sát thương ，然后回复一 sinh lực ",
 };
 
 export const translate = {
@@ -11887,3 +11907,32 @@ export const translate = {
   translate_yxs,
   translate_zhuogui,
 };
+
+export const tabList = [
+  "translate_extra",
+  "translate_diy",
+  "translate_gujian",
+  "translate_gwent",
+  "translate_hearth",
+  "translate_jiange",
+  "translate_mobile",
+  "translate_mtg",
+  "translate_offline",
+  "translate_old",
+  "translate_ow",
+  "translate_refresh",
+  "translate_sb",
+  "translate_shenhua",
+  "translate_sp",
+  "translate_sp2",
+  "translate_standard",
+  "translate_swd",
+  "translate_tw",
+  "translate_xiake",
+  "translate_xianjian",
+  "translate_xinghuoliaoyuan",
+  "translate_yijiang",
+  "translate_yingbian",
+  "translate_yxs",
+  "translate_zhuogui",
+];

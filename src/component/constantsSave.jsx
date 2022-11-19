@@ -5024,7 +5024,6 @@ export const translate_refresh = {
   rezaiqi: "再起",
   rezaiqi_info:
     "结束阶段开始时，你可以令至多X名角色选择一项：1.摸一张牌，2.令你回复1点体力（X为本回合进入弃牌堆的红色牌数）",
-  ol_jiangwei: "界姜维",
   ol_caiwenji: "界蔡琰",
   re_baosanniang: "手杀鲍三娘",
   retuntian: "屯田",
