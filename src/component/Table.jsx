@@ -57,11 +57,7 @@ const DataTable = () => {
         setListData({ ...listData, ...list });
       });
   }, [currentPage, currentTab]);
-
-  useEffect(() => {
-    setListData({});
-  }, [currentTab]);
-
+  console.log(listData);
   const columns = [
     {
       title: "title",
