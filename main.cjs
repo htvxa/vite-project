@@ -24,6 +24,7 @@ server.use((req, res, next) => {
   }
   next();
 });
+
 router.render = (req, res) => {
   const headers = res.getHeaders();
   const totalCount = headers["x-total-count"];
