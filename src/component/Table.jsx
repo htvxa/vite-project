@@ -56,6 +56,25 @@ const DataTable = () => {
     notify("success", "Update " + record.title + " success");
   };
 
+  const onExport = () => {
+    fetch(`http://localhost:3000/api/${currentTab}`, {
+      method: "get",
+    })
+      .then((response) => response.json())
+      .then((res) => {
+        const out = {};
+        res.forEach((item) => (out[item.title] = item.translateText));
+        navigator.clipboard.writeText(JSON.stringify(out)).then(
+          function () {
+            console.log("Async: Copying to clipboard was successful!");
+          },
+          function (err) {
+            console.error("Async: Could not copy text: ", err);
+          }
+        );
+      });
+  };
+
   const updateAllTranslate = async () => {
     setLoading(true);
     const listPromise = [];
@@ -85,29 +104,6 @@ const DataTable = () => {
       await Promise.all(listPromise).catch((err) => console.log(err));
     }
     console.log(loading);
-    setLoading(false);
-    notify("success", "Update success");
-  };
-
-  const updateTranslateData = async (data, keyData) => {
-    setLoading(true);
-    const listPromise = [];
-    for (const record of selectedRecord) {
-      if (data[record.title]) {
-        listPromise.push(
-          fetch(`http://localhost:3000/api/${currentTab}/${record.id}`, {
-            method: "PATCH",
-            body: JSON.stringify({ [keyData]: data[record.title] }),
-            headers: {
-              "Content-type": "application/json; charset=UTF-8",
-            },
-          }).catch(() =>
-            notify("error", `Update ${record.id}: ${record.title} failed`)
-          )
-        );
-        await Promise.all(listPromise).catch((err) => console.log(err));
-      }
-    }
     setLoading(false);
     notify("success", "Update success");
   };
@@ -152,7 +148,6 @@ const DataTable = () => {
       })
       .catch((error) => notify("error", "Fail Translate"));
   };
-  const getData = () => {};
 
   useEffect(() => {
     if (!loading) {
@@ -185,6 +180,11 @@ const DataTable = () => {
       title: "rawText",
       dataIndex: "rawText",
       key: "rawText",
+    },
+    {
+      title: "originalText",
+      dataIndex: "originalText",
+      key: "originalText",
     },
     {
       title: "Vi",
@@ -245,13 +245,6 @@ const DataTable = () => {
               loading={loading}
             >
               Update
-            </Button>
-            <Button
-              type="primary"
-              onClick={() => updateItem(record, record.hvText)}
-              loading={loading}
-            >
-              Hv
             </Button>
           </>
         );
@@ -331,24 +324,17 @@ const DataTable = () => {
         >
           Reload
         </Button>
-        <Button type="button" onClick={() => updateAllTranslate()}>
-          Update All
-        </Button>
         <Button type="button" onClick={() => onTranslateData("vi")}>
           Translate Vi
         </Button>
         <Button type="button" onClick={() => onTranslateData("hv")}>
           Translate Hv
         </Button>
-        <Button
-          type="button"
-          onClick={() => {
-            const list = {};
-            selectedRecord.forEach((item) => (list[item.title] = item.viText));
-            updateTranslateData(list, "translateText");
-          }}
-        >
-          Update all translate
+        <Button type="button" onClick={() => updateAllTranslate()}>
+          Update All
+        </Button>
+        <Button type="button" onClick={() => onExport()}>
+          Export
         </Button>
       </div>
       <div className="">

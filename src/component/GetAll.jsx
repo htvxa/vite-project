@@ -8,14 +8,9 @@ function capitalize(s) {
 }
 
 const GetAll = () => {
-  const delay = (ms) => new Promise((res) => setTimeout(res, ms));
   const [total, setTotal] = useState(0);
   const getAllData = async () => {
-    for (const tab of [
-      "translate_yingbian",
-      "translate_yxs",
-      "translate_zhuogui",
-    ]) {
+    for (const tab of ["translate_mobile"]) {
       let flag = 1;
       do {
         await fetch(
@@ -107,7 +102,33 @@ const GetAll = () => {
       } while (flag);
     }
   };
-  return <button onClick={getAllData}>Get All({total})</button>;
+
+  const getAllMissedData = async () => {
+    setTotal(0);
+    let list = [];
+    for (const tab of tabList) {
+      await delay(500);
+      await fetch(`http://localhost:3000/api/${tab}`, {
+        method: "get",
+      })
+        .then((response) => response.json())
+        .then(async (res) => {
+          const data = res.filter((item) => item.translateText === undefined);
+          if (data.length > 0) {
+            setTotal((prev) => prev + data.length);
+            list.push({ [tab]: data });
+          }
+        });
+    }
+    console.log(list);
+  };
+
+  return (
+    <>
+      <button onClick={getAllData}>Get All({total})</button>
+      <button onClick={getAllMissedData}>Get All Missed ({total})</button>
+    </>
+  );
 };
 
 export default GetAll;
