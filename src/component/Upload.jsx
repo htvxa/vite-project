@@ -1,10 +1,12 @@
 import { Button } from "antd";
 import React, { useState, useEffect } from "react";
+export const delay = (ms) => new Promise((res) => setTimeout(res, ms));
 
 export default function Upload() {
   const [fileContent, setFileContent] = useState("");
   const [fileName, setFileName] = useState("");
   const [listText, setListText] = useState([]);
+  const [listTextShort, setListTextShort] = useState([]);
   const [listTrans, setListTrans] = useState([]);
 
   const handle = () => {
@@ -12,14 +14,19 @@ export default function Upload() {
       /[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff66-\uff9f]/;
     let flag = false;
     let temp = "";
-    const list = [];
+    const listShort = [];
+    const listLong = [];
     for (const char of fileContent) {
       if (char === `"`) {
         if (!flag) {
           flag = true;
         } else {
           if (REGEX_CHINESE.test(temp)) {
-            list.push(temp);
+            if (temp.length < 7) {
+              listShort.push(temp);
+            } else {
+              listLong.push(temp);
+            }
           }
           flag = false;
           temp = "";
@@ -28,8 +35,9 @@ export default function Upload() {
         temp += char;
       }
     }
-    console.log(`Handle ${list.length} item`);
-    setListText(list, 50);
+    console.log(`Handle ${listShort.length + listLong.length} item`);
+    setListTextShort(listShort);
+    setListText(listLong);
   };
 
   const showFile = () => {
@@ -62,16 +70,17 @@ export default function Upload() {
       []
     );
 
-  const delay = (ms) => new Promise((res) => setTimeout(res, ms));
-
   const translate = async () => {
-    const list = chunk(listText, 50);
+    const listLong = chunk(listText, 50);
+    const listShort = chunk(listTextShort, 50);
+    const list = [...listLong, ...listShort];
     const listPromise = [];
+    let x = {};
     for (let i = 0; i < list.length; i++) {
       const element = list[i];
       let formData = new FormData();
       formData.append("t", JSON.stringify(element));
-      formData.append("tt", "vi");
+      formData.append("tt", i < listLong.length ? "vi" : "hv");
       listPromise.push(
         fetch("https://dichtienghoa.com/transtext", {
           body: formData,
@@ -79,25 +88,33 @@ export default function Upload() {
         })
           .then((res) => res.json())
           .then((res) => {
-            setListTrans((prev) => [
-              ...prev,
-              ...JSON.parse(
-                res.data.replaceAll(/\\\s"/g, '\\"').replaceAll(/ +(?= )/g, "")
-              ),
-            ]);
-            console.log(res);
+            // setListTrans((prev) => [
+            //   ...prev,
+            //   ...JSON.parse(
+            //     res.data.replaceAll(/\\\s"/g, '\\"').replaceAll(/ +(?= )/g, "")
+            //   ),
+            // ]);
+            // element[]
+            const data = JSON.parse(
+              res.data.replaceAll(/\\\s"/g, '\\"').replaceAll(/ +(?= )/g, "")
+            );
+            for (let i = 0; i < element.length; i++) {
+              x[element[i]] = data[i];
+            }
+            // console.log(res);
           })
       );
       listPromise.push(delay(7000));
       await Promise.all(listPromise).catch((err) => console.log(err));
     }
-    console.log("done");
+    setListTrans(x);
+    console.log("done", x);
   };
 
   const exportData = () => {
     let newFile = fileContent;
-    for (let i = 0; i < listText.length; i++) {
-      newFile = newFile.replace(listText[i], listTrans[i].trim());
+    for (let [key, value] of Object.entries(listTrans)) {
+      newFile = newFile.replace(key, value.trim());
     }
     navigator.clipboard.writeText(newFile).then(
       function () {
@@ -144,7 +161,7 @@ export default function Upload() {
       <input type="file" onChange={showFile} />
       <div id="show-text">
         {listText.length
-          ? `Handle ${listText.length} item`
+          ? `Handle ${listText.length} long item, ${listTextShort.length} short item`
           : "Choose text File"}
       </div>
       <div

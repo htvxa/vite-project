@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { tabList } from "./constants";
 
-function capitalize(s) {
+export function capitalize(s) {
   return s.toLowerCase().replace(/(?:^|\s|["'([{])+\S/g, function (a) {
     return a.toUpperCase();
   });

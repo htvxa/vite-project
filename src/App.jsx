@@ -6,6 +6,12 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import DataTable from "./component/Table";
 import GetAll from "./component/GetAll";
 import Upload from "./component/Upload";
+import HandleShortText from "./component/HandleShortText";
+import MergeObject from "./component/MergeObject";
+import Skill from "./component/Skill";
+import Step from "./component/Step/Step";
+import LocalTable from "./component/LocalTable";
+import HandleFile from "./component/HandleFile";
 
 function App() {
   return (
@@ -19,12 +25,36 @@ function App() {
         </Link>
         <Link to="/upload" className="link">
           Upload
+        </Link>{" "}
+        <Link to="/table" className="link">
+          Local Table
+        </Link>
+        {/* <Link to="/handle" className="link">
+          Handle
+        </Link> */}
+        <Link to="/merge" className="link">
+          Merge
+        </Link>{" "}
+        {/* <Link to="/skill" className="link">
+          Translate Skill
+        </Link>{" "} */}
+        <Link to="/step" className="link">
+          Step by Step
+        </Link>{" "}
+        <Link to="/handle-file" className="link">
+          Handle Character
         </Link>
       </div>
       <Routes>
         <Route path="/" element={<DataTable />} />
         <Route path="get-all" element={<GetAll />} />
         <Route path="upload" element={<Upload />} />
+        <Route path="table" element={<LocalTable />} />
+        {/* <Route path="handle" element={<HandleShortText />} /> */}
+        <Route path="merge" element={<MergeObject />} />
+        {/* <Route path="skill" element={<Skill />} /> */}
+        <Route path="step" element={<Step />} />
+        <Route path="handle-file" element={<HandleFile />} />
       </Routes>
     </BrowserRouter>
   );

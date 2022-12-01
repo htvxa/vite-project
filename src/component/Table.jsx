@@ -1,12 +1,28 @@
 import React, { useEffect, useState } from "react";
 import { Button, Checkbox, Input, message, Table, Tabs } from "antd";
 import { tabList } from "./constants";
+import { translate2 } from "./constants_copy";
+import { translate1 } from "./constantsSave";
 
 function capitalize(s) {
   return s.toLowerCase().replace(/(?:^|\s|["'([{])+\S/g, function (a) {
     return a.toUpperCase();
   });
 }
+
+const list = {};
+Object.entries(translate1).forEach(
+  ([transKey, transValue]) =>
+    (list[transKey] = Object.entries(transValue).map(([key, value], index) => {
+      return {
+        id: index,
+        title: key,
+        originalText: value,
+        rawText: translate2[transKey][key],
+      };
+    }))
+);
+console.log(list);
 
 const notify = (type, messageNoti) => {
   switch (type) {
@@ -53,7 +69,7 @@ const DataTable = () => {
       },
     });
     setLoading(false);
-    notify("success", "Update " + record.title + " success");
+    notify("success", `Update ${record.title} success`);
   };
 
   const onExport = () => {

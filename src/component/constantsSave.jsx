@@ -11648,13 +11648,13 @@ export const translate_zhuogui = {
     "出牌阶段限一次，你可以弃置三张不同类别的牌，对一名其他角色造成一点伤害，然后回复一点体力",
 };
 
-export const translate2 = {
+export const translate1 = {
   translate_extra,
   translate_diy,
   translate_gujian,
   translate_gwent,
   translate_hearth,
-  translate_jiange,
+  // translate_jiange,
   translate_mobile,
   translate_mtg,
   translate_offline,
@@ -11675,4 +11675,33 @@ export const translate2 = {
   translate_yingbian,
   translate_yxs,
   translate_zhuogui,
+};
+
+export const translate2 = {
+  extra: translate_extra,
+  diy: translate_diy,
+  gujian: translate_gujian,
+  gwent: translate_gwent,
+  hearth: translate_hearth,
+  jiange: translate_jiange,
+  mobile: translate_mobile,
+  mtg: translate_mtg,
+  offline: translate_offline,
+  old: translate_old,
+  ow: translate_ow,
+  refresh: translate_refresh,
+  sb: translate_sb,
+  shenhua: translate_shenhua,
+  sp: translate_sp,
+  sp2: translate_sp2,
+  standard: translate_standard,
+  swd: translate_swd,
+  tw: translate_tw,
+  xiake: translate_xiake,
+  xianjian: translate_xianjian,
+  xinghuoliaoyuan: translate_xinghuoliaoyuan,
+  yijiang: translate_yijiang,
+  yingbian: translate_yingbian,
+  yxs: translate_yxs,
+  zhuogui: translate_zhuogui,
 };
